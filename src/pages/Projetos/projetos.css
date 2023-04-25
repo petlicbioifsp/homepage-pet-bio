@@ -1,0 +1,20 @@
+body{
+    background-color:var(--cor-primaria);
+}
+
+.menu-projetos--titulo{
+    font-size: 32px;
+    color: var(--cor-secundaria);
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.menu-projetos{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px 80px;
+}
