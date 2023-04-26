@@ -1,6 +1,6 @@
 import "./home.css"
-import Footer from "../../componentes/Footer/footer";
-import MenuNavegacao from "../../componentes/MenuNavegacao/menuNavegacao";
+import Footer from "../../components/Footer/footer";
+import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
 
 export default function Home() {
     return (

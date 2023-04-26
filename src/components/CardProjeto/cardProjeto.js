@@ -1,4 +1,4 @@
-import logoProjeto from "C:/Users/User/site-do-pet/src/imagens/kisspng-computer-icons-directory-icon-design-folder-icon-5b23828b1c8d19.801150631529053835117.png";
+import logoProjeto from "../../resources/kisspng-computer-icons-directory-icon-design-folder-icon-5b23828b1c8d19.801150631529053835117.png";
 import "./cardProjeto.css";
 
 export default function CardProjeto(props){

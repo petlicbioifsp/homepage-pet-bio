@@ -1,7 +1,7 @@
 import "./projetos.css";
-import Footer from "../../componentes/Footer/footer";
-import MenuNavegacao from "../../componentes/MenuNavegacao/menuNavegacao";
-import CardProjeto from "../../componentes/CardProjeto/cardProjeto";
+import Footer from "../../components/Footer/footer";
+import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
+import CardProjeto from "../../components/CardProjeto/cardProjeto";
 
 export default function Projetos(){
     return(
