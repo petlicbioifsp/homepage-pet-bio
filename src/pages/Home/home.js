@@ -4,7 +4,7 @@ import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
 
 export default function Home() {
     return (
-        <body>
+        <body className="home">
             <MenuNavegacao></MenuNavegacao>
             <section className="home-header">
                 <h1 className="home-titulo--principal">PET.</h1>

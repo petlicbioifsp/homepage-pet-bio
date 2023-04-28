@@ -1,7 +1,8 @@
 :root{
-  --cor-primaria:#081235;
-  --cor-secundaria: #cbdbdf;
-  --cor-detalhes-azul: #9dcbd4;
+  --cor-background:#191A51;
+  --cor-azul__claro: #a3a4f8;
+  --cor-detalhes-azul: #4042CF;
+  --cor-texto: #5c5d97;
 }
 
 body::-webkit-scrollbar {
@@ -9,11 +10,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--cor-primaria);        
+  background: var(--cor-background);        
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: var(--cor-secundaria);    
+  background-color: var(--cor-azul__claro);    
   border-radius: 20px;      
-  border: 3px solid var(--cor-primaria);  
+  border: 3px solid var(--cor-background);  
 }

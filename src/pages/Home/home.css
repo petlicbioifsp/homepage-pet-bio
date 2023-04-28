@@ -1,29 +1,32 @@
+.home{
+    background-color: var(--cor-background);
+}
 
 .home-header{
-    margin: 180px 150px;
+    margin: 0px 150px;
 }
 
 .home-titulo--principal{
     margin-top: 80px;
     margin-bottom: 0px;
     font-size: 72px;
-    color: var(--cor-secundaria);
+    color: var(--cor-azul__claro);
 }
 
 .home-titulo--secundario{
     margin: 0px;
     font-size: 60px;
-    color: #7c818a;
+    color: var(--cor-texto);
 }
 
 .home-titulo--secundario strong{
-    color: var(--cor-secundaria);
+    color: var(--cor-azul__claro);
     font-size: 72px;
 }
 
 .home-texto{
     margin-top: 20px;
-    color: #7c818a;
+    color: var(--cor-texto);
     font-size: 18px;
     width: 70%;
 }

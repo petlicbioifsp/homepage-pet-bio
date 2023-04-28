@@ -1,5 +1,5 @@
 .footer{
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-background);
     display: flex;
     flex-direction: row;
     align-items: center;

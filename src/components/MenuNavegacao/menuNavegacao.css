@@ -1,11 +1,10 @@
 .menu{
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-background);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -31,6 +30,6 @@
 
 .ativo .menu-navegacao--link{
     font-size: 18px;
-    color: var(--cor-secundaria);
+    color: var(--cor-azul__claro);
     font-weight: bold;
 }
