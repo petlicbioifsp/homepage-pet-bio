@@ -1,4 +1,4 @@
-.menu{
+.menu {
     background-color: var(--cor-background);
     display: flex;
     flex-direction: row;
@@ -8,27 +8,27 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999; 
+    z-index: 999;
 }
 
-.menu-navegacao{
+.menu-navegacao {
     display: flex;
     flex-direction: row;
     list-style: none;
     margin-right: 40px;
 }
 
-.menu-navegacao li{
+.menu-navegacao li {
     margin-left: 40px;
-    
+
 }
 
-.menu-navegacao--link{
+.menu-navegacao--link {
     color: var(--cor-detalhes-azul);
     text-decoration: none;
 }
 
-.ativo .menu-navegacao--link{
+.ativo .menu-navegacao--link {
     font-size: 18px;
     color: var(--cor-azul__claro);
     font-weight: bold;

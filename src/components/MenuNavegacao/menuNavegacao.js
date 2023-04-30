@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink,useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import './menuNavegacao.css';
 
-export default function MenuNavegacao(){
+export default function MenuNavegacao() {
     const [itemAtivo, setitemAtivo] = useState('');
     const localização = useLocation();
 
@@ -14,7 +14,7 @@ export default function MenuNavegacao(){
         setitemAtivo(path);
     };
 
-    return(
+    return (
         <div className='menu'>
             <img className="logo" alt="logo do PET"></img>
             <ul className='menu-navegacao'>
@@ -25,7 +25,10 @@ export default function MenuNavegacao(){
                     <NavLink to='/projetos' className="menu-navegacao--link" onClick={() => handleClick('/projetos')}>Projetos</NavLink>
                 </li>
                 <li className={itemAtivo === '/equipe' ? 'ativo' : ''}>
-                    <NavLink to='/equipe'className="menu-navegacao--link" onClick={() => handleClick('/equipe')}>Equipe</NavLink>
+                    <NavLink to='/equipe' className="menu-navegacao--link" onClick={() => handleClick('/equipe')}>Equipe</NavLink>
+                </li>
+                <li className={itemAtivo === '/processo-seletivo' ? 'ativo' : ''}>
+                    <NavLink to='/processo-seletivo' className="menu-navegacao--link" onClick={() => handleClick('/processo-seletivo')}>Processo Seletivo</NavLink>
                 </li>
             </ul>
         </div>
