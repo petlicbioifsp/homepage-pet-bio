@@ -3,7 +3,8 @@ function Edital({ icone }) {
         <>
             <h3>Edital</h3>
             <p>Acesse o edital clicando no ícone a seguir:</p>
-            {icone}
+            <img src={icone} alt="teste" />
+
         </>
     )
 }

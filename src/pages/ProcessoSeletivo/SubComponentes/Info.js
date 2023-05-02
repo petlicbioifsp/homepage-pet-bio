@@ -1,7 +1,7 @@
 function Info({ icone, nome, descricao, textoAlternativo }) {
     return (
         <div>
-            {icone}
+            <img src={icone} alt="teste" />
             {nome}
             {descricao}
         </div>

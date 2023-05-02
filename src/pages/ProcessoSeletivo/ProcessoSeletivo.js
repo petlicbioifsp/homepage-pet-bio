@@ -5,7 +5,6 @@ import Requisitos from './SubComponentes/Requisitos';
 import Inscricao from './SubComponentes/Inscricao';
 import Edital from './SubComponentes/Edital';
 import Etapa from './SubComponentes/Etapa';
-import { AiOutlineCheck } from 'react-icons/ai';
 
 function ProcessoSeletivo() {
     return (
@@ -15,12 +14,12 @@ function ProcessoSeletivo() {
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus illo reiciendis consectetur, illum nesciunt molestias eius delectus veniam dolores necessitatibus fuga quia iure aut commodi et cum laboriosam suscipit adipisci.</p>
             <section>
                 <h3>Informações Importantes</h3>
-                <Info icone={<AiOutlineCheck size={28} />}
-                    nome="Vagas "
+                <Info icone=""
+                    nome="Vagas"
                     descricao="Bolsista: 8"
                     textoAlternativo="Icone"
                 ></Info>
-                <Info icone={<AiOutlineCheck size={28} />}
+                <Info icone=""
                     nome="Vagas"
                     descricao="Bolsista: 8"
                     textoAlternativo="Icone"
@@ -36,7 +35,7 @@ function ProcessoSeletivo() {
                     <Inscricao></Inscricao>
                 </div>
                 <div>
-                    <Edital icone={<AiOutlineCheck size={28} />}> </Edital>
+                    <Edital icone=""> </Edital>
                 </div>
             </section>
             <Footer></Footer>
