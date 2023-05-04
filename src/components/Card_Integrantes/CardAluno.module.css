@@ -1,0 +1,18 @@
+.imgContainer {
+    border: 1px  #f00;
+    border-color: #f00;
+    background-color: #fff;
+    margin: 250px #222;
+    padding: 150px #000;
+}
+
+.imgContent {
+    margin: 15px;
+}
+
+.p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    margin: 150px;
+}
+
