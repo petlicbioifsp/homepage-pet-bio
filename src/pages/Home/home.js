@@ -1,17 +1,51 @@
-import "./home.css"
-import Footer from "../../components/Footer/footer";
+import"./home.css"
+import"./Button.css"
 import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
-
+import Info from "./Infos";
+import Title from "./Title";
+import Reveal from "./Reveal";
+import Button from "./Button";
 export default function Home() {
     return (
         <body className="home">
-            <MenuNavegacao></MenuNavegacao>
-            <section className="home-header">
-                <h1 className="home-titulo--principal">PET.</h1>
-                <h2 className="home-titulo--secundario"><strong>P</strong>rograma <strong>E</strong>ducação <strong>T</strong>utorial</h2>
-                <p className="home-texto">Lorem ipsum dolor sit amet. Qui eius exercitationem et mollitia autem qui iste ullam sed minima animi eum dolorumlaboriosam nam quisquam veritatis est dolor ratione. Sed saepe voluptas et exercitationem consequatur est fugit perspiciatis vel rerum cupiditate quo inventore laboriosam est beatae nisi qui cumque minima. Hic commodi facere sit cupiditate ullam est quod fugit ut ipsam</p>
-            </section>
-            <Footer></Footer>
+            <MenuNavegacao></MenuNavegacao>  
+
+            <Title title="Bem vindo a Pagina do PET" content="Programa de Educação Tutorial"/>
+            <Reveal>
+                 <Info 
+                    title ="Sobre o PET"  
+                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aenean magna quam, aliquet id tortor a, facilisis faucibus erat. Nunc pretium tempor commodo. 
+                    Sed egestas, tortor id tincidunt pretium, nulla lectus molestie quam, in ornare elit magna et lacus.
+                     Integer aliquet feugiat lacus a rutrum. Praesent sed tempor nisl, sit amet cursus libero. 
+                    Etiam vel est bibendum, pulvinar neque ac, convallis lacus. 
+                    Nullam nec eleifend purus, non ullamcorper turpis"/>
+                <Button 
+                value ="Processo Seletivo" 
+                to='/processo-seletivo' 
+                />
+            
+            </Reveal>
+
+            <Reveal>
+            <Info 
+            title="Proposito" 
+            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Aenean magna quam, aliquet id tortor a, facilisis faucibus erat. Nunc pretium tempor commodo. 
+            Sed egestas, tortor id tincidunt pretium, nulla lectus molestie quam, in ornare elit magna et lacus. 
+            Integer aliquet feugiat lacus a rutrum. Praesent sed tempor nisl, sit amet cursus libero. 
+            Etiam vel est bibendum, pulvinar neque ac, convallis lacus. 
+            Nullam nec eleifend purus, non ullamcorper turpis"/>
+
+                <Button 
+                value ="Ver Projetos" 
+                to='/projetos' 
+                />
+            
+            </Reveal>
+
+            
+           
         </body>
     )
 }

@@ -4,7 +4,7 @@ import Home from './pages/Home/home';
 import Projetos from './pages/Projetos/projetos';
 import Equipe from './pages/Equipe/equipe';
 import ProcessoSeletivo from './pages/ProcessoSeletivo/ProcessoSeletivo';
-
+import Footer from './components/Footer/footer';
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +14,7 @@ function App() {
       <Route path='/equipe' element={<Equipe></Equipe>} />
       <Route path='/processo-seletivo' element={<ProcessoSeletivo />} />
     </Routes>
+    <Footer></Footer>
     </BrowserRouter>
   );
 }

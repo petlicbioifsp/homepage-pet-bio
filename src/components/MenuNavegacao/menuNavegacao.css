@@ -9,6 +9,7 @@
     left: 0;
     width: 100%;
     z-index: 999;
+    position: fixed;
 }
 
 .menu-navegacao {
@@ -26,10 +27,20 @@
 .menu-navegacao--link {
     color: var(--cor-detalhes-azul);
     text-decoration: none;
+
+}
+.menu-navegacao--link:hover{
+    color: var(--cor-azul__claro);
 }
 
 .ativo .menu-navegacao--link {
     font-size: 18px;
     color: var(--cor-azul__claro);
     font-weight: bold;
+}
+.menu img{
+    padding: 2em;
+    margin-top: 3%;
+    margin-right: 3%;
+    color: var(--cor-azul__claro);
 }

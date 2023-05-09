@@ -1,5 +1,4 @@
 import "./projetos.css";
-import Footer from "../../components/Footer/footer";
 import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
 import CardProjeto from "../../components/CardProjeto/cardProjeto";
 
@@ -18,7 +17,7 @@ export default function Projetos(){
                  <CardProjeto titulo="Projeto 4" descricao="Lorem ipsum dolor sit amet. Ut voluptate sint est dignissimos
                  neque et voluptates quaerat."></CardProjeto>
             </section> e
-            <Footer></Footer>
+          
         </body>
     )
 }

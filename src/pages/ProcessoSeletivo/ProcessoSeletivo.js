@@ -1,4 +1,3 @@
-import Footer from "../../components/Footer/footer";
 import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
 import Info from "./SubComponentes/Info"
 import Requisitos from './SubComponentes/Requisitos';
@@ -38,7 +37,6 @@ function ProcessoSeletivo() {
                     <Edital icone=""> </Edital>
                 </div>
             </section>
-            <Footer></Footer>
         </div>
 
     )

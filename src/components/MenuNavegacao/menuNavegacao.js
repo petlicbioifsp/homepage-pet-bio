@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import './menuNavegacao.css';
-
+import Logo from '../../resources/Icon.PNG'
 export default function MenuNavegacao() {
     const [itemAtivo, setitemAtivo] = useState('');
     const localização = useLocation();
@@ -17,7 +17,7 @@ export default function MenuNavegacao() {
 
     return (
         <div className='menu'>
-            <img className="logo" alt="logo do PET"></img>
+            <img className="logo" src={Logo} alt="logo do PET"></img>
             <ul className='menu-navegacao'>
                 <li className={itemAtivo === '/' ? 'ativo' : ''}>
                     <NavLink to='/' className="menu-navegacao--link" onClick={() => handleClick('/')}>Home</NavLink>

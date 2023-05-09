@@ -1,12 +1,28 @@
 .footer{
     background-color: var(--cor-background);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: auto;
+    color:#fff;
+    margin: auto;
+    width: auto;
+    position:relative;
+
+}
+.footer a{
+    font-size: 3em;
+    margin: 10px;
+    cursor: pointer;
+    color:var(--cor-azul__claro);
+}
+.footer a:hover{
+    cursor:pointer;
+   
+    
 }
 
 .footer p{
-    color: var(--cor-detalhes-azul);
+    color: var(--cor-azul__claro);
 }
