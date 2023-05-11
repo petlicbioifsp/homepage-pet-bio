@@ -1,8 +1,5 @@
 import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
 import Info from "./SubComponentes/Info"
-import Requisitos from './SubComponentes/Requisitos';
-import Inscricao from './SubComponentes/Inscricao';
-import Edital from './SubComponentes/Edital';
 import Etapa from './SubComponentes/Etapa';
 
 function ProcessoSeletivo() {
@@ -28,13 +25,29 @@ function ProcessoSeletivo() {
                 <Etapa numero="3" titulo="Apresentação" descricao="resultados 13/12"></Etapa>
 
                 <div>
-                    <Requisitos></Requisitos>
+                    <div id="requisitos">
+                        <h3>Requisitos</h3>
+                        <p>Para se inscrever no processo seletivo, o candidato deverá:</p>
+                        <ul>
+                            <li>Requisito 1</li>
+                            <li>Requisito 2</li>
+                            <li>Requisito 3</li>
+                        </ul>
+                    </div>
                 </div>
                 <div>
-                    <Inscricao></Inscricao>
+                    <div id='inscricoes'>
+                        <h3>Inscrições</h3>
+                        <p>As inscrições devem ser realizadas exclusivamente por suap.
+                            Detalhes sobre documentos necessários, critérios, cronograma e outras informações devem ser verificadas no edital.</p>
+                    </div>
                 </div>
                 <div>
-                    <Edital icone=""> </Edital>
+                    <div id="edital">
+                        <h3>Edital</h3>
+                        <p>Acesse o edital clicando no ícone a seguir:</p>
+                        <img src='' alt="teste" />
+                    </div>
                 </div>
             </section>
         </div>
