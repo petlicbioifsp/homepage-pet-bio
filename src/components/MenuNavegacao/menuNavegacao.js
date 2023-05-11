@@ -31,6 +31,9 @@ export default function MenuNavegacao() {
                 <li className={itemAtivo === '/processo-seletivo' ? 'ativo' : ''}>
                     <NavLink to='/processo-seletivo' className="menu-navegacao--link" onClick={() => handleClick('/processo-seletivo')}>Processo Seletivo</NavLink>
                 </li>
+                <li className={itemAtivo === '/faq' ? 'ativo' : ''}>
+                    <NavLink to='/faq'className="menu-navegacao--link" onClick={() => handleClick('/faq')}>FAQ</NavLink>
+                </li>
             </ul>
         </div>
     )
