@@ -8,10 +8,10 @@ function ProcessoSeletivo() {
         <div>
             <MenuNavegacao></MenuNavegacao>
             <div className="processo-seletivo--corpo">
-                <div>
+                <div className="processo-seletivo--cabecalho">
                     <h1 className="processo-seletivo--titulo">Processo Seletivo 2023/2</h1>
+                    <p className="processo-seletivo--texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus illo reiciendis consectetur, illum nesciunt molestias eius delectus veniam dolores necessitatibus fuga quia iure aut commodi et cum laboriosam suscipit adipisci.</p>
                 </div>
-                <p className="processo-seletivo--texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus illo reiciendis consectetur, illum nesciunt molestias eius delectus veniam dolores necessitatibus fuga quia iure aut commodi et cum laboriosam suscipit adipisci.</p>
                 <section className="processo-seletivo--corpo_informacoes">
                     <h2 className="processo-seletivo--titulo_secundario">Informações Importantes</h2>
                     <div className="processo-seletivo--info_importante">
@@ -27,25 +27,25 @@ function ProcessoSeletivo() {
                     <div>
                         <div id="requisitos">
                             <h2 className="processo-seletivo--titulo_secundario">Requisitos</h2>
-                            <p>Para se inscrever no processo seletivo, o candidato deverá:</p>
+                            <p className="processo-seletivo--texto">Para se inscrever no processo seletivo, o candidato deverá:</p>
                             <ul>
-                                <li>Requisito 1</li>
-                                <li>Requisito 2</li>
-                                <li>Requisito 3</li>
+                                <li className="processo-seletivo--texto">Requisito 1</li>
+                                <li className="processo-seletivo--texto">Requisito 2</li>
+                                <li className="processo-seletivo--texto">Requisito 3</li>
                             </ul>
                         </div>
                     </div>
                     <div>
                         <div id='inscricoes'>
                             <h2 className="processo-seletivo--titulo_secundario">Inscrições</h2>
-                            <p>As inscrições devem ser realizadas exclusivamente por suap.
+                            <p className="processo-seletivo--texto">As inscrições devem ser realizadas exclusivamente por suap.
                                 Detalhes sobre documentos necessários, critérios, cronograma e outras informações devem ser verificadas no edital.</p>
                         </div>
                     </div>
                     <div>
                         <div id="edital">
                             <h2 className="processo-seletivo--titulo_secundario">Edital</h2>
-                            <p>Acesse o edital clicando no ícone a seguir:</p>
+                            <p className="processo-seletivo--texto">Acesse o edital clicando no ícone a seguir:</p>
                             <img src='' alt="teste" />
                         </div>
                     </div>

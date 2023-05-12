@@ -7,11 +7,13 @@
 .etapa--titulo{
     color: var(--cor-detalhes-azul);
     margin-bottom: 0;
+    font-size: 20px;
 }
 
 .etapa--titulo-secundario{
     color: var(--cor-texto);
     margin-top: 0;
+    font-size: 18px;
 }
 
 .etapa--descricao{

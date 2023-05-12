@@ -1,12 +1,12 @@
-body{
-    background-color:var(--cor-primaria);
+.menu-projetos--corpo{
+    background-color:var(--cor-background);
 }
 
 .menu-projetos--titulo{
     font-size: 32px;
-    color: var(--cor-secundaria);
+    color: var(--cor-azul__claro);
     text-align: center;
-    margin-top: 120px;
+    padding-top: 100px;
     margin-bottom: 40px;
 }
 
