@@ -1,0 +1,36 @@
+.processo-seletivo--corpo{
+    background-color: var(--cor-background);
+}
+
+.processo-seletivo--titulo{
+    color: var(--cor-azul__claro);
+    padding-top: 100px;
+    text-align: center;
+}
+
+.processo-seletivo--texto{
+    color: var(--cor-texto);
+    font-size: 18px;
+    margin: 0 80px;
+}
+
+.processo-seletivo--corpo_informacoes{
+    margin: 0 80px;
+}
+
+.processo-seletivo--titulo_secundario{
+    color: var(--cor-azul__claro);
+}
+
+.processo-seletivo--titulo_secundario::before {
+    content: "1. ";
+    color: var(--cor-detalhes-azul);
+  }
+
+.processo-seletivo--info_importante{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: space-evenly;
+}

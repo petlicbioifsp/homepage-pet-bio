@@ -1,0 +1,19 @@
+.etapa{
+    border: 2px solid var(--cor-detalhes-azul);
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.etapa--titulo{
+    color: var(--cor-detalhes-azul);
+    margin-bottom: 0;
+}
+
+.etapa--titulo-secundario{
+    color: var(--cor-texto);
+    margin-top: 0;
+}
+
+.etapa--descricao{
+    color: var(--cor-texto);
+}
