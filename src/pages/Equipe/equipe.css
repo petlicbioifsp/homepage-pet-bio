@@ -1,0 +1,9 @@
+.equipe--corpo{
+    background-color: var(--cor-background);
+}
+
+.equipe--alunos{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
