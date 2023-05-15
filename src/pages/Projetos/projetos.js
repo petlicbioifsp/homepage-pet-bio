@@ -4,7 +4,7 @@ import CardProjeto from "../../components/CardProjeto/cardProjeto";
 
 export default function Projetos(){
     return(
-        <body>
+        <>
             <MenuNavegacao></MenuNavegacao>
             <div className="menu-projetos--corpo">
                 <h1 className="menu-projetos--titulo">Projetos desenvolvidos pelo PET</h1>
@@ -19,6 +19,6 @@ export default function Projetos(){
                     neque et voluptates quaerat."></CardProjeto>
                 </section>
             </div>
-        </body>
+        </>
     )
 }

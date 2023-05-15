@@ -12,10 +12,10 @@ function CardAluno({nome, srcFoto, ano}) {
     var altFoto =`Foto de ${nome}, integrante do PET ADS IFSP-Sao Carlos`
     return(
         <>
-            <div className={styles.imgContainer}>
-                <img onMouseOver={Evento} className={styles.imgContent} src={srcFoto} alt={altFoto}/>
+            <div className={styles.card}>
+                <img onMouseOver={Evento} className={styles.img} src={srcFoto} alt={altFoto}/>
                 <p className={styles.p}><b>Nome:</b> {nome} </p>
-                <p className={styles.p}><b>Ano de ingressão:</b> {ano} </p>
+                <p className={styles.p}><b>Ingresso:</b> {ano} </p>
             </div>
         </>
     )

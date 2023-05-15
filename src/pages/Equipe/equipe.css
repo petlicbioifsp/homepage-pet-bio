@@ -1,9 +1,35 @@
 .equipe--corpo{
     background-color: var(--cor-background);
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
 }
+
+.equipe--titulo{
+    font-size: 32px;
+    color: var(--cor-azul__claro);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.equipe--tutores {
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    row-gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 
 .equipe--alunos{
     display: flex;
     flex-direction: row;
-    column-gap: 20px;
+    column-gap: 45px;
+    row-gap: 45px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 120px;
 }

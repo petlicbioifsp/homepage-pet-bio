@@ -1,10 +1,32 @@
-.imgContainer {
+.card {
     display:flex;
     flex-direction: column;
+    row-gap: 15px;
     align-items: center;
-    width: 300px;
+    width: auto;
     background-color: var(--cor-azul__medio);
-    padding: 15px;
+    padding: 25px;
+    border-radius: 10px;
+    width: 200px;
+    
+}
+
+.img:hover {
+    filter: saturate(100%);
+    transform: scale(1.2);
+}
+
+.img{
+    filter: saturate(60%);
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 500px;
+
 }
 
 
+p {
+    margin: 5px;
+    color: var(--cor-texto__claro);
+    text-align: center;
+}
