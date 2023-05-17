@@ -1,51 +1,518 @@
-.home{
+/* Estilos para telas pequenas (celulares, por exemplo) */
+
+@media (min-width: 400px) {
+  .home {
+    margin: 0;
+    padding: 0;
     background-color: var(--cor-background);
-    width:auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .home section {
+    margin-top: 10%;
+    width: auto;
+    height: fit-content;
+    position:relative;
+    text-align: center;
+    margin-block-start: 3em;
+    margin-block-end: 6em;
+    overflow: hidden;
+  }
+
+  .home h1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: var(--cor-azul__claro);
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .home h2,
+  .home h3,
+  .home p {
+    width: 100%;
+    font-size: 1.2em;
+    color: var(--cor-texto);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Estilos para telas médias (tablets, por exemplo) */
+@media (min-width: 621px) and (max-width: 1080px) {
+  .home {
+    background-color: var(--cor-background);
+    width: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5%;
+  }
+
+  .home section {
+    margin-top: 10%;
+    width: auto;
+    height: fit-content;
+    position:relative;
+    margin-block-start: 4em;
+    margin-block-end: 8em;
+    overflow: hidden;
+  }
+
+  .home h1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+    color: var(--cor-azul__claro);
+    white-space: nowrap;
+  }
+
+  .home h2,
+  .home h3,
+  .home p {
+    width: 100%;
+    font-size: 1.5em;
+    color: var(--cor-texto);
+    text-align: center;
+  }
+}
+
+/* Estilos para telas grandes (desktops, laptops, por exemplo) */
+@media (min-width: 1081px){
+  .home {
+    background-color: var(--cor-background);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10%;
+  }
+
+  .home section {
+    margin-top: 10%;
+    width: auto;
+    height: 20%;
+    position:relative;
+    margin-block-start: 6em;
+    margin-block-end: 14em;
+    overflow: hidden;
+  }
+
+  .home h1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;    margin-bottom: 2.5vw;
+    font-size: 4vw;
+    color: var(--cor-azul__claro);
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .home h2 {
+    margin: 0px;
+    font-size: 3vw;
+    color: var(--cor-texto);
+    text-align: center;
+  }
+
+  .home h3 {
+    margin: 0px;
+    font-size: 3vw;
+    color: var(--cor-texto);
+    text-align: center;
+  }
+
+  .home p {
+    display: flex;
+    align-content: flex-end;
+    text-align: justify;
+    color: var(--cor-texto);
+    font-size: 1.5vw;
+    text-align: center;
+  }
+}
+
+/* Estilos para telas maiores que 3840x2160 UHD/4K */
+@media (min-width: 3841px) {
+  .home {
+    background-color: var(--cor-background);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10%;
+  }
+
+  .home section {
+    margin-top: 10%;
+    width: auto;
+    height: 20%;
+    position:relative;
+    margin-block-start: 6em;
+    margin-block-end: 14em;
+    overflow: hidden;
+  }
+
+  .home h1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: var(--cor-azul__claro);
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .home h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--cor-texto);
+    text-align: center;
+  }
+
+  .home h3 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--cor-texto);
+  }
+
+  .home p {
+    display: flex;
+    align-content: flex-end;
+    text-align: justify;
+    color: var(--cor-texto);
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .home {
+    background-color: var(--cor-background);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .home section {
+    margin-top: 10%;
+    width: auto;
+    height: 20%;
+    position:relative;
+    margin-block-start: 10em;
+    margin-block-end: 12em;
+    overflow: hidden;
+  }
+
+  .home h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 4rem;
+    color: var(--cor-azul__claro);
+    overflow: hidden;
+  }
+
+  .home h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--cor-texto);
+    text-align: center;
+  }
+
+  .home h3 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--cor-texto);
+  }
+
+  .home p {
+    display: flex;
+    align-content: flex-end;
+    text-align: justify;
+    color: var(--cor-texto);
+    font-size: 1.9rem;
+  }
+}
+
+
+@media (min-width: 1366px) {
+  .home {
+    background-color: var(--cor-background);
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10%;
-}
-.home:first-child{
-    align-items: center;
-}
+  }
 
-
-.home section{
-    margin-top:-34;
-    width: 100%;
-    height: fit-content+10em;
-    position: inherit;
-    margin-block-start: 5em;
-    margin-block-end: 10em;
+  .home section {
+    margin-top: 10%;
+    width: auto;
+    height: 20%;
+    position:relative;
+    margin-block-start: 7em;
+    margin-block-end: 14em;
     overflow: hidden;
-    margin-bottom: 10.5em;
-}
+  }
 
-.home h1{
+  .home h1 {
     text-align: center;
     width: 100%;
-    margin-top: 70px;
-    margin-bottom: 40px;
-    font-size: 60px;
+    margin-top: 10%;
+    margin-bottom: 2rem;
+    font-size: 4rem;
     color: var(--cor-azul__claro);
     white-space: nowrap;
     overflow: hidden;
-}
-.home h2{
-    margin: 0px;
-    font-size: 40px;
+  }
+
+  .home h2 {
+    margin: 0;
+    font-size: 2.5rem;
     color: var(--cor-texto);
     text-align: center;
+  }
+
+  .home h3 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--cor-texto);
+  }
+
+  .home p {
+    display: flex;
+    align-content: flex-end;
+    text-align: justify;
+    color: var(--cor-texto);
+    font-size: 1.5rem;
+  }
 }
 
-.home h3{
-    margin: 0px;
-    font-size: 40px;
-    color: var(--cor-texto);
+@media (min-width:1600px) {
+  .home {
+    background-color: var(--cor-background);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+  }
 
-}
-.home p{
+  .home section {
+    margin-top: 10%;
+    width: auto;
+    height: 20%;
+    position:relative;
+    margin-block-start: 10em;
+    margin-block-end: 14em;
+    overflow: hidden;
+  }
+
+  .home h1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    color: var(--cor-azul__claro);
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .home h2 {
+    margin: 0;
+    font-size: 2.5rem;
     color: var(--cor-texto);
-    font-size: 20px;
+    text-align: center;
+  }
+
+  .home h3 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--cor-texto);
+  }
+
+  .home p {
+    display: flex;
+    align-content: flex-end;
+    text-align: justify;
+    color: var(--cor-texto);
+    font-size: 1.9rem;
+  }
+}
+
+/* Estilos para telas com resolução 1920x1080 FHD */
+@media (min-width:  1920px) {
+  .home {
+    background-color: var(--cor-background);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12%;
+  }
+
+  .home section {
+    margin-top: 10%;
+    width: auto;
+    height: 20%;
+    position:relative;
+    margin-block-start: 15em;
+    margin-block-end: 14em;
+    overflow: hidden;
+  }
+
+  .home h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 5rem;
+    color: var(--cor-azul__claro);
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .home h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--cor-texto);
+    text-align: center;
+  }
+
+  .home h3 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--cor-texto);
+  }
+
+  .home p {
+    display: flex;
+    align-content: flex-end;
+    text-align: justify;
+    color: var(--cor-texto);
+    font-size: 1.9rem;
+  }
+}
+
+
+/* Estilos para telas com resolução 2560x1440 QHD */
+@media (min-width: 2560px) {
+  .home {
+    background-color: var(--cor-background);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15%;
+  }
+
+  .home section {
+    margin-top: 10%;
+    width: auto;
+    height: 20%;
+    position:relative;
+    margin-block-start: 5em;
+    margin-block-end: 35%;
+    overflow: hidden;
+  }
+
+  .home h1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 2rem;
+    font-size: 5.4rem;
+    color: var(--cor-azul__claro);
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .home h2 {
+    margin: 0;
+    font-size: 3.8rem;
+    color: var(--cor-texto);
+    text-align: center;
+  }
+
+  .home h3 {
+    margin: 0;
+    font-size: 3.8rem;
+    color: var(--cor-texto);
+  }
+
+  .home p {
+    display: flex;
+    align-content: flex-end;
+    text-align: justify;
+    color: var(--cor-texto);
+    font-size: 2.8rem;
+  }
+}
+/* Estilos para telas com resolução 3440x1440 UWQHD */
+@media (min-width:3440px) {
+  .home {
+    background-color: var(--cor-background);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+  }
+
+  .home section {
+    margin-top: 10%;
+    width: auto;
+    height: 20%;
+    position:relative;
+    margin-block-start: 5em;
+    margin-block-end: 20%;
+    overflow: hidden;
+  }
+
+  .home h1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 2rem;
+    font-size: 6.5rem;
+    color: var(--cor-azul__claro);
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .home h2 {
+    margin: 0;
+    font-size: 5rem;
+    color: var(--cor-texto);
+    text-align: center;
+  }
+
+  .home h3 {
+    margin: 0;
+    font-size: 5rem;
+    color: var(--cor-texto);
+  }
+
+  .home p {
+    display: flex;
+    align-content: flex-end;
+    text-align: justify;
+    color: var(--cor-texto);
+    font-size: 3.2rem;
+  }
 }

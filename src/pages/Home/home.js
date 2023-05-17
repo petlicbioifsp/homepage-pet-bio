@@ -10,7 +10,7 @@ export default function Home() {
         <body className="home">
             <MenuNavegacao></MenuNavegacao>  
 
-            <Title title="Bem vindo a Pagina do PET" content="Programa de Educação Tutorial"/>
+            <Title title="Bem-vindo a Página do PET" content="Programa de Educação Tutorial"/>
             <Reveal>
                  <Info 
                     title ="Sobre o PET"  
