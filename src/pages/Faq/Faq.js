@@ -10,16 +10,16 @@ export default function Faq(){
             <MenuNavegacao></MenuNavegacao>
             
             <h2 className="faq-titulo">Projetos desenvolvidos pelo PET</h2>
-            <section className="faq-texto">
-                what
-                <Collapsible trigger="read umineko no naku koro ni (click here)">
+            <section>
+
+                <Collapsible trigger="read umineko no naku koro ni (click here)" transitionTime='100'>
                     <p>
                     Behold the sweetfish river running through my beloved hometown.
                     You who seek the Golden Land, follow its path downstream in search of the key. 
                     </p>
                 </Collapsible>
 
-                <Collapsible trigger="read umineko no naku koro ni (click here)">
+                <Collapsible trigger="read umineko no naku koro ni (click here)" transitionTime='100'>
                     <p>
                     As you travel down it, you will see a village.
                     In that village, look for the shore the two will tell you of.

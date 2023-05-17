@@ -1,20 +1,33 @@
 body{
-    background-color:var(--cor-primaria);
+    background-color:var(--cor-background);
 }
 
 .faq-titulo{
     font-size: 32px;
-    color: var(--cor-secundaria);
+    color: var(--cor-azul__claro);
     text-align: center;
-    margin-top: 120px;
+    padding-top: 100px;
     margin-bottom: 40px;
 }
 
-.faq-nothing{
-    height: 100vh;
+.Collapsible__trigger{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    background-color: var(--cor-azul__medio);
+    color: var(--cor-azul__claro);
+    font-size: 20px;
+    margin: 0px 80px;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+    text-indent: 10px;
+}
+
+.Collapsible__contentInner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--cor-azul__medio);
+    color: var(--cor-azul__claro);
+    font-size: 17px;
     margin: 0px 80px;
 }
