@@ -14,12 +14,12 @@ export default function Faq() {
             <h2 className="faq-titulo">Perguntas frequentes</h2>
             <section className="faq--caixa__perguntas">
 
-                <Collapsible trigger={<AiFillCaretDown />} triggerWhenOpen={<AiFillCaretUp />} transitionTime='100' className="faq-pergunta">
+                <Collapsible trigger={<AiFillCaretDown />} triggerWhenOpen={<AiFillCaretUp />} transitionTime='200' className="faq-pergunta">
                     <p className="faq-resposta">
                         Behold the sweetfish river running through my beloved hometown.
                     </p>
                 </Collapsible>
-                <Collapsible trigger={<AiFillCaretDown />} triggerWhenOpen={<AiFillCaretUp />} transitionTime='100' className="faq-pergunta">
+                <Collapsible trigger={<AiFillCaretDown />} triggerWhenOpen={<AiFillCaretUp />} transitionTime='200' className="faq-pergunta">
                     <p className="faq-resposta">
                         On the first twilight, offer the six chosen by the key as sacrifices.
                         On the second twilight, those who remain shall tear apart the two who are close.
@@ -28,7 +28,7 @@ export default function Faq() {
                         On the fifth twilight, gouge the chest and kill.
                     </p>
                 </Collapsible>
-                <Collapsible trigger={<AiFillCaretDown />} triggerWhenOpen={<AiFillCaretUp />} transitionTime='100' className="faq-pergunta">
+                <Collapsible trigger={<AiFillCaretDown />} triggerWhenOpen={<AiFillCaretUp />} transitionTime='200' className="faq-pergunta">
                     <p className="faq-resposta">
                         On the sixth twilight, gouge the stomach and kill.
                         On the seventh twilight, gouge the knee and kill.
@@ -38,7 +38,7 @@ export default function Faq() {
                     </p>
                 </Collapsible>
 
-                <Collapsible trigger={<AiFillCaretDown />} triggerWhenOpen={<AiFillCaretUp />}  transitionTime='100' className="faq-pergunta">
+                <Collapsible trigger={<AiFillCaretDown />} triggerWhenOpen={<AiFillCaretUp />}  transitionTime='200' className="faq-pergunta">
                     <p className="faq-resposta">
                         Sleep peacefully, my beloved witch, Beatrice.
                     </p>
