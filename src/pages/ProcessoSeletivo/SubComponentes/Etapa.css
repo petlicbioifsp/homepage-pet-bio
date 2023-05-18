@@ -1,21 +1,21 @@
-.etapa{
+.etapa {
     border: 2px solid var(--cor-detalhes-azul);
     border-radius: 7px;
     padding: 20px;
 }
 
-.etapa--titulo{
+.etapa--titulo {
     color: var(--cor-detalhes-azul);
     margin-bottom: 0;
     font-size: 20px;
 }
 
-.etapa--titulo-secundario{
+.etapa--titulo-secundario {
     color: var(--cor-texto);
     margin-top: 0;
     font-size: 18px;
 }
 
-.etapa--descricao{
+.etapa--descricao {
     color: var(--cor-texto);
 }

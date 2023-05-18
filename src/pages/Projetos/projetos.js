@@ -2,8 +2,8 @@ import "./projetos.css";
 import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
 import CardProjeto from "../../components/CardProjeto/cardProjeto";
 
-export default function Projetos(){
-    return(
+export default function Projetos() {
+    return (
         <>
             <MenuNavegacao></MenuNavegacao>
             <div className="menu-projetos--corpo">

@@ -1,8 +1,8 @@
-.menu-projetos--corpo{
-    background-color:var(--cor-background);
+.menu-projetos--corpo {
+    background-color: var(--cor-background);
 }
 
-.menu-projetos--titulo{
+.menu-projetos--titulo {
     font-size: 32px;
     color: var(--cor-azul__claro);
     text-align: center;
@@ -10,7 +10,7 @@
     margin-bottom: 40px;
 }
 
-.menu-projetos{
+.menu-projetos {
     height: 100vh;
     display: flex;
     flex-direction: row;

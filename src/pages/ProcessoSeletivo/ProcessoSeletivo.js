@@ -2,6 +2,8 @@ import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
 import Info from "./SubComponentes/Info"
 import Etapa from './SubComponentes/Etapa';
 import './ProcessoSeletivo.css'
+import { GiSchoolBag } from 'react-icons/gi';
+import { AiFillEdit } from 'react-icons/ai'
 
 function ProcessoSeletivo() {
     return (
@@ -15,7 +17,7 @@ function ProcessoSeletivo() {
                 <section className="processo-seletivo--corpo_informacoes">
                     <h2 className="processo-seletivo--titulo_secundario">Informações Importantes</h2>
                     <div className="processo-seletivo--info_importante">
-                        <Info icone=""
+                        <Info icone={<GiSchoolBag className='mochila' />}
                             nome="Vagas"
                             descricao="Bolsista: 8"
                             textoAlternativo="Icone"
@@ -46,7 +48,7 @@ function ProcessoSeletivo() {
                         <div id="edital">
                             <h2 className="processo-seletivo--titulo_secundario">Edital</h2>
                             <p className="processo-seletivo--texto">Acesse o edital clicando no ícone a seguir:</p>
-                            <img src='' alt="teste" />
+                            <AiFillEdit className='inscricao' />
                         </div>
                     </div>
                 </section>
