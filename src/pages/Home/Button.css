@@ -1,77 +1,21 @@
+.btn {
+  width: auto;
+  background-color: var(--cor-azul__claro);
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 16px;
+  margin-top: .2em;
+  text-align: center;
+}
 
-@media only screen and (max-width: 600px) {
-    .btn {
-      width: auto;
-      background-color: var(--cor-azul__claro);
-      color: #fff;
-      padding: 10px;
-      margin-top: 1rem;
-      text-decoration: none;
-      transition: 0.5s;
-      border-radius: 12px;
-      border: none;
-    }
-  
-    .btn:hover {
-      cursor: pointer;
-    }
-  
-    .btn_contender {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: auto;
-    }
-  }
-  
-  @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    .btn {
-      width: auto;
-      background-color: var(--cor-azul__claro);
-      color: #fff;
-      padding: 12px;
-      margin-top: 1.5rem;
-      text-decoration: none;
-      transition: 0.5s;
-      border-radius: 14px;
-      border: none;
-    }
-  
-    .btn:hover {
-      cursor: pointer;
-    }
-  
-    .btn_contender {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: auto;
-    }
-  }
-  
- 
-  @media only screen and (min-width: 1025px) {
-    .btn {
-      width: auto;
-      background-color: var(--cor-azul__claro);
-      color: #fff;
-      padding: 15px;
-      margin-top: 1.5rem;
-      text-decoration: none;
-      transition: 0.5s;
-      border-radius: 16px;
-      border: none;
-    }
-  
-    .btn:hover {
-      cursor: pointer;
-    }
-  
-    .btn_contender {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: auto;
-    }
-  }
-  
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn_contender {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
