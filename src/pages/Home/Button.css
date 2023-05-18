@@ -2,11 +2,11 @@
   width: auto;
   background-color: var(--cor-azul__claro);
   color: #fff;
-  padding: 10px;
+  padding: 0.6em;
   text-decoration: none;
   transition: 0.5s;
-  border-radius: 16px;
-  margin-top: .2em;
+  border-radius: 1em;
+  margin-top: 1.5em;
   text-align: center;
 }
 

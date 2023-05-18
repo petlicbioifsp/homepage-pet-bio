@@ -1,8 +1,5 @@
-
-
-/* Estilos para telas pequenas (celulares, por exemplo) */
-@media (min-width: 400px) {
- .home{
+@media(min-width:769px) and (max-width:1080px){
+.home{
   background-color: var(--cor-background);
   width:auto;
   display: flex;
@@ -10,185 +7,43 @@
   align-items: center;
   padding: 10%;
 }
+
 .home section{
   width: 100%;
-  height:50vh;
-  position: relative;
-  margin-block-start: 5em;
-  margin-block-end: 10em;
-  overflow: hidden;
-  margin-bottom: 10.5em;
+  height: 61vh;
+  margin-block-start: 10%;
 }
 
 .home h1{
   text-align: center;
   width: 100%;
-  margin-top: 70px;
-  margin-bottom: 40px;
-  font-size: 60px;
+  margin-top: 4.5%;
+  margin-bottom: 2%;
+  font-size: 3.75em;
   color: var(--cor-azul__claro);
+  white-space: nowrap;
+  overflow: hidden;
 }
 .home h2{
   margin: 0px;
-  font-size: 40px;
+  font-size: 2.5em;
   color: var(--cor-texto);
   text-align: center;
 }
 
 .home h3{
   margin: 0px;
-  font-size: 40px;
+  font-size: 2.5em;
   color: var(--cor-texto);
 
 }
 .home p{
+  text-align: justify;
   color: var(--cor-texto);
-  font-size: 20px;
+  font-size: 1.25em;
 }
 }
-@media (min-width:1024px){
-  .home{
-    background-color: var(--cor-background);
-    width:auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .home section{
-    width: 100%;
-    height: 30vh;
-    position: relative;
-    margin-block-start:25%;
-    margin-block-end: 9%;
-    overflow: hidden;
-    margin-bottom: 10.5em;
-  }
-  
-  .home h1{
-    text-align: center;
-    width: 100%;
-    margin-top: 70px;
-    margin-bottom: 40px;
-    font-size: 60px;
-    color: var(--cor-azul__claro);
-  }
-  .home h2{
-    margin: 0px;
-    font-size: 40px;
-    color: var(--cor-texto);
-    text-align: center;
-  }
-  
-  .home h3{
-    margin: 0px;
-    font-size: 40px;
-    color: var(--cor-texto);
-  
-  }
-  .home p{
-    text-align: justify;
-    color: var(--cor-texto);
-    font-size: 20px;
-  }
-
-}
-
-/* Estilos para telas com resolução 1280x1024 SXGA ou menor */
-@media (max-width: 1280px) {
-  .home{
-    background-color: var(--cor-background);
-    width:auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .home section{
-    width: 100%;
-    height: 60vh;
-    position: relative;
-    margin-block-start:5em;
-    margin-block-end: 15em;
-    overflow: hidden;
-  }
-  
-  
-  .home h1{
-    text-align: center;
-    width: 100%;
-    margin-top: 70px;
-    margin-bottom: 20px;
-    font-size: 60px;
-    color: var(--cor-azul__claro);
-  }
-  .home h2{
-    font-size: 40px;
-    color: var(--cor-texto);
-  }
-  
-  .home h3{
-    margin: 0px;
-    font-size: 40px;
-    color: var(--cor-texto);
-  
-  }
-  .home p{
-    text-align: justify;
-    color: var(--cor-texto);
-    font-size: 15px;
-  }
-}
-
-/* Estilos para telas com resolução 1366x768 HD */
-@media (min-width: 1281px) and (max-width: 1366px) {
-  .home{
-    background-color: var(--cor-background);
-    width:auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .home section{
-    width: 100%;
-    height: 50vh;
-    position: relative;
-    margin-block-start: 5em;
-    margin-block-end: 5em;
-    overflow: hidden;
-    margin-bottom: 10.5em;
-  }
-  
-  .home h1{
-    text-align: center;
-    width: 100%;
-    margin-top: 70px;
-    font-size: 80px;
-    color: var(--cor-azul__claro);
-  }
-  .home h2{
-    margin: 0px;
-    font-size: 50px;
-    color: var(--cor-texto);
-    text-align: center;
-  }
-  
-  .home h3{
-    margin: 0px;
-    font-size: 50px;
-    color: var(--cor-texto);
-  
-  }
-  .home p{
-    text-align: justify;
-    color: var(--cor-texto);
-    font-size: 25px;
-  }
-}
-
-/* Estilos para telas com resolução 1600x900 HD+ */
-@media (min-width: 1367px) and (max-width: 1600px) {
+@media (min-width: 1081px) and (max-width:1920px){
   .home{
     background-color: var(--cor-background);
     width:auto;
@@ -197,45 +52,45 @@
     align-items: center;
     padding: 10%;
   }
+  
   .home section{
     width: 100%;
-    height: 38vh;
-    position: relative;
-    margin-block-start: 10em;
-    margin-block-end: 10em;
-    overflow: hidden;
+    height: 54vh;
+    margin-block-start: 10%;
   }
   
   .home h1{
     text-align: center;
     width: 100%;
-    margin-top: 70px;
-    margin-bottom: 40px;
-    font-size: 85px;
+    margin-top: 4.5%;
+    margin-bottom: 2%;
+    font-size: 3.75em;
     color: var(--cor-azul__claro);
+    white-space: nowrap;
+    overflow: hidden;
   }
   .home h2{
     margin: 0px;
-    font-size: 55px;
+    font-size: 2.5em;
     color: var(--cor-texto);
     text-align: center;
   }
   
   .home h3{
     margin: 0px;
-    font-size: 55px;
+    font-size: 2.5em;
     color: var(--cor-texto);
   
   }
   .home p{
     text-align: justify;
     color: var(--cor-texto);
-    font-size: 25px;
+    font-size: 1.25em;
   }
+
 }
 
-/* Estilos para telas com resolução 1920x1080 FHD */
-@media (min-width: 1601px) and (max-width: 1920px) {
+@media (max-width: 768px){
   .home{
     background-color: var(--cor-background);
     width:auto;
@@ -244,176 +99,84 @@
     align-items: center;
     padding: 10%;
   }
-  .home section{
-    width: 100%;
-    height: 52vh;
-    position: relative;
-    margin-block-start: 10em;
-    margin-block-end: 5em;
-  }
   
-  .home h1{
-    text-align: center;
-    width: 100%;
-    margin-top: 70px;
-    margin-bottom: 30px;
-    font-size: 90px;
-    color: var(--cor-azul__claro);
-  }
-  .home h2{
-    margin: 0px;
-    font-size: 60px;
-    color: var(--cor-texto);
-    text-align: center;
-  }
-  
-  .home h3{
-    margin: 0px;
-    font-size: 60px;
-    color: var(--cor-texto);
-  
-  }
-  .home p{
-    text-align: justify;
-    color: var(--cor-texto);
-    font-size: 30px;
-  }
-}
-
-/* Estilos para telas com resolução 2560x1440 QHD */
-@media (min-width: 1921px) and (max-width: 2560px) {
-  .home{
-    background-color: var(--cor-background);
-    width:auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   .home section{
     width: 100%;
     height: 50vh;
-    position: relative;
-    margin-block-start: 15em;
-    margin-block-end: 8em;
-    overflow: hidden;
+    margin-block-start: 10%;
   }
   
   .home h1{
     text-align: center;
     width: 100%;
-    margin-top: 70px;
-    margin-bottom: 30px;
-    font-size: 110px;
+    margin-top: 4.5%;
+    margin-bottom: 2%;
+    font-size: 3.75em;
     color: var(--cor-azul__claro);
+    white-space: nowrap;
+    overflow: hidden;
   }
   .home h2{
     margin: 0px;
-    font-size: 75px;
+    font-size: 2.5em;
     color: var(--cor-texto);
     text-align: center;
   }
   
   .home h3{
     margin: 0px;
-    font-size: 75px;
+    font-size: 2.5em;
     color: var(--cor-texto);
   
   }
   .home p{
     text-align: justify;
     color: var(--cor-texto);
-    font-size: 45px;
+    font-size: 1.25em;
   }
 }
-
-/* Estilos para telas com resolução 3440x1440 UWQHD */
-@media (min-width: 2561px) and (max-width: 3440px) {
+ @media (max-width:680px){
   .home{
     background-color: var(--cor-background);
     width:auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10%;
   }
+  
   .home section{
     width: 100%;
     height: 50vh;
-    position: relative;
-    margin-block-start: 8em;
-    margin-block-end: 10em;
-    overflow: hidden;
+    margin-block-start: 10%;
   }
   
   .home h1{
     text-align: center;
     width: 100%;
-    margin-top: 70px;
-    margin-bottom: 30px;
-    font-size: 120px;
+    margin-top: 4.5%;
+    margin-bottom: 2%;
+    font-size: 2em;
     color: var(--cor-azul__claro);
+    white-space: nowrap;
+    overflow: hidden;
   }
   .home h2{
     margin: 0px;
-    font-size: 80px;
+    font-size: 1.27em;
     color: var(--cor-texto);
     text-align: center;
   }
   
   .home h3{
     margin: 0px;
-    font-size: 80px;
+    font-size: 1.27em;
     color: var(--cor-texto);
   
   }
   .home p{
     text-align: justify;
     color: var(--cor-texto);
-    font-size: 50px;
+    font-size: 0.6em;
   }
-}
-/* Estilos para telas maiores que 3840x2160 UHD/4K */
-@media (min-width: 3840px) {
-  .home{
-    background-color: var(--cor-background);
-    width:auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .home section{
-    width: 100%;
-    height: 60vh;
-    position: relative;
-    margin-block-start: 20em;
-    margin-block-end: 10em;
-    overflow: hidden;
-  }
-  
-  .home h1{
-    text-align: center;
-    width: 100%;
-    margin-top: 70px;
-    margin-bottom: 40px;
-    font-size: 200px;
-    color: var(--cor-azul__claro);
-  }
-  .home h2{
-    margin: 0px;
-    font-size: 120px;
-    color: var(--cor-texto);
-    text-align: center;
-  }
-  
-  .home h3{
-    margin: 0px;
-    font-size: 120px;
-    color: var(--cor-texto);
-  
-  }
-  .home p{
-    text-align: justify;
-    color: var(--cor-texto);
-    font-size: 65px;
-  }
-}
-
+ }
