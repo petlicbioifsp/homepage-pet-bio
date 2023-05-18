@@ -12,6 +12,13 @@
     text-align: center;
 }
 
+.processo-seletivo--caixa{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    margin-left: 20px;
+}
+
 .processo-seletivo--texto {
     color: var(--cor-texto);
     font-size: 18px;

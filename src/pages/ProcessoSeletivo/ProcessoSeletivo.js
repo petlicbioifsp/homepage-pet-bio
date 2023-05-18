@@ -47,8 +47,10 @@ function ProcessoSeletivo() {
                     <div>
                         <div id="edital">
                             <h2 className="processo-seletivo--titulo_secundario">Edital</h2>
-                            <p className="processo-seletivo--texto">Acesse o edital clicando no ícone a seguir:</p>
-                            <AiFillEdit className='inscricao' />
+                            <div className="processo-seletivo--caixa">
+                                <p className="processo-seletivo--texto">Acesse o edital clicando no ícone a seguir:</p>
+                                <AiFillEdit className='inscricao' />
+                            </div>
                         </div>
                     </div>
                 </section>
