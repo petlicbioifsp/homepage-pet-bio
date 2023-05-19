@@ -10,8 +10,8 @@ export default function CardProjeto(props){
         <motion.div className="card" onClick={()=> setIsOpen(!isOpen)}>
             <motion.img className="logo-projeto" alt="simbolo de uma pasta" 
             src={logoProjeto}></motion.img>
-            <motion.h2 className="card-titulo">{props.titulo}</motion.h2>
-            <motion.p className="card-descricao">{props.descricao}</motion.p>
+            <motion.h2 className="card-titulo" >{props.titulo}</motion.h2>
+            <motion.p className="card-descricao" >{props.descricao}</motion.p>
             {isOpen && (
                 <motion.div>
                     <p className='card--texto__espancao'>AAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
