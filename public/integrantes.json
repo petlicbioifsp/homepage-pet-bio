@@ -1,0 +1,27 @@
+{
+    "aluno":
+    [{
+        "id": "1",
+        "nome":"Lucas Sigoli",
+        "foto":"./fotos_alunos/nicolas.jpg",
+        "tipo":"bolsista",
+        "ano" : "2023"
+    },{
+        "id": "2",
+        "nome":"Otávio Lopes",
+        "foto":"./fotos_alunos/nicolas.jpg",
+        "tipo":"bolsista",
+        "ano" : "2022"
+    }],
+    "exAlunos":[{
+        "id": "2",
+        "nome":"Paulo",
+        "foto":"./fotos_alunos/aiai.jpg",
+        "anos" : "2019-2023"
+    }],
+    "tutores":[{
+        "nome":"Lucas Oliveira",
+        "foto":"./fotos_tutores/Yoda.jpg"
+    }]
+
+}
