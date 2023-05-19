@@ -1,5 +1,4 @@
 .card{
-    height: 35vh;
     width: 25%;
     background-color: var(--cor-azul__medio);
     margin-left: 20px;
@@ -24,4 +23,9 @@ height: 20%;
 
 .card-descricao{
     color: var(--cor-texto__claro);
+}
+
+.card--texto__espancao{
+    padding-top: 1rem;
+    line-height: 150%;
 }
