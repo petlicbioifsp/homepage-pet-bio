@@ -1,0 +1,62 @@
+.processo-seletivo--corpo {
+    background-color: var(--cor-background);
+}
+
+.processo-seletivo--cabecalho {
+    margin: 0 80px;
+}
+
+.processo-seletivo--titulo {
+    color: var(--cor-azul__claro);
+    padding-top: 100px;
+    text-align: center;
+}
+
+.processo-seletivo--caixa{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    margin-left: 20px;
+}
+
+.processo-seletivo--texto {
+    color: var(--cor-texto);
+    font-size: 18px;
+}
+
+.processo-seletivo--corpo_informacoes {
+    margin: 0 80px;
+}
+
+.processo-seletivo--titulo_secundario {
+    color: var(--cor-azul__claro);
+}
+
+.processo-seletivo--titulo_secundario::before {
+    content: "1. ";
+    color: var(--cor-detalhes-azul);
+}
+
+.processo-seletivo--info_importante {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: space-evenly;
+}
+
+.mochila {
+    color: var(--cor-detalhes-azul);
+    vertical-align: middle;
+    align-self: center;
+    font-size: 2.5em;
+}
+
+.inscricao {
+    color: var(--cor-detalhes-azul);
+    vertical-align: middle;
+    justify-content: center;
+    align-self: center;
+    font-size: 2.5em;
+    cursor: pointer;
+}

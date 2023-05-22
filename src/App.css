@@ -1,0 +1,25 @@
+:root{
+  --cor-background:#191A51;
+  --cor-azul__claro: #8a8cfc;
+  --cor-azul__medio: #463f88;
+  --cor-detalhes-azul: #babbe9;
+  --cor-texto: #5c5d97;
+  --cor-texto__claro: #8d8ed1;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--cor-background);        
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--cor-azul__claro);    
+  border-radius: 20px;      
+  border: 3px solid var(--cor-background);  
+}
+body{
+  flex: 1 1 0;
+}
