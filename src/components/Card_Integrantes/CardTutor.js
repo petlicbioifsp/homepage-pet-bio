@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './CardAluno.module.css';
 
-<<<<<<< HEAD
-function CardTutor({ nome, srcFoto ,ano, lattes, mail, github }) {
-=======
+
+
+
 function CardTutor({ nome, srcFoto ,ano, lattes, mail, github,linkedin }) {
->>>>>>> master
+
   function Evento() {
     console.log('Teste do evento');
   }
@@ -27,11 +27,11 @@ function CardTutor({ nome, srcFoto ,ano, lattes, mail, github,linkedin }) {
         </p> 
         
       </div>
-<<<<<<< HEAD
+
       <div className={styles.icons}>{/* Adicione seus ícones aqui */}</div>
-=======
+
     
->>>>>>> master
+
     </div>
   );
 }

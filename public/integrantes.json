@@ -1,66 +1,36 @@
 {
-<<<<<<< HEAD
-    "aluno":
-    [{
-        "id": "1",
-        "nome":"Lucas Sigoli",
-        "foto":"./fotos_alunos/nicolas.jpg",
-        "tipo":"bolsista",
-        "ano" : "2023"
-    },{
-        "id": "2",
-        "nome":"Otávio Lopes",
-        "foto":"./fotos_alunos/nicolas.jpg",
-        "tipo":"bolsista",
-        "ano" : "2022"
-    }],
-    "exAlunos":[{
-        "id": "2",
-        "nome":"Paulo",
-        "foto":"./fotos_alunos/aiai.jpg",
-        "anos" : "2019-2023"
-    }],
-    "tutores":[{
-        "nome":"Lucas Oliveira",
-        "foto":"./fotos_tutores/Yoda.jpg"
-    }]
-
+  "aluno": [
+    {
+      "id": "1",
+      "nome": "Lucas Sigoli",
+      "foto": "./fotos_alunos/nicolas.jpg",
+      "tipo": "bolsista",
+      "ano": "2023",
+      "github": "https://github.com/lucasigoli",
+      "linkedin": "https://linkedin.com/in/lucasigoli"
+    },
+    {
+      "id": "2",
+      "nome": "Otávio Lopes",
+      "foto": "./fotos_alunos/nicolas.jpg",
+      "tipo": "bolsista",
+      "ano": "2022",
+      "github": "https://github.com/otaviopl",
+      "linkedin": "https://www.linkedin.com/in/otávio-pereira-lopes-603432218/"
+    }
+  ],
+  "exAlunos": [
+    {
+      "id": "1",
+      "nome": "Paulo",
+      "foto": "./fotos_alunos/aiai.jpg",
+      "anos": "2019-2023"
+    }
+  ],
+  "tutores": [
+    {
+      "nome": "Lucas Oliveira",
+      "foto": "./fotos_tutores/yoda.jpg"
+    }
+  ]
 }
-=======
-    "aluno": [
-      {
-        "id": "1",
-        "nome": "Lucas Sigoli",
-        "foto": "./fotos_alunos/nicolas.jpg",
-        "tipo": "bolsista",
-        "ano": "2023",
-        "github": "https://github.com/lucasigoli",
-        "linkedin": "https://linkedin.com/in/lucasigoli"
-      },
-      {
-        "id": "2",
-        "nome": "Otávio Lopes",
-        "foto": "./fotos_alunos/nicolas.jpg",
-        "tipo": "bolsista",
-        "ano": "2022",
-        "github": "https://github.com/otaviopl",
-        "linkedin": "https://www.linkedin.com/in/otávio-pereira-lopes-603432218/"
-      }
-    ],
-    "exAlunos": [
-      {
-        "id": "1",
-        "nome": "Paulo",
-        "foto": "./fotos_alunos/aiai.jpg",
-        "anos": "2019-2023"
-      }
-    ],
-    "tutores": [
-      {
-        "nome": "Lucas Oliveira",
-        "foto": "./fotos_tutores/yoda.jpg"
-      }
-    ]
-  }
-  
->>>>>>> master
