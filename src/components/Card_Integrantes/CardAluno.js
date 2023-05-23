@@ -1,8 +1,9 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 import styles from './CardAluno.module.css';
 
-function CardAluno({ nome, srcFoto, tipo, ano, lattes, mail, github, linkedin }) {
+function CardAluno({ nome, srcFoto, ano, lattes, mail, github, linkedin }) {
   function Evento() {
     console.log('Teste do evento');
   }
@@ -23,12 +24,15 @@ function CardAluno({ nome, srcFoto, tipo, ano, lattes, mail, github, linkedin })
           <b>Ingresso:</b> {ano}
         </p> 
       </div>
-      <div className={styles.icons}>
+      <div className={styles.iconsContainer}>
         <a href={github} target="_blank" rel="noopener noreferrer">
           <FaGithub className={styles.icon} />
         </a>
         <a href={linkedin} target="_blank" rel="noopener noreferrer">
           <FaLinkedin className={styles.icon} />
+        </a>
+          <a href={mail} target="_blank" rel="noopener noreferrer">
+          <MdEmail className={styles.icon} />
         </a>
       </div>
     </div>

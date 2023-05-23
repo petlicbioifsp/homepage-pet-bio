@@ -7,7 +7,7 @@
     width: auto;
     background-color: var(--cor-azul__medio);
     padding-top: 35px;
-    padding-bottom: 35px;
+    padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
@@ -34,4 +34,16 @@ p {
     margin: 5px;
     color: var(--cor-texto__claro);
     text-align: center;
+}
+
+.iconsContainer {  
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    height: 32px;
+    width: 32px;
+    padding: 10px;
+    color: var(--cor-azul__claro);
 }
