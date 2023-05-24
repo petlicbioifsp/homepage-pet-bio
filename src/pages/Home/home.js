@@ -1,24 +1,24 @@
 import "./home.css"
-import "./Button.css"
+
 import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
-import Info from "./Infos";
-import Title from "./Title";
-import Reveal from "./Reveal";
-import Button from "./Button";
-import IFSPLogo from '../../resources/LogoIfsp.png'
-import Logo from '../../resources/Icon.PNG'
+import Info from "../../components/Home_Infos/Infos";
+import Title from "../../components/Home_title/Title";
+import Reveal from "../../components/Efeito Reveal/Reveal";
+import Button from "../../components/Home_button/Button";
+import ImgContender from "../../components/HomeImgContender/ImgContender";
 export default function Home() {
     return (
         <div className="home">
             <MenuNavegacao></MenuNavegacao>
             <div className="headerContender">
                 <Title
-                    title="Bem-vindo a página do PET/ADS São Carlos"
+                    title="Bem-vindo a página do PET/ADS IFSP São Carlos"
                     content="Programa de Educação Tutorial"
                 />
-                <img className="IFSPLogo" src={IFSPLogo} alt='Identidade visual PET/ADS' />
+                <ImgContender/>
+               
             </div>
-            <img src={Logo} alt='Identidade Visual IFSP-SC' />
+            
             <Reveal>
                 <Info
                     title="Sobre o PET"
