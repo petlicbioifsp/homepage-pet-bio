@@ -11,7 +11,7 @@
 }
 .headerContender{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .home header{
   text-justify: distribute;
@@ -62,19 +62,10 @@
   color: var(--cor-texto);
   font-size: 20px
 }
-.logoContender{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.IFSPLogo{
-  max-width: 40vh;
-  max-height: 15vh;
-}
-.PETLogo{
-  margin-bottom: 0;
-}
 
+.IFSPLogo{
+  width: 10%;
+}
 
 @media screen and (min-width: 1300px) and (min-height: 768px) {
   .home header{

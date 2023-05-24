@@ -1,5 +1,3 @@
-
-
 function Info({title, content}){
     return(
         <>
