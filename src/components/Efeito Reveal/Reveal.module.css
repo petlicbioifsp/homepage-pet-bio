@@ -1,0 +1,8 @@
+.homesection {
+    display: flex;
+    width: 80vw;
+    height: fit-content;
+    min-width: 80vw;
+    min-height: 80vh;
+    margin-bottom: 0;
+  }

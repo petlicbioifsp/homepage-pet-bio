@@ -1,0 +1,12 @@
+.title{
+    margin: 0px;
+    font-size:32px;
+    color: var(--cor-texto);
+}
+
+.text {
+    text-justify: distribute;
+    text-align: justify;
+    color: var(--cor-texto);
+    font-size: 20px
+  }

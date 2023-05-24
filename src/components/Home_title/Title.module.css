@@ -1,0 +1,27 @@
+.cabecalho{
+    text-justify: distribute;
+    display: flex;
+    height: fit-content;
+    min-width: 45vw;
+    min-height: 80vh;
+    letter-spacing:initial;
+    margin-top: 5%;
+    margin-bottom: 0;;
+    height: fit-content;
+  }
+
+ .title {
+    width: 40vw;
+    font-size: 48px;
+    color: var(--cor-azul__claro);
+    overflow: hidden;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.subtitle{
+    margin-top: 0;
+    width: 40vw;
+    font-size:32px;
+    color: var(--cor-texto);
+  }
