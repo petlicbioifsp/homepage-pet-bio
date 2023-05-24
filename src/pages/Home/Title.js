@@ -1,8 +1,10 @@
 function Title({title, content}){
     return(
-        <section>
+        <header>
+        <div>
         <h1>{title}</h1>
         <h2>{content}</h2> 
-        </section>
+       </div>
+        </header>
     )
 } export default Title;
