@@ -1,10 +1,10 @@
 :root{
   --cor-background:#191A51;
-  --cor-azul__claro: #8a8cfc;
+  --cor-azul__claro: #9e9ff6;
   --cor-azul__medio: #463f88;
   --cor-detalhes-azul: #babbe9;
-  --cor-texto: #5c5d97;
-  --cor-texto__claro: #8d8ed1;
+  --cor-texto: #d6d6e2;
+  --cor-texto__claro: #d3d3e1;
 }
 
 body::-webkit-scrollbar {

@@ -1,13 +1,14 @@
 .btn {
   width: auto;
   background-color: var(--cor-azul__claro);
-  color: #fff;
+  color: var(--cor-background);
   padding: 16px;
   text-decoration: none;
   transition: 0.5s;
   border-radius: 16px;
   margin-top: 16px;
   text-align: center;
+  font-weight: bold;
 }
 
 .btn:hover {
