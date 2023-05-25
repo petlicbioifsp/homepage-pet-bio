@@ -14,33 +14,46 @@ export default function Faq() {
             <h2 className="faq-titulo">Perguntas frequentes</h2>
             <section className="faq--caixa__perguntas">
 
-                <Collapsible trigger={<CollapsibleTrigger text=" hell" />} triggerWhenOpen={<CollapsibleOpen text=" hell" />} transitionTime='200' className="faq-pergunta">
+                <Collapsible trigger={<CollapsibleTrigger text=" Quais as responsabilidades de um membro do PET?" />} triggerWhenOpen={<CollapsibleOpen text=" Quais as responsabilidades de um membro do PET?" />} transitionTime='200' className="faq-pergunta">
                     <p className="faq-resposta">
-                        Behold the sweetfish river running through my beloved hometown.
-                    </p>
-                </Collapsible>
-                <Collapsible trigger={<CollapsibleTrigger text=" hell" />} triggerWhenOpen={<CollapsibleOpen text=" hell" />} transitionTime='200' className="faq-pergunta">
-                    <p className="faq-resposta">
-                        On the first twilight, offer the six chosen by the key as sacrifices.
-                        On the second twilight, those who remain shall tear apart the two who are close.
-                        On the third twilight, those who remain shall praise my noble name.
-                        On the fourth twilight, gouge the head and kill.
-                        On the fifth twilight, gouge the chest and kill.
-                    </p>
-                </Collapsible>
-                <Collapsible trigger={<CollapsibleTrigger text=" hell" />} triggerWhenOpen={<CollapsibleOpen text=" hell" />} transitionTime='200' className="faq-pergunta">
-                    <p className="faq-resposta">
-                        On the sixth twilight, gouge the stomach and kill.
-                        On the seventh twilight, gouge the knee and kill.
-                        On the eighth twilight, gouge the leg and kill.
-                        On the ninth twilight, the witch shall revive, and none shall be left alive.
-                        On the tenth twilight, at journey's end, you shall attain to the power of the Golden Land's treasures, once and for the last time.
+                        Os membros precisam se dedicar integralmente às atividades acadêmicas do grupo, alêm de suas atividades acadêmicas regulares. As atividades do grupo são definidas pelo tutor, e podem incluir o desenvolvimento de planos de estudos, a criação de atividades de extensão com membros da comunidade acadêmica e a implementação de projetos internos ao PET, entre outras.
+                        As responsabilidades estão descritas em maior detalhe no Edital(link).
                     </p>
                 </Collapsible>
 
-                <Collapsible trigger={<CollapsibleTrigger text=" hell" />} triggerWhenOpen={<CollapsibleOpen text=" hell" />}  transitionTime='200' className="faq-pergunta">
+                <Collapsible trigger={<CollapsibleTrigger text=" Como eu entro no PET?" />} triggerWhenOpen={<CollapsibleOpen text=" Como eu entro no PET?" />} transitionTime='200' className="faq-pergunta">
                     <p className="faq-resposta">
-                        Sleep peacefully, my beloved witch, Beatrice.
+                        Para se juntar ao PET, você deve ser aluno de ADS no IFSP/SC e passar pelo processo seletivo. Em cada processo seletivo, é selecionado uma quantidade de novos entrantes correspondente à quantia de vagas disponíveis. 
+                    </p>
+                </Collapsible>
+
+                <Collapsible trigger={<CollapsibleTrigger text=" Quanto vale a bolsa do PET?" />} triggerWhenOpen={<CollapsibleOpen text=" Quanto vale a bolsa do PET?" />} transitionTime='200' className="faq-pergunta">
+                    <p className="faq-resposta">
+                        Atualmente, a bolsa é de R$700 mensais.
+                    </p>
+                </Collapsible>
+
+                <Collapsible trigger={<CollapsibleTrigger text=" Quando é o próximo processo seletivo?" />} triggerWhenOpen={<CollapsibleOpen text=" Quando é o próximo processo seletivo?" />}  transitionTime='200' className="faq-pergunta">
+                    <p className="faq-resposta">
+                    Os processos seletivos acontecem, de modo geral, várias vezes por ano. Não podemos te dizer exatamente quando será o próximo, mas fique de olho aqui na página (e no seu e-mail institucional)!
+                    </p>
+                </Collapsible>
+
+                <Collapsible trigger={<CollapsibleTrigger text=" Como funciona o processo seletivo?" />} triggerWhenOpen={<CollapsibleOpen text=" Como funciona o processo seletivo?" />}  transitionTime='200' className="faq-pergunta">
+                    <p className="faq-resposta">
+                    O processo seletivo é realizado em duas fases, contendo uma prova e uma entrevista. Dependendo da sua colocação, é possível entrar no PET como bolsista ou voluntário. Confira a página Processo Seletivo(link) para mais detalhes. 
+                    </p>
+                </Collapsible>
+
+                <Collapsible trigger={<CollapsibleTrigger text=" Qual a diferença entre voluntários e bolsistas?" />} triggerWhenOpen={<CollapsibleOpen text=" Qual a diferença entre voluntários e bolsistas?" />}  transitionTime='200' className="faq-pergunta">
+                    <p className="faq-resposta">
+                    Ambos possuem as mesmas responsabilidades dentro do grupo, e realizam as mesmas atividades. A única diferença é a bolsa.
+                    </p>
+                </Collapsible>
+
+                <Collapsible trigger={<CollapsibleTrigger text=" Um voluntário pode vir a receber bolsa?" />} triggerWhenOpen={<CollapsibleOpen text=" Um voluntário pode vir a receber bolsa?" />}  transitionTime='200' className="faq-pergunta">
+                    <p className="faq-resposta">
+                    Sim! Os alunos que entrarem como voluntários terão a oportunidade de, caso ocorra a desistência de um bolsista, passarem a ser bolsistas. A "ordem" na qual a transferência do tipo de membro é realizada é baseada na colocação durante o processo seletivo.
                     </p>
                 </Collapsible>
 
