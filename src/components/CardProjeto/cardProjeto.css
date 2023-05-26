@@ -44,3 +44,25 @@ height: 50px;
     display: flex;
     flex-direction: row;
 }
+
+@media (max-width: 1200px)
+{
+  .card{
+    height: auto;
+  }
+}
+
+@media (max-width: 950px)
+{
+  .card{
+    height: auto;
+    width: auto;
+  }
+}
+
+@media (max-width: 300px)
+{
+  .card{
+    min-height: auto;
+  }
+}
