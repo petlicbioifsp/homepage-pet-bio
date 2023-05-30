@@ -1,17 +1,17 @@
 .card {
     display:flex;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 11px;
     align-items: center;
     justify-content: space-evenly;
     width: auto;
     background-color: var(--cor-azul__medio);
-    padding-top: 35px;
+    padding-top: 23px;
     padding-bottom: 5px;
-    padding-left: 10px;
+    padding-left: 8px;
     padding-right: 10px;
     border-radius: 10px;
-    width: 200px;
+    width: 180px;
     
 }
 
@@ -30,7 +30,7 @@
 
 
 p {
-    font-size: 18px;
+    font-size: 16px;
     margin: 5px;
     color: var(--cor-texto__claro);
     text-align: center;
@@ -42,7 +42,7 @@ p {
 }
 
 .icon {
-    height: 32px;
+    height: 30px;
     width: 32px;
     padding: 10px;
     color: var(--cor-azul__claro);

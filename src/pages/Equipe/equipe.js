@@ -30,19 +30,18 @@ export default function Equipe() {
     <>
       <MenuNavegacao />
       <div className="equipe--corpo">
-        <h2 className="equipe--titulo">Tutor:</h2>
-        <section className="equipe--tutores">
+        
+        <h2 className="equipe--titulo">Integrantes</h2>
+        <section className="equipe--alunos">
           {tutores.map((tutor) => (
             <CardTutor
-              key={tutor.nome}
-              nome={tutor.nome}
-              srcFoto={tutor.foto}
-              ano="2022"
+            key={tutor.id}
+            nome={tutor.nome}
+            srcFoto={tutor.foto}
+            ano={tutor.ano}
             />
-          ))}
-        </section>
-        <h2 className="equipe--titulo">Alunos:</h2>
-        <section className="equipe--alunos">
+            ))}
+            
           {alunos.map((aluno) => (
             <CardAluno
               key={aluno.id}
@@ -55,7 +54,7 @@ export default function Equipe() {
             />
           ))}
         </section>
-        <h2 className="equipe--titulo">Ex Alunos:</h2>
+        <h2 className="equipe--titulo">Ex Integrantes</h2>
         <section className="equipe--alunos">
           {exAlunos.map((exAlunos) => (
             <CardExAluno

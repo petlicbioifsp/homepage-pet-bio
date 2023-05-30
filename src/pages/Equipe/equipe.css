@@ -9,7 +9,7 @@
     font-size: 40px;
     color: var(--cor-azul__claro);
     text-align: center;
-    margin: 150px;
+    margin: 100px;
 }
 
 
@@ -22,8 +22,6 @@
     justify-content: center;
 }
 
-
-
 .equipe--alunos{
     display: flex;
     flex-direction: row;
@@ -31,5 +29,26 @@
     row-gap: 45px;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 120px;
+    padding-bottom: 90px;
+}
+.Collapsible__trigger{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--cor-azul__medio);
+    font-size: 20px;
+    margin: 0px 80px;
+    text-indent: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.Collapsible__contentInner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    font-size: 17px;
+    margin: 0px 80px;
+    padding: 10px;
 }

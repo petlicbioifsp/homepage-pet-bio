@@ -31,9 +31,7 @@ function CardExAluno({ nome, srcFoto, anos, lattes, mail, github, linkedin }) {
         <a href={linkedin} target="_blank" rel="noopener noreferrer">
           <FaLinkedin className={styles.icon} />
         </a>
-          <a href={mail} target="_blank" rel="noopener noreferrer">
-          <MdEmail className={styles.icon} />
-        </a>
+        
       </div>
     </div>
   );

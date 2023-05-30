@@ -30,7 +30,8 @@
   "tutores": [
     {
       "nome": "Lucas Oliveira",
-      "foto": "./fotos_tutores/yoda.jpg"
+      "foto": "./fotos_tutores/yoda.jpg",
+      "ano": "2023"
     }
   ]
 }

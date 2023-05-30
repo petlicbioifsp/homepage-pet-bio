@@ -20,6 +20,7 @@ function CardTutor({ nome, srcFoto ,ano, lattes, mail, github, linkedin }) {
         src={srcFoto}
         alt={altFoto}
       />
+      <p>Tutor</p>
       <div className={styles.descricao}>
         <p className={styles.p}>{nome}</p>
         <p className={styles.p}>
@@ -36,9 +37,7 @@ function CardTutor({ nome, srcFoto ,ano, lattes, mail, github, linkedin }) {
         <a href={linkedin} target="_blank" rel="noopener noreferrer">
           <FaLinkedin className={styles.icon} />
         </a>
-          <a href={mail} target="_blank" rel="noopener noreferrer">
-          <MdEmail className={styles.icon} />
-        </a>
+         
       </div>
       </div>
 
