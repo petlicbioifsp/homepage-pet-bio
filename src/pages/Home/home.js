@@ -6,6 +6,7 @@ import Title from "../../components/Home_title/Title";
 import Reveal from "../../components/Efeito Reveal/Reveal";
 import Button from "../../components/Home_button/Button";
 import ImgContender from "../../components/HomeImgContender/ImgContender";
+import ScrollArrow from '../../components/home_scroll_arrow/ScrollArrow.js';
 export default function Home() {
     return (
         <div className="home">
@@ -16,9 +17,9 @@ export default function Home() {
                     content="Programa de Educação Tutorial"
                 />
                 <ImgContender/>
-               
+                
             </div>
-            
+            <ScrollArrow />
             <Reveal>
                 <Info
                     title="Sobre o PET"
