@@ -30,6 +30,7 @@
 
 .processo-seletivo--titulo_secundario {
     color: var(--cor-azul__claro);
+    font-size: 32px;
 }
 
 .processo-seletivo--titulo_secundario::before {
@@ -40,8 +41,10 @@
 .processo-seletivo--info_importante {
     margin-left: 30px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     column-gap: 20px;
+    row-gap: 20px;
     justify-content: space-evenly;
 }
 
@@ -59,4 +62,31 @@
     align-self: center;
     font-size: 2.5em;
     cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .processo-seletivo--cabecalho {
+        margin: 0px 60px;
+    }
+    .processo-seletivo--corpo_informacoes {
+        margin: 0 60px;
+    }
+}
+
+@media (max-width: 950px) {
+    .processo-seletivo--cabecalho {
+        margin: 0px 50px;
+    }
+    .processo-seletivo--corpo_informacoes {
+        margin: 0 50px;
+    }
+}
+
+@media (max-width: 300px) {
+    .processo-seletivo--cabecalho {
+        margin: 0px 40px;
+    }
+    .processo-seletivo--corpo_informacoes {
+        margin: 0 40px;
+    }
 }
