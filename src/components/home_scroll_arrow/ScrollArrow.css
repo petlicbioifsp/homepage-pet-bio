@@ -15,7 +15,7 @@
 .scroll-arrow.visible {
     opacity: 1;
     visibility: visible;
-    transform: rotate(45deg);
+    /* transform: rotate(45deg); */
 }
 
 .arrow {
@@ -24,7 +24,7 @@
     height: 20px;
     border-bottom: 4px solid var(--cor-texto__claro);
     border-right: 4px solid var(--cor-texto__claro);
-    transform: rotate(45deg);
+    /* transform: rotate(45deg); */
     transition: border-color 0.3s, transform 0.3s;
     animation: bounce 1s infinite;
 }
@@ -35,22 +35,21 @@
 
 @keyframes bounce {
     0% {
-        transform: translateY(0);
+        transform: translateY(0) rotate(45deg);
     }
 
     50% {
-        transform: translateY(-5px);
+        transform: translateY(-5px) rotate(45deg);
     }
 
     100% {
-        transform: translateY(0);
+        transform: translateY(0) rotate(45deg);
     }
 }
 
 @media (max-width: 767px) {
-
     .scroll-arrow {
         right: 50%;
-        transform: translateX(20%);
+        transform: translateY(20%);
     }
 }
