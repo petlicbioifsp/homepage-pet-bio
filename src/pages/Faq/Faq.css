@@ -42,3 +42,30 @@ body{
     color: var(--cor-background);
     text-align: left;
 }
+
+@media (max-width: 1200px) {
+    .Collapsible__trigger{
+        margin: 0px 60px;
+    }
+    .Collapsible__contentInner{
+        margin: 0px 60px;
+    }
+}
+
+@media (max-width: 950px) {
+    .Collapsible__trigger{
+        margin: 0px 50px;
+    }
+    .Collapsible__contentInner{
+        margin: 0px 50px;
+    }
+}
+
+@media (max-width: 300px) {
+    .Collapsible__trigger{
+        margin: 0px 40px;
+    }
+    .Collapsible__contentInner{
+        margin: 0px 40px;
+    }
+}
