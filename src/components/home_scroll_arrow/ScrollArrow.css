@@ -1,7 +1,7 @@
 .scroll-arrow {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 50%;
     z-index: 999;
     opacity: 0;
     visibility: hidden;
@@ -15,6 +15,7 @@
 .scroll-arrow.visible {
     opacity: 1;
     visibility: visible;
+    transform: rotate(45deg);
 }
 
 .arrow {
@@ -43,5 +44,13 @@
 
     100% {
         transform: translateY(0);
+    }
+}
+
+@media (max-width: 767px) {
+
+    .scroll-arrow {
+        right: 50%;
+        transform: translateX(20%);
     }
 }
