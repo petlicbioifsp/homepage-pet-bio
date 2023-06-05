@@ -36,7 +36,7 @@ export default function Equipe() {
           {tutores.map((tutor) => (
             <CardTutor
             key={tutor.id}
-            nome={tutor.nome}
+            nome={tutor.nomeTutor}
             srcFoto={tutor.foto}
             ano={tutor.ano}
             />

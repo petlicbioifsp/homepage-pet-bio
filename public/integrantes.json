@@ -3,16 +3,16 @@
     {
       "id": "1",
       "nome": "Lucas Sigoli",
-      "foto": "./fotos_alunos/nicolas.jpg",
+      "foto": "./fotos_alunos/sigoli.png",
       "tipo": "bolsista",
       "ano": "2023",
-      "github": "https://github.com/lucasigoli",
+      "github": "https://github.com/LVSigoli",
       "linkedin": "https://linkedin.com/in/lucasigoli"
     },
     {
       "id": "2",
       "nome": "Otávio Lopes",
-      "foto": "./fotos_alunos/nicolas.jpg",
+      "foto": "./fotos_alunos/tata.png",
       "tipo": "bolsista",
       "ano": "2022",
       "github": "https://github.com/otaviopl",
@@ -30,7 +30,7 @@
     {
       "id": "4",
       "nome": "Bianca Carvalio Antonietti",
-      "foto": "./fotos_alunos/nicolas.jpg",
+      "foto": "./fotos_alunos/bianca.jpeg",
       "tipo": "bolsista",
       "ano": "2022",
       "github": "https://github.com/biankyrou",
@@ -39,7 +39,7 @@
     {
       "id": "5",
       "nome": "Gabriel Zanotim Manhani",
-      "foto": "./fotos_alunos/nicolas.jpg",
+      "foto": "./fotos_alunos/gabriel.jpeg",
       "tipo": "bolsista",
       "ano": "2023",
       "github": "https://github.com/gabrmanh",
@@ -57,7 +57,7 @@
     {
       "id": "7",
       "nome": "Laura Ranucci Luchiari",
-      "foto": "./fotos_alunos/nicolas.jpg",
+      "foto": "./fotos_alunos/laura.jpeg",
       "tipo": "bolsista",
       "ano": "2022",
       "github": "https://github.com/lauraluch",
@@ -66,7 +66,7 @@
     {
       "id": "8",
       "nome": "Bárbara Branco Gasques",
-      "foto": "./fotos_alunos/nicolas.jpg",
+      "foto": "./fotos_alunos/barbara.jpeg",
       "tipo": "bolsista",
       "ano": "2023",
       "github": "https://github.com/BBranco97",
@@ -84,7 +84,7 @@
     {
       "id": "10",
       "nome": "Fábio Seyiji Igarashi Anno",
-      "foto": "./fotos_alunos/nicolas.jpg",
+      "foto": "./fotos_alunos/fabio.jpeg",
       "tipo": "bolsista",
       "ano": "2022",
       "github": "https://github.com/Fabio270",
@@ -93,7 +93,7 @@
     {
       "id": "11",
       "nome": "Saulo Fernando Soares Mania",
-      "foto": "./fotos_alunos/nicolas.jpg",
+      "foto": "./fotos_alunos/saulo.jpeg",
       "tipo": "bolsista",
       "ano": "2023",
       "github": "https://github.com/SauloFernando99",
@@ -106,12 +106,20 @@
       "nome": "Paulo",
       "foto": "./fotos_alunos/aiai.jpg",
       "anos": "2019-2023"
+    },{
+      "id":"12",
+      "nome": "Julia Silva",
+      "foto":"./fotos_alunos/nicolas.jpg",
+      "tipo": "bolsista",
+      "anos" :"2019-2023",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com"
     }
   ],
   "tutores": [
     {
-      "nome": "Lucas Oliveira",
-      "foto": "./fotos_tutores/yoda.jpg",
+      "nomeTutor": "Lucas Oliveira",
+      "foto": "./fotos_tutores/lucas.jpg",
       "ano": "2023"
     }
   ]

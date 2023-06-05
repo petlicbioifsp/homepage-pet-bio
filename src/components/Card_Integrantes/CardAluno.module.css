@@ -11,10 +11,13 @@
     padding-left: 8px;
     padding-right: 10px;
     border-radius: 10px;
-    width: 180px;
+    width: 160px;
+    height: 328px;
     
 }
-
+.descricao{
+    display: block;
+}
 .img:hover {
     filter: saturate(100%);
     transform: scale(1.1);
@@ -37,11 +40,14 @@ p {
 }
 
 .iconsContainer {  
-    display: flex;
-    flex-direction: row;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto 3px;
 }
 
 .icon {
+    
     height: 30px;
     width: 32px;
     padding: 10px;

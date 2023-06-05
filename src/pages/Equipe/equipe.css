@@ -1,35 +1,40 @@
-.equipe--corpo{
+.equipe--corpo {
     background-color: var(--cor-background);
-}
-
-.equipe--titulo{
+  }
+  
+  .equipe--titulo {
     font-size: 32px;
     color: var(--cor-azul__claro);
     text-align: center;
     padding-top: 80px;
-}
-
-
-.equipe--tutores {
-    display: flex;
-    flex-direction: row;
-    column-gap: 80px;
-    row-gap: 80px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.equipe--alunos{
-    display: flex;
-    flex-direction: row;
-    column-gap: 45px;
-    row-gap: 45px;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 90px;
-    margin: 0px 100px;
-    margin-top: 50px;
-}
+  }
+  
+  .equipe--tutores,
+  .equipe--alunos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 18px;
+    justify-items: center;
+    padding: 30px;
+    margin: 120px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  @media (max-width: 1200px) {
+    .equipe--tutores,
+    .equipe--alunos {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .equipe--tutores,
+    .equipe--alunos {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
 .Collapsible__trigger{
     display: flex;
     flex-direction: row;
