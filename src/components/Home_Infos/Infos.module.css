@@ -8,43 +8,7 @@
 .text {
     text-align: justify;
     color: var(--cor-texto);
-    font-size: 20px;
+    font-size: 24px;
     margin-left: 5%;
-  }
-
-@media(max-width:1200px){
-    .text{
-        font-size: 18px;
-      }
-      .title{
-        font-size:20px ;
-      }
-  }
-  @media (max-width: 900px) {
-    .title{
-      font-size:18px;
-    }
-    .text{
-      font-size: 16px;
-    }
-  }
-
-@media(max-width:640px){
-    .text{
-        font-size: 18px;
-      }
-      .title{
-        font-size:20px ;
-      }
-
-  }
-
-
-@media(max-width:400px){
-  .text{
-    font-size: 12px;
-  }
-  .title{
-    font-size:16px ;
-  }
+    
   }

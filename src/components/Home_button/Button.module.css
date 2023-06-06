@@ -24,7 +24,7 @@
 
 @media(max-width:1200px){
   .btn{
-    margin-top: 5px;
+    margin-top: 15px;
   }
   .btn_contender{
     margin-left: 5%;
@@ -33,18 +33,18 @@
 
 @media(max-width:640px){
   .btn{
-    padding:10px;
-    margin-top: 10px;
-    margin-bottom: 14px;
+    padding:12px;
+    margin-top: 12px;
+    margin-bottom: 18px;
   }
 
 }
 
 @media(max-width:400px){
   .btn{
-    padding:4px;
-    margin-top: 4px;
+    padding:8px;
+    margin-top: 8px;
     margin-bottom: 6px;
-    font-size: 12px;
+    font-size: 16px;
   }
 }
