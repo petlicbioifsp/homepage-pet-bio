@@ -1,0 +1,49 @@
+{
+    "faqs": [
+      {
+        "id": "1",
+        "trigger": " Quais as responsabilidades de um membro do PET?",
+        "resposta": "Os membros precisam se dedicar integralmente às atividades acadêmicas do grupo, além de suas atividades acadêmicas regulares. As atividades do grupo são definidas pelo tutor, e podem incluir o desenvolvimento de planos de estudos, a criação de atividades de extensão com membros da comunidade acadêmica e a implementação de projetos internos ao PET, entre outras.\n As responsabilidades dos membros do PET estão descritas em maior detalhe no Edital(link)."
+      },
+      {
+        "id": "2",
+        "trigger": " Como eu entro no PET?",
+        "resposta": "Para se juntar ao PET, você deve ser aluno de ADS no IFSP/SC e passar pelo processo seletivo. Em cada processo seletivo, é selecionado uma quantidade de novos entrantes correspondente à quantidade de vagas disponíveis."
+      },
+      {
+        "id": "3",
+        "trigger": " Um aluno de BES pode participar do PET de ADS?",
+        "resposta": "Infelizmente, o PET de ADS é reservado para alunos do curso de ADS."
+      },
+      {
+        "id": "4",
+        "trigger": " Quanto vale a bolsa do PET?",
+        "resposta": "Atualmente, a bolsa é de R$700 mensais."
+      },
+      {
+        "id": "5",
+        "trigger": " Quando é o próximo processo seletivo?",
+        "resposta": "Os processos seletivos acontecem, de modo geral, duas vezes por ano. Não podemos te dizer exatamente quando será o próximo, mas fique de olho aqui na página (e no seu e-mail institucional)!"
+      },
+      {
+        "id": "6",
+        "trigger": " Como funcionam os processos seletivos?",
+        "resposta": "O processo seletivo é realizado em duas fases, contendo uma prova e uma entrevista. Dependendo da sua colocação, é possível entrar no PET como bolsista ou voluntário. Confira a página Processo Seletivo(link) para mais detalhes."
+      },
+      {
+        "id": "7",
+        "trigger": " Qual a diferença entre voluntários e bolsistas?",
+        "resposta": "Ambos possuem as mesmas responsabilidades dentro do grupo, e realizam as mesmas atividades. A única diferença é o recebimento da bolsa."
+      },
+      {
+        "id": "8",
+        "trigger": " Um voluntário pode vir a receber bolsa?",
+        "resposta": "Sim! Os alunos que entrarem como voluntários terão a oportunidade de, caso ocorra a desistência de um bolsista, passarem a ser bolsistas. A \"ordem\" na qual a transferência do tipo de membro é realizada é baseada na colocação durante o processo seletivo."
+      },
+      {
+        "id": "9",
+        "trigger": " Quanto tempo dura a bolsa?",
+        "resposta": "A bolsa (e a participação no PET) tem duração máxima de 2 anos. Ao sair do PET, você também perde a bolsa."
+      }
+    ]
+}
