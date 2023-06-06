@@ -5,7 +5,6 @@ import Info from "../../components/Home_Infos/Infos";
 import Title from "../../components/Home_title/Title";
 import Reveal from "../../components/Efeito Reveal/Reveal";
 import Button from "../../components/Home_button/Button";
-import ImgContender from "../../components/HomeImgContender/ImgContender";
 import ScrollArrow from '../../components/home_scroll_arrow/ScrollArrow.js';
 import LogoPET from "../../components/LogoPET/LogoPET";
 export default function Home() {
@@ -15,7 +14,7 @@ export default function Home() {
                 <MenuNavegacao></MenuNavegacao>
                 <div className="headerContender">
                     <Title
-                        title="Bem-vindo à página do PET/ADS @IFSP São Carlos"
+                        title="Bem-vindo à página do PET/ADS @ IFSP São Carlos"
                         content="Programa de Educação Tutorial"/>  
                         <LogoPET/>
 

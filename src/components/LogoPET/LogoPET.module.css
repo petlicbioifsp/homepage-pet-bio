@@ -2,16 +2,19 @@
     margin-top: 0;
     width: 300px;
     height: auto;
-    position:relative;
-    left: 20%;
-    top: -15%;
+    position:static;
+    margin-left: 25%;
+    margin-top: -18%;
 
   }
 
   @media(min-width: 2000px) {
     .PETLogo{
-      margin-left: 5%;
-      margin-top: 0%;
+      position: static;
+      margin-top:-20%;
+      margin-left:25%;
+      margin-bottom: 0;
+
   
     }
     
@@ -21,8 +24,8 @@
     .PETLogo{
       width: 250px;
       height: auto;
-      margin-left: 0%;
-      margin-top: 0%
+      margin-left: 15%;
+      margin-top: -20%
     }
 
   }
@@ -32,8 +35,8 @@
   .PETLogo{
     width: 200px;
     height: auto;
-    margin-left: 5%;
-    margin-top: 3 %
+    margin-left: 25%;
+    margin-top: -20%;
   }
   
   }
@@ -41,7 +44,7 @@
     .PETLogo{
       width: 180px;
       height: auto;
-      margin-left: 3%;
+      margin-left: 20%;
       top: -13%;
     }
   }
@@ -50,8 +53,8 @@
     .PETLogo{
       width: 150px;
       height: auto;
-      margin-left:-20%;
-      margin-top:30%
+      margin-left:20%;
+      margin-top:20%
     }
   }
 
@@ -60,7 +63,6 @@
   .PETLogo{
     width: 120px;
     height: auto;
-    margin-left: -20%;
-    top: -5%;
+    margin-left: 20%;
   }
 }
