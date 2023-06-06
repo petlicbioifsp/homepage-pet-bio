@@ -16,7 +16,7 @@ export default function Home() {
                     <Title
                         title="Bem-vindo à página do PET/ADS @ IFSP São Carlos"
                         content="Programa de Educação Tutorial"/>  
-                        <LogoPET/>
+                    <LogoPET/>
 
                 </div>
 
