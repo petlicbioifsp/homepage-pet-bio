@@ -4,11 +4,13 @@ import CardAluno from "../../components/Card_Integrantes/CardAluno";
 import './equipe.css';
 import CardExAluno from '../../components/Card_Integrantes/CardExAlunos';
 import CardTutor from '../../components/Card_Integrantes/CardTutor';
+import ScrollArrow from './EQPScrollArrow';
 
 export default function Equipe() {
   const [alunos, setAlunos] = useState([]);
   const [tutores, setTutores] = useState([]);
-  const [exAlunos,setexAlunos] = useState([]);
+  const [exAlunos, setExAlunos] = useState([]);
+  const [showExAlunos, setShowExAlunos] = useState(false);
 
   useEffect(() => {
     const fetchIntegrantes = async () => {
@@ -17,7 +19,7 @@ export default function Equipe() {
         const data = await response.json();
         setAlunos(data.aluno);
         setTutores(data.tutores);
-        setexAlunos(data.exAlunos);
+        setExAlunos(data.exAlunos);
       } catch (error) {
         console.error('Ocorreu um erro ao obter os integrantes:', error);
       }
@@ -26,22 +28,24 @@ export default function Equipe() {
     fetchIntegrantes();
   }, []);
 
+  const toggleExAlunos = () => {
+    setShowExAlunos(!showExAlunos);
+  };
+
   return (
     <>
       <MenuNavegacao />
       <div className="equipe--corpo">
-        
         <h2 className="equipe--titulo">Integrantes</h2>
         <section className="equipe--alunos">
           {tutores.map((tutor) => (
             <CardTutor
-            key={tutor.id}
-            nome={tutor.nomeTutor}
-            srcFoto={tutor.foto}
-            ano={tutor.ano}
+              key={tutor.id}
+              nome={tutor.nomeTutor}
+              srcFoto={tutor.foto}
+              ano={tutor.ano}
             />
-            ))}
-            
+          ))}
           {alunos.map((aluno) => (
             <CardAluno
               key={aluno.id}
@@ -54,17 +58,22 @@ export default function Equipe() {
             />
           ))}
         </section>
-        <h2 className="equipe--titulo">Ex Integrantes</h2>
-        <section className="equipe--alunos">
-          {exAlunos.map((exAlunos) => (
-            <CardExAluno
-              key={exAlunos.id}
-              nome={exAlunos.nome}
-              srcFoto={exAlunos.foto}
-              anos={exAlunos.anos}
-            />
-          ))}
-        </section>
+        <h2 className="equipe--titulo" onClick={toggleExAlunos}>
+          Ex Integrantes
+        </h2>
+        {showExAlunos && (
+          <section className="equipe--alunos">
+            {exAlunos.map((exAluno) => (
+              <CardExAluno
+                key={exAluno.id}
+                nome={exAluno.nome}
+                srcFoto={exAluno.foto}
+                anos={exAluno.anos}
+              />
+            ))}
+          </section>
+        )}
+        <ScrollArrow />
       </div>
     </>
   );

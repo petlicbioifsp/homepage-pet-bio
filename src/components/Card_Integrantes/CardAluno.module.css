@@ -1,7 +1,8 @@
 .card {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    row-gap: 11px;
+    row-gap: 1px;
+    column-gap: 0px;
     align-items: center;
     justify-content: space-evenly;
     width: auto;
@@ -11,10 +12,11 @@
     padding-left: 8px;
     padding-right: 10px;
     border-radius: 10px;
-    width: 160px;
-    height: 328px;
-    
-}
+    height: 270px;
+    margin: 15px;
+    flex-basis: calc(100% / 6 - 100px); /* Largura de cada card */
+    max-width: calc(100% / 6 - 10px);
+  }
 .descricao{
     display: block;
 }
@@ -45,6 +47,19 @@ p {
     justify-content: center;
     margin-top: auto 3px;
 }
+@media (max-width: 1200px) {
+    .card {
+      flex-basis: calc(100% / 3 - 30px); /* 3 cards por linha em telas médias */
+      max-width: calc(100% / 3 - 30px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex-basis: calc(100% / 2 - 20px); /* 2 cards por linha em telas menores */
+      max-width: calc(100% / 2 - 20px);
+    }
+  }
 
 .icon {
     
