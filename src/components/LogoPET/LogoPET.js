@@ -1,4 +1,4 @@
-import Logo from '../../resources/Icon.PNG'
+import Logo from '../../resources/LogoPET.png'
 import styles from './LogoPET.module.css'
 
 function LogoPET(){

@@ -7,10 +7,45 @@
   padding: 5%;
   padding-bottom: 5%;
   margin-top: 4%;
-  align-items: flex-start;
+  align-items:flex-start;
+  justify-content: flex-start;
+  
 }
 .headerContender{
-  align-items: flex-start;
+  align-items:center;
   display: flex;
   flex-direction: row;
+  width: 80vw;
+  height: 100vh;
+  position: relative;
+  left: 5%;
+  margin-top:-5%;
+}
+
+@media (min-width: 1300px) {
+  .headerContender{
+    margin-top:-3%;
+    left: 8%;
+  }
+  
+}
+
+@media(max-width:1200px){
+  .headerContender{
+    left:8%;
+  }
+}
+
+@media(max-width:640px){
+  .headerContender{
+    left:-2%;
+    flex-direction: column;
+  }
+}
+
+@media(max-width:400px){
+  .headerContender{
+    left:-2%;
+    flex-direction: column;
+  }
 }

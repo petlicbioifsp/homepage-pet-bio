@@ -4,7 +4,7 @@ import LogoIFSP from '../LogoIFSP/LogoIFSP'
 function ImgContender(){
     return(
         <div className={styles.imgContender}>  
-        <LogoIFSP/>
+       {/* <LogoIFSP/>*/}
         <LogoPET/>                  
         </div>
     )

@@ -21,3 +21,30 @@
   align-items: center;
   margin-left: 10%;
 }
+
+@media(max-width:1200px){
+  .btn{
+    margin-top: 5px;
+  }
+  .btn_contender{
+    margin-left: 5%;
+  }
+}
+
+@media(max-width:640px){
+  .btn{
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+  }
+
+}
+
+@media(max-width:400px){
+  .btn{
+    padding:4px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    font-size: 12px;
+  }
+}

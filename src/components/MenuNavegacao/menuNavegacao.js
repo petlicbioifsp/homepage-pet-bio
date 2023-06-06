@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import './menuNavegacao.css';
+import LogoIFSP from '../LogoIFSP/LogoIFSP';
 export default function MenuNavegacao() {
     const [itemAtivo, setitemAtivo] = useState('');
     const localização = useLocation();
@@ -33,6 +34,7 @@ export default function MenuNavegacao() {
                     <NavLink to='/faq'className="menu-navegacao--link" onClick={() => handleClick('/faq')}>FAQ</NavLink>
                 </li>
             </ul>
+            <LogoIFSP/>
         </div>
     )
 }

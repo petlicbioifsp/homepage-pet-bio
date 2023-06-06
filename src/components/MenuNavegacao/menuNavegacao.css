@@ -38,9 +38,3 @@
     color: var(--cor-azul__claro);
     font-weight: bold;
 }
-.menu img{
-    padding: 2em;
-    margin-top: 3%;
-    margin-right: 3%;
-    color: var(--cor-azul__claro);
-}

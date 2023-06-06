@@ -7,6 +7,7 @@ import Reveal from "../../components/Efeito Reveal/Reveal";
 import Button from "../../components/Home_button/Button";
 import ImgContender from "../../components/HomeImgContender/ImgContender";
 import ScrollArrow from '../../components/home_scroll_arrow/ScrollArrow.js';
+import LogoPET from "../../components/LogoPET/LogoPET";
 export default function Home() {
     return (
         <div>
@@ -14,10 +15,9 @@ export default function Home() {
                 <MenuNavegacao></MenuNavegacao>
                 <div className="headerContender">
                     <Title
-                        title="Bem-vindo a página do PET/ADS IFSP São Carlos"
-                        content="Programa de Educação Tutorial"
-                    />
-                    <ImgContender />
+                        title="Bem-vindo à página do PET/ADS @IFSP São Carlos"
+                        content="Programa de Educação Tutorial"/>  
+                        <LogoPET/>
 
                 </div>
 
@@ -34,8 +34,7 @@ export default function Home() {
                     />
                     <Button
                         value="Processo Seletivo"
-                        to='/processo-seletivo'
-                    />
+                        to='/processo-seletivo'/>
                 </Reveal>
 
                 <Reveal>
@@ -56,6 +55,7 @@ export default function Home() {
                 </Reveal>
             </div>
             <ScrollArrow />
+
         </div>
     )
 }
