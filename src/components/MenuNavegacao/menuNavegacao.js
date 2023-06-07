@@ -17,6 +17,7 @@ export default function MenuNavegacao() {
 
     return (
         <div className='menu'>
+            <LogoIFSP/>
             <ul className='menu-navegacao'>
                 <li className={itemAtivo === '/' ? 'ativo' : ''}>
                     <NavLink to='/' className="menu-navegacao--link" onClick={() => handleClick('/')}>Home</NavLink>
@@ -34,7 +35,6 @@ export default function MenuNavegacao() {
                     <NavLink to='/faq'className="menu-navegacao--link" onClick={() => handleClick('/faq')}>FAQ</NavLink>
                 </li>
             </ul>
-            <LogoIFSP/>
         </div>
     )
 }

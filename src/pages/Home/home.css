@@ -16,7 +16,7 @@
   display: flex;
   width: 80%;
   height: 100vh;
-  margin-left: 5%;
+  margin-left: 8%;
   margin-top:0%;
 }
 
@@ -46,7 +46,7 @@
 
 @media(max-width:400px){
   .headerContender{
-    margin-left:-2%;
+    margin-left:4%;
     flex-direction: column;
   }
 }
