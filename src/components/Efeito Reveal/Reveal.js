@@ -12,7 +12,7 @@ function Reveal ({children, width}){
     }
     });
     return(
-        <section className={styles.homesection} ref ={ref} style={{position:'relative', width, overflow: 'hidden'}}>
+        <section className={styles.homesection} ref ={ref}  style={{position:'relative', width, overflow: 'hidden'}}>
             <motion.div
                 variants ={{
                     hidden: {opacity:0, x:75},

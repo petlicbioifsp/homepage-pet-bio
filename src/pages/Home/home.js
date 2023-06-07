@@ -27,21 +27,19 @@ export default function Home() {
 
     return (
         <div>
-                <div className={`scroll-arrow ${showArrow ? 'visible' : ''}`} onClick={scrollToSection}>
-                    <span className="arrow"></span>
-                </div>
+            <div className={`scroll-arrow ${showArrow ? 'visible' : ''}`} onClick={scrollToSection}>
+                <span className="arrow"></span>
+            </div>
             <div className="home">
                 <MenuNavegacao></MenuNavegacao>
                 <div className="headerContender">
                     <Title
                         title="Bem-vindo à página do PET/ADS @ IFSP São Carlos"
-                        content="Programa de Educação Tutorial"/>  
-                    <LogoPET/>
-
+                        content="Programa de Educação Tutorial" />
+                    <LogoPET />
                 </div>
-
+                <div ref={sectionRef}></div>
                 <Reveal>
-                    <div ref={sectionRef}></div>
                     <Info
                         title="Sobre o PET"
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
