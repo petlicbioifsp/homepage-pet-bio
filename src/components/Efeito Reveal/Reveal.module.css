@@ -4,38 +4,30 @@
     height: fit-content;
     min-width: 80vw;
     min-height: 80vh;
-    margin-bottom: 0;
-  justify-content: center;
-
+    justify-content: center;
   }
 
 @media (max-width:1400px){
-  .homesection{
-   margin-left: 5%;
-  }
+
 }
 
-@media(max-width:1200px){
-  .homesection{
-    width: 85vw;
-    margin-top: 10px;
-    margin-left: 1%;
-  }
-}
+@media(max-width:1200px){}
+
 
 @media(max-width:640px){
-    .homesection{
-      left: 2%;
-      margin-top: 10px;
-      margin-left: -1%;
-    }
+   
+ .homesection{
+
+  width: 450px;
+ }
 
   }
 
 
   @media(max-width:400px){
     .homesection{
-      width: 85vw;
-      margin-left: -1%;
+      margin-left: 5%;
+      width: 450px;
     }
+
   }

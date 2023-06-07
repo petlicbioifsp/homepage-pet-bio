@@ -35,8 +35,8 @@ export default function Home() {
                 <div className="headerContender">
                     <Title
                         title="Bem-vindo à página do PET/ADS @ IFSP São Carlos"
-                        content="Programa de Educação Tutorial" />
-                    <LogoPET />
+                        content="Programa de Educação Tutorial"/>  
+                    <LogoPET/>
 
                 </div>
 

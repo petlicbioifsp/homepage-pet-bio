@@ -2,7 +2,9 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import styles from './CardAluno.module.css';
 
-function CardAluno({ nome, srcFoto, ano, lattes, mail, github, linkedin }) {
+
+
+function CardAluno({ nome, srcFoto, ano, tipo,lattes, mail, github, linkedin }) {
   function Evento() {
     console.log('Teste do evento');
   }
@@ -20,7 +22,8 @@ function CardAluno({ nome, srcFoto, ano, lattes, mail, github, linkedin }) {
       <div className={styles.descricao}>
       <p className={styles.p}>{nome}</p>
         <p className={styles.p}>
-          <b>Ingresso:</b> {ano}
+          <b>Ingresso:</b> {ano}<br></br>
+          <b>Tipo:</b> {tipo}
         </p> 
       </div>
       <div className={styles.iconsContainer}>

@@ -1,58 +1,70 @@
 .equipe--corpo {
-    background-color: var(--cor-background);
-  }
-  
-  .equipe--titulo {
-    font-size: 32px;
-    color: var(--cor-azul__claro);
-    text-align: center;
-    padding-top: 80px;
-  }
-  
-  .equipe--tutores,
-  .equipe--alunos {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 18px;
-    justify-items: center;
-    padding: 30px;
-    margin: 120px;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-  
-  @media (max-width: 1200px) {
-    .equipe--tutores,
-    .equipe--alunos {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .equipe--tutores,
-    .equipe--alunos {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-.Collapsible__trigger{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: var(--cor-azul__medio);
-    font-size: 20px;
-    margin: 0px 80px;
-    text-indent: 10px;
-    padding: 15px;
-    cursor: pointer;
+  background-color: var(--cor-background);
 }
 
-.Collapsible__contentInner{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-    font-size: 17px;
-    margin: 0px 80px;
-    padding: 10px;
+.equipe--titulo {
+  font-size: 32px;
+  color: var(--cor-azul__claro);
+  text-align: center;
+  padding-top: 80px;
+}
+
+.equipe--tutores,
+.equipe--alunos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 10px;
+}
+
+.equipe--tutores > .card,
+.equipe--alunos > .card {
+  flex-basis: calc(100% / 6 - 10px); /* Largura de cada card */
+  max-width: calc(100% / 6 - 10px); /* Largura máxima de cada card */
+}
+
+@media (max-width: 1200px) {
+  .equipe--tutores > .card,
+  .equipe--alunos > .card {
+    flex-basis: calc(100% / 3 - 10px); /* Para 3 colunas em telas médias */
+    max-width: calc(100% / 3 - 10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .equipe--tutores > .card,
+  .equipe--alunos > .card {
+    flex-basis: calc(100% / 2 - 10px); /* Para 2 colunas em telas menores */
+    max-width: calc(100% / 2 - 10px);
+  }
+}
+
+.Collapsible__trigger {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: var(--cor-azul__medio);
+  font-size: 20px;
+  margin: 0 40px;
+  text-indent: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.Collapsible__contentInner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 17px;
+  margin: 0 40px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .Collapsible__trigger,
+  .Collapsible__contentInner {
+    margin: 0 20px;
+  }
 }

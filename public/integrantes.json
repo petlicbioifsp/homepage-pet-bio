@@ -99,6 +99,42 @@
       "github": "https://github.com/SauloFernando99",
       "linkedin": "https://www.linkedin.com/in/saulo-fernando-soares-mania-6ba606279/"
     }
+    ,{
+      "id": "12",
+      "nome": "Ana Lívia Hernandes da Motta",
+      "foto":"./fotos_alunos/ana.jpeg"
+      ,"ano":"2023",
+      "tipo":"Voluntário",
+      "github":"https://github.com/Analiviamotta",
+      "linkedin":"https://www.linkedin.com/in/ana-l%C3%ADvia-motta-75b529278/"
+    },
+    {
+      "id":"13",
+      "nome": "Eduardo Duarte Derisso",
+      "foto":"./fotos_alunos/aiai.jpg",
+      "ano": "2023",
+      "tipo":"bolsista",
+      "github":"https://github.com/EduDD125",
+      "linkedin": "https://www.linkedin.com/in/eduardo-duarte-derisso-858546205/"
+    },
+    {
+      "id":"14",
+      "nome": "Gabriel Gatti",
+      "foto":"./fotos_alunos/aiai.jpg",
+      "ano": "2023",
+      "tipo": "...",
+      "github": "...",
+      "linkedin":"..."
+    },
+    {
+      "id":"15",
+      "nome":"Lucas Silva de Almeida",
+      "foto":"./fotos_alunos/aiai.jpg",
+      "ano": "2023",
+      "tipo":"...",
+      "github":"...",
+      "linkedin":"..."
+    }
   ],
   "exAlunos": [
     {
