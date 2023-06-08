@@ -61,6 +61,27 @@
   margin: 0 40px;
   padding: 10px;
 }
+.collapsible {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.collapsible span {
+  margin-left: 100px;
+}
+
+.collapsible:hover {
+  color: blue;
+}
+
+.collapsible-open {
+  color: green;
+}
+
+.collapsible-trigger {
+  color: red;
+}
 
 @media (max-width: 768px) {
   .Collapsible__trigger,

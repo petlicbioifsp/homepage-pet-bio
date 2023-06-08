@@ -4,7 +4,10 @@ import CardAluno from "../../components/Card_Integrantes/CardAluno";
 import './equipe.css';
 import CardExAluno from '../../components/Card_Integrantes/CardExAlunos';
 import CardTutor from '../../components/Card_Integrantes/CardTutor';
-import ScrollArrow from './EQPScrollArrow';
+import CollapsibleTrigger from '../Equipe/CollapsibleTrigger';
+import CollapsibleOpen from '../Equipe/CollabsibleOpen';
+import Collapsible from 'react-collapsible';
+
 
 export default function Equipe() {
   const [alunos, setAlunos] = useState([]);
@@ -58,9 +61,11 @@ export default function Equipe() {
             />
           ))}
         </section>
-        <h2 className="equipe--titulo" onClick={toggleExAlunos}>
-          Ex Integrantes
-        </h2>
+        <h2 className="equipe--titulo">Ex Integrantes</h2>
+        <CollapsibleTrigger
+          text="Mostrar ex-integrantes"
+          onClick={toggleExAlunos}
+        />
         {showExAlunos && (
           <section className="equipe--alunos">
             {exAlunos.map((exAluno) => (
@@ -73,7 +78,6 @@ export default function Equipe() {
             ))}
           </section>
         )}
-        <ScrollArrow />
       </div>
     </>
   );
