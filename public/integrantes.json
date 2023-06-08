@@ -4,7 +4,7 @@
       "id": "1",
       "nome": "Lucas Sigoli",
       "foto": "./fotos_alunos/sigoli.png",
-      "tipo": "bolsista",
+      "tipo": "Bolsista",
       "ano": "2023",
       "github": "https://github.com/LVSigoli",
       "linkedin": "https://linkedin.com/in/lucasigoli"
@@ -13,7 +13,7 @@
       "id": "2",
       "nome": "Otávio Lopes",
       "foto": "./fotos_alunos/tata.png",
-      "tipo": "bolsista",
+      "tipo": "Bolsista",
       "ano": "2022",
       "github": "https://github.com/otaviopl",
       "linkedin": "https://www.linkedin.com/in/otávio-pereira-lopes-603432218/"
@@ -22,7 +22,7 @@
       "id": "3",
       "nome": "Noah Rissatti",
       "foto": "./fotos_alunos/nicolas.jpg",
-      "tipo": "bolsista",
+      "tipo": "Bolsista",
       "ano": "2022",
       "github": "https://github.com/NoahRissatti",
       "linkedin": "https://www.linkedin.com/in/noah-rissatti-452426255/"
@@ -31,7 +31,7 @@
       "id": "4",
       "nome": "Bianca Carvalio Antonietti",
       "foto": "./fotos_alunos/bianca.jpeg",
-      "tipo": "bolsista",
+      "tipo": "Bolsista",
       "ano": "2022",
       "github": "https://github.com/biankyrou",
       "linkedin": "https://www.linkedin.com/in/bianca-carvalio-antonietti-72381025a/"
@@ -40,7 +40,7 @@
       "id": "5",
       "nome": "Gabriel Zanotim Manhani",
       "foto": "./fotos_alunos/gabriel.jpeg",
-      "tipo": "bolsista",
+      "tipo": "Bolsista",
       "ano": "2023",
       "github": "https://github.com/gabrmanh",
       "linkedin": "https://www.linkedin.com/in/gabriel-zanotim-manhani/"
@@ -49,7 +49,7 @@
       "id": "6",
       "nome": "Luiz Antonio Chiquetano",
       "foto": "./fotos_alunos/nicolas.jpg",
-      "tipo": "bolsista",
+      "tipo": "Bolsista",
       "ano": "2023",
       "github": "https://github.com/luiz-chiq",
       "linkedin": "https://www.linkedin.com/in/luiz-chiquetano/"
@@ -58,7 +58,7 @@
       "id": "7",
       "nome": "Laura Ranucci Luchiari",
       "foto": "./fotos_alunos/laura.jpeg",
-      "tipo": "bolsista",
+      "tipo": "Bolsista",
       "ano": "2022",
       "github": "https://github.com/lauraluch",
       "linkedin": "https://www.linkedin.com/in/laura-ranucci-luchiari"
@@ -67,7 +67,7 @@
       "id": "8",
       "nome": "Bárbara Branco Gasques",
       "foto": "./fotos_alunos/barbara.jpeg",
-      "tipo": "bolsista",
+      "tipo": "Bolsista",
       "ano": "2023",
       "github": "https://github.com/BBranco97",
       "linkedin": "https://www.linkedin.com/in/b%C3%A1rbara-branco-gasques-70710320a/"
@@ -75,8 +75,8 @@
     {
       "id": "9",
       "nome": "Vitor Alves Bonelli",
-      "foto": "./fotos_alunos/nicolas.jpg",
-      "tipo": "bolsista",
+      "foto": "./fotos_alunos/vitor.png",
+      "tipo": "Bolsista",
       "ano": "2021",
       "github": "https://github.com/Vitor5bonelli",
       "linkedin": "https://www.linkedin.com/in/vitor-bonelli-580b63243/"
@@ -85,7 +85,7 @@
       "id": "10",
       "nome": "Fábio Seyiji Igarashi Anno",
       "foto": "./fotos_alunos/fabio.jpeg",
-      "tipo": "bolsista",
+      "tipo": "Bolsista",
       "ano": "2022",
       "github": "https://github.com/Fabio270",
       "linkedin": "https://www.linkedin.com/in/seyijifabio/"
@@ -94,7 +94,7 @@
       "id": "11",
       "nome": "Saulo Fernando Soares Mania",
       "foto": "./fotos_alunos/saulo.jpeg",
-      "tipo": "bolsista",
+      "tipo": "Bolsista",
       "ano": "2023",
       "github": "https://github.com/SauloFernando99",
       "linkedin": "https://www.linkedin.com/in/saulo-fernando-soares-mania-6ba606279/"
@@ -113,7 +113,7 @@
       "nome": "Eduardo Duarte Derisso",
       "foto":"./fotos_alunos/aiai.jpg",
       "ano": "2023",
-      "tipo":"bolsista",
+      "tipo":"Bolsista",
       "github":"https://github.com/EduDD125",
       "linkedin": "https://www.linkedin.com/in/eduardo-duarte-derisso-858546205/"
     },
@@ -131,7 +131,7 @@
       "nome":"Lucas Silva de Almeida",
       "foto":"./fotos_alunos/aiai.jpg",
       "ano": "2023",
-      "tipo":"...",
+      "tipo":"Voluntário",
       "github":"...",
       "linkedin":"..."
     }

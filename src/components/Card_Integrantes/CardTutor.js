@@ -20,7 +20,7 @@ function CardTutor({ nome, srcFoto ,ano, lattes, mail, github, linkedin }) {
         src={srcFoto}
         alt={altFoto}
       />
-      <p>Tutor</p>
+      <strong><p>Tutor</p></strong>
       <div className={styles.descricao}>
         <p className={styles.p}>{nome}</p>
         <p className={styles.p}>
