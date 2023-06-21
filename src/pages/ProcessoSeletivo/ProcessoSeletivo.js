@@ -1,17 +1,17 @@
-import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
-import Info from "./SubComponentes/Info"
-import Etapa from './SubComponentes/Etapa';
-import './ProcessoSeletivo.css'
+import { AiFillEdit } from 'react-icons/ai';
 import { GiSchoolBag } from 'react-icons/gi';
-import { AiFillEdit } from 'react-icons/ai'
+import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
+import './ProcessoSeletivo.css';
+import Etapa from './SubComponentes/Etapa';
+import Info from "./SubComponentes/Info";
 
 function ProcessoSeletivo() {
     return (
         <div>
-            <MenuNavegacao></MenuNavegacao>
+            <MenuNavegacao />
             <div className="processo-seletivo--corpo">
                 <div className="processo-seletivo--cabecalho">
-                    <h1 className="processo-seletivo--titulo">Processo Seletivo 2023/2</h1>
+                    <h1 className="processo-seletivo--titulo">Processo Seletivo</h1>
                     <p className="processo-seletivo--texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus illo reiciendis consectetur, illum nesciunt molestias eius delectus veniam dolores necessitatibus fuga quia iure aut commodi et cum laboriosam suscipit adipisci.</p>
                 </div>
                 <section className="processo-seletivo--corpo_informacoes">

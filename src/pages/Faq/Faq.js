@@ -14,9 +14,7 @@ export default function Faq() {
       try {
         const response = await fetch('./faq.json');
         const data = await response.json();
-
         setFaq(data.faqs);
-        console.log(data.faqs)
       } catch (error) {
         console.error('Ocorreu um erro ao obter o FAQ:', error);
       }
@@ -27,7 +25,7 @@ export default function Faq() {
   return (
 
     <body>
-      <MenuNavegacao></MenuNavegacao>
+      <MenuNavegacao />
 
       <h2 className="faq-titulo">Perguntas frequentes</h2>
       <section className="faq--caixa__perguntas">
