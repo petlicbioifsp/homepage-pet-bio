@@ -1,12 +1,12 @@
-body{
-    background-color:var(--cor-background);
+body {
+    background-color: var(--cor-background);
 }
 
-.faq--caixa__perguntas{
+.faq--caixa__perguntas {
     margin-bottom: 40px;
 }
 
-.faq-titulo{
+.faq-titulo {
     font-size: 32px;
     color: var(--cor-azul__claro);
     text-align: center;
@@ -14,13 +14,13 @@ body{
     margin-bottom: 40px;
 }
 
-.Collapsible__trigger{
+.Collapsible__trigger {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: var(--cor-azul__medio);
     color: var(--cor-azul__claro);
-    font-size: 20px;
+    font-size: 18px;
     margin: 0px 80px;
     border-bottom: 2px solid var(--cor-azul__claro);
     text-indent: 10px;
@@ -28,7 +28,7 @@ body{
     cursor: pointer;
 }
 
-.Collapsible__contentInner{
+.Collapsible__contentInner {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -38,34 +38,37 @@ body{
     padding: 10px;
 }
 
-.faq-resposta{
+.faq-resposta {
     color: var(--cor-background);
     text-align: left;
 }
 
 @media (max-width: 1200px) {
-    .Collapsible__trigger{
+    .Collapsible__trigger {
         margin: 0px 60px;
     }
-    .Collapsible__contentInner{
+
+    .Collapsible__contentInner {
         margin: 0px 60px;
     }
 }
 
 @media (max-width: 950px) {
-    .Collapsible__trigger{
+    .Collapsible__trigger {
         margin: 0px 50px;
     }
-    .Collapsible__contentInner{
+
+    .Collapsible__contentInner {
         margin: 0px 50px;
     }
 }
 
 @media (max-width: 300px) {
-    .Collapsible__trigger{
+    .Collapsible__trigger {
         margin: 0px 40px;
     }
-    .Collapsible__contentInner{
+
+    .Collapsible__contentInner {
         margin: 0px 40px;
     }
 }
