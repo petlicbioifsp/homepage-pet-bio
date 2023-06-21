@@ -19,24 +19,30 @@
   gap: 10px;
 }
 
-.equipe--tutores > .card,
-.equipe--alunos > .card {
-  flex-basis: calc(100% / 6 - 10px); /* Largura de cada card */
-  max-width: calc(100% / 6 - 10px); /* Largura máxima de cada card */
+.equipe--tutores>.card,
+.equipe--alunos>.card {
+  flex-basis: calc(100% / 6 - 10px);
+  /* Largura de cada card */
+  max-width: calc(100% / 6 - 10px);
+  /* Largura máxima de cada card */
 }
 
 @media (max-width: 1200px) {
-  .equipe--tutores > .card,
-  .equipe--alunos > .card {
-    flex-basis: calc(100% / 3 - 10px); /* Para 3 colunas em telas médias */
+
+  .equipe--tutores>.card,
+  .equipe--alunos>.card {
+    flex-basis: calc(100% / 3 - 10px);
+    /* Para 3 colunas em telas médias */
     max-width: calc(100% / 3 - 10px);
   }
 }
 
 @media (max-width: 768px) {
-  .equipe--tutores > .card,
-  .equipe--alunos > .card {
-    flex-basis: calc(100% / 2 - 10px); /* Para 2 colunas em telas menores */
+
+  .equipe--tutores>.card,
+  .equipe--alunos>.card {
+    flex-basis: calc(100% / 2 - 10px);
+    /* Para 2 colunas em telas menores */
     max-width: calc(100% / 2 - 10px);
   }
 }
@@ -61,6 +67,7 @@
   margin: 0 40px;
   padding: 10px;
 }
+
 .collapsible {
   cursor: pointer;
   display: flex;
@@ -84,6 +91,7 @@
 }
 
 @media (max-width: 768px) {
+
   .Collapsible__trigger,
   .Collapsible__contentInner {
     margin: 0 20px;
