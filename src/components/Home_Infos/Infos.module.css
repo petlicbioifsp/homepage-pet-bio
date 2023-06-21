@@ -1,15 +1,16 @@
-.title{
+.title {
     margin: 0px;
-    font-size:32px;
+    margin-bottom: 30px;
+    font-size: 32px;
     color: var(--cor-texto);
     margin-left: 5%;
-    
 }
 
 .text {
     text-align: justify;
     color: var(--cor-texto);
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 5%;
-    
-  }
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
