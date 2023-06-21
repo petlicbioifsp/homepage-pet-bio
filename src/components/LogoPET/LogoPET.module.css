@@ -1,52 +1,41 @@
 .PETLogo {
   width: 300px;
-  height: auto;
+  height: 120px;
   position: static;
-  margin-left: 25%;
-  margin-top: -20%;
+  margin-top: 3%;
+  margin-left: 10%;
 }
 
 @media (min-width: 2000px) {
   .PETLogo {
-    margin-top: -20%;
+    margin-top: 2%;
   }
 }
 
-@media (max-width: 1400px) {
-  .PETLogo {
-    width: 250px;
-    margin-left: 25%;
-    margin-top: -20%;
+@media (max-width: 1200px)
+{
+  .PETLogo{
+    height: auto;
+
+    margin-top: 5%;
+    margin-left:25%;
   }
 }
 
-@media (max-width: 1200px) {
-  .PETLogo {
-    width: 200px;
-    margin-left: -30%;
-    margin-top: 45%;
+@media (max-width: 950px)
+{
+  .PETLogo{
+    margin-left:20%;
   }
 }
-
-@media (max-width: 900px) {
-  .PETLogo {
-    width: 180px;
-    margin-left: -20%;
-    margin-top: 60%;
+@media (max-width:480px){
+  .PETLogo{
+    margin-left:35%
   }
-}
 
-@media (max-width: 640px) {
-  .PETLogo {
-    width: 150px;
-    margin-left: 30%;
-    margin-top: -5%;
-  }
 }
-
-@media (max-width: 400px) {
-  .PETLogo {
-    width: 120px;
-    margin-left: 80%;
+@media (max-width: 300px){
+  .PETLogo{
+    margin-left: 50%;
   }
 }

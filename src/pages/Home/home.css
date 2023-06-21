@@ -1,55 +1,23 @@
+
 .home {
   background-color: var(--cor-background);
-  width: auto;
-  height: auto;
+  padding: 5%;
   display: flex;
   flex-direction: column;
-  padding: 5%;
   align-items:flex-start;
-  justify-content: flex-start;
-  margin-bottom: 0;
-  margin-top: 0;
   
 }
 .headerContender{
   align-items:center;
   display: flex;
-  width: 80%;
+  width: 80vw;
   height: 100vh;
-  margin-left: 8%;
-  margin-top:0%;
+  margin-left: 10%;
+  margin-top: -5%;
+  margin-bottom: 5%;
+
 }
 
-@media (max-width: 1400px) {
-  .headerContender{
-    margin-top:-3%;
-    margin-left: 8%;
-  }
-  
-}
-
-@media(max-width:1200px){
-  .headerContender{
-    margin-top: -10%;
-    margin-left:8%;
-  }
-}
-
-
-
-@media(max-width:640px){
-  .headerContender{
-    margin-left:-5%;
-    flex-direction: column;
-  }
-}
-
-@media(max-width:400px){
-  .headerContender{
-    margin-left:4%;
-    flex-direction: column;
-  }
-}
 
 .scroll-arrow {
   position: fixed;
@@ -99,10 +67,83 @@
       transform: translateY(0) rotate(45deg);
   }
 }
+@media (min-width: 2000px) {
+  .headerContender{
+    margin-left: 25%;
+  }
+}
+@media (min-width: 1900px){
+  .headerContender{
+    margin-left: 20%;
+  }
 
-@media (max-width: 767px) {
+}
+@media (min-width: 1600px) and (max-width: 1899px){
+  .headerContender{
+      margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+ .headerContender{
+  margin-left: 23%;
+  width: 48%;
+  margin-top: -5%;
+}
+}
+
+@media (max-width: 950px)
+{
+  .home{
+    margin: auto;
+  }
+  .headerContender{
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 768px) {
   .scroll-arrow {
       right: 50%;
       transform: translateY(20%);
   }
+  .headerContender {
+    width: 90vw;
+    margin-left: 8%;
+    margin-top: -3%;
+  }
 }
+
+@media (max-width: 576px) {
+  .home {
+    padding: 50px;
+  }
+
+  .headerContender {
+    width: 90vw;
+    margin-left: -8%;
+    margin-top: -3%;
+  }
+}
+@media (max-width:480px){
+.headerContender{
+  margin-left: -15%;
+}  
+}
+
+@media (max-width: 400px)
+{
+  .headerContender{
+    margin-left: -35%;
+  }
+ .scroll-arrow.visible{
+  visibility: hidden;
+ }
+}
+@media(max-width:300px){
+  .headerContender{
+    margin-top: 60%;
+    margin-left: -20%;
+  }
+}
+

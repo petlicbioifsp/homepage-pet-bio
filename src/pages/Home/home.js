@@ -5,7 +5,6 @@ import Info from "../../components/Home_Infos/Infos";
 import Title from "../../components/Home_title/Title";
 import Reveal from "../../components/Efeito Reveal/Reveal";
 import Button from "../../components/Home_button/Button";
-import LogoPET from "../../components/LogoPET/LogoPET";
 export default function Home() {
     const [showArrow, setShowArrow] = useState(true);
 
@@ -36,7 +35,7 @@ export default function Home() {
                     <Title
                         title="Bem-vindo à página do PET/ADS @ IFSP São Carlos"
                         content="Programa de Educação Tutorial" />
-                    <LogoPET />
+
                 </div>
                 <div ref={sectionRef}></div>
                 <Reveal>
@@ -57,8 +56,9 @@ export default function Home() {
                 </Reveal>
 
                 <Reveal>
+                    
                     <Info
-                        title="Proposito"
+                        title="Propósito do PET/ADS"
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Aenean magna quam, aliquet id tortor a, facilisis faucibus erat. Nunc pretium tempor commodo. 
                     Sed egestas, tortor id tincidunt pretium, nulla lectus molestie quam, in ornare elit magna et lacus.

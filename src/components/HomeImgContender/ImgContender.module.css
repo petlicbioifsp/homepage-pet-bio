@@ -1,16 +1,22 @@
 .imgContender{
     display: flex;
-    position :relative;
+    position :static;
     align-items: center;
-    padding-top: 3.5%;
-    margin-top: 0;
-    margin-bottom: 0;
-    width: auto;
-    height: auto;
+    max-width:400px;
     max-height: 20%;
-    left:20%;
-    top:-15%;
+    margin: auto;
   }
+
+  
+  @media (max-width: 1200px)
+  {
+    .imgContender{
+      margin-top: 30%;
+      margin-left: -35%;
+      width: 200px;
+    }
+  }
+
 
   @media(max-width:400px){
     .imgContender{
