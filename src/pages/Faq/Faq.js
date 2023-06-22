@@ -23,11 +23,9 @@ export default function Faq() {
   }, []);
 
   return (
-
     <body>
       <MenuNavegacao />
-
-      <h2 className="faq-titulo">Perguntas frequentes</h2>
+      <h2 className="faq-titulo">Perguntas Frequentes</h2>
       <section className="faq--caixa__perguntas">
 
         {arrFaq.map((faqs) => (
@@ -37,12 +35,9 @@ export default function Faq() {
           >
             <p className="faq-resposta">{faqs.resposta}</p>
           </Collapsible>
-
         ))}
 
       </section>
-
-
     </body>
   )
 }
