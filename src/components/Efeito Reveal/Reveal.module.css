@@ -31,7 +31,7 @@
   @media (max-width:480px){
     .homesection{
       margin:auto;
-      width:90vw;
+      width:100%;
       margin-bottom:35%;
 
     }  
@@ -40,8 +40,8 @@
     @media (max-width: 400px)
     {
       .homesection{
-        width: 200%;
-        margin-left:-20%;
+        width: 150%;
+        margin-left:0%;
         margin-bottom: 60%;
     
       }

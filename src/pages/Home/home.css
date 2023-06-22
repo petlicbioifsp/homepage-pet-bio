@@ -12,9 +12,11 @@
   display: flex;
   width: 80vw;
   height: 100vh;
-  margin-left: 10%;
-  margin-top: -5%;
+  margin-left: 15%;
+  margin-top: 0%;
   margin-bottom: 5%;
+
+  justify-content:space-between;
 
 }
 
@@ -69,10 +71,10 @@
 }
 @media (min-width: 2000px) {
   .headerContender{
-    margin-left: 25%;
+    margin-left: 20%;
   }
 }
-@media (min-width: 1900px){
+@media (min-width: 1900px) and (max-width:1999px){
   .headerContender{
     margin-left: 20%;
   }
@@ -94,11 +96,8 @@
 
 @media (max-width: 950px)
 {
-  .home{
-    margin: auto;
-  }
   .headerContender{
-    margin-left: 20%;
+    margin-left: 15%;
   }
 }
 
@@ -109,10 +108,12 @@
   }
   .headerContender {
     width: 90vw;
-    margin-left: 8%;
+    margin-left: 0%;
     margin-top: -3%;
   }
 }
+
+
 
 @media (max-width: 576px) {
   .home {
@@ -121,20 +122,23 @@
 
   .headerContender {
     width: 90vw;
-    margin-left: -8%;
+    margin-left: 0%;
     margin-top: -3%;
   }
 }
-@media (max-width:480px){
+@media (max-width:490px){
 .headerContender{
-  margin-left: -15%;
+  margin-left: -25%;
 }  
+.scroll-arrow.visible{
+  visibility: hidden;
+}
 }
 
 @media (max-width: 400px)
 {
   .headerContender{
-    margin-left: -35%;
+    margin-left: -25%;
   }
  .scroll-arrow.visible{
   visibility: hidden;
