@@ -1,0 +1,38 @@
+.title {
+    margin: 0px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: var(--cor-texto);
+}
+
+.text {
+    text-align: justify;
+    color: var(--cor-texto);
+    flex-wrap: wrap;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+    justify-self: center;
+}
+@media screen and (max-width:453px){
+    .title{
+        font-size: 150%;
+    }
+    .text{
+        width: fit-content;
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width:320px){
+
+    .title {
+        font-size: 120%;
+        margin-bottom: 15px;
+    }
+    
+    .text {
+        font-size: 90%;
+        }
+}

@@ -1,6 +1,6 @@
+import styles from './Reveal.module.css'
 import { useEffect, useRef } from "react";
 import {motion, useInView, useAnimation} from 'framer-motion';
-import styles from './Reveal.module.css'
 
 function Reveal ({children, width}){
     const ref = useRef(null);
@@ -14,6 +14,7 @@ function Reveal ({children, width}){
     return(
         <section className={styles.homesection} ref ={ref}  style={{position:'relative', width, overflow: 'hidden'}}>
             <motion.div
+                className={styles.container}
                 variants ={{
                     hidden: {opacity:0, x:75},
                     visible: {opacity:1, x:0},

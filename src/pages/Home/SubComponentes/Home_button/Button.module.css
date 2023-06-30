@@ -1,4 +1,5 @@
 .btn {
+  display: flex;
   width: auto;
   background-color: var(--cor-azul__claro);
   color: var(--cor-background);
@@ -20,32 +21,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 10%;
+  justify-content: flex-start;
+  align-self: center;
 }
-
-@media(max-width:1200px){
-  .btn{
-    margin-top: 15px;
-  }
+@media screen and (max-width:770px){
   .btn_contender{
-    margin-left: 5%;
+    margin-bottom: 25%;
   }
 }
-
-@media(max-width:640px){
+@media screen and (max-width:320px) {
   .btn{
     padding:12px;
-    margin-top: 12px;
-    margin-bottom: 18px;
-  }
-
-}
-
-@media(max-width:400px){
-  .btn{
-    padding:8px;
-    margin-top: 8px;
-    margin-bottom: 6px;
-    font-size: 16px;
+    font-size: 12px;
   }
 }

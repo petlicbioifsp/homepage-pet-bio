@@ -1,0 +1,57 @@
+
+.scroll-arrow {
+    position: relative;;
+    align-self: center;
+    justify-self: center;
+    bottom: 50px;
+    transform: translate(50%, 0%);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    cursor: pointer;
+  }
+  
+  .scroll-arrow.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .arrow {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 4px solid var(--cor-texto__claro);
+    border-right: 4px solid var(--cor-texto__claro);
+    transition: border-color 0.3s, transform 0.3s;
+    animation: bounce 1s infinite;
+  }
+  
+  .scroll-arrow:hover .arrow {
+    border-color: #888;
+  }
+  
+  @keyframes bounce {
+    0% {
+        transform: translateY(0) rotate(45deg);
+    }
+  
+    50% {
+        transform: translateY(-5px) rotate(45deg);
+    }
+  
+    100% {
+        transform: translateY(0) rotate(45deg);
+    }
+  }
+  @media screen and (max-height:600px){
+    .scroll-arrow.scroll-arrow.visible{
+      visibility: hidden;
+    }
+  }
+
+  @media screen and (max-width:770px){
+    .scroll-arrow.scroll-arrow.visible{
+      visibility: hidden;
+    }
+  }
