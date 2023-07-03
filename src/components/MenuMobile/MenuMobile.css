@@ -1,23 +1,13 @@
-.menu-mobile {
-  background-color: var(--cor-background);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: 10vh;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
-  position: fixed;
-}
+
 
 .menu-icon {
   width: 24px;
   height: 24px;
   margin-right: 20px;
 }
-
+.dropdown-link{
+  color: var(--cor-azul__claro);
+}
 .menu-navegacao-mobile {
   display: none;
 }
@@ -43,6 +33,3 @@
   color: var(--cor-azul__claro);
   font-weight: bold;
 }
-
-
-  
