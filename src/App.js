@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home/home';
@@ -6,17 +7,22 @@ import Equipe from './pages/Equipe/equipe';
 import ProcessoSeletivo from './pages/ProcessoSeletivo/ProcessoSeletivo';
 import Footer from './components/Footer/footer';
 import Faq from './pages/Faq/Faq';
+import MenuMobile from './components/MenuMobile/MenuMobile';
+
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<Home></Home>} />
-      <Route path='/projetos' element={<Projetos></Projetos>} />
-      <Route path='/equipe' element={<Equipe></Equipe>} />
-      <Route path='/processo-seletivo' element={<ProcessoSeletivo />} />
-      <Route path='/faq' element={<Faq></Faq>} />    
-    </Routes>
-    <Footer></Footer>
+      <div className="container">
+        <MenuMobile />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projetos" element={<Projetos />} />
+          <Route path="/equipe" element={<Equipe />} />
+          <Route path="/processo-seletivo" element={<ProcessoSeletivo />} />
+          <Route path="/faq" element={<Faq />} />
+        </Routes>
+      </div>
+      <Footer />
     </BrowserRouter>
   );
 }

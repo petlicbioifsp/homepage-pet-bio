@@ -29,7 +29,7 @@
     },
     {
       "id": "4",
-      "nome": "Bianca Carvalio Antonietti",
+      "nome": "Bianca Antonietti",
       "foto": "./fotos_alunos/bianca.jpeg",
       "tipo": "Bolsista",
       "ano": "2022",
@@ -38,7 +38,7 @@
     },
     {
       "id": "5",
-      "nome": "Gabriel Zanotim Manhani",
+      "nome": "Gabriel Manhani",
       "foto": "./fotos_alunos/gabriel.jpeg",
       "tipo": "Bolsista",
       "ano": "2023",
@@ -56,7 +56,7 @@
     },
     {
       "id": "7",
-      "nome": "Laura Ranucci Luchiari",
+      "nome": "Laura Luchiari",
       "foto": "./fotos_alunos/laura.jpeg",
       "tipo": "Bolsista",
       "ano": "2022",
@@ -65,7 +65,7 @@
     },
     {
       "id": "8",
-      "nome": "Bárbara Branco Gasques",
+      "nome": "Bárbara Gasques",
       "foto": "./fotos_alunos/barbara.jpeg",
       "tipo": "Bolsista",
       "ano": "2023",
@@ -74,7 +74,7 @@
     },
     {
       "id": "9",
-      "nome": "Vitor Alves Bonelli",
+      "nome": "Vitor Bonelli",
       "foto": "./fotos_alunos/vitor.png",
       "tipo": "Bolsista",
       "ano": "2021",
@@ -83,7 +83,7 @@
     },
     {
       "id": "10",
-      "nome": "Fábio Seyiji Igarashi Anno",
+      "nome": "Fábio Seyiji",
       "foto": "./fotos_alunos/fabio.jpeg",
       "tipo": "Bolsista",
       "ano": "2022",
@@ -92,7 +92,7 @@
     },
     {
       "id": "11",
-      "nome": "Saulo Fernando Soares Mania",
+      "nome": "Saulo Fernando Soares",
       "foto": "./fotos_alunos/saulo.jpeg",
       "tipo": "Bolsista",
       "ano": "2023",
@@ -101,7 +101,7 @@
     }
     ,{
       "id": "12",
-      "nome": "Ana Lívia Hernandes da Motta",
+      "nome": "Ana Lívia Hernandes",
       "foto":"./fotos_alunos/ana.jpeg"
       ,"ano":"2023",
       "tipo":"Voluntário",
@@ -110,7 +110,7 @@
     },
     {
       "id":"13",
-      "nome": "Eduardo Duarte Derisso",
+      "nome": "Eduardo Derisso",
       "foto":"./fotos_alunos/dudu.jpeg",
       "ano": "2023",
       "tipo":"Bolsista",
@@ -128,7 +128,7 @@
     },
     {
       "id":"15",
-      "nome":"Lucas Silva de Almeida",
+      "nome":"Lucas Silva",
       "foto":"./fotos_alunos/aiai.jpg",
       "ano": "2023",
       "tipo":"Voluntário",
