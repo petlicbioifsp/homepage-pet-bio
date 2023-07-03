@@ -15,13 +15,24 @@
     line-height: 1.5em;
     justify-self: center;
 }
-@media screen and (max-width:453px){
+
+@media screen and (max-width:490px){
     .title{
         font-size: 150%;
     }
     .text{
         width: fit-content;
         font-size: 110%;
+    }
+}
+
+@media screen and (max-width:391px ){
+    .title{
+        font-size: 130%;
+
+    }
+    .text{
+        font-size: 95%;
     }
 }
 
@@ -35,4 +46,12 @@
     .text {
         font-size: 90%;
         }
+}
+@media screen and (max-width:298px){
+    .title{
+        font-size: 110%;
+    }
+    .text{
+        font-size: 85%;
+    }
 }

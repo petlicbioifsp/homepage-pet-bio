@@ -23,10 +23,15 @@
     margin-top: -15%;
   }
 }
-@media (max-width:550px){
+@media (max-width:500px){
 .homesection{
-  margin-top: -25%;
+  margin-top: -13%;
 }
+}
+@media screen and (max-width: 375px){
+  .homesection{
+    margin-top: -15%;
+  }
 }
 @media screen and (max-height:375px){
   .homesection{
