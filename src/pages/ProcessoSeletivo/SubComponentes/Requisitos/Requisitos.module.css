@@ -1,0 +1,25 @@
+.titulo_secundario {
+    color: var(--cor-azul__claro);
+    font-size: 26px;
+}
+
+.titulo_secundario::before {
+    color: var(--cor-detalhes-azul);
+}
+
+.texto {
+    color: var(--cor-texto);
+    line-height: 1.5em;
+    font-size: 20px;
+    text-align: justify;
+  
+}
+
+@media screen and (min-width:2000px){
+    .titulo_secundario{
+        font-size: 40px;
+    }
+    .texto{
+        font-size: 30px;
+    }
+}

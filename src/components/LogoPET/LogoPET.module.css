@@ -5,6 +5,12 @@
   align-self:center;
 }
 
+@media screen and (min-width:2000px){
+  .PETLogo{
+    width: 450px;
+  }
+}
+
 @media screen and (max-width:490px){
   .PETLogo{
     width: 180px;

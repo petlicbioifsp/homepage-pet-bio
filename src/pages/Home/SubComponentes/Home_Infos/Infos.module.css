@@ -16,6 +16,16 @@
     justify-self: center;
 }
 
+@media screen and (min-width:2000px){
+    .title{
+        font-size: 4.5rem;
+    }
+    .text{
+        font-size: 3rem;
+
+    }
+}
+
 @media screen and (max-width:490px){
     .title{
         font-size: 150%;
