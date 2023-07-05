@@ -7,6 +7,7 @@ import CardTutor from '../../components/Card_Integrantes/CardTutor';
 import CollapsibleOpen from '../../components/Faq/CollapsibleOpen';
 import CollapsibleTrigger from '../../components/Faq/CollapsibleTrigger';
 import FetchEquipe from '../../components/Card_Integrantes/FetchEquipe';
+import Header from "../../components/Header/header"
 
 export default function Equipe() {
   const [showExAlunos, setShowExAlunos] = useState(false);
@@ -21,6 +22,7 @@ export default function Equipe() {
         <FetchEquipe
           render={({ alunos, tutores, exAlunos }) => (
             <>
+              <Header texto="Integrantes"/>
               <h3 className="equipe--titulo">Tutor</h3>
               <section className="equipe--tutor">
                 {tutores.map((tutor) => (
