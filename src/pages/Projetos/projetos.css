@@ -1,15 +1,6 @@
 .menu-projetos--corpo {
     background-color: var(--cor-background);
 }
-
-.menu-projetos--titulo {
-    font-size: 32px;
-    color: var(--cor-azul__claro);
-    text-align: center;
-    padding-top: 100px;
-    margin-bottom: 70px;
-}
-
 .menu-projetos {
     display: flex;
     justify-content: center;

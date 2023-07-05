@@ -6,13 +6,6 @@ body {
     margin-bottom: 40px;
 }
 
-.faq-titulo {
-    font-size: 32px;
-    color: var(--cor-azul__claro);
-    text-align: center;
-    padding-top: 80px;
-    margin-bottom: 70px;
-}
 
 .Collapsible__trigger {
     display: flex;

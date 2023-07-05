@@ -11,7 +11,7 @@ const MenuMobileDropdown = ({ items }) => {
   };
 
   return (
-    <div className="menu-mobile">
+    <div className={`menu-mobile ${isDropdownOpen ? 'active' : ''}`}>
       <img
         className="menu-icon"
         src={menuIcon}
@@ -19,22 +19,34 @@ const MenuMobileDropdown = ({ items }) => {
         onClick={toggleDropdown}
       />
       {isDropdownOpen && (
-        <ul className="dropdown-content">
-          {items.map((item) => (
-            <li key={item.path}>
-              <NavLink
-                exact
-                to={item.path}
-                className="dropdown-link"
-                activeClassName="active"
-                onClick={toggleDropdown}
-              >
-                {item.label}
-              </NavLink>
-            </li>
-          ))}
-        </ul>
+        <div className="dots" onClick={toggleDropdown}>
+          <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="shadow cut"></div>
+          <div className="container cut">
+            <div className="drop cut2"></div>
+          </div>
+          <div className="list">
+            <ul>
+              {items.map((item) => (
+                <li key={item.path}>
+                  <NavLink
+                    exact
+                    to={item.path}
+                    className="dropdown-link"
+                    activeClassName="active"
+                    onClick={toggleDropdown}
+                  >
+                    {item.label}
+                  </NavLink>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="dot"></div>
+        </div>
       )}
+      {isDropdownOpen && <div className="cursor" onClick={toggleDropdown}></div>}
     </div>
   );
 };

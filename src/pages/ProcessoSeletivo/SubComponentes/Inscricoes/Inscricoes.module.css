@@ -2,7 +2,7 @@
     color: var(--cor-detalhes-azul);
     display: flex;
     flex-wrap: wrap;
-    margin-left: 50%;
+ 
 }
 
 .titulo {
@@ -43,17 +43,4 @@
 
 .email--link:hover {
     color: var(--cor-azul__claro);
-}
-@media screen and (min-width:2000px){
-    .titulo{
-        font-size: 40px;
-    }
-    .texto{
-        font-size: 30px;
-    }
-    .download{
-        padding:30px;
-        height:30px;
-        padding: 30px;
-    }
 }
