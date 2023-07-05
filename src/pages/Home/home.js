@@ -1,8 +1,8 @@
 import "./home.css";
-import useScrollToSection from "./useScrollToSection";
 import Info from "./SubComponentes/Home_Infos/Infos.js";
 import Button from "./SubComponentes/Home_button/Button";
 import Reveal from "../../components/Efeito Reveal/Reveal";
+import useScrollToSection from "../../hooks/useScrollToSection";
 import ScrollArrow from "./SubComponentes/ScrollArrow/ScrollArrow";
 import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
 import HeaderConteiner from "./SubComponentes/Header_conteiner/HeaderConteiner";
