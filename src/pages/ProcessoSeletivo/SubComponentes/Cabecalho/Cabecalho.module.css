@@ -11,9 +11,3 @@
     text-align: justify; 
 }
 
-@media screen and (min-width:2000px){
-    .texto{
-        font-size: 30px;
-        max-width: 1550px;
-    }
-}

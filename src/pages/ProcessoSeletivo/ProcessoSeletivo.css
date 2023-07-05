@@ -1,7 +1,6 @@
 .corpo {
     background-color: var(--cor-background);
     margin: auto;
-    padding: 5%;
     min-height: 80vh;
     max-width: 1920px;
     display: flex;
@@ -12,4 +11,5 @@
 .corpo_informacoes{
     margin-bottom: 10%;
     align-self: center;
+    min-height: 80vh;
 }
