@@ -2,13 +2,7 @@
   width: 250px;
   display: flex;
   height: auto;
-  align-self:center;
-}
-
-@media screen and (min-width:2000px){
-  .PETLogo{
-    width: 450px;
-  }
+  align-self:center; 
 }
 
 @media screen and (max-width:490px){
@@ -24,7 +18,7 @@
   }
 }
 
-@media screen and (max-width:298px){
+@media screen and (max-width:280px){
   .PETLogo{
     width: 100px;
   }

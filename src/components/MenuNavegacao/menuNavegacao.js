@@ -1,67 +1,40 @@
-import React, { useEffect, useState } from 'react';
+
+import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import './menuNavegacao.css';
 import LogoIFSP from '../LogoIFSP/LogoIFSP';
-import MenuMobileDropdown from '../MenuMobile/MenuMobile';
-
 export default function MenuNavegacao() {
-  const localização = useLocation();
-  const [larguraJanela, setLarguraJanela] = useState(window.innerWidth);
+    const [itemAtivo, setitemAtivo] = useState('');
+    const localização = useLocation();
 
-  useEffect(() => {
-    const handleResize = () => {
-      setLarguraJanela(window.innerWidth);
+    useEffect(() => {
+        setitemAtivo(localização.pathname);
+    }, [localização]);
+
+    const handleClick = (path) => {
+        setitemAtivo(path);
     };
 
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
-  const items = [
-    { path: '/', label: 'Home' },
-    { path: '/projetos', label: 'Projetos' },
-    { path: '/equipe', label: 'Equipe' },
-    { path: '/processo-seletivo', label: 'Processo Seletivo' },
-    { path: '/faq', label: 'FAQ' },
-  ];
-
-  return (
-    <div className="menu">
-      <LogoIFSP />
-      {larguraJanela < 775 ? (
-        <MenuMobileDropdown items={items} />
-      ) : (
-        <ul className="menu-navegacao">
-          <li>
-            <NavLink exact to="/" className="menu-navegacao--link">
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/projetos" className="menu-navegacao--link">
-              Projetos
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/equipe" className="menu-navegacao--link">
-              Equipe
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/processo-seletivo" className="menu-navegacao--link">
-              Processo Seletivo
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/faq" className="menu-navegacao--link">
-              FAQ
-            </NavLink>
-          </li>
-        </ul>
-      )}
-    </div>
-  );
+    return (
+        <div className='menu'>
+            <LogoIFSP/>
+            <ul className='menu-navegacao'>
+                <li className={itemAtivo === '/' ? 'ativo' : ''}>
+                    <NavLink to='/' className="menu-navegacao--link" onClick={() => handleClick('/')}>Home</NavLink>
+                </li>
+                <li className={itemAtivo === '/projetos' ? 'ativo' : ''}>
+                    <NavLink to='/projetos' className="menu-navegacao--link" onClick={() => handleClick('/projetos')}>Projetos</NavLink>
+                </li>
+                <li className={itemAtivo === '/equipe' ? 'ativo' : ''}>
+                    <NavLink to='/equipe' className="menu-navegacao--link" onClick={() => handleClick('/equipe')}>Equipe</NavLink>
+                </li>
+                <li className={itemAtivo === '/processo-seletivo' ? 'ativo' : ''}>
+                    <NavLink to='/processo-seletivo' className="menu-navegacao--link" onClick={() => handleClick('/processo-seletivo')}>Processo Seletivo</NavLink>
+                </li>
+                <li className={itemAtivo === '/faq' ? 'ativo' : ''}>
+                    <NavLink to='/faq'className="menu-navegacao--link" onClick={() => handleClick('/faq')}>FAQ</NavLink>
+                </li>
+            </ul>
+        </div>
+    )
 }

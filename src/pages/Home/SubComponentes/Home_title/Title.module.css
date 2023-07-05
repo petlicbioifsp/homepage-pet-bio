@@ -24,18 +24,7 @@
   align-content: center;
   align-self: center;
   width: 80vw; 
-} 
-@media screen and (min-width:2000px){
-  .title{
-    font-size: 6rem;
-    width: 960px;
-  }
-  .subtitle{
-    font-size: 4rem;
-    width: 960px;
-  }
 }
-
 @media only screen and (max-width:1200px){
   .container{
     flex-direction: column;  

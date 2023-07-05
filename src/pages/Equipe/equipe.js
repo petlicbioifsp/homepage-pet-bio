@@ -21,19 +21,19 @@ export default function Equipe() {
         <FetchEquipe
           render={({ alunos, tutores, exAlunos }) => (
             <>
-              <h2 className="equipe--titulo">Tutores</h2>
-              <section className="equipe--tutores">
+              <h3 className="equipe--titulo">Tutor</h3>
+              <section className="equipe--tutor">
                 {tutores.map((tutor) => (
                   <CardTutor
                     key={tutor.id}
+                    github={tutor.github}
                     nome={tutor.nomeTutor}
                     srcFoto={tutor.foto}
                     ano={tutor.ano}
                   />
                 ))}
               </section>
-
-              <h2 className="equipe--titulo">Alunos</h2>
+              <h3 className="equipe--titulo">Alunos</h3>
               <section className="equipe--alunos">
                 {alunos.map((aluno) => (
                   <CardAluno
@@ -47,14 +47,13 @@ export default function Equipe() {
                   />
                 ))}
               </section>
-
               <h2 className="equipe--titulo">Ex Integrantes</h2>
               <CollapsibleTrigger
                 text="Mostrar ex-integrantes"
                 onClick={toggleExAlunos}
               />
               {showExAlunos && (
-                <section className="equipe--ex-alunos">
+                <section className="equipe--alunos">
                   {exAlunos.map((exAluno) => (
                     <CardExAluno
                       key={exAluno.id}

@@ -20,11 +20,11 @@ function CardExAluno({ nome, srcFoto, anos, lattes, mail, github, linkedin }) {
       />
       <div className={styles.descricao}>
         <p className={styles.p}>{nome}</p>
-        <p className={styles.p}>
+        {/*<p className={styles.p}>
           <b>Participacao:</b> {anos}
-        </p>
+        </p>*/}
       </div>
-      <div className={styles.iconsContainer}>
+      {/*<div className={styles.iconsContainer}>
         <a href={github} target="_blank" rel="noopener noreferrer">
           <FaGithub className={styles.icon} />
         </a>
@@ -32,7 +32,8 @@ function CardExAluno({ nome, srcFoto, anos, lattes, mail, github, linkedin }) {
           <FaLinkedin className={styles.icon} />
         </a>
         
-      </div>
+      </div>*/}
+      
     </div>
   );
 }
