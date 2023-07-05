@@ -24,16 +24,6 @@
   justify-content: flex-start;
   align-self: center;
 }
-
-@media screen and (min-width: 2000px){
- .btn{
-  font-size: 2.5rem;
-  padding: 2.5rem;
-  border-radius: 2.5rem;
-  margin-top: 3rem;
-  margin-bottom: 2.5rem;
- }
-}
 @media screen and (max-width:770px){
   .btn_contender{
     margin-bottom: 25%;
