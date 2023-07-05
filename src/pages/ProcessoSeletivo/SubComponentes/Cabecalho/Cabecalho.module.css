@@ -1,15 +1,6 @@
 .cabecalho {
-    padding:5%;
     align-self: center;
 }
-
-
-.titulo {
-    color: var(--cor-azul__claro);
-    margin-bottom: 60px;
-    text-align: center;
-}
-
 
 .texto {
     color: var(--cor-texto);
@@ -21,9 +12,6 @@
 }
 
 @media screen and (min-width:2000px){
-    .titulo{
-        font-size: 60px;
-    }
     .texto{
         font-size: 30px;
         max-width: 1550px;

@@ -1,0 +1,7 @@
+.titulo{ 
+    font-size: 32px;
+    color: var(--cor-azul__claro);
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 70px;
+}

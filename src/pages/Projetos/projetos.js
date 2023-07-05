@@ -1,5 +1,6 @@
 import CardProjeto from "../../components/CardProjeto/cardProjeto";
 import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
+import Header from "../../components/Header/header";
 import "./projetos.css";
 
 export default function Projetos() {
@@ -7,7 +8,7 @@ export default function Projetos() {
         <>
             <MenuNavegacao />
             <div className="menu-projetos--corpo">
-                <h1 className="menu-projetos--titulo">Projetos Desenvolvidos pelo PET/ADS</h1>
+                <Header texto = "Projetos Desenvolvidos pelo PET/ADS"/>
                 <section className="menu-projetos">
                     <CardProjeto titulo="Personalidades da Computação"
                         descricao="Projeto de ensino que visa realizar um levantamento sobre os pioneiros da Ciência da Computação  e suas principais contribuições, para difusão da história desta ciência a todos os estudantes do câmpus."

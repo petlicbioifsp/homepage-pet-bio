@@ -5,12 +5,13 @@ import CollapsibleTrigger from '../../components/Faq/CollapsibleTrigger';
 import MenuNavegacao from '../../components/MenuNavegacao/menuNavegacao';
 import FetchFaq from '../../components/Faq/FetchFAQ';
 import './Faq.css';
+import Header from '../../components/Header/header';
 
 export default function Faq() {
   return (
     <body>
       <MenuNavegacao />
-      <h2 className="faq-titulo">Perguntas Frequentes</h2>
+      <Header texto="Perguntas Frequentes"/>
       <section className="faq--caixa__perguntas">
         <FetchFaq
           render={(arrFaq) =>

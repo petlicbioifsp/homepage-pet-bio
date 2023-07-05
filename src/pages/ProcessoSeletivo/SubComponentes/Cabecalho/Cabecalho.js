@@ -1,8 +1,9 @@
+import Header from '../../../../components/Header/header';
 import styles from './Cabecalho.module.css'
 function Cabecalho  ({titulo,texto }){ 
 return(
 <div className={styles.cabecalho}>
-    <h1 className={styles.titulo}>{titulo}</h1>
+    <Header  texto = {titulo}/>
     <p className={styles.texto}>{texto}</p>
 </div> 
 
