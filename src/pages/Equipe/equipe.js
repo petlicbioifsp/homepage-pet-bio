@@ -6,7 +6,7 @@ import CardExAluno from '../../components/Card_Integrantes/CardExAlunos';
 import CardTutor from '../../components/Card_Integrantes/CardTutor';
 import CollapsibleOpen from '../../components/Faq/CollapsibleOpen';
 import CollapsibleTrigger from '../../components/Faq/CollapsibleTrigger';
-import FetchEquipe from '../../components/Card_Integrantes/FetchEquipe';
+import FetchEquipe from '../../hooks/FetchEquipe';
 import Header from "../../components/Header/header"
 
 export default function Equipe() {
