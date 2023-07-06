@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import logoProjeto from "../../resources/kisspng-computer-icons-directory-icon-design-folder-icon-5b23828b1c8d19.801150631529053835117.png";
 import "./cardProjeto.css";
 
 export default function CardProjeto(props) {
@@ -9,7 +8,7 @@ export default function CardProjeto(props) {
 
     return (
         <motion.div className={isOpen ? "card aberto" : "card"} onClick={() => setIsOpen(!isOpen)}>
-            <motion.img className="logo-projeto" alt="simbolo de uma pasta" src={logoProjeto}></motion.img> 
+            <motion.img className="logo-projeto" alt="simbolo de uma pasta" src={props.img}></motion.img> 
             
             {!isOpen && (
                 <><motion.h2 className="card-titulo">{props.titulo}</motion.h2>
