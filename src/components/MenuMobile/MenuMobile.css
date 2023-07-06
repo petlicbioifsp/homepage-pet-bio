@@ -8,8 +8,10 @@
 }
 
 .menu-icon {
+  position: relative;
   width: 23px;
   height: 23px;
+  right: 10px;
 }
 
 .shadow.cut {
