@@ -1,10 +1,18 @@
 .equipe--corpo {
   background-color: var(--cor-background);
-  padding: 80px;
 }
 
+.equipe--titulo-tutor {
+  font-size: 32px;
+  color: var(--cor-azul__claro);
+  text-align: center;
+  padding-top: 100px;
+  margin: 0px;
+}
+
+
 .equipe--titulo {
-  font-size: 48px;
+  font-size: 32px;
   color: var(--cor-azul__claro);
   text-align: center;
   padding: 0px;
