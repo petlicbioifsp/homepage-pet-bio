@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
 import './MenuMobile.css';
 import menuIcon from './menu-icon.png';
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const MenuMobileDropdown = ({ items }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -23,8 +23,7 @@ const MenuMobileDropdown = ({ items }) => {
           {items.map((item) => (
             <li key={item.path}>
               <NavLink
-                exact
-                to={item.path}
+                exact to={item.path}
                 className="dropdown-link"
                 activeClassName="active"
                 onClick={toggleDropdown}
