@@ -44,3 +44,12 @@
 .email--link:hover {
     color: var(--cor-azul__claro);
 }
+
+@media screen and (max-width: 300px){
+    .titulo{
+        font-size: 22px;
+    }
+    .texto{
+        font-size: 16px;
+    }
+    }

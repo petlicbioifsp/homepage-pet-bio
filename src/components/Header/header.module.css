@@ -2,6 +2,8 @@
     font-size: 32px;
     color:var(--cor-azul__claro);
     text-align: center;
-    padding-top: 50px;
+    padding-top: 5%;
+    justify-self: center;
     padding-bottom: 20px;
 }
+

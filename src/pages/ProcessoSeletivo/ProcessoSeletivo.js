@@ -7,7 +7,7 @@ import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
 function ProcessoSeletivo() {
     
     return (
-        <div>
+        <>
             <MenuNavegacao />
 
             <div className="corpo">
@@ -52,7 +52,7 @@ function ProcessoSeletivo() {
                     />
                 </section>
             </div>
-        </div>
+        </>
     )
 }
 

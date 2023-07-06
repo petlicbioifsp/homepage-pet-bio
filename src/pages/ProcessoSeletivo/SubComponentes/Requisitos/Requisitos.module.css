@@ -15,3 +15,13 @@
   
 }
 
+
+@media screen and (max-width: 300px){
+    .titulo_secundario{
+        font-size: 22px;
+    }
+    .texto{
+        font-size: 16px;
+    }
+    }
+

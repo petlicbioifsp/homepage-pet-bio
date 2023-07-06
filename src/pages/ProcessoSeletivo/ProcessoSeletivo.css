@@ -3,12 +3,14 @@
     margin: auto;
     min-height: 80vh;
     max-width: 1920px;
+    width: 80%;
     display: flex;
     flex-direction: column;
    align-items: flex-start;
 }
 
 .corpo_informacoes{
+    width: 100%;
     margin-bottom: 10%;
     align-self: center;
     min-height: 80vh;
