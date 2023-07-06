@@ -1,7 +1,7 @@
 import CardProjeto from "../../components/CardProjeto/cardProjeto";
 import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
 import Header from "../../components/Header/header";
-import FetchProj from "../../components/CardProjeto/FetchProjetos"
+import FetchProj from "../../hooks/FetchProjetos"
 import "./projetos.css";
 
 export default function Projetos() {
