@@ -32,6 +32,8 @@ function CardAluno({ nome, srcFoto, ano, tipo, lattes, mail, github, linkedin })
       <a href={github} target="_blank" rel="noopener noreferrer">
         <div className={styles.descricao}>
         <strong><p className={styles.p}>{nome}</p></strong>
+        <pre></pre>
+        <strong><p className={styles.p}>{tipo}</p></strong>
         </div>
       </a>  
     </div>

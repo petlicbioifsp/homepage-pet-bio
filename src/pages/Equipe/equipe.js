@@ -35,9 +35,10 @@ export default function Equipe() {
                   />
                 ))}
               </section>
-              <h3 className="equipe--titulo">Alunos</h3>
+              <h3 className="equipe--titulo">Alunos Bolsistas</h3>
               <section className="equipe--alunos">
                 {alunos.map((aluno) => (
+                  aluno.tipo == 'Bolsista' &&
                   <CardAluno
                     key={aluno.id}
                     nome={aluno.nome}
@@ -49,6 +50,22 @@ export default function Equipe() {
                   />
                 ))}
               </section>
+              <h3 className="equipe--titulo">Alunos Voluntários</h3>
+              <section className="equipe--alunos">
+                {alunos.map((aluno) => (
+                  aluno.tipo != 'Bolsista' &&
+                  <CardAluno
+                    key={aluno.id}
+                    nome={aluno.nome}
+                    srcFoto={aluno.foto}
+                    tipo={aluno.tipo}
+                    ano={aluno.ano}
+                    github={aluno.github}
+                    linkedin={aluno.linkedin}
+                  />
+                ))}
+              </section>
+              
               <h2 className="equipe--titulo">Ex Integrantes</h2>
               <CollapsibleTrigger
                 text="Mostrar ex-integrantes"
