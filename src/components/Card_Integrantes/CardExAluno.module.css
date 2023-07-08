@@ -7,12 +7,12 @@
     justify-content: space-evenly;
     width: auto;
     /*background-color: var(--cor-azul__medio);*/
-    padding-top: 23px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-    padding-right: 10px;
+    padding-top: calc(23px * 3/5);
+    padding-bottom:  calc(5px * 3/5);
+    padding-left:  calc(8px * 3/5);
+    padding-right:  calc(10px * 3/5);
     /*border-radius: 10px;*/
-    height: 230px;
+    height:  calc(230px * 3/5);
     flex-basis: calc(100% / 6 - 100px); /* Largura de cada card */
     max-width: calc(100% / 6 - 10px);
   }
@@ -21,8 +21,8 @@
 }
 
 div.card > a:first-child{
-  max-width: 125px;
-  max-height: 125px;
+  max-width:  calc(125px * 3/5);
+  max-height:  calc(125px * 3/5);
   position: relative;
   border-radius: 500px;
 }
@@ -32,16 +32,16 @@ div.card > a:first-child{
 }
 
 .img{
-    width: 125px;
-    height: 125px;
+    width:  calc(125px * 3/5);
+    height:  calc(125px * 3/5);
     border-radius: 500px;
     transition: 0.5s;
     border: 1px solid black;
 }
 
 .githubFilterImage{
-  width: 125px;
-  height: 125px;
+  width: calc(125px * 3/5);
+  height: calc(125px * 3/5);
   border-radius: 500px;
   transition: 0.5s;
   opacity: 0.0;
@@ -62,15 +62,15 @@ div.card > a:first-child{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 125px;
-  max-height: 200px;
+  max-width: calc(125px * 3/5);
+  max-height: calc(200px * 3/5);
   border-radius: 500px;
   transition: 0.5s;
 }
 
 p {
     font-size: 16px;
-    margin: 5px;
+    margin: calc(5px * 3/5);
     color: var(--cor-detalhes-azul);
     text-align: center;
 }
@@ -83,15 +83,15 @@ p {
 }
 @media (max-width: 1200px) {
     .card {
-      flex-basis: calc(100% / 3 - 30px); /* 3 cards por linha em telas médias */
-      max-width: calc(100% / 3 - 30px);
+      flex-basis: calc(100% / 6 - 30px); /* 3 cards por linha em telas médias */
+      max-width: calc(100% / 6 - 30px);
     }
   }
   
   @media (max-width: 768px) {
     .card {
-      flex-basis: calc(100% / 2 - 20px); /* 2 cards por linha em telas menores */
-      max-width: calc(100% / 2 - 20px);
+      flex-basis: calc(100% / 4 - 20px); /* 2 cards por linha em telas menores */
+      max-width: calc(100% / 4 - 20px);
     }
   }
 

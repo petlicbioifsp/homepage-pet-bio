@@ -23,7 +23,7 @@ export default function Equipe() {
           render={({ alunos, tutores, exAlunos }) => (
             <>
               <Header texto="Integrantes"/>
-              <h3 className="equipe--titulo">Tutor</h3>
+              <h2 className="equipe--titulo">Tutor</h2>
               <section className="equipe--tutor">
                 {tutores.map((tutor) => (
                   <CardTutor
@@ -35,7 +35,7 @@ export default function Equipe() {
                   />
                 ))}
               </section>
-              <h3 className="equipe--titulo">Alunos Bolsistas</h3>
+              <h2 className="equipe--titulo">Alunos Bolsistas</h2>
               <section className="equipe--alunos">
                 {alunos.map((aluno) => (
                   aluno.tipo == 'Bolsista' &&
@@ -50,7 +50,7 @@ export default function Equipe() {
                   />
                 ))}
               </section>
-              <h3 className="equipe--titulo">Alunos Voluntários</h3>
+              <h2 className="equipe--titulo">Alunos Voluntários</h2>
               <section className="equipe--alunos">
                 {alunos.map((aluno) => (
                   aluno.tipo != 'Bolsista' &&
