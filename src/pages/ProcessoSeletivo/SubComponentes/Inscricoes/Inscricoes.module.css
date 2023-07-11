@@ -1,7 +1,9 @@
-.inscricao {
+.Inscricao {
     color: var(--cor-detalhes-azul);
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width:100% ;
  
 }
 
@@ -45,11 +47,35 @@
     color: var(--cor-azul__claro);
 }
 
-@media screen and (max-width: 300px){
+
+@media screen and (max-width:1200px){
     .titulo{
+        margin: 2% 2%;
+    }
+    .texto{
+        margin: 0 2%;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .titulo{
+        margin: 2% 4%;
         font-size: 22px;
     }
     .texto{
-        font-size: 16px;
+        margin: 0 4%;
+       font-size: 16px;
+       text-align: left;
     }
+   }
+
+   @media screen and (max-width: 300px){
+
+    .titulo{
+        font-size: 18px;
     }
+    .texto{
+       font-size: 12px;
+    }
+
+}

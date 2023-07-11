@@ -4,7 +4,7 @@ function Requisitos({titulo,texto,item_1,item_2}){
         <div className={styles.requisitos}>
         <h2 className={styles.titulo_secundario}>{titulo}</h2>
         <p className={styles.texto}>{texto}</p>
-        <ul>
+        <ul >
             <li className={styles.texto}>{item_1}</li>
             <li className={styles.texto}>{item_2} </li>
         </ul>
