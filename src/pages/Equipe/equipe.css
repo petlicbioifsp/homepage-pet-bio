@@ -57,53 +57,10 @@
   }
 }
 
-.Collapsible__trigger {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-color: var(--cor-azul__medio);
-  font-size: 20px;
-  margin: 0 40px;
-  text-indent: 10px;
+.EquipeCollapsible {
+  font-size: 32px;
+  color: var(--cor-azul__claro);
+  text-align: center;
   padding: 15px;
-  cursor: pointer;
-}
-
-.Collapsible__contentInner {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  font-size: 17px;
-  margin: 0 40px;
-  padding: 10px;
-}
-
-.collapsible {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-}
-
-.collapsible span {
-  margin-left: 100px;
-}
-
-.collapsible:hover {
-  color: blue;
-}
-
-.collapsible-open {
-  color: green;
-}
-
-.collapsible-trigger {
-  color: red;
-}
-
-@media (max-width: 768px) {
-
-  .Collapsible__trigger,
-  .Collapsible__contentInner {
-    margin: 0 20px;
-  }
+  margin: 0px;
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
-import CollapsibleOpen from '../../components/Faq/CollapsibleOpen';
-import CollapsibleTrigger from '../../components/Faq/CollapsibleTrigger';
+import CollapsibleOpen from '../../hooks/CollapsibleOpen';
+import CollapsibleTrigger from '../../hooks/CollapsibleTrigger';
 import MenuNavegacao from '../../components/MenuNavegacao/menuNavegacao';
-import FetchFaq from '../../components/Faq/FetchFAQ';
+import FetchFaq from '../../hooks/FetchFAQ';
 import './Faq.css';
 import Header from '../../components/Header/header';
 

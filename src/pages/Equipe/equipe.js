@@ -1,19 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import MenuNavegacao from '../../components/MenuNavegacao/menuNavegacao';
 import CardAluno from '../../components/Card_Integrantes/CardAluno';
 import './equipe.css';
 import CardExAluno from '../../components/Card_Integrantes/CardExAlunos';
 import CardTutor from '../../components/Card_Integrantes/CardTutor';
-import CollapsibleOpen from '../../components/Faq/CollapsibleOpen';
-import CollapsibleTrigger from '../../components/Faq/CollapsibleTrigger';
+import Collapsible from 'react-collapsible';
+import CollapsibleOpen from '../../hooks/CollapsibleOpen';
+import CollapsibleTrigger from '../../hooks/CollapsibleTrigger';
 import FetchEquipe from '../../hooks/FetchEquipe';
 import Header from "../../components/Header/header"
 
 export default function Equipe() {
-  const [showExAlunos, setShowExAlunos] = useState(false);
-  const toggleExAlunos = () => {
-    setShowExAlunos(!showExAlunos);
-  };
+  
 
   return (
     <>
@@ -38,7 +36,7 @@ export default function Equipe() {
               <h2 className="equipe--titulo">Alunos Bolsistas</h2>
               <section className="equipe--alunos">
                 {alunos.map((aluno) => (
-                  aluno.tipo == 'Bolsista' &&
+                  aluno.tipo === 'Bolsista' &&
                   <CardAluno
                     key={aluno.id}
                     nome={aluno.nome}
@@ -53,7 +51,7 @@ export default function Equipe() {
               <h2 className="equipe--titulo">Alunos Voluntários</h2>
               <section className="equipe--alunos">
                 {alunos.map((aluno) => (
-                  aluno.tipo != 'Bolsista' &&
+                  aluno.tipo !== 'Bolsista' &&
                   <CardAluno
                     key={aluno.id}
                     nome={aluno.nome}
@@ -66,12 +64,11 @@ export default function Equipe() {
                 ))}
               </section>
               
-              <h2 className="equipe--titulo">Ex Integrantes</h2>
-              <CollapsibleTrigger
-                text="Mostrar ex-integrantes"
-                onClick={toggleExAlunos}
-              />
-              {showExAlunos && (
+              <Collapsible 
+              classParentString="EquipeCollapsible"
+              trigger={<CollapsibleTrigger text=" Ex-Integrantes" />}
+              triggerWhenOpen={<CollapsibleOpen text=" Ex-Integrantes" />}
+              >
                 <section className="equipe--alunos">
                   {exAlunos.map((exAluno) => (
                     <CardExAluno
@@ -82,7 +79,8 @@ export default function Equipe() {
                     />
                   ))}
                 </section>
-              )}
+              </Collapsible>  
+              
             </>
           )}
         />
