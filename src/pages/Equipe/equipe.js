@@ -1,9 +1,9 @@
 import React from 'react';
 import MenuNavegacao from '../../components/MenuNavegacao/menuNavegacao';
-import CardAluno from '../../components/Card_Integrantes/CardAluno';
+import CardAluno from './SubComponentes/Card_Integrantes/CardAluno';
 import './equipe.css';
-import CardExAluno from '../../components/Card_Integrantes/CardExAlunos';
-import CardTutor from '../../components/Card_Integrantes/CardTutor';
+import CardExAluno from './SubComponentes/Card_Integrantes/CardExAlunos';
+import CardTutor from './SubComponentes/Card_Integrantes/CardTutor';
 import Collapsible from 'react-collapsible';
 import CollapsibleOpen from '../../hooks/CollapsibleOpen';
 import CollapsibleTrigger from '../../hooks/CollapsibleTrigger';
@@ -33,25 +33,9 @@ export default function Equipe() {
                   />
                 ))}
               </section>
-              <h2 className="equipe--titulo">Alunos Bolsistas</h2>
+              <h2 className="equipe--titulo">Membros</h2>
               <section className="equipe--alunos">
                 {alunos.map((aluno) => (
-                  aluno.tipo === 'Bolsista' &&
-                  <CardAluno
-                    key={aluno.id}
-                    nome={aluno.nome}
-                    srcFoto={aluno.foto}
-                    tipo={aluno.tipo}
-                    ano={aluno.ano}
-                    github={aluno.github}
-                    linkedin={aluno.linkedin}
-                  />
-                ))}
-              </section>
-              <h2 className="equipe--titulo">Alunos Voluntários</h2>
-              <section className="equipe--alunos">
-                {alunos.map((aluno) => (
-                  aluno.tipo !== 'Bolsista' &&
                   <CardAluno
                     key={aluno.id}
                     nome={aluno.nome}
