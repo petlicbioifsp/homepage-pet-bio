@@ -1,26 +1,26 @@
-import React from 'react';
-import MenuNavegacao from '../../components/MenuNavegacao/menuNavegacao';
-import CardAluno from './SubComponentes/Card_Integrantes/CardAluno';
 import './equipe.css';
-import CardExAluno from './SubComponentes/Card_Integrantes/CardExAlunos';
-import CardTutor from './SubComponentes/Card_Integrantes/CardTutor';
+import React from 'react';
 import Collapsible from 'react-collapsible';
-import CollapsibleOpen from '../../hooks/CollapsibleOpen';
-import CollapsibleTrigger from '../../hooks/CollapsibleTrigger';
 import FetchEquipe from '../../hooks/FetchEquipe';
 import Header from "../../components/Header/header"
+import CollapsibleOpen from '../../hooks/CollapsibleOpen';
+import CollapsibleTrigger from '../../hooks/CollapsibleTrigger';
+import CardTutor from './SubComponentes/Card_Integrantes/CardTutor';
+import CardAluno from './SubComponentes/Card_Integrantes/CardAluno';
+import MenuNavegacao from '../../components/MenuNavegacao/menuNavegacao';
+import CardExAluno from './SubComponentes/Card_Integrantes/CardExAlunos';
 
 export default function Equipe() {
   
-
   return (
     <>
       <MenuNavegacao />
       <div className="equipe--corpo">
         <FetchEquipe
-          render={({ alunos, tutores, exAlunos }) => (
+        render={({ alunos, tutores, exAlunos }) => (
             <>
               <Header texto="Integrantes"/>
+
               <h2 className="equipe--titulo">Tutor</h2>
               <section className="equipe--tutor">
                 {tutores.map((tutor) => (
@@ -32,6 +32,7 @@ export default function Equipe() {
                     ano={tutor.ano}
                   />
                 ))}
+
               </section>
               <h2 className="equipe--titulo">Membros</h2>
               <section className="equipe--alunos">

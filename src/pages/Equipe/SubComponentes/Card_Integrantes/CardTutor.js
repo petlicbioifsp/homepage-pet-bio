@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import styles from './CardAluno.module.css';
-import { MdEmail } from 'react-icons/md';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const withBlur = {filter: "blur(2px) grayscale(80%)  brightness(0.5)"}
 const noBlur = {filter: "blur(0px)"}

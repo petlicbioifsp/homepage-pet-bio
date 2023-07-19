@@ -1,27 +1,27 @@
 .equipe--corpo {
-  background-color: var(--cor-background);
   margin: auto;
-  min-height: 80vh;
-  max-width: 1920px;
   display: flex;
+  max-width: 1920px;
   flex-direction: column;
+  background-color: var(--cor-background);
 
 }
 
 .equipe--titulo {
-  font-size: 32px;
-  color: var(--cor-azul__claro);
-  text-align: center;
   margin: 0px;
+  font-size: 32px;
+  text-align: center;
+  color: var(--cor-azul__claro);
+
 }
 
 .equipe--tutor,
 .equipe--alunos {
+  gap: 5px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
-  gap: 5px;
+  justify-content: center;
 }
 
 .equipe--tutores>.card,
@@ -33,11 +33,12 @@
 }
 
 .EquipeCollapsible {
-  font-size: 32px;
-  color: var(--cor-azul__claro);
-  text-align: center;
-  padding: 15px;
   margin: 0px;
+  padding: 15px;
+  font-size: 32px;
+  text-align: center;
+  color: var(--cor-azul__claro);
+
 }
 
 

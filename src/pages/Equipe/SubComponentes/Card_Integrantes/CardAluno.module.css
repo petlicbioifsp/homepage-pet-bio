@@ -47,7 +47,7 @@ div.card > a:first-child{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Centralizando o elemento */
+  transform: translate(-50%, -50%); 
 }
 
 .githubFilterImage:hover {
