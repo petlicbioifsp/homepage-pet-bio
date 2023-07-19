@@ -6,15 +6,14 @@
     align-items: center;
     justify-content: space-evenly;
     width: auto;
-    /*background-color: var(--cor-azul__medio);*/
-    padding-top: 23px;
-    padding-bottom: 5px;
+    margin-bottom: 25px;
+    margin-top: 45px;
     padding-left: 8px;
     padding-right: 10px;
-    /*border-radius: 10px;*/
     height: 170px;
-    flex-basis: calc(100% / 6 - 100px); /* Largura de cada card */
-    max-width: calc(100% / 6 - 10px);
+    
+    flex-basis: calc(100% / 4.9 - 100px); 
+    max-width: calc(100% / 4.9 - 10px);
   }
 .descricao{
     display: block;
@@ -57,7 +56,6 @@ div.card > a:first-child{
 
 
 .githubIcon {
-  /* Estilos para a classe githubIcon */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -76,15 +74,32 @@ p {
 }
 
 .iconsContainer {  
-    display: block;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: auto 3px;
 }
+
+.icon {
+    
+  height: 30px;
+  width: 32px;
+  padding: 10px;
+  color: var(--cor-azul__claro);
+}
+
+@media (max-width: 1360px) {
+  .card {
+    flex-basis: calc(100% / 4 - 40px); /* 3 cards por linha em telas médias */
+    max-width: calc(100% / 4 - 40px);
+  }
+}
+
 @media (max-width: 1200px) {
     .card {
       flex-basis: calc(100% / 3 - 30px); /* 3 cards por linha em telas médias */
-      max-width: calc(100% / 5 - 30px);
+      max-width: calc(100% / 3 - 30px);
     }
   }
   
@@ -95,10 +110,9 @@ p {
     }
   }
 
-.icon {
-    
-    height: 30px;
-    width: 32px;
-    padding: 10px;
-    color: var(--cor-azul__claro);
-}
+  @media screen and (max-width: 560px){
+    .card {
+      flex-basis: calc(100%/ 2 - 10px);
+      max-width: calc(100%/ 2 - 10px);
+    }
+  }

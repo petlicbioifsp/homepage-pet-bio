@@ -1,21 +1,17 @@
 .equipe--corpo {
   background-color: var(--cor-background);
-}
+  margin: auto;
+  min-height: 80vh;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
 
-.equipe--titulo-tutor {
-  font-size: 32px;
-  color: var(--cor-azul__claro);
-  text-align: center;
-  padding-top: 100px;
-  margin: 0px;
 }
-
 
 .equipe--titulo {
   font-size: 32px;
   color: var(--cor-azul__claro);
   text-align: center;
-  padding: 15px;
   margin: 0px;
 }
 
@@ -25,36 +21,15 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   gap: 5px;
 }
 
 .equipe--tutores>.card,
 .equipe--alunos>.card {
   flex-basis: calc(100% / 6 - 10px);
-  /* Largura de cada card */
+
   max-width: calc(100% / 6 - 10px);
-  /* Largura máxima de cada card */
-}
 
-@media (max-width: 1200px) {
-
-  .equipe--tutores>.card,
-  .equipe--alunos>.card {
-    flex-basis: calc(100% / 3 - 10px);
-    /* Para 3 colunas em telas médias */
-    max-width: calc(100% / 3 - 10px);
-  }
-}
-
-@media (max-width: 768px) {
-
-  .equipe--tutores>.card,
-  .equipe--alunos>.card {
-    flex-basis: calc(100% / 2 - 10px);
-    /* Para 2 colunas em telas menores */
-    max-width: calc(100% / 2 - 10px);
-  }
 }
 
 .EquipeCollapsible {
@@ -64,3 +39,25 @@
   padding: 15px;
   margin: 0px;
 }
+
+
+@media (max-width: 1200px) {
+
+  .equipe--tutores>.card,
+  .equipe--alunos>.card {
+    flex-basis: calc(100% / 3 - 10px);
+
+    max-width: calc(100% / 3 - 10px);
+  }
+}
+
+@media (max-width: 768px) {
+
+  .equipe--tutores>.card,
+  .equipe--alunos>.card {
+    flex-basis: calc(100% / 2 - 10px);
+
+    max-width: calc(100% / 2 - 10px);
+  }
+}
+

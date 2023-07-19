@@ -1,3 +1,4 @@
+
 .corpo {
     background-color: var(--cor-background);
     margin: auto;
@@ -6,6 +7,7 @@
     display: flex;
     flex-direction: column;
 }
+
 
 .corpo_informacoes{
     max-width: 1050px;

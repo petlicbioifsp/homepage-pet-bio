@@ -5,7 +5,7 @@ import styles from './CardAluno.module.css';
 const withBlur = {filter: "blur(2px) grayscale(80%)  brightness(0.5)"}
 const noBlur = {filter: "blur(0px) grayscale(0%)"}
 
-function CardAluno({ nome, srcFoto, ano, tipo, lattes, mail, github, linkedin }) {
+function CardAluno({ nome, srcFoto, tipo, github, linkedin }) {
   const [blurred, setBlur] = useState(noBlur);
   var altFoto = `Foto de ${nome}, integrante do PET ADS do IFSP Sao Carlos`;
 
