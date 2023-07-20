@@ -3,7 +3,6 @@ import FetchProj from "../../hooks/FetchProjetos"
 import Header from "../../components/Header/header";
 import CardProjeto from "./SubComponentes/CardProjeto/cardProjeto";
 import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
-import logoProjeto from "../../resources/kisspng-computer-icons-directory-icon-design-folder-icon-5b23828b1c8d19.801150631529053835117.png";
 
 export default function Projetos() {
     return (
@@ -19,7 +18,7 @@ export default function Projetos() {
                                 key={projetos.id}
                                 titulo={projetos.titulo}
                                 status={projetos.status}
-                                img={logoProjeto}
+                                tipo={projetos.tipo}
                                 descricao={projetos.descricao}
                                 expandido={projetos.expandido}
                                 tecnologias={projetos.tecnologias}
