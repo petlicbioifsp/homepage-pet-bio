@@ -5,7 +5,7 @@ const useScrollToSection = () => {
   const sectionRef = useRef(null);
 
   const scrollToSection = () => {
-      sectionRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
+    sectionRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
   };
 
   useEffect(() => {
@@ -18,20 +18,14 @@ const useScrollToSection = () => {
           setShowArrow(true);
       }
     };
-
+  
       window.addEventListener('scroll',handleShowArrow);
       window.addEventListener('resize', handleShowArrow);
-    
-    return () => {
-    
-      window.removeEventListener('scroll',handleShowArrow);
-      window.removeEventListener('resize', handleShowArrow);
-    
-    };
   
   }, []);
 
   return { showArrow, sectionRef, scrollToSection };
+
 };
 
 
