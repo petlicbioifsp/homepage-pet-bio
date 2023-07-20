@@ -2,6 +2,7 @@
     "projetos": [
       {
         "id": "1",
+        "tipo": "ensino",
         "titulo": "Personalidades da Computação",
         "status": "Em andamento",
         "img": "../src/resources/kisspng-computer-icons-directory-icon-design-folder-icon-5b23828b1c8d19.801150631529053835117.png",
@@ -11,6 +12,7 @@
       },
       {
         "id": "2",
+        "tipo": "ensino",
         "titulo": "Página do grupo PET/ADS/SCL",
         "status": "Em andamento",
         "img": "../../resources/kisspng-computer-icons-directory-icon-design-folder-icon-5b23828b1c8d19.801150631529053835117.png",
@@ -20,6 +22,7 @@
       },
       {
         "id": "3",
+        "tipo": "ensino",
         "titulo": "Projeto Leitura Compartilhada",
         "status": "Contínuo",
         "img": "../../resources/kisspng-computer-icons-directory-icon-design-folder-icon-5b23828b1c8d19.801150631529053835117.png",
@@ -29,6 +32,7 @@
       },
       {
         "id": "4",
+        "tipo": "extensão",
         "titulo": "Página do projeto de extensão com a APAE",
         "status": "Em andamento",
         "img": "../../resources/kisspng-computer-icons-directory-icon-design-folder-icon-5b23828b1c8d19.801150631529053835117.png",
@@ -38,6 +42,7 @@
       },
       {
         "id": "5",
+        "tipo": "extensão",
         "titulo": "Organização da Semana da Computação - Wecomp",
         "status": "Em andamento",
         "img": "../../resources/kisspng-computer-icons-directory-icon-design-folder-icon-5b23828b1c8d19.801150631529053835117.png",
@@ -47,6 +52,7 @@
       },
       {
         "id": "6",
+        "tipo": "extensão",
         "titulo": "Página da Semana da Computação - Wecomp",
         "status": "Em andamento",
         "img": "../../resources/kisspng-computer-icons-directory-icon-design-folder-icon-5b23828b1c8d19.801150631529053835117.png",
@@ -56,6 +62,7 @@
       },
       {
         "id": "7",
+        "tipo": "extensão",
         "titulo": "Projeto de Acolhimento de Ingressantes",
         "status": "Contínuo",
         "img": "../../resources/kisspng-computer-icons-directory-icon-design-folder-icon-5b23828b1c8d19.801150631529053835117.png",
