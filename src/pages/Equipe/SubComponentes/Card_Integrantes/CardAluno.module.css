@@ -1,118 +1,114 @@
 .card {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1px;
-    column-gap: 0px;
-    align-items: center;
-    justify-content: space-evenly;
-    width: auto;
-    margin-bottom: 25px;
-    margin-top: 45px;
-    padding-left: 8px;
-    padding-right: 10px;
-    height: 170px;
-    
-    flex-basis: calc(100% / 4.9 - 100px); 
-    max-width: calc(100% / 4.9 - 10px);
-  }
-.descricao{
-    display: block;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1px;
+  column-gap: 0px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: auto;
+  margin-bottom: 25px;
+  margin-top: 45px;
+  padding-left: 8px;
+  padding-right: 10px;
+  height: 200px;
+  flex-basis: calc(100% / 4.9 - 100px);
+  max-width: calc(100% / 4.9 - 10px);
 }
 
-div.card > a:first-child{
-  max-width: 125px;
-  max-height: 125px;
+.descricao {
+  display: block;
+}
+
+.imgContainer {
   position: relative;
-  border-radius: 500px;
-}
-
-.img:hover {
-    filter: blur(5px) grayscale(50%);
-}
-
-.img{
-    width: 125px;
-    height: 125px;
-    border-radius: 500px;
-    transition: 0.5s;
-    border: 1px solid black;
-}
-
-.githubFilterImage{
   width: 125px;
   height: 125px;
-  border-radius: 500px;
-  transition: 0.5s;
-  opacity: 0.0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid black;
 }
 
-.githubFilterImage:hover {
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.iconWrapper {
+  font-size: 30PX;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+  
+}
+
+.imgContainer:hover .iconWrapper {
   opacity: 1;
 }
 
+.githubIcon,
+.linkedinIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding: 10px;
+  color: var(--cor-azul__claro);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
 
-.githubIcon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 125px;
-  max-height: 200px;
-  border-radius: 500px;
-  transition: 0.5s;
+.githubIcon:hover,
+.linkedinIcon:hover {
+  color: var(--cor-detalhes-azul);
+}
+
+.iconsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto 3px;
 }
 
 p {
-    font-size: 16px;
-    margin: 5px;
-    color: var(--cor-detalhes-azul);
-    text-align: center;
-}
-
-.iconsContainer {  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: auto 3px;
-}
-
-.icon {
-    
-  height: 30px;
-  width: 32px;
-  padding: 10px;
-  color: var(--cor-azul__claro);
+  font-size: 16px;
+  margin: 5px;
+  color: var(--cor-detalhes-azul);
+  text-align: center;
 }
 
 @media (max-width: 1360px) {
   .card {
-    flex-basis: calc(100% / 4 - 40px); /* 3 cards por linha em telas médias */
+    flex-basis: calc(100% / 4 - 40px);
     max-width: calc(100% / 4 - 40px);
   }
 }
 
 @media (max-width: 1200px) {
-    .card {
-      flex-basis: calc(100% / 3 - 30px); /* 3 cards por linha em telas médias */
-      max-width: calc(100% / 3 - 30px);
-    }
+  .card {
+    flex-basis: calc(100% / 3 - 30px);
+    max-width: calc(100% / 3 - 30px);
   }
-  
-  @media (max-width: 768px) {
-    .card {
-      flex-basis: calc(100% / 2 - 20px); /* 2 cards por linha em telas menores */
-      max-width: calc(100% / 3 - 20px);
-    }
-  }
+}
 
-  @media screen and (max-width: 560px){
-    .card {
-      flex-basis: calc(100%/ 2 - 10px);
-      max-width: calc(100%/ 2 - 10px);
-    }
+@media (max-width: 768px) {
+  .card {
+    flex-basis: calc(100% / 2 - 20px);
+    max-width: calc(100% / 3 - 20px);
   }
+}
+
+@media screen and (max-width: 560px) {
+  .card {
+    flex-basis: calc(100% / 2 - 10px);
+    max-width: calc(100% / 2 - 10px);
+  }
+}
