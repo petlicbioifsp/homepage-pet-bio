@@ -159,6 +159,7 @@
   "tutores": [
     {
       "nomeTutor": "Lucas Oliveira",
+      "tipo": "Tutor",
       "foto": "./fotos_tutores/lucas.jpg",
       "ano": "2023",
       "github": "https://github.com/lucas-ifsp"

@@ -20,21 +20,20 @@ export default function Equipe() {
         render={({ alunos, tutores, exAlunos }) => (
             <>
               <Header texto="Integrantes"/>
-
-              <h2 className="equipe--titulo">Tutor</h2>
               <section className="equipe--tutor">
                 {tutores.map((tutor) => (
                   <CardTutor
                     key={tutor.id}
                     github={tutor.github}
                     nome={tutor.nomeTutor}
+                    tipo ={tutor.tipo}
                     srcFoto={tutor.foto}
                     ano={tutor.ano}
+                    linkedin={tutor.linkedin}
                   />
                 ))}
 
               </section>
-              <h2 className="equipe--titulo">Membros</h2>
               <section className="equipe--alunos">
                 {alunos.map((aluno) => (
                   <CardAluno
