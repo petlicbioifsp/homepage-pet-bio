@@ -18,15 +18,7 @@
       "github": "https://github.com/otaviopl",
       "linkedin": "https://www.linkedin.com/in/otávio-pereira-lopes-603432218/"
     },
-    {
-      "id": "3",
-      "nome": "Noah Rissatti",
-      "foto": "./fotos_alunos/noPhotoPerson.png",
-      "tipo": "Bolsista",
-      "ano": "2022",
-      "github": "https://github.com/NoahRissatti",
-      "linkedin": "https://www.linkedin.com/in/noah-rissatti-452426255/"
-    },
+
     {
       "id": "4",
       "nome": "Bianca C. Antonietti",
@@ -54,15 +46,7 @@
       "github": "https://github.com/luiz-chiq",
       "linkedin": "https://www.linkedin.com/in/luiz-chiquetano/"
     },
-    {
-      "id": "7",
-      "nome": "Laura R. Luchiari",
-      "foto": "./fotos_alunos/laura.jpeg",
-      "tipo": "Bolsista",
-      "ano": "2022",
-      "github": "https://github.com/lauraluch",
-      "linkedin": "https://www.linkedin.com/in/laura-ranucci-luchiari"
-    },
+
     {
       "id": "8",
       "nome": "Bárbara B. Gasques",
@@ -120,7 +104,7 @@
     {
       "id":"14",
       "nome": "Gabriel Gatti",
-      "foto":"./fotos_alunos/aiai.jpg",
+      "foto":"./fotos_alunos/noPhotoPerson.png",
       "ano": "2023",
       "tipo": "...",
       "github": "...",
@@ -129,7 +113,7 @@
     {
       "id":"15",
       "nome":"Lucas Silva de Almeida",
-      "foto":"./fotos_alunos/aiai.jpg",
+      "foto":"./fotos_alunos/noPhotoPerson.png",
       "ano": "2023",
       "tipo":"Voluntário",
       "github":"...",
@@ -138,11 +122,6 @@
   ],
   "exAlunos": [
     {
-      "id": "1",
-      "nome": "Paulo",
-      "foto": "./fotos_alunos/aiai.jpg",
-      "anos": "2019-2023"
-    },{
       "id":"12",
       "nome": "Julia Silva",
       "foto":"./fotos_alunos/noPhotoPerson.png",
@@ -150,6 +129,31 @@
       "anos" :"2019-2023",
       "github": "https://github.com/",
       "linkedin": "https://www.linkedin.com"
+    },
+    {
+      "id": "7",
+      "nome": "Laura R. Luchiari",
+      "foto": "./fotos_alunos/laura.jpeg",
+      "tipo": "Bolsista",
+      "ano": "2022",
+      "github": "https://github.com/lauraluch",
+      "linkedin": "https://www.linkedin.com/in/laura-ranucci-luchiari"
+    },
+    {
+      "id": "3",
+      "nome": "Noah Rissatti",
+      "foto": "./fotos_alunos/noPhotoPerson.png",
+      "tipo": "Bolsista",
+      "ano": "2022",
+      "github": "https://github.com/NoahRissatti",
+      "linkedin": "https://www.linkedin.com/in/noah-rissatti-452426255/"
+    },
+
+    {
+      "id": "1",
+      "nome": "Paulo",
+      "foto": "./fotos_alunos/noPhotoPerson.png",
+      "anos": "2019-2023"
     }
   ],
   "tutores": [
