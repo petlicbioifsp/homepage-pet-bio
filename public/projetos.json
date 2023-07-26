@@ -12,7 +12,7 @@
       },
       {
         "id": "2",
-        "tipo": "extensão",
+        "tipo": "extensão-desenvolivmento",
         "titulo": "Página do grupo PET/ADS/SCL",
         "status": "Em andamento",
         "descricao": "Desenvolvimento da página PET/ADS do câmpus São Carlos, para divulgação de informações sobre o grupo, seus projetos, membros e processos seletivos.",
@@ -30,7 +30,7 @@
       },
       {
         "id": "4",
-        "tipo": "extensão",
+        "tipo": "extensão-desenvolivmento",
         "titulo": "Página do projeto de extensão com a APAE",
         "status": "Em andamento",
         "descricao": "Desenvolvimento da página para o projeto de extensão Inclusão Digital para Pessoas com Deficiência Intelectual, junto a APAE São Carlos. ",
@@ -48,7 +48,7 @@
       },
       {
         "id": "6",
-        "tipo": "extensão",
+        "tipo": "extensão-desenvolivmento",
         "titulo": "Página da Semana da Computação - Wecomp",
         "status": "Em andamento",
         "descricao": "Desenvolvimento da página para a semana da computação do IFSP São Carlos - Wecomp, contendo informações sobre o evento, sua programação e empresas participantes.",

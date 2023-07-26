@@ -1,9 +1,10 @@
-import { useState } from 'react';
 import "./cardProjeto.css";
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import logoExtensao from '../../../../resources/extensao.png'
 import logoEnsino from '../../../../resources/ensino-superior.png';
 import logoPesquisa from '../../../../resources/big-search-len.png'
+import logoDesenvolvimento from "../../../../resources/cloud-coding.png";
 export default function CardProjeto(props) {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +17,9 @@ export default function CardProjeto(props) {
             {props.tipo === 'pesquisa' && <motion.img className= 'logo-projeto' src={logoPesquisa} alt="pesquisa" />}
 
             {props.tipo === 'extensão' && <motion.img className = 'logo-projeto'  src={logoExtensao} alt="extensao" />}
+
+            {props.tipo === 'extensão-desenvolivmento' && <motion.img className = 'logo-projeto'  src={logoDesenvolvimento} alt="extensao-desenvolvimento" />}
+
             
             {!isOpen && (
                 
