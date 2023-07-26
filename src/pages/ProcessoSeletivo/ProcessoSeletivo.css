@@ -1,25 +1,23 @@
 
 .corpo {
-    background-color: var(--cor-background);
     margin: auto;
+    display: flex;
     min-height: 80vh;
     max-width: 1920px;
-    display: flex;
-    flex-direction: column;
     padding-top: 50px;
+    flex-direction: column;
+    background-color: var(--cor-background);
+
 }
 
-a{
-    text-decoration: none;
-}
 .corpo_informacoes{
-    max-width: 1050px;
     width: 100%;
     display: flex;
-    flex-direction: column;
     min-height: 40vh;
-    margin-bottom: 25vh;
+    max-width: 1050px;
     align-self: center;
+    margin-bottom: 25vh;
+    flex-direction: column;
 }
 
 @media (max-width: 1200px) {
