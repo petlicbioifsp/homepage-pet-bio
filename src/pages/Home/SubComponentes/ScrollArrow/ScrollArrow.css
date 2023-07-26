@@ -1,15 +1,14 @@
-
 .scroll-arrow {
-    position: relative;;
-    align-self: center;
-    justify-self: center;
-    bottom: 97px;
-    transform: translate(50%, 0%);
-    z-index: 999;
     opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s, visibility 0.3s;
+    bottom: 97px;
+    z-index: 999;
     cursor: pointer;
+    align-self: center;
+    position: relative;
+    visibility: hidden;
+    justify-self: center;
+    transform: translate(50%, 0%);
+    transition: opacity 0.3s, visibility 0.3s;
   }
   
   .scroll-arrow.visible {
@@ -18,13 +17,13 @@
   }
   
   .arrow {
-    display: block;
     width: 20px;
     height: 20px;
-    border-bottom: 4px solid var(--cor-texto__claro);
-    border-right: 4px solid var(--cor-texto__claro);
-    transition: border-color 0.3s, transform 0.3s;
+    display: block;
     animation: bounce 1s infinite;
+    transition: border-color 0.3s, transform 0.3s;
+    border-right: 4px solid var(--cor-texto__claro);
+    border-bottom: 4px solid var(--cor-texto__claro);
   }
   
   .scroll-arrow:hover .arrow {
@@ -44,6 +43,7 @@
         transform: translateY(0) rotate(45deg);
     }
   }
+
   @media screen and (max-height:600px){
     .scroll-arrow.scroll-arrow.visible{
       visibility: hidden;

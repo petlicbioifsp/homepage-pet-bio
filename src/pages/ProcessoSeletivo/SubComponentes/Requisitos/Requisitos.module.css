@@ -3,24 +3,19 @@
 }
 
 .titulo_secundario {
-    color: var(--cor-azul__claro);
     font-size: 26px;
-}
-
-.titulo_secundario::before {
-    color: var(--cor-detalhes-azul);
+    color: var(--cor-texto);
 }
 
 .texto {
-    color: var(--cor-texto);
-    line-height: 1.5em;
     font-size: 20px;
+    line-height: 1.5em;
     text-align: justify;  
+    color: var(--cor-texto);
 }
 
 
 @media screen and (max-width:1200px){
-
     .titulo_secundario{
         margin: 2% 2%;
     }
@@ -30,26 +25,13 @@
 }
 
 @media screen and (max-width: 950px){
-
     .titulo_secundario{
         margin: 2% 4%;
-        font-size: 22px;
     }
     .texto{
         margin: 0 4%;
-       font-size: 16px;
-       text-align: left;
-        }
+        text-align: left;
+    }
 }
     
-
-@media screen and (max-width: 300px){
-
-    .titulo_secundario{
-        font-size: 18px;
-    }
-    .texto{
-        font-size: 12px;
-    }
-}
 

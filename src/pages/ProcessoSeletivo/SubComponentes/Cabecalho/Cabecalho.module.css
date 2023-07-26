@@ -3,35 +3,28 @@
 }
 
 .texto {
-    color: var(--cor-texto);
-    line-height: 1.5em;
-    max-width: 1050px;
-    
     font-size: 20px;
+    max-width: 1050px;
+    line-height: 1.5em;    
     text-align: justify; 
-}
+    color: var(--cor-texto);
 
+}
 
 @media screen and (max-width:1200px){
     .texto{
-        font-size: 20px;
         margin: 0 2%;
     }
 }
 
 @media screen and (max-width: 950px){
- .cabecalho{
-    padding-top: 50px;
- }
- .texto{
-    font-size: 16px;
-    margin: 2% 4%;
-    text-align: left;
- }
+
+    .cabecalho{
+        padding-top: 50px;
+    }
+    .texto{
+        margin: 2% 4%;
+        text-align: left;
+    }
 }
 
-@media screen and (max-width: 300px){
-.texto{
-    font-size: 12px;
-}
-}

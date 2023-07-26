@@ -1,27 +1,28 @@
 .title {
     margin: 0px;
+    font-size: 26px;
     margin-bottom: 30px;
-    font-size: 32px;
     color: var(--cor-texto);
 }
 
 .text {
-    text-align: justify;
-    color: var(--cor-texto);
+    width: 100%;
     flex-wrap: wrap;
     font-size: 20px;
-    width: 100%;
-    margin-bottom: 30px;
     line-height: 1.5em;
+    text-align: justify;
+    margin-bottom: 30px;
     justify-self: center;
+    color: var(--cor-texto);
 }
+
 @media screen and (max-width:490px){
     .title{
         font-size: 150%;
     }
     .text{
-        width: fit-content;
         font-size: 110%;
+        width: fit-content;
     }
 }
 
