@@ -1,9 +1,10 @@
 .scroll-arrow {
     opacity: 0;
-    bottom: 97px;
+    bottom: 82px;
     z-index: 999;
     cursor: pointer;
     align-self: center;
+    justify-self: center;
     position: relative;
     visibility: hidden;
     justify-self: center;
