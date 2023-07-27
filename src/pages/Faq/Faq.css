@@ -11,30 +11,31 @@ body {
 
 .Collapsible__trigger {
     display: flex;
-    flex-direction: row;
+    padding: 15px;
     flex-wrap: wrap;
-    background-color: var(--cor-azul__medio);
-    color: var(--cor-azul__claro);
+    cursor: pointer;
     font-size: 18px;
     margin: 0px 80px;
-    border-bottom: 2px solid var(--cor-azul__claro);
     text-indent: 10px;
-    padding: 15px;
-    cursor: pointer;
+    flex-direction: row;
+    color: var(--cor-detalhes-azul);
+    background-color: var(--cor-azul__medio);
+    border-bottom: 2px solid var(--cor-azul__claro);
 }
 
 .Collapsible__contentInner {
+    padding: 10px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    background-color: var(--cor-azul__claro);
     font-size: 17px;
     margin: 0px 80px;
-    padding: 10px;
+    flex-direction: row;
+    background-color: var(--cor-azul__medio);
+    border-bottom: 2px solid var(--cor-azul__claro);
 }
 
 .faq-resposta {
-    color: var(--cor-background);
+    color: var(--cor-texto);
     text-align: left;
 }
 
