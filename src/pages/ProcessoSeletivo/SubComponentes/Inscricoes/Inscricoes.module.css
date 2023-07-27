@@ -15,7 +15,7 @@
     font-size: 20px;
     line-height: 1.5em;
     text-align: justify;  
-    color: var(--cor-texto);
+    color: var(--cor-texto__claro);
 }
 
 .download {
@@ -29,8 +29,8 @@
     border: 2px solid var(--cor-detalhes-azul);
 }
 .btnDownload  {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     align-self: center;
     justify-self: center;
     color:var(--cor-texto)
