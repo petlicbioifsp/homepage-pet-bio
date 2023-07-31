@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiFillCaretDown } from 'react-icons/ai';
 
+
 const CollapsibleTrigger = ({ text }) => {
   return (
     <div>

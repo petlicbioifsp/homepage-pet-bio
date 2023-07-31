@@ -38,11 +38,11 @@ function CardAluno({ nome, srcFoto, tipo, github, linkedin }) {
 
       <div className={styles.descricao}>
         <strong>
-          <p className={styles.p}>{nome}</p>
+          <p className={styles.p}>{tipo}</p>
         </strong>
         <pre></pre>
         <strong>
-          <p className={styles.p}>{tipo}</p>
+          <p className={styles.p}>{nome}</p>
         </strong>
       </div>
     </div>

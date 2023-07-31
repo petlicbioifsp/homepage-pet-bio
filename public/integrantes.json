@@ -164,5 +164,12 @@
       "ano": "2023",
       "github": "https://github.com/lucas-ifsp"
     }
+  ],
+  "exTutores": [
+    {
+      "nomeTutor": "João Luiz Franco",
+      "foto": "./fotos_alunos/noPhotoPerson.png",
+      "ano": "2010-2022"
+    }
   ]
 }

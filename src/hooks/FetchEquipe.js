@@ -4,6 +4,7 @@ const FetchEquipe = ({ render }) => {
   const [alunos, setAlunos] = useState([]);
   const [tutores, setTutores] = useState([]);
   const [exAlunos, setExAlunos] = useState([]);
+  const [exTutores, setExTutores] = useState([]);
 
   useEffect(() => {
     const fetchIntegrantes = async () => {
@@ -13,6 +14,7 @@ const FetchEquipe = ({ render }) => {
         setAlunos(data.aluno);
         setTutores(data.tutores);
         setExAlunos(data.exAlunos);
+        setExTutores(data.exTutores);
       } catch (error) {
         console.error('Ocorreu um erro ao obter os integrantes:', error);
       }
@@ -21,7 +23,7 @@ const FetchEquipe = ({ render }) => {
     fetchIntegrantes();
   }, []);
 
-  return render({ alunos, tutores, exAlunos });
+  return render({ alunos, tutores, exAlunos, exTutores });
 };
 
 export default FetchEquipe;
