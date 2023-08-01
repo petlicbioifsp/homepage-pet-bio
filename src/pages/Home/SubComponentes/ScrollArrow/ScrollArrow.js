@@ -1,11 +1,12 @@
 
 import React from 'react';
 import "./ScrollArrow.css";
-const ScrollArrow = ({ showArrow, sectionRef, scrollToSection }) => {
+import Arrow from '../../../../components/Arrow/Arrow';
+const ScrollArrow = ({ showArrow, sectionRef, scrollToSection, customClass}) => {
 
   return (
     <div className={`scroll-arrow ${showArrow ? 'visible' : ''}`} onClick={scrollToSection}>
-      <span className="arrow"></span>
+    <Arrow customClass={customClass}/>
     </div>
   );
 };

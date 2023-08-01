@@ -8,3 +8,15 @@
   justify-content: center;
   background-color: var(--cor-background);
 }
+.scrolltoView{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: fit-content;
+  min-height: 80vh;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  margin-top: 10vh;
+  margin-bottom: 2%;
+}

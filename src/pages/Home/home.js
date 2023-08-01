@@ -20,8 +20,9 @@ export default function Home() {
                 showArrow={showArrow}
                 sectionRef={sectionRef}
                 scrollToSection={scrollToSection}
+                customClass={'home-arrow'}
             />
-
+            <div className ='scrolltoView' ref={sectionRef}>
             <Reveal>
 
                 <Info
@@ -42,8 +43,7 @@ export default function Home() {
                 />
                 
             </Reveal>
-
-            <div ref={sectionRef}></div>
+            </div>
 
             <Reveal>
                 <Info
