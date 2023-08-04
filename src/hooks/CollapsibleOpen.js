@@ -1,10 +1,11 @@
 import React from 'react';
-import { AiFillCaretUp } from 'react-icons/ai';
+import { MdKeyboardArrowUp } from 'react-icons/md';
+import './CollapsibleArrow.css'
 
 const CollapsibleOpen = ({ text }) => {
   return (
-    <div>
-      <AiFillCaretUp />
+    <div className='CollapsibleTriggerContainer'>
+      <MdKeyboardArrowUp className='collapsibleOpen-arrow' />
       <span>{text}</span>
     </div>
   );

@@ -1,58 +1,61 @@
 .home-arrow {
-    width: 15px;
-    height: 15px;
-    display: block;
-    animation: bounce 1s infinite;
-    transition: border-color 0.3s, transform 0.3s;
-    border-right: 4px solid var(--cor-texto__claro);
-    border-bottom: 4px solid var(--cor-texto__claro);
-  }
-  
-  .scroll-arrow:hover .arrow {
-    border-color: #888;
-  }
-  
-  @keyframes bounce {
-    0% {
-        transform: translateY(0) rotate(45deg);
-    }
-  
-    50% {
-        transform: translateY(-5px) rotate(45deg);
-    }
-  
-    100% {
-        transform: translateY(0) rotate(45deg);
-    }
+  width: 15px;
+  height: 15px;
+  display: block;
+  animation: bounce 1s infinite;
+  transition: border-color 0.3s, transform 0.3s;
+  border-right: 4px solid var(--cor-texto__claro);
+  border-bottom: 4px solid var(--cor-texto__claro);
+}
+
+.scroll-arrow:hover .arrow {
+  border-color: #888;
+}
+
+@keyframes bounce {
+  0% {
+      transform: translateY(0) rotate(45deg);
   }
 
-  .collapsible-arrow{
-    left: 35%;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    position: absolute;    
-    transform: rotate(45deg);
-    transition: border-color 0.3s, transform 0.3s;
-    border-right: 4px solid var(--cor-texto__claro);
-    border-bottom: 4px solid var(--cor-texto__claro);
+  50% {
+      transform: translateY(-5px) rotate(45deg);
+  }
 
+  100% {
+      transform: translateY(0) rotate(45deg);
   }
-  .collapsibleOpen-arrow{
-    left: 35%;
-    width: 20px;
-    height: 20px;
-    display: block;
-    position: absolute;
-    transform: rotate(225deg);
-    transition: border-color 0.3s, transform 0.3s;
-    border-right: 4px solid var(--cor-texto__claro);
-    border-bottom: 4px solid var(--cor-texto__claro);
+}
+
+/*
+
+.collapsible-arrow{
+  left: 35%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  position: absolute;    
+  transform: rotate(45deg);
+  transition: border-color 0.3s, transform 0.3s;
+  border-right: 4px solid var(--cor-texto__claro);
+  border-bottom: 4px solid var(--cor-texto__claro);
+
+}
+.collapsibleOpen-arrow{
+  left: 35%;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  transform: rotate(225deg);
+  transition: border-color 0.3s, transform 0.3s;
+  border-right: 4px solid var(--cor-texto__claro);
+  border-bottom: 4px solid var(--cor-texto__claro);
+}
+*/
+
+@media screen and (max-width:300px){
+  .home-arrow{
+      width: 10px;
+      height: 10px;
   }
-  
-  @media screen and (max-width:300px){
-    .home-arrow{
-        width: 10px;
-        height: 10px;
-    }
-  }
+}
