@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from './CardExAluno.module.css';
-import { MdEmail } from 'react-icons/md';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
-function CardExAluno({ nome, srcFoto, anos, lattes, mail, github, linkedin }) {
+function CardExAluno({ nome, srcFoto, linkedin }) {
   function Evento() {
     console.log('Teste do evento');
   }

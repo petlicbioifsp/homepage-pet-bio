@@ -19,9 +19,6 @@
 
 @media screen and (max-width: 950px){
 
-    .cabecalho{
-        padding-top: 50px;
-    }
     .texto{
         margin: 2% 4%;
         text-align: left;

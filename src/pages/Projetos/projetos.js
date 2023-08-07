@@ -1,10 +1,10 @@
-import React from 'react';
 import "./projetos.css";
+import React from 'react';
 import FetchProj from "../../hooks/FetchProjetos";
 import Header from "../../components/Header/header";
+import useWindowSize from "../../hooks/useWindowSize";
 import CardProjeto from "./SubComponentes/CardProjeto/cardProjeto";
 import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
-import useWindowSize from "../../hooks/useWindowSize"; // Importe o hook personalizado
 
 export default function Projetos() {
   const size = useWindowSize();
