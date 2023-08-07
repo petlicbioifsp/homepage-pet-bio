@@ -50,8 +50,8 @@ export default function Equipe() {
               </section>
               <Collapsible 
               classParentString="EquipeCollapsible"
-              trigger={<CollapsibleTrigger text=" Ex-Integrantes" />}
-              triggerWhenOpen={<CollapsibleOpen text=" Ex-Integrantes" />}
+              trigger={<CollapsibleTrigger text=" Ex-Integrantes" page = "Equipe" />}
+              triggerWhenOpen={<CollapsibleOpen text=" Ex-Integrantes" page="Equipe"/>}
               >
                 <section className="equipe--tutor">
                   {exTutores.map((exTutor) => (

@@ -18,8 +18,8 @@ export default function Faq() {
             arrFaq.map((faqs) => (
               <Collapsible
                 key={faqs.id}
-                trigger={<CollapsibleTrigger text={faqs.trigger} />}
-                triggerWhenOpen={<CollapsibleOpen text={faqs.trigger} />}
+                trigger={<CollapsibleTrigger text={faqs.trigger} page="FAQ" />}
+                triggerWhenOpen={<CollapsibleOpen text={faqs.trigger} page="FAQ" />}
               >
                 <p className="faq-resposta">{faqs.resposta}</p>
               </Collapsible>

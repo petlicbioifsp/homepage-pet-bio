@@ -1,12 +1,14 @@
 import React from 'react';
-import { MdKeyboardArrowDown } from 'react-icons/md';
 import '../components/Arrow/Arrow.css'
+import { AiFillCaretDown} from 'react-icons/ai';
+import { MdKeyboardArrowDown } from 'react-icons/md';
 
 
-const CollapsibleTrigger = ({ text }) => {
+const CollapsibleTrigger = ({ text, page }) => {
   return (
     <div className='CollapsibleTriggerContainer'>
-      <MdKeyboardArrowDown className='collapsible-arrow' />
+       {page === 'Equipe' && <MdKeyboardArrowDown className='collapsible-arrow'/>}
+       {page === 'FAQ' && <AiFillCaretDown/>}
       <span className='spanText'>{text}</span>
     </div>
   );

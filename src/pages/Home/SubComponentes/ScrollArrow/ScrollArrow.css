@@ -1,26 +1,26 @@
 .scroll-arrow {
-    opacity: 0;
-    bottom: 82px;
-    z-index: 999;
-    cursor: pointer;
-    align-self: center;
-    justify-self: center;
-    position: relative;
-    visibility: hidden;
-    justify-self: center;
-    transform: translate(50%, 0%);
-    transition: opacity 0.3s, visibility 0.3s;
-  }
+  opacity: 0;
+  bottom: 82px;
+  z-index: 999;
+  cursor: pointer;
+  align-self: center;
+  position: relative;
+  visibility: hidden;
+  justify-self: center;
+  justify-self: center;
+  transform: translate(50%, 0%);
+  transition: opacity 0.3s, visibility 0.3s;
+}
   
-  .scroll-arrow.visible {
-    opacity: 1;
-    visibility: visible;
-  }
+.scroll-arrow.visible {
+  opacity: 1;
+  visibility: visible;
+}
   
-  @media screen and (max-height:600px){
-    .scroll-arrow{
-      bottom: 20px;
-      right: 5px;
-    }
+@media screen and (max-height:600px){
+  .scroll-arrow{
+    bottom: 20px;
+    right: 5px;
   }
+}
 
