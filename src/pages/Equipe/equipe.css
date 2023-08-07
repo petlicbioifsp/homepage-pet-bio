@@ -37,8 +37,9 @@
   padding: 15px;
   font-size: 32px;
   text-align: center;
-  color: var(--cor-azul__claro);
   font-weight: bold;
+  color: var(--cor-azul__claro);
+
 
 }
 
