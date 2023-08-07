@@ -1,30 +1,28 @@
 .card {
-    display: flex;
-    flex-direction: column;
+    width: auto;
     row-gap: 1px;
+    display: flex;
     column-gap: 0px;
     align-items: center;
-    justify-content: space-evenly;
-    width: auto;
-    /*background-color: var(--cor-azul__medio);*/
-    padding-top: calc(23px * 3/5);
-    padding-bottom:  calc(5px * 3/5);
-    padding-left:  calc(8px * 3/5);
-    padding-right:  calc(10px * 3/5);
-    /*border-radius: 10px;*/
+    flex-direction: column;
     height:  calc(230px * 3/5);
-    flex-basis: calc(100% / 6 - 100px); /* Largura de cada card */
+    justify-content: space-evenly;
+    padding-top: calc(23px * 3/5);
+    padding-left:  calc(8px * 3/5);
+    padding-bottom:  calc(5px * 3/5);
+    padding-right:  calc(10px * 3/5);
     max-width: calc(100% / 6 - 10px);
+    flex-basis: calc(100% / 6 - 100px); 
   }
 .descricao{
     display: block;
 }
 
 div.card > a:first-child{
-  max-width:  calc(125px * 3/5);
-  max-height:  calc(125px * 3/5);
   position: relative;
   border-radius: 500px;
+  max-width:  calc(125px * 3/5);
+  max-height:  calc(125px * 3/5);
 }
 
 .img:hover {
@@ -32,23 +30,23 @@ div.card > a:first-child{
 }
 
 .img{
-    width:  calc(125px * 3/5);
-    height:  calc(125px * 3/5);
-    border-radius: 500px;
-    transition: 0.5s;
-    border: 1px solid black;
+  transition: 0.5s;
+  border-radius: 500px;
+  border: 1px solid black;
+  width:  calc(125px * 3/5);
+  height:  calc(125px * 3/5);
 }
 
 .githubFilterImage{
-  width: calc(125px * 3/5);
-  height: calc(125px * 3/5);
-  border-radius: 500px;
-  transition: 0.5s;
-  opacity: 0.0;
-  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Centralizando o elemento */
+  opacity: 0.0;
+  transition: 0.5s;
+  position: absolute;
+  border-radius: 500px;
+  height: calc(125px * 3/5);
+  width: calc(125px * 3/5);
+  transform: translate(-50%, -50%); 
 }
 
 .githubFilterImage:hover {
@@ -57,48 +55,70 @@ div.card > a:first-child{
 
 
 .githubIcon {
-  /* Estilos para a classe githubIcon */
-  position: absolute;
+  
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  position: absolute;
+  border-radius: 500px;
   max-width: calc(125px * 3/5);
   max-height: calc(200px * 3/5);
-  border-radius: 500px;
-  transition: 0.5s;
+  transform: translate(-50%, -50%);
 }
 
 p {
-    font-size: 16px;
-    margin: calc(5px * 3/5);
-    color: var(--cor-detalhes-azul);
-    text-align: center;
+  font-size: 16px;
+  text-align: center;
+  margin: calc(5px * 3/5);
+  color: var(--cor-detalhes-azul);
 }
 
 .iconsContainer {  
     display: block;
     align-items: center;
-    justify-content: center;
     margin-top: auto 3px;
+    justify-content: center;
 }
-@media (max-width: 1200px) {
-    .card {
-      flex-basis: calc(100% / 6 - 30px); /* 3 cards por linha em telas médias */
-      max-width: calc(100% / 6 - 30px);
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .card {
-      flex-basis: calc(100% / 4 - 20px); /* 2 cards por linha em telas menores */
-      max-width: calc(100% / 4 - 20px);
-    }
-  }
 
-.icon {
-    
-    height: 30px;
-    width: 32px;
-    padding: 10px;
-    color: var(--cor-azul__claro);
+.icon {    
+  width: 32px;
+  height: 30px;
+  padding: 10px;
+  color: var(--cor-azul__claro);
 }
+
+@media (max-width: 1200px) {
+  .card {
+    flex-basis: calc(100% / 6 - 30px); 
+    max-width: calc(100% / 6 - 30px);
+  }
+}
+  
+@media (max-width: 768px) {
+  .card {
+    flex-basis: calc(100% / 4 - 20px); 
+    max-width: calc(100% / 4 - 20px);
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    flex-basis: calc(100% / 3 - 20px); 
+    max-width: calc(100% / 3  - 20px);
+  }
+}
+
+@media (max-width: 320px) {
+  .card {
+    flex-basis: calc(100% / 2 - 20px); 
+    max-width: calc(100% / 2  - 20px);
+  }
+}
+
+@media (max-width: 250px) {
+  .card {
+    flex-basis: calc(100% / 1 - 20px); 
+    max-width: calc(100% / 1  - 20px);
+  }
+}
+

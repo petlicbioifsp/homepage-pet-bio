@@ -132,7 +132,7 @@
     },
     {
       "id":"2",
-      "nome": "Amadeu José Andrade Junior",
+      "nome": "Amadeu  Andrade ",
       "foto":"./fotos_alunos/amadeuJunior.jpeg",
       "tipo": "bolsista",
       "anos" :"2019-2023",
@@ -141,7 +141,7 @@
     },
     {
       "id": "3",
-      "nome": "Laura R. Luchiari",
+      "nome": "Laura  Luchiari",
       "foto": "./fotos_alunos/laura.jpeg",
       "tipo": "Bolsista",
       "ano": "2022",
