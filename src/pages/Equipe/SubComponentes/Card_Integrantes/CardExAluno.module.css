@@ -87,21 +87,21 @@ p {
   color: var(--cor-azul__claro);
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1523px) {
   .card {
     flex-basis: calc(100% / 6 - 30px); 
     max-width: calc(100% / 6 - 30px);
   }
 }
   
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .card {
     flex-basis: calc(100% / 4 - 20px); 
     max-width: calc(100% / 4 - 20px);
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 560px) {
   .card {
     flex-basis: calc(100% / 3 - 20px); 
     max-width: calc(100% / 3  - 20px);
