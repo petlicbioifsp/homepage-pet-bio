@@ -18,6 +18,7 @@ function CardExTutores({ nome, srcFoto,ano}) {
         alt={altFoto}
       />
       <div className={styles.descricao}>
+        <p className={styles.p}>Ex-tutor(a)</p>
         <p className={styles.p}>{nome}</p>
         <p className={styles.p}>{ano}</p>
       </div>
