@@ -24,6 +24,7 @@ export default function Projetos() {
                   titulo={projetos.titulo}
                   status={projetos.status}
                   tipo={projetos.tipo}
+                  link = {projetos.link}
                   descricao={projetos.descricao}
                   expandido={projetos.expandido}
                   tecnologias={projetos.tecnologias}

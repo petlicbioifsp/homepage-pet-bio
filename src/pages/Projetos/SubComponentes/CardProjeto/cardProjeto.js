@@ -1,6 +1,7 @@
 import "./cardProjeto.css";
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { FaGithub } from 'react-icons/fa';
 import logoExtensao from '../../../../resources/extensao.png'
 import logoEnsino from '../../../../resources/ensino-superior.png';
 import logoPesquisa from '../../../../resources/big-search-len.png'
@@ -10,8 +11,8 @@ export default function CardProjeto(props) {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <motion.div className={isOpen ? "card aberto" : "card"} onClick={() => setIsOpen(!isOpen)}>
-            
+        <motion.div className={isOpen ? "card aberto" : "card"}>
+            <motion.div className="logoConteiner">
             {props.tipo === 'ensino' && <motion.img className= 'logo-projeto' src={logoEnsino} alt="ensino"/>}
 
             {props.tipo === 'pesquisa' && <motion.img className= 'logo-projeto' src={logoPesquisa} alt="pesquisa" />}
@@ -20,8 +21,12 @@ export default function CardProjeto(props) {
 
             {props.tipo === 'extensão-desenvolivmento' && <motion.img className = 'logo-projeto'  src={logoDesenvolvimento} alt="extensao-desenvolvimento" />}
 
-            
-            {!isOpen && (
+            <a rel='noreferrer' target="blank" href={props.link} ><FaGithub className="Icon"/></a>
+            </motion.div>
+           
+           <motion.div onClick={() => setIsOpen(!isOpen)}>
+
+           {!isOpen && (
                 
                 <><motion.h2 className="card-titulo">{props.titulo}</motion.h2>
                 <motion.p className="card-descricao">{props.descricao}</motion.p></>)}
@@ -38,6 +43,9 @@ export default function CardProjeto(props) {
                 </motion.div>
             </>
             )}
+           </motion.div>
+            
+
         </motion.div>
     )
 }

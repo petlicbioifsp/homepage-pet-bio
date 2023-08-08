@@ -26,13 +26,13 @@
 
 @keyframes jump {
     0% {
-      transform: translateY(0); /* estado inicial */
+      transform: translateY(0);
     }
     50% {
-      transform: translateY(-5px); /* meio da animação */
+      transform: translateY(-5px); 
     }
     100% {
-      transform: translateY(0); /* estado final */
+      transform: translateY(0); 
     }
   }
 

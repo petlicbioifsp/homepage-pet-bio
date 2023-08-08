@@ -3,6 +3,7 @@
       {
         "id": "1",
         "tipo": "ensino",
+        "link": "https://github.com/pet-ads",
         "titulo": "Personalidades da Computação",
         "status": "Em andamento",
         "img": "../src/resources/kisspng-computer-icons-directory-icon-design-folder-icon-5b23828b1c8d19.801150631529053835117.png",
@@ -13,6 +14,7 @@
       {
         "id": "2",
         "tipo": "extensão-desenvolivmento",
+        "link": "https://github.com/pet-ads/homepage",
         "titulo": "Página do grupo PET/ADS/SCL",
         "status": "Em andamento",
         "descricao": "Desenvolvimento da página PET/ADS do câmpus São Carlos, para divulgação de informações sobre o grupo, seus projetos, membros e processos seletivos.",
@@ -22,6 +24,7 @@
       {
         "id": "3",
         "tipo": "ensino",
+        "link": "https://github.com/pet-ads",
         "titulo": "Projeto Leitura Compartilhada",
         "status": "Contínuo",
         "descricao": "Projeto de ensino que visa estimular a leitura de clássicos da Computação de uma maneira leve e integrada, no qual cada integrante do PET/ADS lê um capítulo e compartilha o conteúdo com os demais por meio de um resumo em slides.",
@@ -31,6 +34,7 @@
       {
         "id": "4",
         "tipo": "extensão-desenvolivmento",
+        "link":"https://github.com/pet-ads/apae",
         "titulo": "Página do projeto de extensão com a APAE",
         "status": "Em andamento",
         "descricao": "Desenvolvimento da página para o projeto de extensão Inclusão Digital para Pessoas com Deficiência Intelectual, junto a APAE São Carlos. ",
@@ -40,6 +44,7 @@
       {
         "id": "5",
         "tipo": "extensão",
+        "link": "https://github.com/pet-ads",
         "titulo": "Organização da Semana da Computação - Wecomp",
         "status": "Em andamento",
         "descricao": "Organização e realização da Wecomp, a Semana de Computação do IFSP São Carlos, que oferece diversas palestras, cursos e também promove a integração junto às empresas de tecnologia da região. ",
@@ -49,6 +54,7 @@
       {
         "id": "6",
         "tipo": "extensão-desenvolivmento",
+        "link": "https://github.com/pet-ads/wecomp",
         "titulo": "Página da Semana da Computação - Wecomp",
         "status": "Em andamento",
         "descricao": "Desenvolvimento da página para a semana da computação do IFSP São Carlos - Wecomp, contendo informações sobre o evento, sua programação e empresas participantes.",
@@ -58,6 +64,7 @@
       {
         "id": "7",
         "tipo": "extensão",
+        "link": "https://github.com/pet-ads",
         "titulo": "Projeto de Acolhimento de Ingressantes",
         "status": "Contínuo",
         "descricao": "Projeto de ensino para elaboração de tutorial de acolhimento dos ingressantes em cursos de Computação, voltado à organização da graduação e da carreira profissional.",
