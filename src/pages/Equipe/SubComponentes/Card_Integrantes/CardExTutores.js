@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import styles from './CardExAluno.module.css';
 
-function CardExTutores({ nome, srcFoto }) {
+function CardExTutores({ nome, srcFoto,ano}) {
   function Evento() {
     console.log('Teste do evento');
   }
@@ -19,6 +19,7 @@ function CardExTutores({ nome, srcFoto }) {
       />
       <div className={styles.descricao}>
         <p className={styles.p}>{nome}</p>
+        <p className={styles.p}>{ano}</p>
       </div>
     </div>
   );
