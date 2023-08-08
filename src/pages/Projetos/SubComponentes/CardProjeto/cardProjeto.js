@@ -13,15 +13,18 @@ export default function CardProjeto(props) {
     return (
         <motion.div className={isOpen ? "card aberto" : "card"}>
             <motion.div className="logoConteiner">
-            {props.tipo === 'ensino' && <motion.img className= 'logo-projeto' src={logoEnsino} alt="ensino"/>}
+                {props.tipo === 'ensino' && <motion.img className= 'logo-projeto' src={logoEnsino} alt="ensino"/>}
 
-            {props.tipo === 'pesquisa' && <motion.img className= 'logo-projeto' src={logoPesquisa} alt="pesquisa" />}
+                {props.tipo === 'pesquisa' && <motion.img className= 'logo-projeto' src={logoPesquisa} alt="pesquisa" />}
 
-            {props.tipo === 'extensão' && <motion.img className = 'logo-projeto'  src={logoExtensao} alt="extensao" />}
+                {props.tipo === 'extensão' && <motion.img className = 'logo-projeto'  src={logoExtensao} alt="extensao" />}
 
-            {props.tipo === 'extensão-desenvolivmento' && <motion.img className = 'logo-projeto'  src={logoDesenvolvimento} alt="extensao-desenvolvimento" />}
+                {props.tipo === 'extensão-desenvolivmento' && <motion.img className = 'logo-projeto'  src={logoDesenvolvimento} alt="extensao-desenvolvimento" />}
 
-            <a rel='noreferrer' target="blank" href={props.link} ><FaGithub className="Icon"/></a>
+                <motion.a rel='noopener noreferrer' target="_blank" href={props.link}>
+                    <FaGithub className="Icon"/>
+                </motion.a>
+            
             </motion.div>
            
            <motion.div onClick={() => setIsOpen(!isOpen)}>
