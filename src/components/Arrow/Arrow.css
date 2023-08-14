@@ -12,7 +12,11 @@
   border-color: #888;
 }
 
-
+.conteiner{
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+}
 
 .CollapsibleTriggerContainer {
   display: flex;
@@ -36,7 +40,6 @@
 .collapsibleOpen-arrow:hover{
   cursor:pointer;
 }
-
 
 @keyframes bounce {
   0% {
