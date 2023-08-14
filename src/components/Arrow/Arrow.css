@@ -20,7 +20,7 @@
 
 .CollapsibleTriggerContainer {
   display: flex;
-  justify-content: center;
+  cursor: pointer;
 }
 
 .collapsible-arrow{
