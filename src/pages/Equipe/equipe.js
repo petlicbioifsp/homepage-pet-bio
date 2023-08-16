@@ -59,6 +59,7 @@ export default function Equipe() {
                       nome={exTutor.nomeTutor}
                       srcFoto={exTutor.foto}
                       ano={exTutor.ano}
+                      
                     />
                   ))}
                 </section>
@@ -68,6 +69,7 @@ export default function Equipe() {
                       nome={exAluno.nome}
                       srcFoto={exAluno.foto}
                       anos={exAluno.anos}
+                      linkedin={exAluno.linkedin}
                     />
                   ))}
                 </section>
