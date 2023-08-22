@@ -81,6 +81,9 @@
     right: 8px;
     top: 8px
 }
+.closeButton:hover{ 
+  cursor: pointer;
+}
 
 .card-titulo {
   color: var(--cor-detalhes-azul);
