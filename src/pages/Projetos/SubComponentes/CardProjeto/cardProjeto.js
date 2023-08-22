@@ -2,6 +2,7 @@ import "./cardProjeto.css";
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub } from 'react-icons/fa';
+import { AiFillCloseCircle } from 'react-icons/ai';
 import logoExtensao from '../../../../resources/extensao.png'
 import logoEnsino from '../../../../resources/ensino-superior.png';
 import logoPesquisa from '../../../../resources/big-search-len.png'
@@ -15,10 +16,6 @@ export default function CardProjeto(props) {
         setIsOpen(!isOpen);
     }
 
-    function removeOpeningEvent() {
-        linkIcon.removeEventListener('click', setingIsOpen);
-        alert("deu bom");
-    }
 
     return (
        <>
@@ -28,7 +25,7 @@ export default function CardProjeto(props) {
                 onClick={setingIsOpen}
             >
 
-                <motion.div className="logoConteiner">
+                <motion.div className="logoConteinerOpenned">
                     {props.tipo === 'ensino' && <motion.img className= 'logo-projeto' src={logoEnsino} alt="ensino"/>}
                     {props.tipo === 'pesquisa' && <motion.img className= 'logo-projeto' src={logoPesquisa} alt="pesquisa" />}
                     {props.tipo === 'extensão' && <motion.img className = 'logo-projeto'  src={logoExtensao} alt="extensao" />}
@@ -36,7 +33,6 @@ export default function CardProjeto(props) {
 
                     <motion.a 
                         rel='noopener noreferrer' target="_blank" href={props.link}
-                        onClick={removeOpeningEvent}
                     >
                         <FaGithub className="Icon"/>
                     </motion.a>
@@ -54,12 +50,11 @@ export default function CardProjeto(props) {
                 
             {isOpen && (
                 <>
-                    <div className="card_background"></div>
+                    <div className="card_background" onClick={() => setIsOpen(!isOpen)}></div>
                     <motion.div 
                         className={isOpen ? "card aberto" : "card fechado"}
-                        onClick={() => setIsOpen(!isOpen)}
                     >
-                        <motion.div className="logoConteiner">
+                        <motion.div className="logoConteinerClosed">
                             {props.tipo === 'ensino' && <motion.img className= 'logo-projeto' src={logoEnsino} alt="ensino"/>}
             
                             {props.tipo === 'pesquisa' && <motion.img className= 'logo-projeto' src={logoPesquisa} alt="pesquisa" />}
@@ -70,12 +65,12 @@ export default function CardProjeto(props) {
             
                             <motion.a 
                                 rel='noopener noreferrer' target="_blank" href={props.link}
-                                onClick={removeOpeningEvent}
                             >
                                 <FaGithub className="Icon"/>
                             </motion.a>
                         
                         </motion.div>
+                        <AiFillCloseCircle className="closeButton" onClick={() => setIsOpen(!isOpen)}/>
                 
                         <motion.div>
                             <motion.h2 className="card-titulo">{props.titulo} → {props.status}</motion.h2>
