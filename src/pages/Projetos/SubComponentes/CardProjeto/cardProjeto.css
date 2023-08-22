@@ -43,6 +43,8 @@
   width: 50px;
   height: auto;
   display: flex;
+  filter: hue-rotate(9deg);
+  color: var(--cor-detalhes-azul);
 }
 
 .Icon{

@@ -1,17 +1,12 @@
 import "./cardProjeto.css";
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaSearch, FaGraduationCap} from 'react-icons/fa';
 import { AiFillCloseCircle } from 'react-icons/ai';
-import logoExtensao from '../../../../resources/extensao.png'
-import logoEnsino from '../../../../resources/ensino-superior.png';
-import logoPesquisa from '../../../../resources/big-search-len.png'
-import logoDesenvolvimento from "../../../../resources/cloud-coding.png";
+import { MdExtension, MdOutlineComputer } from "react-icons/md";
 export default function CardProjeto(props) {
 
     const [isOpen, setIsOpen] = useState(false);
-    const linkIcon = document.querySelector(".logoConteiner>a")
-
     function setingIsOpen() {
         setIsOpen(!isOpen);
     }
@@ -26,10 +21,10 @@ export default function CardProjeto(props) {
             >
 
                 <motion.div className="logoConteinerOpenned">
-                    {props.tipo === 'ensino' && <motion.img className= 'logo-projeto' src={logoEnsino} alt="ensino"/>}
-                    {props.tipo === 'pesquisa' && <motion.img className= 'logo-projeto' src={logoPesquisa} alt="pesquisa" />}
-                    {props.tipo === 'extensão' && <motion.img className = 'logo-projeto'  src={logoExtensao} alt="extensao" />}
-                    {props.tipo === 'extensão-desenvolivmento' && <motion.img className = 'logo-projeto'  src={logoDesenvolvimento} alt="extensao-desenvolvimento" />}
+                    {props.tipo === 'ensino' && <FaGraduationCap className= 'logo-projeto'/>}
+                    {props.tipo === 'pesquisa' && <FaSearch className= 'logo-projeto'/>}
+                    {props.tipo === 'extensão' && <MdExtension className = 'logo-projeto'/>}
+                    {props.tipo === 'extensão-desenvolivmento' && <MdOutlineComputer className = 'logo-projeto'/>}
 
                     <motion.a 
                         rel='noopener noreferrer' target="_blank" href={props.link}
@@ -55,14 +50,11 @@ export default function CardProjeto(props) {
                         className={isOpen ? "card aberto" : "card fechado"}
                     >
                         <motion.div className="logoConteinerClosed">
-                            {props.tipo === 'ensino' && <motion.img className= 'logo-projeto' src={logoEnsino} alt="ensino"/>}
-            
-                            {props.tipo === 'pesquisa' && <motion.img className= 'logo-projeto' src={logoPesquisa} alt="pesquisa" />}
-            
-                            {props.tipo === 'extensão' && <motion.img className = 'logo-projeto'  src={logoExtensao} alt="extensao" />}
-            
-                            {props.tipo === 'extensão-desenvolivmento' && <motion.img className = 'logo-projeto'  src={logoDesenvolvimento} alt="extensao-desenvolvimento" />}
-            
+                            {props.tipo === 'ensino' && <FaGraduationCap className= 'logo-projeto'/>}
+                            {props.tipo === 'pesquisa' && <FaSearch className= 'logo-projeto'/>}
+                            {props.tipo === 'extensão' && <MdExtension className = 'logo-projeto'/>}
+                            {props.tipo === 'extensão-desenvolivmento' && <MdOutlineComputer className = 'logo-projeto'/>}
+
                             <motion.a 
                                 rel='noopener noreferrer' target="_blank" href={props.link}
                             >
