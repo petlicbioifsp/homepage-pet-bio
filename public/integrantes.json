@@ -116,7 +116,7 @@
       "foto":"./fotos_alunos/Lucas_Almeida.jpg",
       "ano": "2023",
       "tipo":"Voluntário",
-      "github":"...",
+      "github":"https://github.com/lucas-sdalmeida",
       "linkedin":"..."
     }
   ],
@@ -162,7 +162,8 @@
       "id": "5",
       "nome": "Paulo",
       "foto": "./fotos_alunos/Paulo.jpg",
-      "anos": "2019-2023"
+      "anos": "2019-2023",
+      "github": "https://github.com/Paulomascaro "
     },
     {
       "id":"6",
