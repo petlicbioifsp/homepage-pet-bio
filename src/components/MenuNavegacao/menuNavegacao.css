@@ -1,7 +1,7 @@
 .menu {
     background-color: var(--cor-background);
     filter: opacity(90%);
-    box-shadow: 0 0 10px rgba(0, 250, 4, 0.662);
+    box-shadow: 0 0 10px var(--cor-detalhes-azul);
     display: flex;
     flex-direction: row;
     justify-content: space-between;

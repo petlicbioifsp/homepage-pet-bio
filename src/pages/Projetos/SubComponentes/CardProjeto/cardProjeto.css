@@ -24,11 +24,12 @@
 
 .fechado {
   width: 25%;
-  height: 40vh;
+  height: 18vw;
   padding: 20px;
   transform: translateY(-10px);
   transition: transform 0.3s ease-out;
 }
+
 
 .card_background {
   top: 0%;
