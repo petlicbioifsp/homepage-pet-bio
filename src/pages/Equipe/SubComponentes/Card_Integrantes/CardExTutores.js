@@ -37,8 +37,8 @@ function CardExTutor({ nome,ano, srcFoto, tipo, linkedin }) {
         </strong>
         <pre></pre>
         <strong>
-          <p className={styles.p}>{nome}</p>
-          <p className={styles.p}>ex-tutor(a): {ano}</p>
+        <p className={styles.p}>Tutor(a): {ano}</p>
+        <p className={styles.p}>{nome}</p>
         </strong>
       </div>
     </div>

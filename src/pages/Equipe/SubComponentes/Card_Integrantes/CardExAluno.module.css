@@ -86,8 +86,8 @@ p {
 
 @media (max-width: 1360px) {
   .card {
-    flex-basis: calc(100% / 4 - 40px);
-    max-width: calc(100% / 4 - 40px);
+    flex-basis: calc(100% / 6 - 40px);
+    max-width: calc(100% / 6 - 40px);
   }
 }
 
