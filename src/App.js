@@ -13,7 +13,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="container">
-        <MenuMobile />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projetos" element={<Projetos />} />
