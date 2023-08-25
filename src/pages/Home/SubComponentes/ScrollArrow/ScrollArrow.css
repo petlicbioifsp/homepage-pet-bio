@@ -1,7 +1,7 @@
 .scroll-arrow {
   opacity: 0;
   bottom: 82px;
-  z-index: 999;
+  z-index: 998;
   cursor: pointer;
   align-self: center;
   position: relative;
