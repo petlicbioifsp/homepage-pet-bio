@@ -1,13 +1,12 @@
-import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './pages/Home/home';
-import Projetos from './pages/Projetos/projetos';
-import Equipe from './pages/Equipe/equipe';
-import ProcessoSeletivo from './pages/ProcessoSeletivo/ProcessoSeletivo';
-import Footer from './components/Footer/footer';
+import React from 'react';
 import Faq from './pages/Faq/Faq';
-import MenuMobile from './components/MenuMobile/MenuMobile';
+import Home from './pages/Home/home';
+import Equipe from './pages/Equipe/equipe';
+import Footer from './components/Footer/footer';
+import Projetos from './pages/Projetos/projetos';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ProcessoSeletivo from './pages/ProcessoSeletivo/ProcessoSeletivo';
 
 function App() {
   return (

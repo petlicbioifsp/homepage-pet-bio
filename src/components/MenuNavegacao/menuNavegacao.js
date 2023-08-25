@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
 import './menuNavegacao.css';
+import { NavLink } from 'react-router-dom';
 import LogoIFSP from '../LogoIFSP/LogoIFSP';
+import React, { useEffect, useState } from 'react';
 import MenuMobileDropdown from '../MenuMobile/MenuMobile';
 
 export default function MenuNavegacao() {
-  const localização = useLocation();
   const [larguraJanela, setLarguraJanela] = useState(window.innerWidth);
 
   useEffect(() => {
