@@ -40,6 +40,10 @@
   background-color: rgba(23, 8, 37, 0.915);
 }
 
+.card_background:hover {
+  cursor: pointer;
+}
+
 .logo-projeto {
   width: 50px;
   height: auto;
