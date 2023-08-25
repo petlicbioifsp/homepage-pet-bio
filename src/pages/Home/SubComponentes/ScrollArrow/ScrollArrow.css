@@ -23,4 +23,10 @@
     right: 5px;
   }
 }
-
+@media screen and (max-width:600px) {
+  .scroll-arrow{
+    bottom: 0px;
+    right: 10px;
+  }
+  
+}
