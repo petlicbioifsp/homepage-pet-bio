@@ -23,7 +23,9 @@
     right: 5px;
   }
 }
-@media screen and (max-width:600px) {
+
+
+@media screen and (max-width:950px) {
   .scroll-arrow{
     bottom: 0px;
     right: 10px;
