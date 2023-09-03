@@ -58,7 +58,7 @@ export default function CardProjeto(props) {
                             <motion.a 
                                 rel='noopener noreferrer' target="_blank" href={props.link}
                             >
-                                <FaGithub className="Icon"/>
+                                <FaGithub className="icon-aberto"/>
                             </motion.a>
                         
                         </motion.div>

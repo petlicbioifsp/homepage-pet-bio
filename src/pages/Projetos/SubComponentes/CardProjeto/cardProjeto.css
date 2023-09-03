@@ -61,6 +61,14 @@
   color: var(--cor-detalhes-azul);
 }
 
+.icon-aberto{
+  width: 35px;
+  height: 35px;
+  display: flex;
+  margin-left: 50%;
+  color: var(--cor-detalhes-azul);
+}
+
 .Icon:hover{
   cursor: pointer;
   animation: jump 0.75s;
