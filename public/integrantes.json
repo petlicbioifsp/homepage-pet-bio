@@ -124,7 +124,7 @@
     {
       "id":"1",
       "nome": "Ingrid Nery",
-      "foto":"./fotos_alunos/ingrid.jpg",
+      "foto":"./fotos_alunos/Ingrid.jpg",
       "tipo": "bolsista",
       "anos" :"2019-2023",
       "github": "https://github.com/",
@@ -133,7 +133,7 @@
     {
       "id":"2",
       "nome": "Amadeu  Andrade ",
-      "foto":"./fotos_alunos/amadeuJunior.jpeg",
+      "foto":"./fotos_alunos/AmadeuJunior.jpeg",
       "tipo": "bolsista",
       "anos" :"2019-2023",
       "github": "https://github.com/MadeuJr",
@@ -242,7 +242,7 @@
   "exTutores": [
     {
       "nomeTutor": "João Luiz Franco",
-      "foto": "./fotos_tutores/joao.jpg",
+      "foto": "./fotos_tutores/Joao.jpg",
       "ano": "2010-2022"
     }
   ]
