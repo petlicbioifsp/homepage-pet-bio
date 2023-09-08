@@ -5,12 +5,12 @@ import Home from './pages/Home/home';
 import Equipe from './pages/Equipe/equipe';
 import Footer from './components/Footer/footer';
 import Projetos from './pages/Projetos/projetos';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import ProcessoSeletivo from './pages/ProcessoSeletivo/ProcessoSeletivo';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter hashType = "noslash">
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
