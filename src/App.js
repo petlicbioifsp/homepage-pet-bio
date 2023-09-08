@@ -5,12 +5,12 @@ import Home from './pages/Home/home';
 import Equipe from './pages/Equipe/equipe';
 import Footer from './components/Footer/footer';
 import Projetos from './pages/Projetos/projetos';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import ProcessoSeletivo from './pages/ProcessoSeletivo/ProcessoSeletivo';
 
 function App() {
   return (
-    <HashRouter hashType = "noslash">
+    <HashRouter>
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
