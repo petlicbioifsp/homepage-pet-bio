@@ -9,7 +9,7 @@ import Header from '../../components/Header/header';
 
 export default function Faq() {
   return (
-    <body>
+    <div>
       <MenuNavegacao />
       <Header texto="Perguntas Frequentes"/>
       <section className="faq--caixa__perguntas">
@@ -27,6 +27,6 @@ export default function Faq() {
           }
         />
       </section>
-    </body>
+    </div>
   );
 }

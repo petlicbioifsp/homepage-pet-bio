@@ -88,7 +88,7 @@
       "nome": "Ana Lívia H. da Motta",
       "foto":"./fotos_alunos/ana.jpeg"
       ,"ano":"2023",
-      "tipo":"Voluntário",
+      "tipo":"Bolsista",
       "github":"https://github.com/Analiviamotta",
       "linkedin":"https://www.linkedin.com/in/ana-l%C3%ADvia-motta-75b529278/"
     },
@@ -106,7 +106,7 @@
       "nome": "Gabriel Gatti",
       "foto":"./fotos_alunos/gatti.jpeg",
       "ano": "2023",
-      "tipo": "...",
+      "tipo": "Voluntário",
       "github": "https://github.com/GattiGabriel",
       "linkedin":"..."
     },
@@ -115,7 +115,7 @@
       "nome":"Lucas Silva de Almeida",
       "foto":"./fotos_alunos/Lucas_Almeida.jpg",
       "ano": "2023",
-      "tipo":"Voluntário",
+      "tipo":"Bolsista",
       "github":"https://github.com/lucas-sdalmeida",
       "linkedin":"..."
     }
