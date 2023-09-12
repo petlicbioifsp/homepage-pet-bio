@@ -23,3 +23,8 @@ body::-webkit-scrollbar-thumb {
 body{
   flex: 1 1 0;
 }
+h1::selection, h2::selection, h3::selection, p::selection,
+ li::selection, a::selection, pre::selection, span::selection {
+  color: white;
+  background-color: blue;
+}
