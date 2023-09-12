@@ -41,10 +41,10 @@
 
 .list {
   position: absolute;
-  top: 60px;
+  top: 28px;
   left: -120px;
   width: 200px;
-  background-color: var(--cor-background);
+  background-color: var(--cor-azul__medio);
   border-radius: 4px;
   box-shadow: -10px 10px 9px rgba(0, 0, 0, 0.2);
   opacity: 0;
