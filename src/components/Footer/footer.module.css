@@ -43,7 +43,6 @@
 }
 .link{
     color: #fff;
-    filter: saturate(2%);
     text-decoration: none;
 }
 
@@ -51,6 +50,11 @@
     filter:saturate(100%);
     color: var(--cor-azul__claro);
 }
+.link::selection{
+  color: white;
+  background-color: blue;
+}
+
 
 @media screen and (max-width:950px){
   .footer_content{
