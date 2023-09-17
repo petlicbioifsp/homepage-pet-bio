@@ -1,11 +1,11 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
-import CollapsibleOpen from '../../hooks/CollapsibleOpen';
-import CollapsibleTrigger from '../../hooks/CollapsibleTrigger';
-import MenuNavegacao from '../../components/MenuNavegacao/menuNavegacao';
-import FetchFaq from '../../hooks/FetchFAQ';
+import CollapsibleOpen from '../../hooks/collapsible/CollapsibleOpen';
+import CollapsibleTrigger from '../../hooks/collapsible/CollapsibleTrigger';
+import MenuNavegacao from '../../components/menus/MenuNavegacao/menuNavegacao';
+import FetchFaq from '../../hooks/fetch/FetchFAQ';
 import './Faq.css';
-import Header from '../../components/Header/header';
+import Header from '../../components/ui/Header/header';
 
 export default function Faq() {
   return (

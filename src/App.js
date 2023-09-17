@@ -1,9 +1,9 @@
-import './App.css';
+import './assets/App.css';
 import React from 'react';
 import Faq from './pages/Faq/Faq';
 import Home from './pages/Home/home';
 import Equipe from './pages/Equipe/equipe';
-import Footer from './components/Footer/footer';
+import Footer from './components/ui/Footer/footer';
 import Projetos from './pages/Projetos/projetos';
 import { Route, Routes, HashRouter } from 'react-router-dom';
 import ProcessoSeletivo from './pages/ProcessoSeletivo/ProcessoSeletivo';

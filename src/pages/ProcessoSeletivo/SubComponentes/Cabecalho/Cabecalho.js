@@ -1,4 +1,4 @@
-import Header from '../../../../components/Header/header';
+import Header from '../../../../components/ui/Header/header';
 import styles from './Cabecalho.module.css'
 function Cabecalho  ({titulo,texto }){ 
 return(

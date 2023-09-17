@@ -1,7 +1,7 @@
 
 import React from 'react';
 import "./ScrollArrow.css";
-import Arrow from '../../../../components/Arrow/Arrow';
+import Arrow from '../../../../components/interactive/Arrow/Arrow';
 const ScrollArrow = ({ showArrow, sectionRef, scrollToSection, customClass}) => {
 
   return (

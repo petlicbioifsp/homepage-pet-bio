@@ -2,10 +2,10 @@ import React from 'react';
 import "./home.css";
 import Info from "./SubComponentes/Home_Infos/Infos.js";
 import Button from "./SubComponentes/Home_button/Button";
-import Reveal from "../../components/Efeito Reveal/Reveal";
-import useScrollToSection from "../../hooks/useScrollToSection";
+import Reveal from "../../components/interactive/Efeito Reveal/Reveal";
+import useScrollToSection from "../../hooks/hooks_use/useScrollToSection";
 import ScrollArrow from "./SubComponentes/ScrollArrow/ScrollArrow";
-import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
+import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 import HeaderConteiner from "./SubComponentes/Header_conteiner/HeaderConteiner";
 
 export default function Home() {

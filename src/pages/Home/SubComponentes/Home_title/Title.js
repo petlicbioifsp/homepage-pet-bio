@@ -1,5 +1,5 @@
 import styles from './Title.module.css';
-import LogoPET from '../../../../components/LogoPET/LogoPET';
+import LogoPET from '../../../../components/logos/LogoPET/LogoPET';
 
 function Title({ title, content }) {
     return (

@@ -2,7 +2,7 @@ import './ProcessoSeletivo.css';
 import Cabecalho from './SubComponentes/Cabecalho/Cabecalho';
 import Requisitos from './SubComponentes/Requisitos/Requisitos';
 import Inscricoes from './SubComponentes/Inscricoes/Inscricoes';
-import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
+import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 
 function ProcessoSeletivo() {
     

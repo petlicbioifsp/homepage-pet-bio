@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 import styles from "./Button.module.css"
-import useScrollToTop from "../../../../hooks/useScrollToTop";
+import useScrollToTop from "../../../../hooks/hooks_use/useScrollToTop";
 
 function Button({value,to}){
     return(

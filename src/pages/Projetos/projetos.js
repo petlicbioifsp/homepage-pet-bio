@@ -1,10 +1,10 @@
 import "./projetos.css";
 import React from 'react';
-import FetchProj from "../../hooks/FetchProjetos";
-import Header from "../../components/Header/header";
-import useWindowSize from "../../hooks/useWindowSize";
+import FetchProj from "../../hooks/fetch/FetchProjetos";
+import Header from "../../components/ui/Header/header";
+import useWindowSize from "../../hooks/hooks_use/useWindowSize";
 import CardProjeto from "./SubComponentes/CardProjeto/cardProjeto";
-import MenuNavegacao from "../../components/MenuNavegacao/menuNavegacao";
+import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 
 export default function Projetos() {
   const size = useWindowSize();
