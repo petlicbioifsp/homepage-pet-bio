@@ -1,8 +1,8 @@
 import "./projetos.css";
 import React from 'react';
-import FetchProj from "../../hooks/fetch/FetchProjetos";
+import FetchProj from "../../hooks/fetch/useFetchProjetos";
 import Header from "../../components/ui/Header/header";
-import useWindowSize from "../../hooks/hooks_use/useWindowSize";
+import useWindowSize from "../../hooks/window/useWindowSize";
 import CardProjeto from "./SubComponentes/CardProjeto/cardProjeto";
 import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 

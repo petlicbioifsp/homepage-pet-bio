@@ -1,4 +1,4 @@
-import './assets/App.css';
+import './global/App.css';
 import React from 'react';
 import Faq from './pages/Faq/Faq';
 import Home from './pages/Home/home';

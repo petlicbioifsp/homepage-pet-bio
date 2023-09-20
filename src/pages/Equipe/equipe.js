@@ -1,10 +1,10 @@
 import './equipe.css';
 import React from 'react';
 import Collapsible from 'react-collapsible';
-import FetchEquipe from '../../hooks/fetch/FetchEquipe';
+import FetchEquipe from '../../hooks/fetch/useFetchEquipe';
 import Header from "../../components/ui/Header/header";
-import CollapsibleOpen from '../../hooks/collapsible/CollapsibleOpen';
-import CollapsibleTrigger from '../../hooks/collapsible/CollapsibleTrigger';
+import CollapsibleOpen from '../../hooks/collapsible/useCollapsibleOpen';
+import CollapsibleTrigger from '../../hooks/collapsible/useCollapsibleTrigger';
 import CardTutor from './SubComponentes/Card_Integrantes/CardTutor';
 import CardAluno from './SubComponentes/Card_Integrantes/CardAluno';
 import MenuNavegacao from '../../components/menus/MenuNavegacao/menuNavegacao';
