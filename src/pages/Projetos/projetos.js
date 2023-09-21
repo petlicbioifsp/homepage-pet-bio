@@ -1,14 +1,13 @@
 import "./projetos.css";
 import React from 'react';
-import FetchProj from "../../hooks/fetch/useFetchProjetos"
 import Header from "../../components/ui/Header/header";
-import useWindowSize from "../../hooks/window/useWindowSize"
+import useIsMobile from "../../hooks/window/useIsMobile";
+import FetchProj from "../../hooks/fetch/useFetchProjetos";
 import CardProjeto from "./SubComponentes/CardProjeto/cardProjeto";
 import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 
 export default function Projetos() {
-  const size = useWindowSize();
-  const isMobile = size.width <= 628;
+  const isMobile = useIsMobile();
 
   return (
     <>

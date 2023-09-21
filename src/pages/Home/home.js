@@ -1,18 +1,20 @@
 import "./home.css";
 import React from 'react';
+import {Purpose} from "./TextConstants/PurposePET"
+import { AboutPET } from "./TextConstants/AboutPETtext";
 import Info from "./SubComponentes/Home_Infos/Infos.js";
 import Button from "./SubComponentes/Home_button/Button";
-import useWindowSize from "../../hooks/window/useWindowSize";
+import useIsMobile from "../../hooks/window/useIsMobile";
 import ScrollArrow from "./SubComponentes/ScrollArrow/ScrollArrow";
 import Reveal from "../../components/interactive/Efeito Reveal/Reveal";
 import useScrollToSection from "../../hooks/window/useScrollToSection";
 import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 import HeaderConteiner from "./SubComponentes/Header_conteiner/HeaderConteiner";
-import { AboutPET } from "./TextConstants/AboutPETtext";
-import {Purpose} from "./TextConstants/PurposePET"
+
+
 export default function Home() {
-    const size = useWindowSize(); 
-    const isMobile = size.width <= 628;   
+    
+    const isMobile = useIsMobile();  
     
     const { showArrow: showArrow1, sectionRef: sectionRef1, 
         scrollToSection: scrollToSection1 } = useScrollToSection('section1');
