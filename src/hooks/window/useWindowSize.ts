@@ -3,10 +3,8 @@ import { useState, useEffect } from "react";
 interface innerWidth{ 
   width:number
 }
-
-
 function useWindowSize():innerWidth{
-    const [size, setSize] = useState({
+    const [size, setSize] = useState<innerWidth>({
         width : window.innerWidth
     });
     const handleResize = () => {
