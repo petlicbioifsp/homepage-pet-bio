@@ -22,13 +22,10 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 require("./MenuMobile.css");
-var menu_icon_png_1 = __importDefault(require("./menu-icon.png"));
 var react_1 = __importStar(require("react"));
+var hi_1 = require("react-icons/hi");
 var react_router_dom_1 = require("react-router-dom");
 var MenuMobileDropdown = function (_a) {
     var items = _a.items;
@@ -37,7 +34,7 @@ var MenuMobileDropdown = function (_a) {
         setIsDropdownOpen(!isDropdownOpen);
     };
     return (react_1.default.createElement("div", { className: "menu-mobile ".concat(isDropdownOpen ? 'active' : '') },
-        react_1.default.createElement("img", { className: "menu-icon", src: menu_icon_png_1.default, alt: "Menu", onClick: toggleDropdown }),
+        react_1.default.createElement(hi_1.HiMenu, { "aria-label": "Toggle Menu", className: 'menu-icon', onClick: toggleDropdown }),
         isDropdownOpen && (react_1.default.createElement("div", { className: "dots", onClick: toggleDropdown },
             react_1.default.createElement("div", { className: "dot" }),
             react_1.default.createElement("div", { className: "dot" }),

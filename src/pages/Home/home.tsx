@@ -6,8 +6,8 @@ import useIsMobile from "../../hooks/window/useIsMobile";
 import ScrollArrow from "./SubComponentes/ScrollArrow/ScrollArrow";
 import useScrollToSection from "../../hooks/window/useScrollToSection";
 import Reveal from "../../components/interactive/Efeito Reveal/Reveal";
-import { AboutPET } from "../../../public/data/TextConstants/AboutPETtext";
-import {Purpose} from "../../../public/data/TextConstants/PurposePET"
+import { AboutPET } from "./TextConstants/AboutPETtext";
+import {Purpose} from "./TextConstants/PurposePET"
 import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 import HeaderConteiner from "./SubComponentes/Header_conteiner/HeaderConteiner";
 

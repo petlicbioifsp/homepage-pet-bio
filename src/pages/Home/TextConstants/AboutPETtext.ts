@@ -1,4 +1,4 @@
-import { ConstTextInterface } from "../../../src/types/ConstantTypes"
+import { ConstTextInterface } from "../../../types/ConstantTypes"
 
 export const AboutPET:ConstTextInterface = {
     desktop: `O Programa de Educação Tutorial (PET) é um programa do governo federal 

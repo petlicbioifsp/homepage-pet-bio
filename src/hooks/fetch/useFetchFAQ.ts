@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import { FetchFaq } from '../../types/FetchTypes';
+import { FetchFaqInterface } from '../../types/FetchTypes';
 import { FaqInterface, FaqData } from '../../types/FaqTypes';
 
 
-const FetchFaq = ({ render }: FetchFaq) => {
+const FetchFaq = ({ render }: FetchFaqInterface) => {
   const [arrFaq, setFaq] = useState<FaqInterface[]>([]);
 
   useEffect(() => {

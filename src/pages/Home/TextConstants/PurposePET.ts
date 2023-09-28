@@ -1,5 +1,4 @@
-import { ConstTextInterface } from "../../../src/types/ConstantTypes"
-
+import { ConstTextInterface } from "../../../types/ConstantTypes"
 
 export const Purpose:ConstTextInterface = {
     desktop : `O grupo PET do curso de Análise e Desenvolvimento de Sistemas do IFSP São Carlos (PET/ADS/SCL) 

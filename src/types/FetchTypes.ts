@@ -10,6 +10,6 @@ export interface FetchEquipeProps {
     render: (data: EquipeData) => React.ReactNode;
   }
 
-export interface FetchFaq {
+export interface FetchFaqInterface {
     render: (faqs:FaqInterface[]) =>React.ReactNode
   }
