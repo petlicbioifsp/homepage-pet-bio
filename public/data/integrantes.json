@@ -3,7 +3,7 @@
     {
       "id": "1",
       "nome": "Lucas Sigoli",
-      "foto": "./images/fotos_alunos/sigoli.png",
+      "srcFoto": "./images/fotos_alunos/sigoli.png",
       "tipo": "Bolsista",
       "ano": "2023",
       "github": "https://github.com/LVSigoli",
@@ -12,7 +12,7 @@
     {
       "id": "2",
       "nome": "Otávio Lopes",
-      "foto": "./images/fotos_alunos/tata.png",
+      "srcFoto": "./images/fotos_alunos/tata.png",
       "tipo": "Bolsista",
       "ano": "2022",
       "github": "https://github.com/otaviopl",
@@ -22,7 +22,7 @@
     {
       "id": "4",
       "nome": "Bianca C. Antonietti",
-      "foto": "./images/fotos_alunos/bianca.jpeg",
+      "srcFoto": "./images/fotos_alunos/bianca.jpeg",
       "tipo": "Bolsista",
       "ano": "2022",
       "github": "https://github.com/biankyrou",
@@ -31,7 +31,7 @@
     {
       "id": "5",
       "nome": "Gabriel Z. Manhani",
-      "foto": "./images/fotos_alunos/gabriel.jpeg",
+      "srcFoto": "./images/fotos_alunos/gabriel.jpeg",
       "tipo": "Bolsista",
       "ano": "2023",
       "github": "https://github.com/gabrmanh",
@@ -40,7 +40,7 @@
     {
       "id": "6",
       "nome": "Luiz A. Chiquetano",
-      "foto": "./images/fotos_alunos/luizChiquetano.jpeg",
+      "srcFoto": "./images/fotos_alunos/luizChiquetano.jpeg",
       "tipo": "Bolsista",
       "ano": "2023",
       "github": "https://github.com/luiz-chiq",
@@ -50,7 +50,7 @@
     {
       "id": "8",
       "nome": "Bárbara B. Gasques",
-      "foto": "./images/fotos_alunos/barbara.jpeg",
+      "srcFoto": "./images/fotos_alunos/barbara.jpeg",
       "tipo": "Bolsista",
       "ano": "2023",
       "github": "https://github.com/BBranco97",
@@ -59,7 +59,7 @@
     {
       "id": "9",
       "nome": "Vitor A. Bonelli",
-      "foto": "./images/fotos_alunos/vitor.png",
+      "srcFoto": "./images/fotos_alunos/vitor.png",
       "tipo": "Bolsista",
       "ano": "2021",
       "github": "https://github.com/Vitor5bonelli",
@@ -68,7 +68,7 @@
     {
       "id": "10",
       "nome": "Fábio S. I. Anno",
-      "foto": "./images/fotos_alunos/fabio.jpeg",
+      "srcFoto": "./images/fotos_alunos/fabio.jpeg",
       "tipo": "Bolsista",
       "ano": "2022",
       "github": "https://github.com/Fabio270",
@@ -77,7 +77,7 @@
     {
       "id": "11",
       "nome": "Saulo F. S. Mania",
-      "foto": "./images/fotos_alunos/saulo.jpeg",
+      "srcFoto": "./images/fotos_alunos/saulo.jpeg",
       "tipo": "Bolsista",
       "ano": "2023",
       "github": "https://github.com/SauloFernando99",
@@ -86,7 +86,7 @@
     ,{
       "id": "12",
       "nome": "Ana Lívia H. da Motta",
-      "foto":"./images/fotos_alunos/ana.jpeg"
+      "srcFoto":"./images/fotos_alunos/ana.jpeg"
       ,"ano":"2023",
       "tipo":"Bolsista",
       "github":"https://github.com/Analiviamotta",
@@ -95,7 +95,7 @@
     {
       "id":"13",
       "nome": "Eduardo D. Derisso",
-      "foto":"./images/fotos_alunos/dudu.jpeg",
+      "srcFoto":"./images/fotos_alunos/dudu.jpeg",
       "ano": "2023",
       "tipo":"Bolsista",
       "github":"https://github.com/EduDD125",
@@ -104,7 +104,7 @@
     {
       "id":"14",
       "nome": "Gabriel Gatti",
-      "foto":"./images/fotos_alunos/gatti.jpeg",
+      "srcFoto":"./images/fotos_alunos/gatti.jpeg",
       "ano": "2023",
       "tipo": "Voluntário",
       "github": "https://github.com/GattiGabriel",
@@ -113,7 +113,7 @@
     {
       "id":"15",
       "nome":"Lucas Silva de Almeida",
-      "foto":"./images/fotos_alunos/Lucas_Almeida.jpg",
+      "srcFoto":"./images/fotos_alunos/Lucas_Almeida.jpg",
       "ano": "2023",
       "tipo":"Bolsista",
       "github":"https://github.com/lucas-sdalmeida",
@@ -124,7 +124,7 @@
     {
       "id":"1",
       "nome": "Ingrid Nery",
-      "foto":"./images/fotos_alunos/Ingrid.jpg",
+      "srcFoto":"./images/fotos_alunos/Ingrid.jpg",
       "tipo": "bolsista",
       "anos" :"2019-2023",
       "github": "https://github.com/",
@@ -133,7 +133,7 @@
     {
       "id":"2",
       "nome": "Amadeu  Andrade ",
-      "foto":"./images/fotos_alunos/AmadeuJunior.jpeg",
+      "srcFoto":"./images/fotos_alunos/AmadeuJunior.jpeg",
       "tipo": "bolsista",
       "anos" :"2019-2023",
       "github": "https://github.com/MadeuJr",
@@ -142,7 +142,7 @@
     {
       "id": "3",
       "nome": "Laura  Luchiari",
-      "foto": "./images/fotos_alunos/laura.jpeg",
+      "srcFoto": "./images/fotos_alunos/laura.jpeg",
       "tipo": "Bolsista",
       "ano": "2022",
       "github": "https://github.com/lauraluch",
@@ -151,7 +151,7 @@
     {
       "id": "4",
       "nome": "Noah Rissatti",
-      "foto": "./images/fotos_alunos/NoahRissatti.jpg",
+      "srcFoto": "./images/fotos_alunos/NoahRissatti.jpg",
       "tipo": "Bolsista",
       "ano": "2022",
       "github": "https://github.com/NoahRissatti",
@@ -161,70 +161,70 @@
     {
       "id": "5",
       "nome": "Paulo",
-      "foto": "./images/fotos_alunos/Paulo.jpg",
+      "srcFoto": "./images/fotos_alunos/Paulo.jpg",
       "anos": "2019-2023",
       "github": "https://github.com/Paulomascaro "
     },
     {
       "id":"6",
       "nome": "Lucas da Silva",
-      "foto":"./images/fotos_alunos/Lucas Gabriel.jpg",
+      "srcFoto":"./images/fotos_alunos/Lucas Gabriel.jpg",
       "github": "https://github.com/",
       "linkedin": "https://www.linkedin.com"
     },
     {
       "id":"7",
       "nome": "Maria Eduarda Santos",
-      "foto":"./images/fotos_alunos/Maria Eduarda.jpg",
+      "srcFoto":"./images/fotos_alunos/Maria Eduarda.jpg",
       "github": "https://github.com/",
       "linkedin": "https://www.linkedin.com"
     },    
     {
       "id":"8",
       "nome": "Nathan da Silva",
-      "foto":"./images/fotos_alunos/Nathan.jpg",
+      "srcFoto":"./images/fotos_alunos/Nathan.jpg",
       "github": "https://github.com/",
       "linkedin": "https://www.linkedin.com"
     },
     {
     "id":"9",
     "nome": "Pedro  Piassi",
-    "foto":"./images/fotos_alunos/Pedro.jpg",
+    "srcFoto":"./images/fotos_alunos/Pedro.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com"
   },
   {
     "id":"10",
     "nome": "Suzy  Trindade",
-    "foto":"./images/fotos_alunos/Suzy.jpg",
+    "srcFoto":"./images/fotos_alunos/Suzy.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com"
   },
   {
     "id":"11",
     "nome": "Veranice Guimarães",
-    "foto":"./images/fotos_alunos/Veranice.jpg",
+    "srcFoto":"./images/fotos_alunos/Veranice.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com"
   },
   {
     "id":"12",
     "nome": "Joel Rodrigues",
-    "foto":"./images/fotos_alunos/Joel.jpg",
+    "srcFoto":"./images/fotos_alunos/Joel.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com"
   },
   {
     "id":"13",
     "nome": "Felipe  Durval",
-    "foto":"./images/fotos_alunos/Felipe.jpg",
+    "srcFoto":"./images/fotos_alunos/Felipe.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com/in/felipe-do-prado-313114191"
   },
   {
     "id":"14",
     "nome": "Luana Monteiro ",
-    "foto":"./images/fotos_alunos/Luana.jpg",
+    "srcFoto":"./images/fotos_alunos/Luana.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com/in/luana-g-monteiro-50b671277"
   }
@@ -232,17 +232,17 @@
   ],
   "tutores": [
     {
-      "nomeTutor": "Lucas Oliveira",
+      "nome": "Lucas Oliveira",
       "tipo": "Tutor",
-      "foto": "./images/fotos_tutores/lucas.jpg",
+      "srcFoto": "./images/fotos_tutores/lucas.jpg",
       "ano": "2023",
       "github": "https://github.com/lucas-ifsp"
     }
   ],
   "exTutores": [
     {
-      "nomeTutor": "João Luiz Franco",
-      "foto": "./images/fotos_tutores/Joao.jpg",
+      "nome": "João Luiz Franco",
+      "srcFoto": "./images/fotos_tutores/Joao.jpg",
       "ano": "2010-2022"
     }
   ]
