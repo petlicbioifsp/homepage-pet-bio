@@ -27,16 +27,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importStar(require("react"));
-var CardExAluno_module_css_1 = __importDefault(require("./CardExAluno.module.css"));
 var fa_1 = require("react-icons/fa");
-var withBlur = { filter: "blur(2px) grayscale(80%) brightness(0.5)" };
-var noBlur = { filter: "blur(0px) grayscale(0%)" };
+var CardExAluno_module_css_1 = __importDefault(require("./CardExAluno.module.css"));
+var EquipeTypes_1 = require("../../../../types/EquipeTypes");
 function CardExAluno(_a) {
     var nome = _a.nome, srcFoto = _a.srcFoto, tipo = _a.tipo, linkedin = _a.linkedin;
-    var _b = (0, react_1.useState)(noBlur), blurred = _b[0], setBlur = _b[1];
+    var _b = (0, react_1.useState)(EquipeTypes_1.noBlurStyle), blurred = _b[0], setBlur = _b[1];
     var altFoto = "Foto de ".concat(nome, ", Ex integrante do PET ADS do IFSP Sao Carlos");
     return (react_1.default.createElement("div", { className: CardExAluno_module_css_1.default.card },
-        react_1.default.createElement("div", { className: CardExAluno_module_css_1.default.imgContainer, onMouseEnter: function () { return setBlur(withBlur); }, onMouseLeave: function () { return setBlur(noBlur); } },
+        react_1.default.createElement("div", { className: CardExAluno_module_css_1.default.imgContainer, onMouseEnter: function () { return setBlur(EquipeTypes_1.withBlurStyle); }, onMouseLeave: function () { return setBlur(EquipeTypes_1.noBlurStyle); } },
             react_1.default.createElement("img", { style: blurred, className: CardExAluno_module_css_1.default.img, src: srcFoto, alt: altFoto }),
             react_1.default.createElement("div", { className: CardExAluno_module_css_1.default.iconWrapper },
                 react_1.default.createElement("a", { href: linkedin, target: '_blank', rel: 'noopener noreferrer' },

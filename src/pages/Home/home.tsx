@@ -1,13 +1,12 @@
 import "./home.css";
 import React from 'react';
 import Info from "./SubComponentes/Home_Infos/Infos";
+import { AboutPET, Purpose } from "./TextConstants/Text";
 import Button from "./SubComponentes/Home_button/Button";
 import useIsMobile from "../../hooks/window/useIsMobile";
 import ScrollArrow from "./SubComponentes/ScrollArrow/ScrollArrow";
 import useScrollToSection from "../../hooks/window/useScrollToSection";
 import Reveal from "../../components/interactive/Efeito Reveal/Reveal";
-import { AboutPET } from "./TextConstants/AboutPETtext";
-import {Purpose} from "./TextConstants/PurposePET"
 import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 import HeaderConteiner from "./SubComponentes/Header_conteiner/HeaderConteiner";
 

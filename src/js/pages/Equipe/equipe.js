@@ -6,15 +6,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 require("./equipe.css");
 var react_1 = __importDefault(require("react"));
 var react_collapsible_1 = __importDefault(require("react-collapsible"));
-var useFetchEquipe_1 = __importDefault(require("../../hooks/fetch/useFetchEquipe"));
 var header_1 = __importDefault(require("../../components/ui/Header/header"));
-var useCollapsibleOpen_1 = __importDefault(require("../../hooks/collapsible/useCollapsibleOpen"));
-var useCollapsibleTrigger_1 = __importDefault(require("../../hooks/collapsible/useCollapsibleTrigger"));
+var useFetchEquipe_1 = __importDefault(require("../../hooks/fetch/useFetchEquipe"));
 var CardTutor_1 = __importDefault(require("./SubComponentes/Card_Integrantes/CardTutor"));
 var CardAluno_1 = __importDefault(require("./SubComponentes/Card_Integrantes/CardAluno"));
-var menuNavegacao_1 = __importDefault(require("../../components/menus/MenuNavegacao/menuNavegacao"));
 var CardExAlunos_1 = __importDefault(require("./SubComponentes/Card_Integrantes/CardExAlunos"));
+var useCollapsibleOpen_1 = __importDefault(require("../../hooks/collapsible/useCollapsibleOpen"));
 var CardExTutores_1 = __importDefault(require("./SubComponentes/Card_Integrantes/CardExTutores"));
+var menuNavegacao_1 = __importDefault(require("../../components/menus/MenuNavegacao/menuNavegacao"));
+var useCollapsibleTrigger_1 = __importDefault(require("../../hooks/collapsible/useCollapsibleTrigger"));
 function Equipe() {
     return (react_1.default.createElement(react_1.default.Fragment, null,
         react_1.default.createElement(menuNavegacao_1.default, null),

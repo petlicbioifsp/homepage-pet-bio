@@ -1,31 +1,20 @@
 import React, { useState } from 'react';
 import styles from './CardAluno.module.css';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-
-interface CardInterface {
-  id?:string
-  nome: string;
-  ano?: string;
-  srcFoto: string;
-  tipo?: string;
-  github?: string;
-  linkedin?: string 
-}
+import { CardInterface, noBlurStyle, withBlurStyle } from '../../../../types/EquipeTypes';
 
 
-const withBlur = { filter: "blur(2px) grayscale(80%) brightness(0.5)" };
-const noBlur = { filter: "blur(0px) grayscale(0%)" };
+function CardAluno({ nome, srcFoto, tipo, github, linkedin }: CardInterface) {
+  const [blurred, setBlur] = useState(noBlurStyle); // Inicializado com o estilo 'NoBlur'
 
-function CardAluno({ nome, srcFoto, tipo, github, linkedin }:CardInterface) {
-  const [blurred, setBlur] = useState(noBlur);
-  var altFoto = `Foto de ${nome}, integrante do PET ADS do IFSP Sao Carlos`;
+  const altFoto = `Foto de ${nome}, integrante do PET ADS do IFSP Sao Carlos`;
 
   return (
     <div className={styles.card}>
       <div
         className={styles.imgContainer}
-        onMouseEnter={() => setBlur(withBlur)}
-        onMouseLeave={() => setBlur(noBlur)}
+        onMouseEnter={() => setBlur(withBlurStyle)}
+        onMouseLeave={() => setBlur(noBlurStyle)}
       >
         <img
           style={blurred}

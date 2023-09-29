@@ -1,32 +1,16 @@
 import './equipe.css';
 import React from 'react';
 import Collapsible from 'react-collapsible';
-import FetchEquipe from '../../hooks/fetch/useFetchEquipe';
+import { EquipeData } from '../../types/EquipeTypes';
 import Header from "../../components/ui/Header/header";
-import CollapsibleOpen from '../../hooks/collapsible/useCollapsibleOpen';
-import CollapsibleTrigger from '../../hooks/collapsible/useCollapsibleTrigger';
+import FetchEquipe from '../../hooks/fetch/useFetchEquipe';
 import CardTutor from './SubComponentes/Card_Integrantes/CardTutor';
 import CardAluno from './SubComponentes/Card_Integrantes/CardAluno';
-import MenuNavegacao from '../../components/menus/MenuNavegacao/menuNavegacao';
 import CardExAluno from './SubComponentes/Card_Integrantes/CardExAlunos';
+import CollapsibleOpen from '../../hooks/collapsible/useCollapsibleOpen';
 import CardExTutores from './SubComponentes/Card_Integrantes/CardExTutores';
-
-interface CardInterface {
-  id?:string
-  nome: string;
-  ano?: string;
-  srcFoto: string;
-  tipo?: string;
-  github?: string;
-  linkedin?: string 
-}
-
-interface EquipeData {
-  alunos: CardInterface[];
-  tutores: CardInterface[];
-  exAlunos: CardInterface[];
-  exTutores: CardInterface[];
-}
+import MenuNavegacao from '../../components/menus/MenuNavegacao/menuNavegacao';
+import CollapsibleTrigger from '../../hooks/collapsible/useCollapsibleTrigger';
 
 export default function Equipe() {
   return (

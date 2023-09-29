@@ -1,32 +1,19 @@
 import React, { useState } from 'react';
-import styles from './CardExAluno.module.css';
 import { FaLinkedin } from 'react-icons/fa';
+import styles from './CardExAluno.module.css';
+import { CardInterface, noBlurStyle, withBlurStyle } from '../../../../types/EquipeTypes';
 
-interface CardInterface {
-  id?:string
-  nome: string;
-  ano?: string;
-  srcFoto: string;
-  tipo?: string;
-  github?: string;
-  linkedin?: string 
-}
-
-
-
-const withBlur = { filter: "blur(2px) grayscale(80%) brightness(0.5)" };
-const noBlur = { filter: "blur(0px) grayscale(0%)" };
 
 function CardExTutor({ nome,ano, srcFoto, tipo, linkedin }:CardInterface) {
-  const [blurred, setBlur] = useState(noBlur);
-  var altFoto = `Foto de ${nome}, integrante do PET ADS do IFSP Sao Carlos`;
+  const [blurred, setBlur] = useState(noBlurStyle);
+  const altFoto = `Foto de ${nome}, integrante do PET ADS do IFSP Sao Carlos`;
 
   return (
     <div className={styles.card}>
       <div
         className={styles.imgContainer}
-        onMouseEnter={() => setBlur(withBlur)}
-        onMouseLeave={() => setBlur(noBlur)}
+        onMouseEnter={() => setBlur(withBlurStyle)}
+        onMouseLeave={() => setBlur(noBlurStyle)}
       >
         <img
           style={blurred}
