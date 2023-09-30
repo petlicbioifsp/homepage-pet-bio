@@ -1,17 +1,12 @@
 import React from 'react';
+import './Faq.css';
 import Collapsible from 'react-collapsible';
+import { FaqInterface } from '../../types/FaqTypes';
+import FetchFaq from '../../hooks/fetch/useFetchFAQ';
+import Header from '../../components/ui/Header/header';
 import CollapsibleOpen from '../../hooks/collapsible/useCollapsibleOpen';
 import CollapsibleTrigger from '../../hooks/collapsible/useCollapsibleTrigger';
 import MenuNavegacao from '../../components/menus/MenuNavegacao/menuNavegacao';
-import FetchFaq from '../../hooks/fetch/useFetchFAQ';
-import './Faq.css';
-import Header from '../../components/ui/Header/header';
-
-interface FaqInterface {
-  id: string;
-  trigger: string;
-  resposta: string;
-}
 
 export default function Faq() {
   return (

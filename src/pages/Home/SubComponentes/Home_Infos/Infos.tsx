@@ -1,11 +1,7 @@
 import React from 'react';
 import styles from './Infos.module.css'
+import { TextPropsInterface } from '../../../../types/TextTypes';
 
-interface TextPropsInterface{
-    title:string, 
-    content: string
-    children?: React.ReactNode;
-}
 
 
 function Info({title, content}: TextPropsInterface){
