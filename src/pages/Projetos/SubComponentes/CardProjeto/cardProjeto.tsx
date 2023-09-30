@@ -5,19 +5,7 @@ import { FaGithub, FaSearch, FaGraduationCap} from 'react-icons/fa';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import { MdExtension, MdOutlineComputer } from "react-icons/md";
 import React from 'react'; 
-
-
-interface ProjectInterface{
-    id?: string, 
-    titulo:string,
-    status:string, 
-    tipo: string, 
-    link:string, 
-    descricao:string, 
-    expandido:string, 
-    tecnologias:string,
-  }
-  
+import { ProjectInterface } from "../../../../types/ProjectTypes";
 
 export default function CardProjeto(props:ProjectInterface) {
 

@@ -5,17 +5,7 @@ import useIsMobile from "../../hooks/window/useIsMobile";
 import FetchProj from "../../hooks/fetch/useFetchProjetos";
 import CardProjeto from "./SubComponentes/CardProjeto/cardProjeto";
 import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
-
-interface ProjectInterface {
-  id?: string;
-  titulo: string;
-  status: string;
-  tipo: string;
-  link: string;
-  descricao: string;
-  expandido: string;
-  tecnologias: string;
-}
+import { ProjectInterface } from "../../types/ProjectTypes";
 
 export default function Projetos() {
   const isMobile = useIsMobile();
