@@ -15,9 +15,9 @@ function ProcessoSeletivo() {
             <div className="corpo">
                 
                 <Cabecalho 
-                    titulo="Processo Seletivo"
+                    title="Processo Seletivo"
 
-                    texto='Todos os estudantes regularmente matriculados no curso de Tecnologia em Análise e 
+                    content='Todos os estudantes regularmente matriculados no curso de Tecnologia em Análise e 
                     Desenvolvimento de Sistemas do IFSP Câmpus São Carlos podem participar dos processos seletivos do PET/ADS. 
                     O grupo é composto por até doze bolsistas e até seis voluntários.  Os processos seletivos são regidos por 
                     editais publicados periodicamente.'
@@ -27,9 +27,9 @@ function ProcessoSeletivo() {
                 <section className="corpo_informacoes">
                     
                     <Requisitos        
-                        titulo="Requisitos"
+                        title="Requisitos"
                         
-                        texto="Para se inscrever no processo seletivo, o candidato deverá:"
+                        content="Para se inscrever no processo seletivo, o candidato deverá:"
                         
                         item_1="Estar regularmente matriculado no curso de Análise e Desenvolvimento de Sistemas."
                         
@@ -37,7 +37,7 @@ function ProcessoSeletivo() {
                     />
                 
                     <Inscricoes
-                        titulo="Inscrições"
+                        title="Inscrições"
                         
                         texto_1="As inscrições devem ser realizadas pelo e-mail"
                         

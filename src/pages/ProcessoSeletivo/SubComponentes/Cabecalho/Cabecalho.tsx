@@ -1,19 +1,14 @@
 import React from 'react';
 import Header from '../../../../components/ui/Header/header';
 import styles from './Cabecalho.module.css'
-
-interface TextPropsInterface{
-    titulo:string, 
-    texto: string
-    children?: React.ReactNode;
-}
+import { TextPropsInterface } from '../../../../types/TextTypes';
 
 
-function Cabecalho  ({titulo,texto }: TextPropsInterface){ 
+function Cabecalho  ({title,content}: TextPropsInterface){ 
 return(
 <div className={styles.cabecalho}>
-    <Header  texto = {titulo}/>
-    <p className={styles.texto}>{texto}</p>
+    <Header  texto = {title}/>
+    <p className={styles.texto}>{content}</p>
 </div> 
 
 )

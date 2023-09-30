@@ -1,22 +1,14 @@
 import { AiOutlineCloudDownload } from 'react-icons/ai';
 import styles from "./Inscricoes.module.css"
 import React from 'react';
-
-interface InscricoesPropsInterface{
-    titulo: string ,
-    texto_1: string, 
-    email:string,
-    texto_2:string, 
-    data:string, 
-    estado: string, 
-    texto_3: string,
-}
+import { title } from 'process';
+import { TextPropsInterface } from '../../../../types/TextTypes';
 
 
-function Inscricoes({titulo,texto_1,email,texto_2,data,estado,texto_3}: InscricoesPropsInterface){
+function Inscricoes({title,texto_1,email,texto_2,data,estado,texto_3}: TextPropsInterface){
     return(
         <div className={styles.Inscricao}>
-            <h2 className={styles.titulo}>{titulo}</h2>
+            <h2 className={styles.titulo}>{title}</h2>
             <p className={styles.texto}>
                 {texto_1} <a className={styles.email} href="mailto:pet.ads.scl@ifsp.edu.br?subject=Processo seletivo PET/ADS">{email}</a>.
             </p>

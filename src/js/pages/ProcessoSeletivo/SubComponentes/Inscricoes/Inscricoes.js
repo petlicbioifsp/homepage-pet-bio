@@ -7,9 +7,9 @@ var ai_1 = require("react-icons/ai");
 var Inscricoes_module_css_1 = __importDefault(require("./Inscricoes.module.css"));
 var react_1 = __importDefault(require("react"));
 function Inscricoes(_a) {
-    var titulo = _a.titulo, texto_1 = _a.texto_1, email = _a.email, texto_2 = _a.texto_2, data = _a.data, estado = _a.estado, texto_3 = _a.texto_3;
+    var title = _a.title, texto_1 = _a.texto_1, email = _a.email, texto_2 = _a.texto_2, data = _a.data, estado = _a.estado, texto_3 = _a.texto_3;
     return (react_1.default.createElement("div", { className: Inscricoes_module_css_1.default.Inscricao },
-        react_1.default.createElement("h2", { className: Inscricoes_module_css_1.default.titulo }, titulo),
+        react_1.default.createElement("h2", { className: Inscricoes_module_css_1.default.titulo }, title),
         react_1.default.createElement("p", { className: Inscricoes_module_css_1.default.texto },
             texto_1,
             " ",
