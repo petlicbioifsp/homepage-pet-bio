@@ -1,43 +1,42 @@
-import styles from './Reveal.module.css'
-import {ReactNode, useEffect, useRef } from "react";
-import {motion, useInView, useAnimation} from 'framer-motion';
-import React from 'react';
+import React, { RefObject } from 'react';
+import styles from './Reveal.module.css';
+import {ReactNode, useEffect, useRef } from 'react';
+import { motion, useInView, useAnimation } from 'framer-motion';
 
-interface RevealPropsInterface{ 
-    children:  ReactNode, 
-    width?:number
+interface RevealPropsInterface <T> {
+  children: T;
+  width?: number|string;
 }
 
+function Reveal({ children, width}: RevealPropsInterface<React.ReactNode>) {
+  const ref= useRef<HTMLDivElement|null>(null)!;
+  const isInView = useInView(ref, { once: true });
+  const mainControl = useAnimation();
 
-function Reveal ({children, width}:RevealPropsInterface){
-    const ref = useRef(null);
-    const isInView = useInView(ref, {once: true});
-    const mainControl = useAnimation();
-    useEffect(() => {
+  useEffect(() => {
     if (isInView) {
-         mainControl.start('visible')
+      mainControl.start('visible');
     }
-    });
-    return(
-        <section className={styles.homesection} ref ={ref}  style={{position:'relative', width, overflow: 'hidden'}}>
-            <motion.div
-                className={styles.container}
-                variants ={{
-                    hidden: {opacity:0, x:75},
-                    visible: {opacity:1, x:0},
-                }}
-                initial ='hidden'
-                animate={mainControl}
-                transition={{
-                    duration: 0.5,
-                    delay: 0.25,
-                
-                }}>
-                    {children}
-            </motion.div>
-        </section>
-    );
+  }, [isInView]); 
 
+  return (
+    <section className={styles.homesection} ref={ref} style={{ position: 'relative', width, overflow: 'hidden' }}>
+      <motion.div
+        
+        className={styles.container}
+        
+        variants={{
+          hidden: { opacity: 0, x: 75 },
+          visible: { opacity: 1, x: 0 },
+        }}
+        initial="hidden"
+        animate={mainControl}
+        transition={{ duration: 0.5, delay: 0.25,}}
+      >
+        {children}
+      </motion.div>
+    </section>
+  );
+}
 
-}export default Reveal;
-
+export default Reveal;
