@@ -4,16 +4,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(require("react"));
-require("../../components/interactive/Arrow/Arrow.css");
 var ai_1 = require("react-icons/ai");
 var md_1 = require("react-icons/md");
+var Arrow_module_css_1 = __importDefault(require("../../components/interactive/Arrow/Arrow.module.css"));
 var CollapsibleTrigger = function (_a) {
     var text = _a.text, page = _a.page;
-    return (react_1.default.createElement("div", { className: 'conteiner' },
-        react_1.default.createElement("div", null,
-            page === 'Equipe' && react_1.default.createElement(md_1.MdKeyboardArrowDown, { className: 'collapsible-arrow' }),
-            page === 'FAQ' && react_1.default.createElement(ai_1.AiFillCaretDown, null)),
-        react_1.default.createElement("div", { className: 'CollapsibleTriggerContainer' },
-            react_1.default.createElement("span", { className: 'spanText' }, text))));
+    var isFaq = page == 'FAQ';
+    return (react_1.default.createElement("div", { className: Arrow_module_css_1.default.conteiner },
+        react_1.default.createElement("div", null, isFaq ? 'FAQ' && react_1.default.createElement(ai_1.AiFillCaretDown, null) : react_1.default.createElement(md_1.MdKeyboardArrowDown, { className: Arrow_module_css_1.default['collapsible-arrow'] })),
+        react_1.default.createElement("div", { className: Arrow_module_css_1.default.CollapsibleTriggerContainer },
+            react_1.default.createElement("span", { className: Arrow_module_css_1.default.spanText }, text))));
 };
 exports.default = CollapsibleTrigger;
