@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactNode } from "react";
-import styles from '../footer.module.css'
+import styles from './links.module.css'
 
 interface IFooterLinkProps{
     href: string, 
@@ -13,7 +13,8 @@ interface IFooterLinkProps{
 
 export default function FooterLink({ href, title, rel, target, className, children }: IFooterLinkProps) {
     return (
-      <a href={href} title={title} rel={rel} target={target} className={`${styles.link} ${className}`}>
+      <a href={href} title={title} rel={rel} target={target} className={`${styles[className!]}`}>
+
         {children}
       </a>
     );

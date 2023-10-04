@@ -8,7 +8,7 @@ export default function footer(){
     return(
     <footer className={styles.footer}>
     
-    <FooterLink className={styles.gitIcon} href='https://github.com/pet-ads' 
+    <FooterLink className="gitIcon" href='https://github.com/pet-ads' 
         title='Visite nosso github' rel='noreferrer' target='_blank'>
             <FaGithub />
     </FooterLink>
@@ -16,18 +16,16 @@ export default function footer(){
     <pre className={styles.footer_content}>
         Desenvolvido com ♥ por{' '}
   
-    <FooterLink href='/' title='Página inicial'>
+    <FooterLink  className= "link" href='/' title='Página inicial'>
       PET/ADS
     </FooterLink>{' '}
   
     @{' '}
-    <FooterLink href='https://scl.ifsp.edu.br' title='Página do IFSP-SCL' rel='noreferrer' target='_blank'>
+    <FooterLink className = "link"href='https://scl.ifsp.edu.br' title='Página do IFSP-SCL' rel='noreferrer' target='_blank'>
       IFSP São Carlos.
     </FooterLink>
   
   </pre>
 </footer>
-
-
     )
 }
