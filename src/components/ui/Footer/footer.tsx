@@ -1,6 +1,6 @@
-import { FaGithub } from 'react-icons/fa';
-import styles from "./footer.module.css";
 import React from 'react';
+import styles from "./footer.module.css";
+import { FaGithub } from 'react-icons/fa';
 
 export default function Footer() {
     return (

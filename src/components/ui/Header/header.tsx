@@ -1,5 +1,5 @@
+import styles from  './header.module.css'
 import React from 'react';
-import './header.css'
 
 interface HeaderProps{ 
     texto:string
@@ -7,7 +7,7 @@ interface HeaderProps{
 
 function Header( {texto} :HeaderProps ){
     return(
-        <h1 className="titulo">{texto}</h1>
+        <h1 className={styles.titulo}>{texto}</h1>
     )
 };
 export default Header;
