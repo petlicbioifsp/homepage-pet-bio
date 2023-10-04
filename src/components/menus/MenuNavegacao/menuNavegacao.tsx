@@ -1,23 +1,13 @@
+import React from 'react';
 import './menuNavegacao.css';
 import { NavLink }from 'react-router-dom';
-import LogoIFSP from '../../logos/LogoIFSP/LogoIFSP';
-import React, { useEffect, useState } from 'react';
-import MenuMobileDropdown from '../MenuMobile/MenuMobile';
 import { MenuItem } from '../../../types/MenuTypes';
+import LogoIFSP from '../../logos/LogoIFSP/LogoIFSP';
+import MenuMobileDropdown from '../MenuMobile/MenuMobile';
+import useIsMobile from '../../../hooks/window/useIsMobile';
+
 export default function MenuNavegacao() {
-  const [larguraJanela, setLarguraJanela] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setLarguraJanela(window.innerWidth);
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+  const isMobile = useIsMobile(); 
 
   const items: MenuItem[] = [
     { path: '/', label: 'Home' },
@@ -30,7 +20,7 @@ export default function MenuNavegacao() {
   return (
     <div className="menu">
       <LogoIFSP />
-      {larguraJanela < 775 ? (
+      {isMobile? (
         <MenuMobileDropdown items={items} />
       ) : (
         <ul className="menu-navegacao">
