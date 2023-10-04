@@ -30,10 +30,9 @@ var react_router_dom_1 = require("react-router-dom");
 var MenuMobileDropdown = function (_a) {
     var items = _a.items;
     var _b = (0, react_1.useState)(false), isDropdownOpen = _b[0], setIsDropdownOpen = _b[1];
-    var toggleDropdown = function () {
-        setIsDropdownOpen(!isDropdownOpen);
-    };
-    return (react_1.default.createElement("div", { className: "menu-mobile ".concat(isDropdownOpen ? 'active' : '') },
+    var dropdownClass = "menu-mobile ".concat(isDropdownOpen ? 'active' : '');
+    var toggleDropdown = function () { setIsDropdownOpen(!isDropdownOpen); };
+    return (react_1.default.createElement("div", { className: dropdownClass },
         react_1.default.createElement(hi_1.HiMenu, { "aria-label": "Toggle Menu", className: 'menu-icon', onClick: toggleDropdown }),
         isDropdownOpen && (react_1.default.createElement("div", { className: "dots", onClick: toggleDropdown },
             react_1.default.createElement("div", { className: "dot" }),
@@ -42,8 +41,11 @@ var MenuMobileDropdown = function (_a) {
             react_1.default.createElement("div", { className: "container cut" },
                 react_1.default.createElement("div", { className: "drop cut2" })),
             react_1.default.createElement("div", { className: "list" },
-                react_1.default.createElement("ul", null, items.map(function (item) { return (react_1.default.createElement("li", { key: item.path },
-                    react_1.default.createElement(react_router_dom_1.NavLink, { to: item.path, className: "dropdown-link", onClick: toggleDropdown }, item.label))); }))),
+                react_1.default.createElement("ul", null, items.map(function (_a) {
+                    var path = _a.path, label = _a.label;
+                    return (react_1.default.createElement("li", { key: path },
+                        react_1.default.createElement(react_router_dom_1.NavLink, { to: path, className: "dropdown-link", onClick: toggleDropdown }, label)));
+                }))),
             react_1.default.createElement("div", { className: "dot" }))),
         isDropdownOpen && (react_1.default.createElement("div", { className: "cursor", onClick: toggleDropdown }))));
 };

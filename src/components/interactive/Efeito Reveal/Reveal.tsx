@@ -1,6 +1,6 @@
-import React, { RefObject } from 'react';
+import React from 'react';
 import styles from './Reveal.module.css';
-import {ReactNode, useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
 
 interface RevealPropsInterface <T> {

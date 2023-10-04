@@ -5,14 +5,13 @@ import { NavLink } from 'react-router-dom';
 import { MenuItem } from '../../../types/MenuTypes';
 
 const MenuMobileDropdown: React.FC<{ items: MenuItem[] }> = ({ items }) => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  const toggleDropdown = ():void =>  {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownClass = `menu-mobile ${isDropdownOpen ? 'active' : ''}`
+  const toggleDropdown = ():void =>  {setIsDropdownOpen(!isDropdownOpen);};
 
   return (
-    <div className={`menu-mobile ${isDropdownOpen ? 'active' : ''}`}>
+    <div className={dropdownClass}>
       <HiMenu
         aria-label="Toggle Menu"
         className='menu-icon'
@@ -28,21 +27,18 @@ const MenuMobileDropdown: React.FC<{ items: MenuItem[] }> = ({ items }) => {
           </div>
           <div className="list">
             <ul>
-              {items.map((item) => (
-                <li key={item.path}>
-                  <NavLink  to={item.path} className="dropdown-link" onClick={toggleDropdown}>
-                    {item.label}
+              {items.map(({path, label}) => (
+                <li key={path}>
+                  <NavLink  to={path} className="dropdown-link" onClick={toggleDropdown}>
+                    {label}
                   </NavLink>
-                </li>
-              ))}
+                </li>))}
             </ul>
           </div>
-          <div className="dot"></div>
+            <div className="dot"></div>
         </div>
       )}
-      {isDropdownOpen && (
-        <div className="cursor" onClick={toggleDropdown}></div>
-      )}
+      {isDropdownOpen && (<div className="cursor" onClick={toggleDropdown}></div>)}
     </div>
   );
 };
