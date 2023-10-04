@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
-import { CardInterface} from '../../types/EquipeTypes';
-import { FetchEquipeProps } from '../../types/FetchTypes';
+import { ICard} from '../../types/EquipeTypes';
+import { IFetchEquipeProps } from '../../types/FetchTypes';
 
 
 
-const FetchEquipe = ({ render }:FetchEquipeProps) => {
-  const [alunos, setAlunos] = useState<CardInterface[]>([]);
-  const [tutores, setTutores] = useState <CardInterface[]>([]);
-  const [exAlunos, setExAlunos] = useState <CardInterface[]>([]);
-  const [exTutores, setExTutores] = useState <CardInterface[]>([]);
+const FetchEquipe = ({ render }:IFetchEquipeProps) => {
+  const [alunos, setAlunos] = useState<ICard[]>([]);
+  const [tutores, setTutores] = useState <ICard[]>([]);
+  const [exAlunos, setExAlunos] = useState <ICard[]>([]);
+  const [exTutores, setExTutores] = useState <ICard[]>([]);
 
   useEffect(() => {
     const fetchIntegrantes = async () => {

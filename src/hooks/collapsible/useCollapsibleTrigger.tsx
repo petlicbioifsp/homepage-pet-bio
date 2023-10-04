@@ -1,10 +1,10 @@
 import React from 'react';
 import { AiFillCaretDown} from 'react-icons/ai';
 import { MdKeyboardArrowDown } from 'react-icons/md';
-import { Collapsibleprops } from '../../types/CollapsibleTypes';
+import { ICollapsibleprops } from '../../types/CollapsibleTypes';
 import styles from '../../components/interactive/Arrow/Arrow.module.css'
 
-const CollapsibleTrigger = ({ text, page }:Collapsibleprops) => {
+const CollapsibleTrigger = ({ text, page }:ICollapsibleprops) => {
   const isFaq = page =='FAQ'
   return (
     <div className={styles.conteiner}>

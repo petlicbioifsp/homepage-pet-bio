@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import styles from './CardAluno.module.css';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { CardInterface,noBlurStyle,withBlurStyle } from '../../../../types/EquipeTypes';
+import { ICard,noBlurStyle,withBlurStyle } from '../../../../types/EquipeTypes';
 
 
 
-function CardAluno({ nome, srcFoto, tipo, github, linkedin }:CardInterface) {
+function CardAluno({ nome, srcFoto, tipo, github, linkedin }:ICard) {
   const [blurred, setBlur] = useState(noBlurStyle);
   const altFoto = `Foto de ${nome}, integrante do PET ADS do IFSP Sao Carlos`;
 

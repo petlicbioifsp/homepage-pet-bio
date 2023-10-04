@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from '../../../../components/ui/Header/header';
 import styles from './Cabecalho.module.css'
-import { TextPropsInterface } from '../../../../types/TextTypes';
+import { ITextProps } from '../../../../types/TextTypes';
 
 
-function Cabecalho  ({title,content}: TextPropsInterface){ 
+function Cabecalho  ({title,content}: ITextProps){ 
 return(
 <div className={styles.cabecalho}>
     <Header  texto = {title}/>

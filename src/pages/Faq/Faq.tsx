@@ -1,7 +1,7 @@
 import React from 'react';
 import './Faq.css';
 import Collapsible from 'react-collapsible';
-import { FaqInterface } from '../../types/FaqTypes';
+import { IFaq } from '../../types/FaqTypes';
 import FetchFaq from '../../hooks/fetch/useFetchFAQ';
 import Header from '../../components/ui/Header/header';
 import CollapsibleOpen from '../../hooks/collapsible/useCollapsibleOpen';
@@ -16,7 +16,7 @@ export default function Faq() {
 
       <section className="faq--caixa__perguntas">
         <FetchFaq
-          render={(arrFaq: FaqInterface[]): JSX.Element[] =>
+          render={(arrFaq: IFaq[]): JSX.Element[] =>
             arrFaq.map((faqs) => (
               <Collapsible
                 key={faqs.id}

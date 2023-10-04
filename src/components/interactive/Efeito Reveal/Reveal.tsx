@@ -3,12 +3,12 @@ import styles from './Reveal.module.css';
 import { useEffect, useRef } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
 
-interface RevealPropsInterface <T> {
+interface IRevealProps <T> {
   children: T;
   width?: number|string;
 }
 
-function Reveal({ children, width}: RevealPropsInterface<React.ReactNode>) {
+function Reveal({ children, width}: IRevealProps<React.ReactNode>) {
   const ref= useRef<HTMLDivElement|null>(null)!;
   const isInView = useInView(ref, { once: true });
   const mainControl = useAnimation();

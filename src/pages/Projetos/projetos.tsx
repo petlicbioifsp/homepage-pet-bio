@@ -5,7 +5,7 @@ import useIsMobile from "../../hooks/window/useIsMobile";
 import FetchProj from "../../hooks/fetch/useFetchProjetos";
 import CardProjeto from "./SubComponentes/CardProjeto/cardProjeto";
 import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
-import { ProjectInterface } from "../../types/ProjectTypes";
+import { IProject } from "../../types/ProjectTypes";
 
 export default function Projetos() {
   const isMobile = useIsMobile();
@@ -17,7 +17,7 @@ export default function Projetos() {
         <Header texto={isMobile ? "Projetos do PET/ADS" : "Projetos Desenvolvidos pelo PET/ADS"} />
         <section className="menu-projetos">
           <FetchProj
-            render={(arrProjetos: ProjectInterface[]) =>
+            render={(arrProjetos: IProject[]) =>
               arrProjetos.map((projeto) => (
                 <CardProjeto
                   key={projeto.id}

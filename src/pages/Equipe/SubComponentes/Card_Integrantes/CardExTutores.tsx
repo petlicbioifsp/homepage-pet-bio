@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import styles from './CardExAluno.module.css';
-import { CardInterface, noBlurStyle, withBlurStyle } from '../../../../types/EquipeTypes';
+import { ICard, noBlurStyle, withBlurStyle } from '../../../../types/EquipeTypes';
 
 
-function CardExTutor({ nome,ano, srcFoto, tipo, linkedin }:CardInterface) {
+function CardExTutor({ nome,ano, srcFoto, tipo, linkedin }:ICard) {
   const [blurred, setBlur] = useState(noBlurStyle);
   const altFoto = `Foto de ${nome}, integrante do PET ADS do IFSP Sao Carlos`;
 

@@ -2,9 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = require("react");
 function useWindowSize() {
-    var _a = (0, react_1.useState)({
-        width: window.innerWidth
-    }), size = _a[0], setSize = _a[1];
+    var _a = (0, react_1.useState)({ width: window.innerWidth }), size = _a[0], setSize = _a[1];
     var handleResize = function () {
         setSize({
             width: window.innerWidth,

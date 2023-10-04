@@ -1,8 +1,8 @@
 import styles from './Title.module.css';
 import LogoPET from '../../../../components/logos/LogoPET/LogoPET';
 import React from 'react';
-import { TextPropsInterface } from '../../../../types/TextTypes';
-function Title({ title, content }: TextPropsInterface) {
+import { ITextProps } from '../../../../types/TextTypes';
+function Title({ title, content }: ITextProps) {
     return (
         <header className={styles.cabecalho}>
             <div className={styles.container}>

@@ -1,6 +1,6 @@
-import { ConstTextInterface } from "../../../types/ConstantTypes"
+import { IConstText } from "../../../types/ConstantTypes"
 
-export const AboutPET:ConstTextInterface = {
+export const AboutPET:IConstText = {
     desktop: `O Programa de Educação Tutorial (PET) é um programa do governo federal 
     brasileiro de estímulo a atividades de pesquisa, ensino e extensão em nível de 
      graduação. O PET foi criado e implantado em 1979 pela Coordenação de Aperfeiçoamento 
@@ -22,7 +22,7 @@ export const AboutPET:ConstTextInterface = {
     em 121 Instituições de Ensino Superior.`
 }
 
-export const Purpose:ConstTextInterface = {
+export const Purpose:IConstText = {
     desktop : `O grupo PET do curso de Análise e Desenvolvimento de Sistemas do IFSP São Carlos (PET/ADS/SCL) 
     foi criado em 2010. Desde sua criação, o PET/ADS/SCL já desenvolveu diversas atividades voltadas 
     ao ensino, à pesquisa e à extensão. O grupo é formado por um docente tutor, até doze bolsistas e até seis 

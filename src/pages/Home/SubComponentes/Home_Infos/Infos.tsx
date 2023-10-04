@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Infos.module.css'
-import { TextPropsInterface } from '../../../../types/TextTypes';
+import { ITextProps } from '../../../../types/TextTypes';
 
 
 
-function Info({title, content}: TextPropsInterface){
+function Info({title, content}: ITextProps){
     return(
         <>
             <h3 className={styles.title}>{title}</h3>

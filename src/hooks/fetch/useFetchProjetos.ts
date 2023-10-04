@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import { ProjectInterface } from '../../types/ProjectTypes';
-import  {FetchRenderProjectsInterface}  from '../../types/FetchTypes';
+import { IProject } from '../../types/ProjectTypes';
+import  {IFetchRenderProjects}  from '../../types/FetchTypes';
 
-const FetchProjetos = ({ render }: FetchRenderProjectsInterface) => {
-  const [arrProjetos, setProjetos] = useState<ProjectInterface[]>([]);
+const FetchProjetos = ({ render }: IFetchRenderProjects) => {
+  const [arrProjetos, setProjetos] = useState<IProject[]>([]);
 
   useEffect(() => {
     const fetchProjetos = async () => {

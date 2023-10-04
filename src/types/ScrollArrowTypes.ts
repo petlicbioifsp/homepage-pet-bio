@@ -2,7 +2,7 @@ import { Dispatch, SetStateAction } from "react";
 
 type ShowArrowType = [boolean, Dispatch<SetStateAction<boolean>>]
 
-export  interface ScrollArrowProps{
+export  interface IScrollArrowProps{
   showArrow: ShowArrowType 
   sectionRef?:React.RefObject<HTMLDivElement>, 
   scrollToSection: () => void,
@@ -11,7 +11,7 @@ export  interface ScrollArrowProps{
 
 }
 
-export default interface ScrollToSectionResult {
+export default interface IScrollToSectionResult {
     showArrow?: ShowArrowType;
     sectionRef: React.MutableRefObject<HTMLDivElement| null>;
     scrollToSection: () => void;

@@ -1,7 +1,7 @@
 import './equipe.css';
 import React from 'react';
 import Collapsible from 'react-collapsible';
-import { EquipeData } from '../../types/EquipeTypes';
+import { IEquipeData } from '../../types/EquipeTypes';
 import Header from "../../components/ui/Header/header";
 import FetchEquipe from '../../hooks/fetch/useFetchEquipe';
 import CardTutor from './SubComponentes/Card_Integrantes/CardTutor';
@@ -18,7 +18,7 @@ export default function Equipe() {
       <MenuNavegacao />
       <div className="equipe--corpo">
         <FetchEquipe
-          render={({ alunos, tutores, exAlunos, exTutores }: EquipeData) => (
+          render={({ alunos, tutores, exAlunos, exTutores }: IEquipeData) => (
             <>
               <Header texto="Integrantes" />
               <section className="equipe--tutor">

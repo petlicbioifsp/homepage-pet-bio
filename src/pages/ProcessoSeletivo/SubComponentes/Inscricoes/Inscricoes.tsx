@@ -1,11 +1,10 @@
 import { AiOutlineCloudDownload } from 'react-icons/ai';
 import styles from "./Inscricoes.module.css"
 import React from 'react';
-import { title } from 'process';
-import { TextPropsInterface } from '../../../../types/TextTypes';
+import { ITextProps } from '../../../../types/TextTypes';
 
 
-function Inscricoes({title,texto_1,email,texto_2,data,estado,texto_3}: TextPropsInterface){
+function Inscricoes({title,texto_1,email,texto_2,data,estado,texto_3}: ITextProps){
     return(
         <div className={styles.Inscricao}>
             <h2 className={styles.titulo}>{title}</h2>

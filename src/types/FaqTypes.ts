@@ -1,10 +1,10 @@
-export interface FaqInterface {
+export interface IFaq {
     id: string;
     trigger: string;
     resposta: string;
   }
   
 export interface FaqData {
-    faqs: FaqInterface[];
+    faqs: IFaq[];
   }
   

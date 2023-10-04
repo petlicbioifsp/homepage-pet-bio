@@ -1,4 +1,4 @@
-export interface TextPropsInterface{
+export interface ITextProps{
     title:string, 
     content?: string
     texto_1?: string, 

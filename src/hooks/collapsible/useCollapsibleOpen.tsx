@@ -1,10 +1,10 @@
 import React from 'react';
 import { AiFillCaretUp } from 'react-icons/ai';
 import { MdKeyboardArrowUp } from 'react-icons/md';
-import { Collapsibleprops } from '../../types/CollapsibleTypes';
+import { ICollapsibleprops } from '../../types/CollapsibleTypes';
 import styles from '../../components/interactive/Arrow/Arrow.module.css'
 
-const CollapsibleOpen = ({ text, page }:Collapsibleprops) => {
+const CollapsibleOpen = ({ text, page }:ICollapsibleprops) => {
   const isFaq = page ==='FAQ'
 
   return (

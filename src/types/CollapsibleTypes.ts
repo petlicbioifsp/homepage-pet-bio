@@ -1,4 +1,4 @@
-export interface Collapsibleprops{
+export interface ICollapsibleprops{
     text: string, 
     page: string
   }

@@ -1,4 +1,4 @@
-export interface CardInterface {
+export interface ICard {
     id?:string
     nome: string;
     ano?: string;
@@ -8,11 +8,11 @@ export interface CardInterface {
     linkedin?: string 
 }
 
-export interface EquipeData {
-    alunos: CardInterface[];
-    tutores: CardInterface[];
-    exAlunos: CardInterface[];
-    exTutores: CardInterface[];
+export interface IEquipeData {
+    alunos: ICard[];
+    tutores: ICard[];
+    exAlunos: ICard[];
+    exTutores: ICard[];
 }
 
 

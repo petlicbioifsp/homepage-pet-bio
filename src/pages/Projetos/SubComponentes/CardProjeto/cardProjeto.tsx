@@ -5,9 +5,9 @@ import { FaGithub, FaSearch, FaGraduationCap} from 'react-icons/fa';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import { MdExtension, MdOutlineComputer } from "react-icons/md";
 import React from 'react'; 
-import { ProjectInterface } from "../../../../types/ProjectTypes";
+import { IProject } from "../../../../types/ProjectTypes";
 
-export default function CardProjeto(props:ProjectInterface) {
+export default function CardProjeto(props:IProject) {
 
     const [isOpen, setIsOpen] = useState(false);
     function setingIsOpen() {

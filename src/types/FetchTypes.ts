@@ -1,15 +1,15 @@
-import { ProjectInterface } from "./ProjectTypes";
-import { EquipeData } from "./EquipeTypes";
-import { FaqInterface } from "./FaqTypes";
+import { IProject } from "./ProjectTypes";
+import { IEquipeData } from "./EquipeTypes";
+import { IFaq } from "./FaqTypes";
 
-export interface FetchRenderProjectsInterface {
-    render: (data: ProjectInterface[]) => React.ReactNode;
+export interface IFetchRenderProjects {
+    render: (data: IProject[]) => React.ReactNode;
   }
 
-export interface FetchEquipeProps {
-    render: (data: EquipeData) => React.ReactNode;
+export interface IFetchEquipeProps {
+    render: (data: IEquipeData) => React.ReactNode;
   }
 
-export interface FetchFaqInterface {
-    render: (faqs:FaqInterface[]) =>React.ReactNode
+export interface IFetchFaq {
+    render: (faqs:IFaq[]) =>React.ReactNode
   }

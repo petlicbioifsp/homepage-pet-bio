@@ -2,9 +2,9 @@ import './MenuMobile.css';
 import React, { useState } from 'react';
 import { HiMenu }  from 'react-icons/hi';
 import { NavLink } from 'react-router-dom';
-import { MenuItem } from '../../../types/MenuTypes';
+import { IMenuItem } from '../../../types/MenuTypes';
 
-const MenuMobileDropdown: React.FC<{ items: MenuItem[] }> = ({ items }) => {
+const MenuMobileDropdown: React.FC<{ items: IMenuItem[] }> = ({ items }) => {
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownClass = `menu-mobile ${isDropdownOpen ? 'active' : ''}`

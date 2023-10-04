@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
-import { FetchFaqInterface } from '../../types/FetchTypes';
-import { FaqInterface, FaqData } from '../../types/FaqTypes';
+import { IFetchFaq } from '../../types/FetchTypes';
+import { IFaq, FaqData } from '../../types/FaqTypes';
 
 
-const FetchFaq = ({ render }: FetchFaqInterface) => {
-  const [arrFaq, setFaq] = useState<FaqInterface[]>([]);
+const FetchFaq = ({ render }: IFetchFaq) => {
+  const [arrFaq, setFaq] = useState<IFaq[]>([]);
 
   useEffect(() => {
     const fetchFaq = async () => {

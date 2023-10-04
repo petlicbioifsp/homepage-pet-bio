@@ -2,7 +2,7 @@ import React from "react";
 import { ReactNode } from "react";
 import styles from '../footer.module.css'
 
-interface FooterLinkPropsInterface{
+interface IFooterLinkProps{
     href: string, 
     title:string, 
     rel?:string, 
@@ -11,7 +11,7 @@ interface FooterLinkPropsInterface{
     children:ReactNode
 }
 
-export default function FooterLink({ href, title, rel, target, className, children }: FooterLinkPropsInterface) {
+export default function FooterLink({ href, title, rel, target, className, children }: IFooterLinkProps) {
     return (
       <a href={href} title={title} rel={rel} target={target} className={`${styles.link} ${className}`}>
         {children}
