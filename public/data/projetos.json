@@ -24,7 +24,7 @@
       {
         "id": "3",
         "tipo": "ensino",
-        "link": "https://github.com/pet-ads",
+        "link": "https://github.com/pet-ads/leitura-compartilhada",
         "titulo": "Projeto Leitura Compartilhada",
         "status": "Contínuo",
         "descricao": "Projeto de ensino que visa estimular a leitura de clássicos da Computação de uma maneira leve e integrada.",
@@ -64,7 +64,7 @@
       {
         "id": "7",
         "tipo": "extensão",
-        "link": "https://github.com/pet-ads",
+        "link": "https://github.com/pet-ads/tutorial-ingressantes",
         "titulo": "Projeto de Acolhimento de Ingressantes",
         "status": "Contínuo",
         "descricao": "Projeto de ensino para elaboração de tutorial de acolhimento dos ingressantes em cursos de Computação.",
