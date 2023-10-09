@@ -5,14 +5,14 @@ import { ICollapsibleprops } from '../../types/CollapsibleTypes';
 import styles from '../../components/interactive/Arrow/Arrow.module.css'
 
 const CollapsibleOpen = ({ text, page }:ICollapsibleprops) => {
-  const isFaq = page ==='FAQ'
+  const isFaqPage = page ==='FAQ'
 
   return (
     <div className={styles.conteiner}>
     
       <div>
-        {isFaq ? 'FAQ' && <AiFillCaretUp/>:
-          <MdKeyboardArrowUp className={styles['collapsible-arrow']}/>}
+        {isFaqPage ? ('FAQ' && <AiFillCaretUp/>) :
+          (<MdKeyboardArrowUp className={styles['collapsible-arrow']}/>)}
       </div>
     
       <div className={styles.CollapsibleTriggerContainer}>

@@ -9,10 +9,10 @@ var md_1 = require("react-icons/md");
 var Arrow_module_css_1 = __importDefault(require("../../components/interactive/Arrow/Arrow.module.css"));
 var CollapsibleOpen = function (_a) {
     var text = _a.text, page = _a.page;
-    var isFaq = page === 'FAQ';
+    var isFaqPage = page === 'FAQ';
     return (react_1.default.createElement("div", { className: Arrow_module_css_1.default.conteiner },
-        react_1.default.createElement("div", null, isFaq ? 'FAQ' && react_1.default.createElement(ai_1.AiFillCaretUp, null) :
-            react_1.default.createElement(md_1.MdKeyboardArrowUp, { className: Arrow_module_css_1.default['collapsible-arrow'] })),
+        react_1.default.createElement("div", null, isFaqPage ? ('FAQ' && react_1.default.createElement(ai_1.AiFillCaretUp, null)) :
+            (react_1.default.createElement(md_1.MdKeyboardArrowUp, { className: Arrow_module_css_1.default['collapsible-arrow'] }))),
         react_1.default.createElement("div", { className: Arrow_module_css_1.default.CollapsibleTriggerContainer },
             react_1.default.createElement("span", null, text))));
 };
