@@ -4,7 +4,7 @@ import { MdKeyboardArrowUp } from 'react-icons/md';
 import { ICollapsibleprops } from '../../types/CollapsibleTypes';
 import styles from '../../components/interactive/Arrow/Arrow.module.css'
 
-const CollapsibleOpen = ({ text, page }:ICollapsibleprops) => {
+export default function CollapsibleOpen ({ text, page }:ICollapsibleprops) {
   const isFaqPage = page ==='FAQ'
 
   return (
@@ -18,9 +18,7 @@ const CollapsibleOpen = ({ text, page }:ICollapsibleprops) => {
       <div className={styles.CollapsibleTriggerContainer}>
         <span>{text}</span>
       </div>
-      
+  
     </div>
   );
 };
-
-export default CollapsibleOpen;
