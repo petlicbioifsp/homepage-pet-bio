@@ -1,13 +1,13 @@
 import React from 'react';
 import './menuNavegacao.css';
-import { NavLink }from 'react-router-dom';
 import { IMenuItem } from '../../../types/MenuTypes';
 import LogoIFSP from '../../logos/LogoIFSP/LogoIFSP';
 import MenuMobileDropdown from '../MenuMobile/MenuMobile';
 import useIsMobile from '../../../hooks/window/useIsMobile';
+import MenuDesk from './Subcomponents/MenuDesk'
 
 export default function MenuNavegacao() {
-  const isMobile = useIsMobile(); 
+  const isMobile = useIsMobile();
 
   const items: IMenuItem[] = [
     { path: '/', label: 'Home' },
@@ -20,37 +20,7 @@ export default function MenuNavegacao() {
   return (
     <div className="menu">
       <LogoIFSP />
-      {isMobile? (
-        <MenuMobileDropdown items={items} />
-      ) : (
-        <ul className="menu-navegacao">
-          <li>
-            <NavLink to="/" className="menu-navegacao--link">
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/projetos" className="menu-navegacao--link">
-              Projetos
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/equipe" className="menu-navegacao--link">
-              Equipe
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/processo-seletivo" className="menu-navegacao--link">
-              Processo Seletivo
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/faq" className="menu-navegacao--link">
-              FAQ
-            </NavLink>
-          </li>
-        </ul>
-      )}
+      {isMobile ? <MenuMobileDropdown items={items} /> : <MenuDesk items={items}/>}
     </div>
   );
 }
