@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { IProject } from '../../types/ProjectTypes';
 import  {IFetchRenderProjects}  from '../../types/FetchTypes';
 
-const FetchProjetos = ({ render }: IFetchRenderProjects) => {
+export default function  FetchProjetos ({ render }: IFetchRenderProjects)  {
   const [arrProjetos, setProjetos] = useState<IProject[]>([]);
 
   useEffect(() => {
@@ -21,5 +21,3 @@ const FetchProjetos = ({ render }: IFetchRenderProjects) => {
 
   return render(arrProjetos);
 };
-
-export default FetchProjetos;

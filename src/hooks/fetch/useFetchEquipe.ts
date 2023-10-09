@@ -2,9 +2,7 @@ import { useState, useEffect } from 'react';
 import { ICard} from '../../types/EquipeTypes';
 import { IFetchEquipeProps } from '../../types/FetchTypes';
 
-
-
-const FetchEquipe = ({ render }:IFetchEquipeProps) => {
+export default function FetchEquipe ({ render }:IFetchEquipeProps) {
   const [alunos, setAlunos] = useState<ICard[]>([]);
   const [tutores, setTutores] = useState <ICard[]>([]);
   const [exAlunos, setExAlunos] = useState <ICard[]>([]);
@@ -30,4 +28,3 @@ const FetchEquipe = ({ render }:IFetchEquipeProps) => {
   return render({ alunos, tutores, exAlunos, exTutores });
 };
 
-export default FetchEquipe;

@@ -37,14 +37,15 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = require("react");
-var FetchEquipe = function (_a) {
+function FetchEquipe(_a) {
+    var _this = this;
     var render = _a.render;
     var _b = (0, react_1.useState)([]), alunos = _b[0], setAlunos = _b[1];
     var _c = (0, react_1.useState)([]), tutores = _c[0], setTutores = _c[1];
     var _d = (0, react_1.useState)([]), exAlunos = _d[0], setExAlunos = _d[1];
     var _e = (0, react_1.useState)([]), exTutores = _e[0], setExTutores = _e[1];
     (0, react_1.useEffect)(function () {
-        var fetchIntegrantes = function () { return __awaiter(void 0, void 0, void 0, function () {
+        var fetchIntegrantes = function () { return __awaiter(_this, void 0, void 0, function () {
             var response, data, error_1;
             return __generator(this, function (_a) {
                 switch (_a.label) {
@@ -72,5 +73,6 @@ var FetchEquipe = function (_a) {
         fetchIntegrantes();
     }, []);
     return render({ alunos: alunos, tutores: tutores, exAlunos: exAlunos, exTutores: exTutores });
-};
+}
 exports.default = FetchEquipe;
+;

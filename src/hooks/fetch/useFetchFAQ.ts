@@ -3,7 +3,7 @@ import { IFetchFaq } from '../../types/FetchTypes';
 import { IFaq, FaqData } from '../../types/FaqTypes';
 
 
-const FetchFaq = ({ render }: IFetchFaq) => {
+export default function  FetchFaq ({ render }: IFetchFaq) {
   const [arrFaq, setFaq] = useState<IFaq[]>([]);
 
   useEffect(() => {
@@ -23,4 +23,3 @@ const FetchFaq = ({ render }: IFetchFaq) => {
   return render(arrFaq);
 };
 
-export default FetchFaq;

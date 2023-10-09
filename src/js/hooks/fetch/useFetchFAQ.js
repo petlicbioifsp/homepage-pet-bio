@@ -37,11 +37,12 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = require("react");
-var FetchFaq = function (_a) {
+function FetchFaq(_a) {
+    var _this = this;
     var render = _a.render;
     var _b = (0, react_1.useState)([]), arrFaq = _b[0], setFaq = _b[1];
     (0, react_1.useEffect)(function () {
-        var fetchFaq = function () { return __awaiter(void 0, void 0, void 0, function () {
+        var fetchFaq = function () { return __awaiter(_this, void 0, void 0, function () {
             var response, data, error_1;
             return __generator(this, function (_a) {
                 switch (_a.label) {
@@ -66,5 +67,6 @@ var FetchFaq = function (_a) {
         fetchFaq();
     }, []);
     return render(arrFaq);
-};
+}
 exports.default = FetchFaq;
+;
