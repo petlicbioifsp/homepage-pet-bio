@@ -22,31 +22,24 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 require("./MenuMobile.css");
 var react_1 = __importStar(require("react"));
 var hi_1 = require("react-icons/hi");
-var react_router_dom_1 = require("react-router-dom");
-var MenuMobileDropdown = function (_a) {
+var DropDown_1 = __importDefault(require("./Subcomponents/DropDown"));
+function MenuMobileDropdown(_a) {
     var items = _a.items;
     var _b = (0, react_1.useState)(false), isDropdownOpen = _b[0], setIsDropdownOpen = _b[1];
-    var dropdownClass = "menu-mobile ".concat(isDropdownOpen ? 'active' : '');
-    var toggleDropdown = function () { setIsDropdownOpen(!isDropdownOpen); };
-    return (react_1.default.createElement("div", { className: dropdownClass },
-        react_1.default.createElement(hi_1.HiMenu, { "aria-label": "Toggle Menu", className: 'menu-icon', onClick: toggleDropdown }),
-        isDropdownOpen && (react_1.default.createElement("div", { className: "dots", onClick: toggleDropdown },
-            react_1.default.createElement("div", { className: "dot" }),
-            react_1.default.createElement("div", { className: "dot" }),
-            react_1.default.createElement("div", { className: "shadow cut" }),
-            react_1.default.createElement("div", { className: "container cut" },
-                react_1.default.createElement("div", { className: "drop cut2" })),
-            react_1.default.createElement("div", { className: "list" },
-                react_1.default.createElement("ul", null, items.map(function (_a) {
-                    var path = _a.path, label = _a.label;
-                    return (react_1.default.createElement("li", { key: path },
-                        react_1.default.createElement(react_router_dom_1.NavLink, { to: path, className: "dropdown-link", onClick: toggleDropdown }, label)));
-                }))),
-            react_1.default.createElement("div", { className: "dot" }))),
-        isDropdownOpen && (react_1.default.createElement("div", { className: "cursor", onClick: toggleDropdown }))));
-};
+    var menuClasses = "menu-mobile ".concat(isDropdownOpen ? 'active' : '');
+    var toggleDropdown = function () {
+        setIsDropdownOpen(!isDropdownOpen);
+    };
+    return (react_1.default.createElement("div", { className: menuClasses },
+        react_1.default.createElement(hi_1.HiMenu, { "aria-label": "Toggle Menu", className: "menu-icon", onClick: toggleDropdown }),
+        isDropdownOpen && (react_1.default.createElement(DropDown_1.default, { items: items, onClick: toggleDropdown })),
+        isDropdownOpen && react_1.default.createElement("div", { className: "cursor", onClick: toggleDropdown })));
+}
 exports.default = MenuMobileDropdown;
