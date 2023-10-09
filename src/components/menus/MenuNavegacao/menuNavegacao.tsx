@@ -1,10 +1,10 @@
 import React from 'react';
 import './menuNavegacao.css';
+import MenuDesk from './Subcomponents/MenuDesk'
 import { IMenuItem } from '../../../types/MenuTypes';
 import LogoIFSP from '../../logos/LogoIFSP/LogoIFSP';
 import MenuMobileDropdown from '../MenuMobile/MenuMobile';
 import useIsMobile from '../../../hooks/window/useIsMobile';
-import MenuDesk from './Subcomponents/MenuDesk'
 
 export default function MenuNavegacao() {
   const isMobile = useIsMobile();

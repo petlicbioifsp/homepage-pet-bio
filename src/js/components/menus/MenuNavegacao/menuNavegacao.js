@@ -5,10 +5,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(require("react"));
 require("./menuNavegacao.css");
+var MenuDesk_1 = __importDefault(require("./Subcomponents/MenuDesk"));
 var LogoIFSP_1 = __importDefault(require("../../logos/LogoIFSP/LogoIFSP"));
 var MenuMobile_1 = __importDefault(require("../MenuMobile/MenuMobile"));
 var useIsMobile_1 = __importDefault(require("../../../hooks/window/useIsMobile"));
-var MenuDesk_1 = __importDefault(require("./Subcomponents/MenuDesk"));
 function MenuNavegacao() {
     var isMobile = (0, useIsMobile_1.default)();
     var items = [
