@@ -1,31 +1,29 @@
 import { useState, useEffect } from "react";
 
-interface IinnerWidth{ 
-  width:number
+interface WindowSize {
+  width: number;
 }
 
-function useWindowSize():IinnerWidth{
-    const [size, setSize] = useState<IinnerWidth>({width : window.innerWidth});
-    
-    const handleResize = () => {
-        setSize({
-          width: window.innerWidth,
-        });
-      };
-    
-useEffect(() =>{
+function useWindowSize(): WindowSize {
+  const [size, setSize] = useState<WindowSize | undefined>(undefined);
 
-setSize({
-    width:window.innerWidth
-})
-window.addEventListener('resize', handleResize)
-
-return () => {
-    window.removeEventListener('resize', handleResize);
+  const handleResize = () => {
+    setSize({
+      width: window.innerWidth,
+    });
   };
-}, []);
 
-return size;
+  useEffect(() => {
+    handleResize(); 
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  return size || { width: 0 };
 }
 
 export default useWindowSize;
