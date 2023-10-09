@@ -8,7 +8,7 @@ interface IRevealProps <T> {
   width?: number|string;
 }
 
-function Reveal({ children, width}: IRevealProps<React.ReactNode>) {
+export default function Reveal({ children, width}: IRevealProps<React.ReactNode>) {
   const ref= useRef<HTMLDivElement|null>(null)!;
   const isInView = useInView(ref, { once: true });
   const mainControl = useAnimation();
@@ -17,7 +17,7 @@ function Reveal({ children, width}: IRevealProps<React.ReactNode>) {
     if (isInView) {
       mainControl.start('visible');
     }
-  }, [isInView]); 
+  }, [isInView, mainControl]); 
 
   return (
     <section className={styles.homesection} ref={ref} style={{ position: 'relative', width, overflow: 'hidden' }}>
@@ -39,4 +39,4 @@ function Reveal({ children, width}: IRevealProps<React.ReactNode>) {
   );
 }
 
-export default Reveal;
+

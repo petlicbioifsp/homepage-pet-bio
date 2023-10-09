@@ -3,9 +3,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = __importDefault(require("react"));
 var Title_module_css_1 = __importDefault(require("./Title.module.css"));
 var LogoPET_1 = __importDefault(require("../../../../components/logos/LogoPET/LogoPET"));
-var react_1 = __importDefault(require("react"));
 function Title(_a) {
     var title = _a.title, content = _a.content;
     return (react_1.default.createElement("header", { className: Title_module_css_1.default.cabecalho },

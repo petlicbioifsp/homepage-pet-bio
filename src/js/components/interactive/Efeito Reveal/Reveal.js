@@ -16,7 +16,7 @@ function Reveal(_a) {
         if (isInView) {
             mainControl.start('visible');
         }
-    }, [isInView]);
+    }, [isInView, mainControl]);
     return (react_1.default.createElement("section", { className: Reveal_module_css_1.default.homesection, ref: ref, style: { position: 'relative', width: width, overflow: 'hidden' } },
         react_1.default.createElement(framer_motion_1.motion.div, { className: Reveal_module_css_1.default.container, variants: {
                 hidden: { opacity: 0, x: 75 },

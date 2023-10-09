@@ -1,29 +1,29 @@
 import React from 'react';
 import styles from "./footer.module.css";
 import { FaGithub } from 'react-icons/fa';
-import FooterLink from "./SubComponents/FooterLink"
+import Link from "../../interactive/Link/Link"
 
 
 export default function footer(){
     return(
     <footer className={styles.footer}>
     
-    <FooterLink className="gitIcon" href='https://github.com/pet-ads' 
+    <Link className="gitIcon" href='https://github.com/pet-ads' 
         title='Visite nosso github' rel='noreferrer' target='_blank'>
             <FaGithub />
-    </FooterLink>
+    </Link>
   
     <pre className={styles.footer_content}>
         Desenvolvido com ♥ por{' '}
   
-    <FooterLink  className= "link" href='/' title='Página inicial'>
+    <Link  className= "link" href='/' title='Página inicial'>
       PET/ADS
-    </FooterLink>{' '}
+    </Link>{' '}
   
     @{' '}
-    <FooterLink className = "link"href='https://scl.ifsp.edu.br' title='Página do IFSP-SCL' rel='noreferrer' target='_blank'>
+    <Link className = "link"href='https://scl.ifsp.edu.br' title='Página do IFSP-SCL' rel='noreferrer' target='_blank'>
       IFSP São Carlos.
-    </FooterLink>
+    </Link>
   
   </pre>
 </footer>

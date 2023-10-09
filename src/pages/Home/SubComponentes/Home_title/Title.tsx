@@ -1,8 +1,8 @@
-import styles from './Title.module.css';
-import LogoPET from '../../../../components/logos/LogoPET/LogoPET';
 import React from 'react';
+import styles from './Title.module.css';
 import { ITextProps } from '../../../../types/TextTypes';
-function Title({ title, content }: ITextProps) {
+import LogoPET from '../../../../components/logos/LogoPET/LogoPET';
+export default function Title({ title, content }: ITextProps) {
     return (
         <header className={styles.cabecalho}>
             <div className={styles.container}>
@@ -10,8 +10,8 @@ function Title({ title, content }: ITextProps) {
                     <h1 className={styles.title}>{title}</h1>
                     <h2 className={styles.subtitle}>{content}</h2>
                 </div>
-            <LogoPET />
+            <LogoPET/>
             </div>
         </header>
     )
-} export default Title;
+} 

@@ -4,11 +4,11 @@ import { ITextProps } from '../../../../types/TextTypes';
 
 
 
-function Info({title, content}: ITextProps){
+export default function Info({title, content}: ITextProps){
     return(
         <>
-            <h3 className={styles.title}>{title}</h3>
-            <p className={styles.text}>{content}</p>
-        </>       
+        <h3 className={styles.title}>{title}</h3>
+        <p className={styles.text}>{content}</p>
+        </>   
     )
-}export default Info;
+}
