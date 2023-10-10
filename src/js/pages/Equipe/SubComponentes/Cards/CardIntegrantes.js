@@ -11,7 +11,7 @@ function CardAluno(_a) {
     var nome = _a.nome, srcFoto = _a.srcFoto, tipo = _a.tipo, github = _a.github, linkedin = _a.linkedin;
     var altFoto = "Foto de ".concat(nome, ", integrante do PET ADS do IFSP Sao Carlos");
     return (react_1.default.createElement("div", { className: CardIntegrantes_module_css_1.default.card },
-        react_1.default.createElement(CardIMG_1.default, { customClass: 'imgContainer', srcFoto: srcFoto, altFoto: altFoto, github: github, linkedin: linkedin, nome: '' }),
-        react_1.default.createElement(CardDescription_1.default, { nome: nome, tipo: tipo, srcFoto: '', altFoto: '' })));
+        react_1.default.createElement(CardIMG_1.default, { customClass: 'imgContainer', srcFoto: srcFoto, altFoto: altFoto, github: github, linkedin: linkedin }),
+        react_1.default.createElement(CardDescription_1.default, { nome: nome, tipo: tipo })));
 }
 exports.default = CardAluno;

@@ -4,8 +4,8 @@ import Collapsible from 'react-collapsible';
 import { IEquipeData } from '../../types/EquipeTypes';
 import Header from "../../components/ui/Header/header";
 import FetchEquipe from '../../hooks/fetch/useFetchEquipe';
-import CardAluno from './SubComponentes/CardIntegrantes/CardIntegrantes'
-import CardExMembros from './SubComponentes/CardExmembros/CardExMembros'
+import CardAluno from './SubComponentes/Cards/CardIntegrantes'
+import CardExMembros from './SubComponentes/Cards/CardExMembros'
 import CollapsibleOpen from '../../hooks/collapsible/useCollapsibleOpen';
 import MenuNavegacao from '../../components/menus/MenuNavegacao/menuNavegacao';
 import CollapsibleTrigger from '../../hooks/collapsible/useCollapsibleTrigger';

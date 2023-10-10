@@ -1,6 +1,6 @@
 import React from 'react';
-import CardImage from './CardIMG';
-import CardDescription from './CardDescription';
+import CardImage from '../Cardcomponents/CardIMG';
+import CardDescription from '../Cardcomponents/CardDescription';
 import styles from './CardIntegrantes.module.css';
 import { ICard } from '../../../../types/EquipeTypes';
 
@@ -10,11 +10,12 @@ export default function CardAluno({ nome, srcFoto, tipo, github, linkedin }: ICa
   return (
     <div className={styles.card}>
       <CardImage
+        customClass={'imgContainer'}
         srcFoto={srcFoto}
         altFoto={altFoto}
         github={github}
-        linkedin={linkedin} nome={''}      />
-      <CardDescription nome={nome} tipo={tipo} srcFoto={''} altFoto={''} />
+        linkedin={linkedin}      />
+      <CardDescription nome={nome} tipo={tipo}/>
     </div>
   );
 }

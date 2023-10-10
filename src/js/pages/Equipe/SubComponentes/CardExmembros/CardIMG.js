@@ -27,12 +27,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importStar(require("react"));
-var CardExAluno_module_css_1 = __importDefault(require("./CardExAluno.module.css"));
-var fa_1 = require("react-icons/fa");
+var CardIntegrantes_module_css_1 = __importDefault(require("./CardIntegrantes.module.css"));
 var Link_1 = __importDefault(require("../../../../components/interactive/Link/Link"));
 var EquipeTypes_1 = require("../../../../types/EquipeTypes");
+var fa_1 = require("react-icons/fa");
 function CardImage(_a) {
-    var srcFoto = _a.srcFoto, altFoto = _a.altFoto, github = _a.github, linkedin = _a.linkedin;
+    var customClass = _a.customClass, srcFoto = _a.srcFoto, altFoto = _a.altFoto, github = _a.github, linkedin = _a.linkedin;
     var _b = (0, react_1.useState)(EquipeTypes_1.noBlurStyle), blurred = _b[0], setBlur = _b[1];
     var handleMouseEnter = function () {
         setBlur(EquipeTypes_1.withBlurStyle);
@@ -40,14 +40,14 @@ function CardImage(_a) {
     var handleMouseLeave = function () {
         setBlur(EquipeTypes_1.noBlurStyle);
     };
-    return (react_1.default.createElement("div", { className: CardExAluno_module_css_1.default.imgContainer, onMouseEnter: handleMouseEnter, onMouseLeave: handleMouseLeave },
-        react_1.default.createElement("img", { style: blurred, className: CardExAluno_module_css_1.default.img, src: srcFoto, alt: altFoto }),
-        react_1.default.createElement("div", { className: CardExAluno_module_css_1.default.iconWrapper },
+    return (react_1.default.createElement("div", { className: CardIntegrantes_module_css_1.default[customClass], onMouseEnter: handleMouseEnter, onMouseLeave: handleMouseLeave },
+        react_1.default.createElement("img", { style: blurred, className: CardIntegrantes_module_css_1.default.img, src: srcFoto, alt: altFoto }),
+        react_1.default.createElement("div", { className: CardIntegrantes_module_css_1.default.iconWrapper },
             react_1.default.createElement(Link_1.default, { href: github, target: '_blank', rel: 'noopener noreferrer' },
-                react_1.default.createElement("span", { className: CardExAluno_module_css_1.default.githubIcon },
+                react_1.default.createElement("span", { className: CardIntegrantes_module_css_1.default.githubIcon },
                     react_1.default.createElement(fa_1.FaGithub, null))),
             react_1.default.createElement(Link_1.default, { href: linkedin, target: '_blank', rel: 'noopener noreferrer' },
-                react_1.default.createElement("span", { className: CardExAluno_module_css_1.default.linkedinIcon },
+                react_1.default.createElement("span", { className: CardIntegrantes_module_css_1.default.linkedinIcon },
                     react_1.default.createElement(fa_1.FaLinkedin, null))))));
 }
 exports.default = CardImage;

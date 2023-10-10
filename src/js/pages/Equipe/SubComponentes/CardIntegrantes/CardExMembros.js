@@ -4,9 +4,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(require("react"));
-var CardIMG_1 = __importDefault(require("../CardIntegrantes/CardIMG"));
+var CardIMG_1 = __importDefault(require("../Cardcomponents/CardIMG"));
 var CardIntegrantes_module_css_1 = __importDefault(require("../CardIntegrantes/CardIntegrantes.module.css"));
-var CardDescription_1 = __importDefault(require("../CardIntegrantes/CardDescription"));
+var CardDescription_1 = __importDefault(require("../Cardcomponents/CardDescription"));
 function CardExAluno(_a) {
     var nome = _a.nome, srcFoto = _a.srcFoto, tipo = _a.tipo, ano = _a.ano, linkedin = _a.linkedin;
     var altFoto = "Foto de ".concat(nome, ", integrante do PET ADS do IFSP Sao Carlos");
