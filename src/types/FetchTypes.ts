@@ -1,6 +1,6 @@
+import { IFaq } from "./FaqTypes";
 import { IProject } from "./ProjectTypes";
 import { IEquipeData } from "./EquipeTypes";
-import { IFaq } from "./FaqTypes";
 
 export interface IFetchRenderProjects {
     render: (data: IProject[]) => React.ReactNode;

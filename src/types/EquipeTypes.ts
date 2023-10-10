@@ -6,6 +6,7 @@ export interface ICard {
     tipo?: string;
     github?: string;
     linkedin?: string 
+    altFoto:string;
 }
 
 export interface IEquipeData {

@@ -29,25 +29,25 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importStar(require("react"));
 var CardAluno_module_css_1 = __importDefault(require("./CardAluno.module.css"));
 var fa_1 = require("react-icons/fa");
+var Link_1 = __importDefault(require("../../../../components/interactive/Link/Link"));
 var EquipeTypes_1 = require("../../../../types/EquipeTypes");
 function CardAluno(_a) {
     var nome = _a.nome, srcFoto = _a.srcFoto, tipo = _a.tipo, github = _a.github, linkedin = _a.linkedin;
-    var _b = (0, react_1.useState)(EquipeTypes_1.noBlurStyle), blurred = _b[0], setBlur = _b[1]; // Inicializado com o estilo 'NoBlur'
+    var _b = (0, react_1.useState)(EquipeTypes_1.noBlurStyle), blurred = _b[0], setBlur = _b[1];
     var altFoto = "Foto de ".concat(nome, ", integrante do PET ADS do IFSP Sao Carlos");
     return (react_1.default.createElement("div", { className: CardAluno_module_css_1.default.card },
         react_1.default.createElement("div", { className: CardAluno_module_css_1.default.imgContainer, onMouseEnter: function () { return setBlur(EquipeTypes_1.withBlurStyle); }, onMouseLeave: function () { return setBlur(EquipeTypes_1.noBlurStyle); } },
             react_1.default.createElement("img", { style: blurred, className: CardAluno_module_css_1.default.img, src: srcFoto, alt: altFoto }),
             react_1.default.createElement("div", { className: CardAluno_module_css_1.default.iconWrapper },
-                react_1.default.createElement("a", { href: github, target: '_blank', rel: 'noopener noreferrer' },
+                react_1.default.createElement(Link_1.default, { href: github, target: '_blank', rel: 'noopener noreferrer' },
                     react_1.default.createElement("span", { className: CardAluno_module_css_1.default.githubIcon },
                         react_1.default.createElement(fa_1.FaGithub, null))),
-                react_1.default.createElement("a", { href: linkedin, target: '_blank', rel: 'noopener noreferrer' },
+                react_1.default.createElement(Link_1.default, { href: linkedin, target: '_blank', rel: 'noopener noreferrer' },
                     react_1.default.createElement("span", { className: CardAluno_module_css_1.default.linkedinIcon },
                         react_1.default.createElement(fa_1.FaLinkedin, null))))),
         react_1.default.createElement("div", { className: CardAluno_module_css_1.default.descricao },
             react_1.default.createElement("strong", null,
                 react_1.default.createElement("p", { className: CardAluno_module_css_1.default.p }, nome)),
-            react_1.default.createElement("pre", null),
             react_1.default.createElement("strong", null,
                 react_1.default.createElement("p", { className: CardAluno_module_css_1.default.p }, tipo)))));
 }

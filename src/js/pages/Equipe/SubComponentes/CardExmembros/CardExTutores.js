@@ -27,28 +27,28 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importStar(require("react"));
-var CardAluno_module_css_1 = __importDefault(require("../CardAluno/CardAluno.module.css"));
 var fa_1 = require("react-icons/fa");
+var CardExAluno_module_css_1 = __importDefault(require("./CardExAluno.module.css"));
 var EquipeTypes_1 = require("../../../../types/EquipeTypes");
-function CardTutor(_a) {
-    var nome = _a.nome, srcFoto = _a.srcFoto, tipo = _a.tipo, github = _a.github, linkedin = _a.linkedin;
+function CardExTutor(_a) {
+    var nome = _a.nome, ano = _a.ano, srcFoto = _a.srcFoto, tipo = _a.tipo, linkedin = _a.linkedin;
     var _b = (0, react_1.useState)(EquipeTypes_1.noBlurStyle), blurred = _b[0], setBlur = _b[1];
     var altFoto = "Foto de ".concat(nome, ", integrante do PET ADS do IFSP Sao Carlos");
-    return (react_1.default.createElement("div", { className: CardAluno_module_css_1.default.card },
-        react_1.default.createElement("div", { className: CardAluno_module_css_1.default.imgContainer, onMouseEnter: function () { return setBlur(EquipeTypes_1.withBlurStyle); }, onMouseLeave: function () { return setBlur(EquipeTypes_1.noBlurStyle); } },
-            react_1.default.createElement("img", { style: blurred, className: CardAluno_module_css_1.default.img, src: srcFoto, alt: altFoto }),
-            react_1.default.createElement("div", { className: CardAluno_module_css_1.default.iconWrapper },
-                react_1.default.createElement("a", { href: github, target: '_blank', rel: 'noopener noreferrer' },
-                    react_1.default.createElement("span", { className: CardAluno_module_css_1.default.githubIcon },
-                        react_1.default.createElement(fa_1.FaGithub, null))),
+    return (react_1.default.createElement("div", { className: CardExAluno_module_css_1.default.card },
+        react_1.default.createElement("div", { className: CardExAluno_module_css_1.default.imgContainer, onMouseEnter: function () { return setBlur(EquipeTypes_1.withBlurStyle); }, onMouseLeave: function () { return setBlur(EquipeTypes_1.noBlurStyle); } },
+            react_1.default.createElement("img", { style: blurred, className: CardExAluno_module_css_1.default.img, src: srcFoto, alt: altFoto }),
+            react_1.default.createElement("div", { className: CardExAluno_module_css_1.default.iconWrapper },
                 react_1.default.createElement("a", { href: linkedin, target: '_blank', rel: 'noopener noreferrer' },
-                    react_1.default.createElement("span", { className: CardAluno_module_css_1.default.linkedinIcon },
+                    react_1.default.createElement("span", { className: CardExAluno_module_css_1.default.linkedinIcon },
                         react_1.default.createElement(fa_1.FaLinkedin, null))))),
-        react_1.default.createElement("div", { className: CardAluno_module_css_1.default.descricao },
+        react_1.default.createElement("div", { className: CardExAluno_module_css_1.default.descricao },
             react_1.default.createElement("strong", null,
-                react_1.default.createElement("p", { className: CardAluno_module_css_1.default.p }, tipo)),
+                react_1.default.createElement("p", { className: CardExAluno_module_css_1.default.p }, tipo)),
             react_1.default.createElement("pre", null),
             react_1.default.createElement("strong", null,
-                react_1.default.createElement("p", { className: CardAluno_module_css_1.default.p }, nome)))));
+                react_1.default.createElement("p", { className: CardExAluno_module_css_1.default.p },
+                    "Tutor: ",
+                    ano),
+                react_1.default.createElement("p", { className: CardExAluno_module_css_1.default.p }, nome)))));
 }
-exports.default = CardTutor;
+exports.default = CardExTutor;

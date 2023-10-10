@@ -242,6 +242,7 @@
   "exTutores": [
     {
       "nome": "João Luiz Franco",
+      "tipo": "exTutor",
       "srcFoto": "./images/fotos_tutores/Joao.jpg",
       "ano": "2010-2022"
     }
