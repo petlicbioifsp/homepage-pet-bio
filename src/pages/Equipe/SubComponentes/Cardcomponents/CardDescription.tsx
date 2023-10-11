@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../CardIntegrantes/CardIntegrantes.module.css';
+import styles from '../Cards/CardIntegrantes.module.css';
 import { ICard } from '../../../../types/EquipeTypes';
 
 

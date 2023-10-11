@@ -1,6 +1,6 @@
 import React from 'react';
 import CardImage from '../CardComponents/CardIMG';
-import styles from '../CardIntegrantes/CardIntegrantes.module.css';
+import styles from './CardIntegrantes.module.css';
 import { ICard } from '../../../../types/EquipeTypes';
 import CardDescription from '../CardComponents/CardDescription';
 

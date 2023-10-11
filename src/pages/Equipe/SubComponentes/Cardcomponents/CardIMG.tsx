@@ -2,7 +2,7 @@ import React from 'react';
 import useBlur from '../../../../hooks/style/useBlur';
 import { ICard } from '../../../../types/EquipeTypes';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import styles from '../CardIntegrantes/CardIntegrantes.module.css';
+import styles from '../Cards/CardIntegrantes.module.css';
 import Link from '../../../../components/interactive/Link/Link';
 
 export default function CardImage({ customClass, srcFoto, altFoto, github, linkedin }: ICard) {

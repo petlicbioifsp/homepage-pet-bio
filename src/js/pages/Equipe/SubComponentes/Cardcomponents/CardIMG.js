@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(require("react"));
 var useBlur_1 = __importDefault(require("../../../../hooks/style/useBlur"));
 var fa_1 = require("react-icons/fa");
-var CardIntegrantes_module_css_1 = __importDefault(require("../CardIntegrantes/CardIntegrantes.module.css"));
+var CardIntegrantes_module_css_1 = __importDefault(require("../Cards/CardIntegrantes.module.css"));
 var Link_1 = __importDefault(require("../../../../components/interactive/Link/Link"));
 function CardImage(_a) {
     var customClass = _a.customClass, srcFoto = _a.srcFoto, altFoto = _a.altFoto, github = _a.github, linkedin = _a.linkedin;

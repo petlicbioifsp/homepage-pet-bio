@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(require("react"));
-var CardIntegrantes_module_css_1 = __importDefault(require("../CardIntegrantes/CardIntegrantes.module.css"));
+var CardIntegrantes_module_css_1 = __importDefault(require("../Cards/CardIntegrantes.module.css"));
 function CardDescription(_a) {
     var nome = _a.nome, tipo = _a.tipo, ano = _a.ano;
     var isExTutor = tipo === 'exTutor';
