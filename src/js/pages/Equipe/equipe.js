@@ -8,8 +8,8 @@ var react_1 = __importDefault(require("react"));
 var react_collapsible_1 = __importDefault(require("react-collapsible"));
 var header_1 = __importDefault(require("../../components/ui/Header/header"));
 var useFetchEquipe_1 = __importDefault(require("../../hooks/fetch/useFetchEquipe"));
-var CardIntegrantes_1 = __importDefault(require("./SubComponentes/Cards/CardIntegrantes"));
-var CardExMembros_1 = __importDefault(require("./SubComponentes/Cards/CardExMembros"));
+var CardIntegrantes_1 = __importDefault(require("./SubComponentes/CardIntegrantes/CardIntegrantes"));
+var CardExMembros_1 = __importDefault(require("./SubComponentes/CardIntegrantes/CardExMembros"));
 var useCollapsibleOpen_1 = __importDefault(require("../../hooks/collapsible/useCollapsibleOpen"));
 var menuNavegacao_1 = __importDefault(require("../../components/menus/MenuNavegacao/menuNavegacao"));
 var useCollapsibleTrigger_1 = __importDefault(require("../../hooks/collapsible/useCollapsibleTrigger"));
@@ -24,7 +24,7 @@ function Equipe() {
                         react_1.default.createElement("section", { className: "equipe--tutor" }, tutores.map(function (tutor) { return (react_1.default.createElement(CardIntegrantes_1.default, { key: tutor.id, github: tutor.github, nome: tutor.nome, tipo: tutor.tipo, srcFoto: tutor.srcFoto, ano: tutor.ano, linkedin: tutor.linkedin, altFoto: '' })); })),
                         react_1.default.createElement("section", { className: "equipe--alunos" }, alunos.map(function (aluno) { return (react_1.default.createElement(CardIntegrantes_1.default, { key: aluno.id, nome: aluno.nome, srcFoto: aluno.srcFoto, tipo: aluno.tipo, ano: aluno.ano, github: aluno.github, linkedin: aluno.linkedin, altFoto: '' })); })),
                         react_1.default.createElement(react_collapsible_1.default, { classParentString: "EquipeCollapsible", trigger: react_1.default.createElement(useCollapsibleTrigger_1.default, { text: "Ex-Integrantes", page: "Equipe" }), triggerWhenOpen: react_1.default.createElement(useCollapsibleOpen_1.default, { text: "Ex-Integrantes", page: "Equipe" }) },
-                            react_1.default.createElement("section", { className: "equipe--tutor" }, exTutores.map(function (exTutor) { return (react_1.default.createElement(CardExMembros_1.default, { key: exTutor.id, nome: exTutor.nome, tipo: exTutor.tipo, srcFoto: exTutor.srcFoto, ano: exTutor.ano, altFoto: '' })); })),
+                            react_1.default.createElement("section", { className: "equipe--tutor" }, exTutores.map(function (exTutor) { return (react_1.default.createElement(CardExMembros_1.default, { key: exTutor.id, nome: exTutor.nome, tipo: exTutor.tipo, srcFoto: exTutor.srcFoto, ano: exTutor.ano, linkedin: exTutor.linkedin })); })),
                             react_1.default.createElement("section", { className: "equipe--alunos" }, exAlunos.map(function (exAluno) { return (react_1.default.createElement(CardExMembros_1.default, { key: exAluno.id, nome: exAluno.nome, srcFoto: exAluno.srcFoto, linkedin: exAluno.linkedin, altFoto: '' })); })))));
                 } }))));
 }

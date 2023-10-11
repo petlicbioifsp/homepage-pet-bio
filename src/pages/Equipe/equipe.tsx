@@ -4,8 +4,8 @@ import Collapsible from 'react-collapsible';
 import { IEquipeData } from '../../types/EquipeTypes';
 import Header from "../../components/ui/Header/header";
 import FetchEquipe from '../../hooks/fetch/useFetchEquipe';
-import CardAluno from './SubComponentes/Cards/CardIntegrantes'
-import CardExMembros from './SubComponentes/Cards/CardExMembros'
+import CardAluno from './SubComponentes/CardIntegrantes/CardIntegrantes'
+import CardExMembros from './SubComponentes/CardIntegrantes/CardExMembros'
 import CollapsibleOpen from '../../hooks/collapsible/useCollapsibleOpen';
 import MenuNavegacao from '../../components/menus/MenuNavegacao/menuNavegacao';
 import CollapsibleTrigger from '../../hooks/collapsible/useCollapsibleTrigger';
@@ -55,7 +55,8 @@ export default function Equipe() {
                       nome={exTutor.nome}
                       tipo = {exTutor.tipo}
                       srcFoto={exTutor.srcFoto}
-                      ano={exTutor.ano} altFoto={''}                    />
+                      ano={exTutor.ano}
+                      linkedin={exTutor.linkedin}                    />
                   ))}
                 </section>
                 <section className="equipe--alunos">
@@ -64,7 +65,9 @@ export default function Equipe() {
                       key={exAluno.id}
                       nome={exAluno.nome}
                       srcFoto={exAluno.srcFoto}
-                      linkedin={exAluno.linkedin!} altFoto={''}                    />
+                      linkedin={exAluno.linkedin} altFoto={''}
+                  />
+                                         
                   ))}
                 </section>
               </Collapsible>
