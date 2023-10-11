@@ -1,7 +1,8 @@
+import '../../equipe.css';
 import React, { ReactNode } from "react";
 
 interface IRenderProps {
-  data: any[];
+  data: any[]; 
   render: (item: any, index: number) => ReactNode;
   customClass: string;
 }
