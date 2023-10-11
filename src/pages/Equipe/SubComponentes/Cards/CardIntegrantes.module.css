@@ -1,5 +1,4 @@
 .card {
-
   width: auto;
   row-gap: 1px;
   display: flex;
@@ -37,17 +36,20 @@
   display: block;
 }
 
-.imgContainer,.ExImgContainter {
+.imgContainer,
+.ExImgContainter {
   position: relative;
   border-radius: 50%;
   overflow: hidden;
   border: 1px solid black;
 }
-.imgContainer{
+
+.imgContainer {
   width: 125px;
   height: 125px;
 }
-.ExImgContainter{
+
+.ExImgContainter {
   width: 100px;
   height: 100px;
 }
@@ -77,9 +79,10 @@
   opacity: 1;
 }
 
-.ExImgContainter:hover .iconWrapper{
+.ExImgContainter:hover .iconWrapper {
   opacity: 1;
 }
+
 .githubIcon,
 .linkedinIcon {
   border-radius: 50%;
@@ -127,6 +130,7 @@ p {
     flex-basis: calc(100% / 3 - 30px);
     max-width: calc(100% / 3 - 30px);
   }
+
   .cardExMembro {
     flex-basis: calc(100% / 3 - 30px);
     max-width: calc(100% / 3 - 30px);
@@ -138,6 +142,7 @@ p {
     flex-basis: calc(100% / 2 - 20px);
     max-width: calc(100% / 3 - 20px);
   }
+
   .cardExMembro {
     flex-basis: calc(100% / 2 - 20px);
     max-width: calc(100% / 3 - 20px);
@@ -149,6 +154,7 @@ p {
     flex-basis: calc(100% / 2 - 10px);
     max-width: calc(100% / 2 - 10px);
   }
+
   .cardExMembro {
     flex-basis: calc(100% / 2 - 10px);
     max-width: calc(100% / 2 - 10px);
