@@ -5,9 +5,9 @@ import {IEquipeData} from "../../types/EquipeTypes";
 import Header from "../../components/ui/Header/header";
 import FetchEquipe from "../../hooks/fetch/useFetchEquipe";
 import CollapsibleOpen from "../../hooks/collapsible/useCollapsibleOpen";
+import MemberSection from "./SubComponentes/CardComponents/EquipeSection";
 import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 import CollapsibleTrigger from "../../hooks/collapsible/useCollapsibleTrigger";
-import RenderMemberSection from "./SubComponentes/CardComponents/RenderSection";
 
 export default function Equipe() {
   return (
@@ -22,10 +22,10 @@ export default function Equipe() {
               <Header texto="Integrantes" />
 
 
-              <RenderMemberSection data = {tutores} customClass="equipe--tutor" 
+              <MemberSection data = {tutores} customClass="equipe--tutor" 
               cardClass="card" imgContainerClass="imgContainer"/>
   
-              <RenderMemberSection data = {alunos} customClass="equipe--alunos" 
+              <MemberSection data = {alunos} customClass="equipe--alunos" 
               cardClass="card" imgContainerClass="imgContainer"/>
 
               <Collapsible
@@ -34,10 +34,10 @@ export default function Equipe() {
                 triggerWhenOpen={<CollapsibleOpen text="Ex-Integrantes" page="Equipe" />}
               >
 
-                <RenderMemberSection data = {exTutores} customClass="equipe--tutor" 
+                <MemberSection data = {exTutores} customClass="equipe--tutor" 
                   cardClass="cardExMembro" imgContainerClass="ExImgContainter"/>
                 
-                <RenderMemberSection data = {exAlunos} customClass="equipe--alunos" 
+                <MemberSection data = {exAlunos} customClass="equipe--alunos" 
                   cardClass="cardExMembro" imgContainerClass="ExImgContainter"/>
                 
               </Collapsible>
