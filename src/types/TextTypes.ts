@@ -1,13 +1,13 @@
 export interface ITextProps {
   title: string;
   content?: string;
-  texto_1?: string;
   email?: string;
-  texto_2?: string;
+  prazo?: string;
   data?: string;
   estado?: string;
-  texto_3?: string;
+  detalhes?: string;
   item_1?: string;
   item_2?: string;
   children?: React.ReactNode;
+  introducao?: string
 }

@@ -1,61 +1,38 @@
-import React from 'react';
-import './ProcessoSeletivo.css';
-import Cabecalho from './SubComponentes/Cabecalho/Cabecalho';
-import Requisitos from './SubComponentes/Requisitos/Requisitos';
-import Inscricoes from './SubComponentes/Inscricoes/Inscricoes';
+import React from "react";
+import styles from "./ProcessoSeletivo.module.css";
+import Cabecalho from "./SubComponentes/Cabecalho/Cabecalho";
+import Requisitos from "./SubComponentes/Requisitos/Requisitos";
+import Inscricoes from "./SubComponentes/Inscricoes/Inscricoes";
 import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
+import { processoSeletivoContent, requisitosContent, inscricoesContent } from "./SubComponentes/Constants/Constants";
 
+export default function ProcessoSeletivo() {
+  return (
+    <>
+      <MenuNavegacao />
 
-function ProcessoSeletivo() {
-    
-    return (
-        <>
-            <MenuNavegacao />
+      <div className={styles.corpo}>
+        <Cabecalho title="Processo Seletivo" content={processoSeletivoContent} />
 
-            <div className="corpo">
-                
-                <Cabecalho 
-                    title="Processo Seletivo"
+        <section className={styles["corpo_informacoes"]}>
+          <Requisitos
+            title="Requisitos"
+            introducao={requisitosContent.introducao}
+            item_1={requisitosContent.item_1}
+            item_2={requisitosContent.item_2}
+          />
 
-                    content='Todos os estudantes regularmente matriculados no curso de Tecnologia em Análise e 
-                    Desenvolvimento de Sistemas do IFSP Câmpus São Carlos podem participar dos processos seletivos do PET/ADS. 
-                    O grupo é composto por até doze bolsistas e até seis voluntários.  Os processos seletivos são regidos por 
-                    editais publicados periodicamente.'
-                
-                />
-
-                <section className="corpo_informacoes">
-                    
-                    <Requisitos        
-                        title="Requisitos"
-                        
-                        content="Para se inscrever no processo seletivo, o candidato deverá:"
-                        
-                        item_1="Estar regularmente matriculado no curso de Análise e Desenvolvimento de Sistemas."
-                        
-                        item_2="Possuir disponibilidade para se dedicar 20 horas semanais ao PET/ADS."
-                    />
-                
-                    <Inscricoes
-                        title="Inscrições"
-                        
-                        texto_1="As inscrições devem ser realizadas pelo e-mail"
-                        
-                        email="pet.ads.scl@ifsp.edu.br"
-                        
-                        texto_2="Prazo de inscrição:"
-                        
-                        data="27 de março de 2023"
-                        
-                        estado="(encerrado)"
-                        
-                        texto_3="Detalhes sobre documentos necessários, critérios, cronograma e outras informações devem ser verificadas no edital:"
-                        
-                    />
-                </section>
-            </div>
-        </>
-    )
+          <Inscricoes
+            title="Inscrições"
+            introducao={inscricoesContent.introducao}
+            email={inscricoesContent.email}
+            prazo={inscricoesContent.prazo}
+            data={inscricoesContent.data}
+            estado={inscricoesContent.estado}
+            detalhes={inscricoesContent.detalhes}
+          />
+        </section>
+      </div>
+    </>
+  );
 }
-
-export default ProcessoSeletivo;
