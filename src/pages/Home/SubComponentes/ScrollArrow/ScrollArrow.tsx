@@ -1,15 +1,12 @@
-
-import React from 'react';
+import React from "react";
 import "./ScrollArrow.css";
-import Arrow from '../../../../components/interactive/Arrow/Arrow';
-import { IScrollArrowProps } from '../../../../types/ScrollArrowTypes';
+import Arrow from "../../../../components/interactive/Arrow/Arrow";
+import { IScrollArrowProps } from "../../../../types/ScrollArrowTypes";
 
-
-const ScrollArrow = ({ showArrow, sectionRef, scrollToSection, customClass1, customClass2}: IScrollArrowProps) => {
-
+const ScrollArrow = ({ showArrow, sectionRef, scrollToSection, containerClass, arrowClass }: IScrollArrowProps) => {
   return (
-    <div className={`${ customClass1} ${showArrow ? 'visible' : ''}`} onClick={scrollToSection}>
-    <Arrow customClass={customClass2}/>
+    <div className={`${containerClass} ${showArrow && "visible"}`} onClick={scrollToSection}>
+      <Arrow customClass={arrowClass} />
     </div>
   );
 };

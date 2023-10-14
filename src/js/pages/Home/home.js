@@ -5,10 +5,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 require("./home.css");
 var react_1 = __importDefault(require("react"));
-var Infos_1 = __importDefault(require("./SubComponentes/Home_Infos/Infos"));
 var Text_1 = require("./TextConstants/Text");
 var Button_1 = __importDefault(require("./SubComponentes/Home_button/Button"));
 var useIsMobile_1 = __importDefault(require("../../hooks/window/useIsMobile"));
+var Infos_1 = __importDefault(require("./SubComponentes/Home_Infos/Infos"));
 var ScrollArrow_1 = __importDefault(require("./SubComponentes/ScrollArrow/ScrollArrow"));
 var useScrollToSection_1 = __importDefault(require("../../hooks/window/useScrollToSection"));
 var Reveal_1 = __importDefault(require("../../components/interactive/Efeito Reveal/Reveal"));
@@ -21,15 +21,15 @@ function Home() {
     return (react_1.default.createElement("div", { className: "home" },
         react_1.default.createElement(menuNavegacao_1.default, null),
         react_1.default.createElement(HeaderConteiner_1.default, null),
-        react_1.default.createElement(ScrollArrow_1.default, { showArrow: showArrowAbout, scrollToSection: scrollToSectionAbout, customClass1: 'scroll-arrow', customClass2: 'home-arrow' }),
-        react_1.default.createElement("div", { className: 'scrolltoView', id: 'section1', ref: sectionRefAbout },
+        react_1.default.createElement(ScrollArrow_1.default, { showArrow: showArrowAbout, scrollToSection: scrollToSectionAbout, containerClass: "scroll-arrow", arrowClass: "home-arrow" }),
+        react_1.default.createElement("div", { className: "scrolltoView", id: "section1", ref: sectionRefAbout },
             react_1.default.createElement(Reveal_1.default, null,
                 react_1.default.createElement(Infos_1.default, { title: "Sobre o PET", content: isMobile ? Text_1.AboutPET.mobile : Text_1.AboutPET.desktop }),
-                react_1.default.createElement(Button_1.default, { value: "Processo Seletivo", to: '/processo-seletivo' }))),
-        react_1.default.createElement(ScrollArrow_1.default, { showArrow: showArrowPurpose, scrollToSection: scrollToSectionPurpose, customClass1: 'scroll-arrow2', customClass2: 'home-arrow' }),
-        react_1.default.createElement("div", { className: 'scrolltoView', id: 'section2', ref: sectionRefPurpose },
+                react_1.default.createElement(Button_1.default, { value: "Processo Seletivo", to: "/processo-seletivo" }))),
+        react_1.default.createElement(ScrollArrow_1.default, { showArrow: showArrowPurpose, scrollToSection: scrollToSectionPurpose, containerClass: "scroll-arrow2", arrowClass: "home-arrow" }),
+        react_1.default.createElement("div", { className: "scrolltoView", id: "section2", ref: sectionRefPurpose },
             react_1.default.createElement(Reveal_1.default, null,
                 react_1.default.createElement(Infos_1.default, { title: "Prop\u00F3sito", content: isMobile ? Text_1.Purpose.mobile : Text_1.Purpose.desktop }),
-                react_1.default.createElement(Button_1.default, { value: "Conhe\u00E7a os Projetos", to: '/projetos' })))));
+                react_1.default.createElement(Button_1.default, { value: "Conhe\u00E7a os Projetos", to: "/projetos" })))));
 }
 exports.default = Home;

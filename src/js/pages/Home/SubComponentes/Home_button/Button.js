@@ -10,6 +10,6 @@ var useScrollToTop_1 = __importDefault(require("../../../../hooks/window/useScro
 function Button(_a) {
     var value = _a.value, to = _a.to;
     return (react_1.default.createElement("div", { className: Button_module_css_1.default.btn_contender },
-        react_1.default.createElement(react_router_dom_1.Link, { className: Button_module_css_1.default.btn, type: 'button', to: to, onClick: useScrollToTop_1.default }, value)));
+        react_1.default.createElement(react_router_dom_1.Link, { className: Button_module_css_1.default.btn, type: "button", to: to, onClick: useScrollToTop_1.default }, value)));
 }
 exports.default = Button;
