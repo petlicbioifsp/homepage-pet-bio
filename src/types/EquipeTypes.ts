@@ -10,6 +10,13 @@ export interface ICard {
     customClass?: string; 
 }
 
+export interface IRenderMembersProps{
+    data : ICard[], 
+    customClass: string, 
+    cardClass:string,
+    imgContainerClass: string
+}
+
 export interface IEquipeData {
     alunos: ICard[];
     tutores: ICard[];
