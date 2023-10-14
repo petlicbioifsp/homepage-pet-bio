@@ -4,7 +4,7 @@ import { AiOutlineCloudDownload } from "react-icons/ai";
 import { ITextProps } from "../../../../types/TextTypes";
 import { drive, sendMail } from "../Constants/Constants";
 
-function Inscricoes({ title, introducao, email, prazo, data, estado, detalhes }: ITextProps) {
+export default  function Inscricoes({ title, introducao, email, prazo, data, estado, detalhes }: ITextProps) {
   return (
     <div className={styles.Inscricao}>
       <h2 className={styles.titulo}>{title}</h2>
@@ -27,4 +27,4 @@ function Inscricoes({ title, introducao, email, prazo, data, estado, detalhes }:
     </div>
   );
 }
-export default Inscricoes;
+
