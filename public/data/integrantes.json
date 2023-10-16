@@ -141,7 +141,7 @@
     },
     {
       "id": "3",
-      "nome": "Laura  Luchiari",
+      "nome": "Laura Luchiari",
       "foto": "./images/fotos_alunos/laura.jpeg",
       "tipo": "Bolsista",
       "ano": "2022",
@@ -160,7 +160,7 @@
 
     {
       "id": "5",
-      "nome": "Paulo",
+      "nome": "Paulo Mascaro",
       "foto": "./images/fotos_alunos/Paulo.jpg",
       "anos": "2019-2023",
       "github": "https://github.com/Paulomascaro "
@@ -299,12 +299,139 @@
     "linkedin": "https://www.linkedin.com/in/andrewholiveira/"
   },
   {
-    "id":"24",
-    "nome": "Adriano Barbosa Silva",
+    "id":"25",
+    "nome": "Amanda Nalesso",
+    "foto":"./images/fotos_alunos/Amanda Nalesso.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/amanda-nalesso/"
+  },
+  {
+    "id":"26",
+    "nome": "Gabriel Henrique",
+    "foto":"./images/fotos_alunos/Gabriel Henrique.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/gabrielhfgomes/"
+  },
+  {
+    "id":"27",
+    "nome": "Ricardo Rossini",
+    "foto":"./images/fotos_alunos/Ricardo Rossini.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/ricardorossini/"
+  },
+  {
+    "id":"28",
+    "nome": "Marcel Nakamine",
+    "foto":"./images/fotos_alunos/Marcel Nakamine.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/marcel-nakamine/"
+  },
+  {
+    "id":"29",
+    "nome": "Antonio Petrozzani",
+    "foto":"./images/fotos_alunos/Antonio Petrozzani.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/antonio-petrozzani-neto-a8196862/"
+  },
+  {
+    "id":"30",
+    "nome": "Caio Bicudo",
+    "foto":"./images/fotos_alunos/Caio Bicudo.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/caiobduran/"
+  },
+  {
+    "id":"31",
+    "nome": "Cláudio Popolin",
+    "foto":"./images/fotos_alunos/Cláudio Popolin.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/claudio-popolin-junior/"
+  },
+  {
+    "id":"32",
+    "nome": "David Andrade",
+    "foto":"./images/fotos_alunos/David Andrade.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/davidandradedev/"
+  },
+  {
+    "id":"33",
+    "nome": "Gabriel Norde",
+    "foto":"./images/fotos_alunos/Gabriel Norde.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/gabriel-norde/"
+  },
+  {
+    "id":"34",
+    "nome": "Iano Kuhlmann",
     "foto":"./images/fotos_alunos/Adriano.jpg",
     "github": "https://github.com/",
-    "linkedin": "https://www.linkedin.com/in/adriano-b-silva-b093821a6/"
+    "linkedin": "https://www.linkedin.com/in/iano-kuhlmann-84b5b0b4/"
+  },
+  {
+    "id":"35",
+    "nome": "João Paulo Pereira",
+    "foto":"./images/fotos_alunos/João Paulo Pereira.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/odiasjoao/"
+  },
+  {
+    "id":"36",
+    "nome": "José Guilherme",
+    "foto":"./images/fotos_alunos/José Guilherme.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/jos%C3%A9-picharillo-329056a2/"
+  },
+  {
+    "id":"37",
+    "nome": "Leonardo Forner",
+    "foto":"./images/fotos_alunos/Leonardo Forner.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/llocatti/"
+  },
+  {
+    "id":"38",
+    "nome": "Leticia Moreno",
+    "foto":"./images/fotos_alunos/Leticia Moreno.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/morenoleticia/"
+  },
+  {
+    "id":"39",
+    "nome": "Luis Henrique Vieira",
+    "foto":"./images/fotos_alunos/Luis Henrique Vieira.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/luishenriquevieirabarbosa/"
+  },
+  {
+    "id":"40",
+    "nome": "Marcos Vinícius",
+    "foto":"./images/fotos_alunos/Marcos Vinícius.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/suprshock/"
+  },
+  {
+    "id":"41",
+    "nome": "Thiago Orniz",
+    "foto":"./images/fotos_alunos/Thiago Orniz.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/thiagoorniz/"
+  },
+  {
+    "id":"42",
+    "nome": "Vinícius Heitor",
+    "foto":"./images/fotos_alunos/Vinícius Heitor.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/vinicius-heitor/"
+  },
+  {
+    "id":"43",
+    "nome": "Wanilton Figueiredo",
+    "foto":"./images/fotos_alunos/Wanilton Figueiredo.jpg",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/wanilton-figueiredo-de-matos-filho-b41b89101/"
   }
+    
 
   ],
   "tutores": [
