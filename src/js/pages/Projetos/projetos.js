@@ -8,8 +8,8 @@ var react_1 = __importDefault(require("react"));
 var header_1 = __importDefault(require("../../components/ui/Header/header"));
 var useIsMobile_1 = __importDefault(require("../../hooks/window/useIsMobile"));
 var useFetchProjetos_1 = __importDefault(require("../../hooks/fetch/useFetchProjetos"));
-var cardProjeto_1 = __importDefault(require("./SubComponentes/CardProjeto/cardProjeto"));
 var menuNavegacao_1 = __importDefault(require("../../components/menus/MenuNavegacao/menuNavegacao"));
+var RenderProjects_1 = require("./SubComponentes/Render/RenderProjects");
 function Projetos() {
     var isMobile = (0, useIsMobile_1.default)();
     return (react_1.default.createElement(react_1.default.Fragment, null,
@@ -17,8 +17,6 @@ function Projetos() {
         react_1.default.createElement("div", { className: "menu-projetos--corpo" },
             react_1.default.createElement(header_1.default, { texto: isMobile ? "Projetos do PET/ADS" : "Projetos Desenvolvidos pelo PET/ADS" }),
             react_1.default.createElement("section", { className: "menu-projetos" },
-                react_1.default.createElement(useFetchProjetos_1.default, { render: function (arrProjetos) {
-                        return arrProjetos.map(function (projeto) { return (react_1.default.createElement(cardProjeto_1.default, { key: projeto.id, titulo: projeto.titulo, status: projeto.status, tipo: projeto.tipo, link: projeto.link, descricao: projeto.descricao, expandido: projeto.expandido, tecnologias: projeto.tecnologias })); });
-                    } })))));
+                react_1.default.createElement(useFetchProjetos_1.default, { render: function (arrProjetos) { return (0, RenderProjects_1.renderProjetos)(arrProjetos); } })))));
 }
 exports.default = Projetos;
