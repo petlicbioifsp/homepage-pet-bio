@@ -1,11 +1,11 @@
 import "./projetos.css";
-import React from 'react';
+import React from "react";
+import { IProject } from "../../types/ProjectTypes";
 import Header from "../../components/ui/Header/header";
 import useIsMobile from "../../hooks/window/useIsMobile";
 import FetchProj from "../../hooks/fetch/useFetchProjetos";
-import CardProjeto from "./SubComponentes/CardProjeto/cardProjeto";
 import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
-import { IProject } from "../../types/ProjectTypes";
+import { renderProjetos } from "./SubComponentes/Render/RenderProjects";
 
 export default function Projetos() {
   const isMobile = useIsMobile();
@@ -16,21 +16,7 @@ export default function Projetos() {
       <div className="menu-projetos--corpo">
         <Header texto={isMobile ? "Projetos do PET/ADS" : "Projetos Desenvolvidos pelo PET/ADS"} />
         <section className="menu-projetos">
-          <FetchProj
-            render={(arrProjetos: IProject[]) =>
-              arrProjetos.map((projeto) => (
-                <CardProjeto
-                  key={projeto.id}
-                  titulo={projeto.titulo}
-                  status={projeto.status}
-                  tipo={projeto.tipo}
-                  link={projeto.link}
-                  descricao={projeto.descricao}
-                  expandido={projeto.expandido}
-                  tecnologias={projeto.tecnologias}               />
-              ))
-            }
-          />
+          <FetchProj render={(arrProjetos: IProject[]) => renderProjetos(arrProjetos)} />
         </section>
       </div>
     </>

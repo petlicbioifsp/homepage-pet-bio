@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { IProject } from "../../../../types/ProjectTypes";
-import './cardProjeto.css'
 
 export default function ClosedContent({ titulo, descricao }: IProject) {
   return (

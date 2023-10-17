@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { IProject } from "../../../types/ProjectTypes";
+import { IProject } from "../../../../types/ProjectTypes";
 import React from "react";
 import { FaGraduationCap, FaSearch, FaGithub } from "react-icons/fa";
 import { MdExtension, MdOutlineComputer } from "react-icons/md";

@@ -1,48 +1,31 @@
-import React, { useState } from "react";
+import "./cardProjeto.css";
 import { motion } from "framer-motion";
-import { AiFillCloseCircle } from "react-icons/ai";
-import LogoConteiner from "../Logo";
-import ClosedContent from "./ClosedContent";
-import OpennedContent from "./OpennedContent";
+import React, { useState } from "react";
+import ClosedCard from "../CardComponents/ClosedCard";
+import OpennedCard from "../CardComponents/OpennedCard";
 import { IProject } from "../../../../types/ProjectTypes";
 
-export default function CardProjeto(props: IProject) {
+export default function CardProjeto({ titulo, tipo, descricao, expandido, link, status, tecnologias }: IProject) {  
   const [isOpen, setIsOpen] = useState(false);
-
-  function toggleIsOpen() {
-    setIsOpen(!isOpen);
-  }
-
+  const toggleIsOpen = () => { setIsOpen(!isOpen)};
   return (
     <>
-      {!isOpen && (
+      {!isOpen ? (
         <motion.div className={isOpen ? "card aberto" : "card fechado"} onClick={toggleIsOpen}>
-          <LogoConteiner
-            tipo={props.tipo}
-            link={props.link}
-            logoConteinerClass="logoConteinerOpenned"
-            iconClass="Icon"
-          />
-          <ClosedContent titulo={props.titulo} descricao={props.descricao} />
+          <ClosedCard tipo={tipo} link={link} titulo={titulo} descricao={descricao} />
         </motion.div>
-      )}
-
-      {isOpen && (
+      ) : (
         <>
-          <div className="card_background" onClick={() => setIsOpen(!isOpen)}></div>
+          <div className="card_background" onClick={toggleIsOpen}></div>
           <motion.div className={isOpen ? "card aberto" : "card fechado"}>
-            <LogoConteiner
-              tipo={props.tipo}
-              link={props.link}
-              logoConteinerClass="logoConteinerClosed"
-              iconClass="icon-aberto"
-            />
-            <AiFillCloseCircle className="closeButton" onClick={toggleIsOpen} />
-            <OpennedContent
-              titulo={props.titulo}
-              status={props.status}
-              expandido={props.expandido}
-              tecnologias={props.tecnologias}
+            <OpennedCard
+              tipo={tipo}
+              link={link}
+              titulo={titulo}
+              status={status}
+              expandido={expandido}
+              tecnologias={tecnologias}
+              toggleIsOpen={toggleIsOpen}
             />
           </motion.div>
         </>
