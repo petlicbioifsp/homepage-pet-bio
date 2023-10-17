@@ -1,54 +1,51 @@
 "use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-require("./cardProjeto.css");
-var react_1 = require("react");
+var react_1 = __importStar(require("react"));
 var framer_motion_1 = require("framer-motion");
-var fa_1 = require("react-icons/fa");
 var ai_1 = require("react-icons/ai");
-var md_1 = require("react-icons/md");
-var react_2 = __importDefault(require("react"));
+var Logo_1 = __importDefault(require("../Logo"));
+var ClosedContent_1 = __importDefault(require("./ClosedContent"));
+var OpennedContent_1 = __importDefault(require("./OpennedContent"));
 function CardProjeto(props) {
     var _a = (0, react_1.useState)(false), isOpen = _a[0], setIsOpen = _a[1];
-    function setingIsOpen() {
+    function toggleIsOpen() {
         setIsOpen(!isOpen);
     }
-    return (react_2.default.createElement(react_2.default.Fragment, null,
-        !isOpen && (react_2.default.createElement(framer_motion_1.motion.div, { className: isOpen ? "card aberto" : "card fechado", onClick: setingIsOpen },
-            react_2.default.createElement(framer_motion_1.motion.div, { className: "logoConteinerOpenned" },
-                props.tipo === 'ensino' && react_2.default.createElement(fa_1.FaGraduationCap, { className: 'logo-projeto' }),
-                props.tipo === 'pesquisa' && react_2.default.createElement(fa_1.FaSearch, { className: 'logo-projeto' }),
-                props.tipo === 'extensão' && react_2.default.createElement(md_1.MdExtension, { className: 'logo-projeto' }),
-                props.tipo === 'extensão-desenvolivmento' && react_2.default.createElement(md_1.MdOutlineComputer, { className: 'logo-projeto' }),
-                react_2.default.createElement(framer_motion_1.motion.a, { rel: 'noopener noreferrer', target: "_blank", href: props.link },
-                    react_2.default.createElement(fa_1.FaGithub, { className: "Icon" }))),
-            react_2.default.createElement(framer_motion_1.motion.div, null,
-                react_2.default.createElement(framer_motion_1.motion.h2, { className: "card-titulo" }, props.titulo),
-                react_2.default.createElement(framer_motion_1.motion.p, { className: "card-descricao" }, props.descricao)))),
-        isOpen && (react_2.default.createElement(react_2.default.Fragment, null,
-            react_2.default.createElement("div", { className: "card_background", onClick: function () { return setIsOpen(!isOpen); } }),
-            react_2.default.createElement(framer_motion_1.motion.div, { className: isOpen ? "card aberto" : "card fechado" },
-                react_2.default.createElement(framer_motion_1.motion.div, { className: "logoConteinerClosed" },
-                    props.tipo === 'ensino' && react_2.default.createElement(fa_1.FaGraduationCap, { className: 'logo-projeto' }),
-                    props.tipo === 'pesquisa' && react_2.default.createElement(fa_1.FaSearch, { className: 'logo-projeto' }),
-                    props.tipo === 'extensão' && react_2.default.createElement(md_1.MdExtension, { className: 'logo-projeto' }),
-                    props.tipo === 'extensão-desenvolivmento' && react_2.default.createElement(md_1.MdOutlineComputer, { className: 'logo-projeto' }),
-                    react_2.default.createElement(framer_motion_1.motion.a, { rel: 'noopener noreferrer', target: "_blank", href: props.link },
-                        react_2.default.createElement(fa_1.FaGithub, { className: "icon-aberto" }))),
-                react_2.default.createElement(ai_1.AiFillCloseCircle, { className: "closeButton", onClick: function () { return setIsOpen(!isOpen); } }),
-                react_2.default.createElement(framer_motion_1.motion.div, null,
-                    react_2.default.createElement(framer_motion_1.motion.h2, { className: "card-titulo" },
-                        props.titulo,
-                        " \u2192 ",
-                        props.status),
-                    react_2.default.createElement(framer_motion_1.motion.div, { className: "scrowSpace" },
-                        react_2.default.createElement("p", { className: 'card--texto__expandido' }, props.expandido),
-                        react_2.default.createElement("div", { className: 'card--texto__envolvidos' },
-                            react_2.default.createElement("p", { className: 'card--texto__expandido' },
-                                props.tecnologias,
-                                " "),
-                            react_2.default.createElement("p", { className: 'card--texto__expandido' })))))))));
+    return (react_1.default.createElement(react_1.default.Fragment, null,
+        !isOpen && (react_1.default.createElement(framer_motion_1.motion.div, { className: isOpen ? "card aberto" : "card fechado", onClick: toggleIsOpen },
+            react_1.default.createElement(Logo_1.default, { tipo: props.tipo, link: props.link, logoConteinerClass: "logoConteinerOpenned", iconClass: "Icon" }),
+            react_1.default.createElement(ClosedContent_1.default, { titulo: props.titulo, descricao: props.descricao }))),
+        isOpen && (react_1.default.createElement(react_1.default.Fragment, null,
+            react_1.default.createElement("div", { className: "card_background", onClick: function () { return setIsOpen(!isOpen); } }),
+            react_1.default.createElement(framer_motion_1.motion.div, { className: isOpen ? "card aberto" : "card fechado" },
+                react_1.default.createElement(Logo_1.default, { tipo: props.tipo, link: props.link, logoConteinerClass: "logoConteinerClosed", iconClass: "icon-aberto" }),
+                react_1.default.createElement(ai_1.AiFillCloseCircle, { className: "closeButton", onClick: toggleIsOpen }),
+                react_1.default.createElement(OpennedContent_1.default, { titulo: props.titulo, status: props.status, expandido: props.expandido, tecnologias: props.tecnologias }))))));
 }
 exports.default = CardProjeto;

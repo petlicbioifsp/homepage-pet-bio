@@ -27,8 +27,7 @@ export default function Projetos() {
                   link={projeto.link}
                   descricao={projeto.descricao}
                   expandido={projeto.expandido}
-                  tecnologias={projeto.tecnologias}
-                />
+                  tecnologias={projeto.tecnologias}               />
               ))
             }
           />
