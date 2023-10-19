@@ -1,6 +1,6 @@
 import React from "react";
-import { IProject } from "../../../../types/ProjectTypes";
 import CardProjeto from "../CardProjeto/cardProjeto";
+import { IProject } from "../../../../types/ProjectTypes";
 
 export const renderProjetos = (arrProjetos: IProject[]): JSX.Element[] => {
   return arrProjetos.map((projeto) => (

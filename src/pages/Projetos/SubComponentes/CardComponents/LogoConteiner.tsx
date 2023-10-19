@@ -1,10 +1,10 @@
-import { motion } from "framer-motion";
-import { IProject } from "../../../../types/ProjectTypes";
 import React from "react";
-import { FaGraduationCap, FaSearch, FaGithub } from "react-icons/fa";
+import { motion } from "framer-motion";
 import { MdExtension, MdOutlineComputer } from "react-icons/md";
+import { FaGraduationCap, FaSearch, FaGithub } from "react-icons/fa";
+import { ILogoConteinerProps} from "../../../../types/ProjectTypes";
 
-export default function LogoConteiner({tipo, link, logoConteinerClass, iconClass}: IProject){
+export default function LogoConteiner({tipo, link, logoConteinerClass, iconClass}:ILogoConteinerProps ){
     return (
         <motion.div className={logoConteinerClass}>
         {tipo === "ensino" && <FaGraduationCap className="logo-projeto" />}

@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { IProject } from "../../../../types/ProjectTypes";
+import { IOpennedContentProps} from "../../../../types/ProjectTypes";
 
-export default function OpennedContent({titulo, status, expandido, tecnologias}:IProject){ 
+export default function OpennedContent({titulo, status, expandido, tecnologias}:IOpennedContentProps){ 
     return(
         <motion.div>
               <motion.h2 className="card-titulo">
