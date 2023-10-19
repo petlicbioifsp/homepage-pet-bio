@@ -46,25 +46,29 @@ function FetchEquipe(_a) {
     var _e = (0, react_1.useState)([]), exTutores = _e[0], setExTutores = _e[1];
     (0, react_1.useEffect)(function () {
         var fetchIntegrantes = function () { return __awaiter(_this, void 0, void 0, function () {
-            var response, data, error_1;
+            var response, data, aluno, tutores_1, exAlunos_1, exTutores_1, error_1;
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
                         _a.trys.push([0, 3, , 4]);
-                        return [4 /*yield*/, fetch('./data/integrantes.json')];
+                        return [4 /*yield*/, fetch("./data/integrantes.json")];
                     case 1:
                         response = _a.sent();
+                        if (!response.ok) {
+                            throw new Error("Falha na requisi\u00E7\u00E3o ao servidor. Status: ".concat(response.status, " "));
+                        }
                         return [4 /*yield*/, response.json()];
                     case 2:
                         data = _a.sent();
-                        setAlunos(data.aluno);
-                        setTutores(data.tutores);
-                        setExAlunos(data.exAlunos);
-                        setExTutores(data.exTutores);
+                        aluno = data.aluno, tutores_1 = data.tutores, exAlunos_1 = data.exAlunos, exTutores_1 = data.exTutores;
+                        setAlunos(aluno);
+                        setTutores(tutores_1);
+                        setExAlunos(exAlunos_1);
+                        setExTutores(exTutores_1);
                         return [3 /*break*/, 4];
                     case 3:
                         error_1 = _a.sent();
-                        console.error('Ocorreu um erro ao obter os integrantes:', error_1);
+                        console.error("Ocorreu um erro ao obter os integrantes: ".concat(error_1));
                         return [3 /*break*/, 4];
                     case 4: return [2 /*return*/];
                 }
@@ -75,4 +79,3 @@ function FetchEquipe(_a) {
     return render({ alunos: alunos, tutores: tutores, exAlunos: exAlunos, exTutores: exTutores });
 }
 exports.default = FetchEquipe;
-;
