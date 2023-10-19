@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Title.module.css";
-import { ITextProps } from "../../../../types/TextTypes";
+import { IInformationProps} from "../../../../types/TextTypes";
 import LogoPET from "../../../../components/logos/LogoPET/LogoPET";
 
-export default function PageHeader({ title, content }: ITextProps) {
+export default function PageHeader({ title, content }: IInformationProps) {
   return (
     <header className={styles.cabecalho}>
       <div className={styles.container}>

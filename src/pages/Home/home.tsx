@@ -11,7 +11,7 @@ import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 import HeaderConteiner from "./SubComponentes/Header_conteiner/HeaderConteiner";
 
 export default function Home() {
-  const isMobile = useIsMobile();
+  const isMobile: boolean = useIsMobile();
 
   const {
     showArrow: showArrowAbout,

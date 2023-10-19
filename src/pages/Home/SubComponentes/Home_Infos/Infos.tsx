@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Infos.module.css";
-import { ITextProps } from "../../../../types/TextTypes";
+import { IInformationProps } from "../../../../types/TextTypes";
 
-export default function Informations({ title, content }: ITextProps) {
+export default function Informations({ title, content }: IInformationProps) {
   return (
     <>
       <h3 className={styles.title}>{title}</h3>

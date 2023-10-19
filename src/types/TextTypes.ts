@@ -11,3 +11,8 @@ export interface ITextProps {
   children?: React.ReactNode;
   introducao?: string
 }
+
+export interface IInformationProps{
+  title :string; 
+  content: string; 
+}
