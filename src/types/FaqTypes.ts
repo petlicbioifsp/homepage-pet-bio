@@ -4,7 +4,3 @@ export interface IFaq {
     resposta: string;
   }
   
-export interface FaqData {
-    faqs: IFaq[];
-  }
-  
