@@ -1,5 +1,5 @@
-import React from 'react';
 import './Faq.css';
+import React from 'react';
 import FetchFaq from '../../hooks/fetch/useFetchFAQ';
 import Header from '../../components/ui/Header/header';
 import { renderFaq } from './Subcomponents/RenderFaq';

@@ -4,7 +4,7 @@ import { IFaq } from "../../../types/FaqTypes";
 import CollapsibleOpen from "../../../hooks/collapsible/useCollapsibleOpen";
 import CollapsibleTrigger from "../../../hooks/collapsible/useCollapsibleTrigger";
 
-export const renderFaq = (arrFaq: IFaq[]): JSX.Element[] => {
+export const renderFaq = (arrFaq: IFaq[] ): JSX.Element[] => {
     const renderFaqItens = (faqs: IFaq): JSX.Element => (
       <Collapsible
         key={faqs.id}
