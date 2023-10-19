@@ -12,11 +12,11 @@ var useIsMobile_1 = __importDefault(require("../../../hooks/window/useIsMobile")
 function MenuNavegacao() {
     var isMobile = (0, useIsMobile_1.default)();
     var items = [
-        { path: '/', label: 'Home' },
-        { path: '/projetos', label: 'Projetos' },
-        { path: '/equipe', label: 'Equipe' },
-        { path: '/processo-seletivo', label: 'Processo Seletivo' },
-        { path: '/faq', label: 'FAQ' },
+        { path: "/", label: "Home" },
+        { path: "/projetos", label: "Projetos" },
+        { path: "/equipe", label: "Equipe" },
+        { path: "/processo-seletivo", label: "Processo Seletivo" },
+        { path: "/faq", label: "FAQ" },
     ];
     return (react_1.default.createElement("div", { className: "menu" },
         react_1.default.createElement(LogoIFSP_1.default, null),
