@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from '../Cards/Cards.module.css';
-import { ICard } from '../../../../types/EquipeTypes';
+import { ICardDescriptionProps } from '../../../../types/EquipeTypes';
 
 
-export default function CardDescription({ nome, tipo, ano }:ICard) {
+
+
+export default function CardDescription({ nome, tipo, ano }:ICardDescriptionProps) {
   const isExTutor = tipo === 'exTutor' 
   return (
     <div className={styles.descricao}>

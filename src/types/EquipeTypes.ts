@@ -1,14 +1,20 @@
 export interface ICard {
     id?:string
-    nome?: string;
-    ano?: string;
-    srcFoto?: string;
-    tipo?: string;
-    github?: string;
-    linkedin?: string 
-    altFoto?:string;
-    customClass?: string; 
+    customClass:string,
+    nome:string, 
+    srcFoto:string,
+    tipo:string, 
+    github?:string, 
+    linkedin:string, 
+    ano:string 
 }
+
+export interface ICardDescriptionProps{
+    nome :string; 
+    tipo: string; 
+    ano:string; 
+  
+  }
 
 export interface IRenderMembersProps{
     data : ICard[], 

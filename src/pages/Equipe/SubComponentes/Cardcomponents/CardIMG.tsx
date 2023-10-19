@@ -5,7 +5,11 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import styles from '../Cards/Cards.module.css';
 import Link from '../../../../components/interactive/Link/Link';
 
-export default function CardImage({ customClass, srcFoto, altFoto, github, linkedin }: ICard) {
+interface ICardImgProps extends ICard{
+  altFoto: string; 
+}
+
+export default function CardImage({ customClass, srcFoto, altFoto, github, linkedin }: ICardImgProps) {
   const { blurred, handleMouseEnter, handleMouseLeave } = useBlur();
  
   return (
