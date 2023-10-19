@@ -33,13 +33,14 @@ var DropDown_1 = __importDefault(require("./Subcomponents/DropDown"));
 function MenuMobileDropdown(_a) {
     var items = _a.items;
     var _b = (0, react_1.useState)(false), isDropdownOpen = _b[0], setIsDropdownOpen = _b[1];
-    var menuClasses = "menu-mobile ".concat(isDropdownOpen ? 'active' : '');
+    var menuClasses = "menu-mobile ".concat(isDropdownOpen ? "active" : "");
     var toggleDropdown = function () {
         setIsDropdownOpen(!isDropdownOpen);
     };
     return (react_1.default.createElement("div", { className: menuClasses },
         react_1.default.createElement(hi_1.HiMenu, { "aria-label": "Toggle Menu", className: "menu-icon", onClick: toggleDropdown }),
-        isDropdownOpen && (react_1.default.createElement(DropDown_1.default, { items: items, onClick: toggleDropdown })),
-        isDropdownOpen && react_1.default.createElement("div", { className: "cursor", onClick: toggleDropdown })));
+        isDropdownOpen && (react_1.default.createElement(react_1.default.Fragment, null,
+            react_1.default.createElement(DropDown_1.default, { items: items, onClick: toggleDropdown }),
+            react_1.default.createElement("div", { className: "cursor", onClick: toggleDropdown })))));
 }
 exports.default = MenuMobileDropdown;
