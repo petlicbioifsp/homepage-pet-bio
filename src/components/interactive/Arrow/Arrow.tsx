@@ -1,12 +1,12 @@
-import React from 'react';
-import styles from  './Arrow.module.css'
+import React from "react";
+import styles from "./Arrow.module.css";
 
-interface customClassProps{
-  customClass : string
+interface CustomClassProps {
+  customClass: string;
 }
 
-const ArrowShape = ( {customClass}: customClassProps) => {
-  return <span className={ `${styles[customClass]}` } />;
+const ArrowShape = ({ customClass }: CustomClassProps) => {
+  return <span className={styles[customClass]} />;
 };
 
 export default ArrowShape;
