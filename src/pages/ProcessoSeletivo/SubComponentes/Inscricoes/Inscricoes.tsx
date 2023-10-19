@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Inscricoes.module.css";
 import { AiOutlineCloudDownload } from "react-icons/ai";
-import { ITextProps } from "../../../../types/TextTypes";
+import {InscricoesPropsI } from "../../../../types/TextTypes";
 import { drive, sendMail } from "../Constants/Constants";
 
-export default  function Inscricoes({ title, introducao, email, prazo, data, estado, detalhes }: ITextProps) {
+export default  function Inscricoes({ title, introducao, email, prazo, data, estado, detalhes }: InscricoesPropsI) {
   return (
     <div className={styles.Inscricao}>
       <h2 className={styles.titulo}>{title}</h2>

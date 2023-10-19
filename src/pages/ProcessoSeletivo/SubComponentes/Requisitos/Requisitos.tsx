@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Requisitos.module.css";
-import { ITextProps } from "../../../../types/TextTypes";
+import { IRequisitosProps} from "../../../../types/TextTypes";
 
-export default function Requisitos({ title, introducao, item_1, item_2 }: ITextProps) {
+export default function Requisitos({ title, introducao, item_1, item_2 }: IRequisitosProps) {
   return (
     <div className={styles.requisitos}>
       <h2 className={styles.titulo_secundario}>{title}</h2>
