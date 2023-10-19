@@ -40,6 +40,7 @@ var react_1 = require("react");
 function FetchEquipe(_a) {
     var _this = this;
     var render = _a.render;
+    var FetchURL = "./data/integrantes.json";
     var _b = (0, react_1.useState)([]), alunos = _b[0], setAlunos = _b[1];
     var _c = (0, react_1.useState)([]), tutores = _c[0], setTutores = _c[1];
     var _d = (0, react_1.useState)([]), exAlunos = _d[0], setExAlunos = _d[1];
@@ -51,7 +52,7 @@ function FetchEquipe(_a) {
                 switch (_a.label) {
                     case 0:
                         _a.trys.push([0, 3, , 4]);
-                        return [4 /*yield*/, fetch("./data/integrantes.json")];
+                        return [4 /*yield*/, fetch(FetchURL)];
                     case 1:
                         response = _a.sent();
                         if (!response.ok) {

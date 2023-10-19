@@ -40,6 +40,7 @@ var react_1 = require("react");
 function FetchFaq(_a) {
     var _this = this;
     var render = _a.render;
+    var FetchURL = "./data/faq.json";
     var _b = (0, react_1.useState)([]), faqData = _b[0], setFaqData = _b[1];
     (0, react_1.useEffect)(function () {
         var fetchData = function () { return __awaiter(_this, void 0, void 0, function () {
@@ -48,7 +49,7 @@ function FetchFaq(_a) {
                 switch (_a.label) {
                     case 0:
                         _a.trys.push([0, 3, , 4]);
-                        return [4 /*yield*/, fetch("./data/faq.json")];
+                        return [4 /*yield*/, fetch(FetchURL)];
                     case 1:
                         response = _a.sent();
                         if (!response.ok) {

@@ -40,6 +40,7 @@ var react_1 = require("react");
 function FetchProjetos(_a) {
     var _this = this;
     var render = _a.render;
+    var FetchURL = './data/projetos.json';
     var _b = (0, react_1.useState)([]), arrProjetos = _b[0], setProjetos = _b[1];
     (0, react_1.useEffect)(function () {
         var fetchProjetos = function () { return __awaiter(_this, void 0, void 0, function () {
@@ -48,7 +49,7 @@ function FetchProjetos(_a) {
                 switch (_a.label) {
                     case 0:
                         _a.trys.push([0, 3, , 4]);
-                        return [4 /*yield*/, fetch('./data/projetos.json')];
+                        return [4 /*yield*/, fetch(FetchURL)];
                     case 1:
                         response = _a.sent();
                         return [4 /*yield*/, response.json()];

@@ -3,12 +3,13 @@ import { IProject } from '../../types/ProjectTypes';
 import  {IFetchRenderProjects}  from '../../types/FetchTypes';
 
 export default function  FetchProjetos ({ render }: IFetchRenderProjects)  {
+  const FetchURL:string = './data/projetos.json'
   const [arrProjetos, setProjetos] = useState<IProject[]>([]);
 
   useEffect(() => {
     const fetchProjetos = async () => {
       try {
-        const response = await fetch('./data/projetos.json'); 
+        const response = await fetch(FetchURL); 
         const data = await response.json();
         setProjetos(data.projetos);
       } catch (error) {
