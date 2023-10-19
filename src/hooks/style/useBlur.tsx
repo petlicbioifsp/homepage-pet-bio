@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import { noBlurStyle, withBlurStyle } from '../../pages/Equipe/constants/EquipeConst';
+import { useState } from "react";
+import { noBlurStyle, withBlurStyle } from "../../pages/Equipe/constants/EquipeConst";
 
-function useBlur() {
+export default function useBlur() {
   const [blurred, setBlur] = useState(noBlurStyle);
 
   const handleMouseEnter = () => {
@@ -14,5 +14,3 @@ function useBlur() {
 
   return { blurred, handleMouseEnter, handleMouseLeave };
 }
-
-export default useBlur;

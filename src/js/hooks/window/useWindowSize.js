@@ -10,9 +10,9 @@ function useWindowSize() {
     };
     (0, react_1.useEffect)(function () {
         handleResize();
-        window.addEventListener('resize', handleResize);
+        window.addEventListener("resize", handleResize);
         return function () {
-            window.removeEventListener('resize', handleResize);
+            window.removeEventListener("resize", handleResize);
         };
     }, []);
     return size || { width: 0 };

@@ -6,9 +6,9 @@ var useScrollToSection = function () {
     var showArrow = (0, react_1.useState)(true);
     var scrollToSection = function () {
         sectionRef.current.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
-            inline: 'nearest'
+            behavior: "smooth",
+            block: "start",
+            inline: "nearest",
         });
     };
     return { showArrow: showArrow, sectionRef: sectionRef, scrollToSection: scrollToSection };

@@ -14,12 +14,12 @@ function useWindowSize(): WindowSize {
   };
 
   useEffect(() => {
-    handleResize(); 
+    handleResize();
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
