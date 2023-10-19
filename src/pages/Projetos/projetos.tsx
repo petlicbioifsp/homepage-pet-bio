@@ -8,7 +8,7 @@ import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 import { renderProjetos } from "./SubComponentes/Render/RenderProjects";
 
 export default function Projetos() {
-  const isMobile = useIsMobile();
+  const isMobile:boolean = useIsMobile();
 
   return (
     <>

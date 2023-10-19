@@ -40,33 +40,35 @@ var react_1 = require("react");
 function FetchFaq(_a) {
     var _this = this;
     var render = _a.render;
-    var _b = (0, react_1.useState)([]), arrFaq = _b[0], setFaq = _b[1];
+    var _b = (0, react_1.useState)([]), faqData = _b[0], setFaqData = _b[1];
     (0, react_1.useEffect)(function () {
-        var fetchFaq = function () { return __awaiter(_this, void 0, void 0, function () {
+        var fetchData = function () { return __awaiter(_this, void 0, void 0, function () {
             var response, data, error_1;
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
                         _a.trys.push([0, 3, , 4]);
-                        return [4 /*yield*/, fetch('./data/faq.json')];
+                        return [4 /*yield*/, fetch("./data/faq.json")];
                     case 1:
                         response = _a.sent();
+                        if (!response.ok) {
+                            throw new Error("Falha na requisição ao servidor");
+                        }
                         return [4 /*yield*/, response.json()];
                     case 2:
                         data = _a.sent();
-                        setFaq(data.faqs);
+                        setFaqData(data.faqs);
                         return [3 /*break*/, 4];
                     case 3:
                         error_1 = _a.sent();
-                        console.error('Ocorreu um erro ao obter o FAQ:', error_1);
+                        console.error("Erro na busca do FAQ: ".concat(error_1));
                         return [3 /*break*/, 4];
                     case 4: return [2 /*return*/];
                 }
             });
         }); };
-        fetchFaq();
+        fetchData();
     }, []);
-    return render(arrFaq);
+    return render(faqData);
 }
 exports.default = FetchFaq;
-;
