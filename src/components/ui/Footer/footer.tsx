@@ -3,7 +3,7 @@ import styles from "./footer.module.css";
 import { FaGithub } from "react-icons/fa";
 import Link from "../../interactive/Link/Link";
 
-export default function Footer() {
+export default function Footer(): JSX.Element {
   return (
     <footer className={styles.footer}>
       <Link
