@@ -8,7 +8,7 @@ interface IRevealProps<T> {
   width?: number | string;
 }
 
-export default function Reveal({ children, width }: IRevealProps<React.ReactNode>) {
+export default function Reveal({ children, width }: IRevealProps<React.ReactNode>):JSX.Element {
   const ref = useRef<HTMLDivElement | null>(null)!;
   const inView = useInView(ref, { once: true });
   const mainControl = useAnimation();
