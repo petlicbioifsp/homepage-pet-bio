@@ -4,7 +4,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import { ICollapsibleProps } from "../../types/CollapsibleTypes";
 import styles from "../../components/interactive/Arrow/Arrow.module.css";
 
-export default function CollapsibleTrigger({ text, page }: ICollapsibleProps) {
+export default function CollapsibleTrigger({ text, page }: ICollapsibleProps): JSX.Element {
   const isFaqPage = page === "FAQ";
   return (
     <div className={styles.conteiner}>
