@@ -40,7 +40,7 @@ var react_1 = require("react");
 function FetchEquipe(_a) {
     var _this = this;
     var render = _a.render;
-    var FetchURL = "./data/integrantes.json";
+    var FETCH_URL = "./data/integrantes.json";
     var _b = (0, react_1.useState)([]), alunos = _b[0], setAlunos = _b[1];
     var _c = (0, react_1.useState)([]), tutores = _c[0], setTutores = _c[1];
     var _d = (0, react_1.useState)([]), exAlunos = _d[0], setExAlunos = _d[1];
@@ -52,11 +52,11 @@ function FetchEquipe(_a) {
                 switch (_a.label) {
                     case 0:
                         _a.trys.push([0, 3, , 4]);
-                        return [4 /*yield*/, fetch(FetchURL)];
+                        return [4 /*yield*/, fetch(FETCH_URL)];
                     case 1:
                         response = _a.sent();
                         if (!response.ok) {
-                            throw new Error("Falha na requisi\u00E7\u00E3o ao servidor. Status: ".concat(response.status, " "));
+                            throw new Error("Falha na requisi\u00E7\u00E3o ao servidor. Status: ".concat(response.status));
                         }
                         return [4 /*yield*/, response.json()];
                     case 2:

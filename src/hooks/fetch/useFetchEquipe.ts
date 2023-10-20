@@ -3,18 +3,19 @@ import { ICard } from "../../types/EquipeTypes";
 import { IFetchEquipeProps } from "../../types/FetchTypes";
 
 export default function FetchEquipe({ render }: IFetchEquipeProps) {
-  const FetchURL:string = "./data/integrantes.json";
-  
+  const FETCH_URL: string = "./data/integrantes.json";
+
   const [alunos, setAlunos] = useState<ICard[]>([]);
   const [tutores, setTutores] = useState<ICard[]>([]);
   const [exAlunos, setExAlunos] = useState<ICard[]>([]);
   const [exTutores, setExTutores] = useState<ICard[]>([]);
+
   useEffect(() => {
     const fetchIntegrantes = async () => {
       try {
-        const response = await fetch(FetchURL);
+        const response = await fetch(FETCH_URL);
         if (!response.ok) {
-          throw new Error(`Falha na requisição ao servidor. Status: ${response.status} `);
+          throw new Error(`Falha na requisição ao servidor. Status: ${response.status}`);
         }
 
         const data = await response.json();

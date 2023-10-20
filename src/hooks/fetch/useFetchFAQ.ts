@@ -3,13 +3,13 @@ import { IFetchFaq } from "../../types/FetchTypes";
 import { IFaq, FaqData } from "../../types/FaqTypes";
 
 export default function FetchFaq({ render }: IFetchFaq) {
-  const FetchURL:string = "./data/faq.json"
-   const [faqData, setFaqData] = useState<IFaq[]>([]);
+  const [faqData, setFaqData] = useState<IFaq[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(FetchURL);
+        const response = await fetch("./data/faq.json");
+
         if (!response.ok) {
           throw new Error("Falha na requisição ao servidor");
         }
