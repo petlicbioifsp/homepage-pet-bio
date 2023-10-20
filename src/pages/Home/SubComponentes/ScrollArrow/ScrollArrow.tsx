@@ -3,12 +3,16 @@ import "./ScrollArrow.css";
 import Arrow from "../../../../components/interactive/Arrow/Arrow";
 import { IScrollArrowProps } from "../../../../types/ScrollArrowTypes";
 
-const ScrollArrow = ({ showArrow, sectionRef, scrollToSection, containerClass, arrowClass }: IScrollArrowProps) => {
+export default function ScrollArrow({
+  showArrow,
+  sectionRef,
+  scrollToSection,
+  containerClass,
+  arrowClass,
+}: IScrollArrowProps): JSX.Element {
   return (
     <div className={`${containerClass} ${showArrow && "visible"}`} onClick={scrollToSection}>
-      <Arrow customClass={arrowClass} />
+      <Arrow ArrowShapeClass={arrowClass} />
     </div>
   );
-};
-
-export default ScrollArrow;
+}
