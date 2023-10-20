@@ -6,7 +6,6 @@ import DropdownContent from "./Subcomponents/DropDown";
 
 interface MenuMobileDropdownProps {
   items: IMenuItem[];
-  onClick: () => void;
 }
 
 export default function MenuMobileDropdown({ items }: MenuMobileDropdownProps): JSX.Element {
