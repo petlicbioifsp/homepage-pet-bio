@@ -1,7 +1,7 @@
 import useWindowSize from "./useWindowSize";
 
-export default function useIsMobile(): boolean {
+export default function useIsMobile() {
   const { width } = useWindowSize();
-  const isMobile: boolean = width <= 628;
-  return isMobile;
+  return width <= 628;
 }
+

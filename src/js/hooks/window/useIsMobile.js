@@ -6,7 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var useWindowSize_1 = __importDefault(require("./useWindowSize"));
 function useIsMobile() {
     var width = (0, useWindowSize_1.default)().width;
-    var isMobile = width <= 628;
-    return isMobile;
+    return width <= 628;
 }
 exports.default = useIsMobile;
