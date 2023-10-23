@@ -18,9 +18,9 @@ export interface ICardDescriptionProps{
 
 export interface IRenderMembersProps{
     data : ICard[], 
-    customClass: string, 
-    cardClass:string,
-    imgContainerClass: string
+    customStyles: string, 
+    cardStyles:string,
+    imageContainerStyles: string
 }
 
 export interface IEquipeData {

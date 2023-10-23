@@ -7,7 +7,7 @@ var react_1 = __importDefault(require("react"));
 var RenderTeam_1 = require("./RenderTeam");
 var Equipe_module_css_1 = __importDefault(require("../../Equipe.module.css"));
 function MemberSection(_a) {
-    var data = _a.data, customClass = _a.customClass, cardClass = _a.cardClass, imgContainerClass = _a.imgContainerClass;
-    return (react_1.default.createElement("section", { className: Equipe_module_css_1.default[customClass] }, (0, RenderTeam_1.renderMembers)(data, cardClass, imgContainerClass)));
+    var data = _a.data, customStyles = _a.customStyles, cardStyles = _a.cardStyles, imageContainerStyles = _a.imageContainerStyles;
+    return react_1.default.createElement("section", { className: Equipe_module_css_1.default[customStyles] }, (0, RenderTeam_1.renderMembers)(data, cardStyles, imageContainerStyles));
 }
 exports.default = MemberSection;
