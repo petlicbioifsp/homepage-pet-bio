@@ -14,10 +14,10 @@ function CardImage(_a) {
     return (react_1.default.createElement("div", { className: Cards_module_css_1.default[customClass], onMouseEnter: handleMouseEnter, onMouseLeave: handleMouseLeave },
         react_1.default.createElement("img", { style: blurred, className: Cards_module_css_1.default.img, src: srcFoto, alt: altFoto }),
         react_1.default.createElement("div", { className: Cards_module_css_1.default.iconWrapper },
-            github && react_1.default.createElement(Link_1.default, { href: github, target: '_blank', rel: 'noopener noreferrer' },
+            github && (react_1.default.createElement(Link_1.default, { href: github, target: "_blank", rel: "noopener noreferrer" },
                 react_1.default.createElement("span", { className: Cards_module_css_1.default.githubIcon },
-                    react_1.default.createElement(fa_1.FaGithub, null))),
-            react_1.default.createElement(Link_1.default, { href: linkedin, target: '_blank', rel: 'noopener noreferrer' },
+                    react_1.default.createElement(fa_1.FaGithub, null)))),
+            react_1.default.createElement(Link_1.default, { href: linkedin, target: "_blank", rel: "noopener noreferrer" },
                 react_1.default.createElement("span", { className: Cards_module_css_1.default.linkedinIcon },
                     react_1.default.createElement(fa_1.FaLinkedin, null))))));
 }
