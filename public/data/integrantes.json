@@ -125,7 +125,6 @@
       "id":"01",
       "nome": "Ingrid Nery",
       "srcFoto":"./images/fotos_alunos/Ingrid.jpg",
-      "tipo": "bolsista",
       "anos" :"2019-2023",
       "linkedin": "https://www.linkedin.com"
     },
@@ -133,7 +132,6 @@
       "id":"02",
       "nome": "Amadeu  Andrade ",
       "srcFoto":"./images/fotos_alunos/AmadeuJunior.jpeg",
-      "tipo": "bolsista",
       "anos" :"2019-2023",
       "github": "https://github.com/MadeuJr",
       "linkedin": "https://www.linkedin.com/in/amadeu-andrade-775113141/"
@@ -142,7 +140,6 @@
       "id": "03",
       "nome": "Laura  Luchiari",
       "srcFoto": "./images/fotos_alunos/laura.jpeg",
-      "tipo": "Bolsista",
       "ano": "2022",
       "github": "https://github.com/lauraluch",
       "linkedin": "https://www.linkedin.com/in/laura-ranucci-luchiari"
@@ -151,7 +148,6 @@
       "id": "04",
       "nome": "Noah Rissatti",
       "srcFoto": "./images/fotos_alunos/NoahRissatti.jpg",
-      "tipo": "Bolsista",
       "ano": "2022",
       "linkedin": "https://www.linkedin.com/in/noah-rissatti-452426255/"
     },

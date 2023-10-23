@@ -7,12 +7,11 @@ var react_1 = __importDefault(require("react"));
 var Cards_module_css_1 = __importDefault(require("../Cards/Cards.module.css"));
 function CardDescription(_a) {
     var nome = _a.nome, tipo = _a.tipo, ano = _a.ano;
-    var isExTutor = tipo === 'exTutor';
+    var isExTutor = tipo === "exTutor";
     return (react_1.default.createElement("div", { className: Cards_module_css_1.default.descricao },
         react_1.default.createElement("strong", null,
             react_1.default.createElement("p", { className: Cards_module_css_1.default.p }, nome)),
-        react_1.default.createElement("strong", null, isExTutor ? react_1.default.createElement("p", { className: Cards_module_css_1.default.p },
-            "Tutor: ",
-            ano) : react_1.default.createElement("p", { className: Cards_module_css_1.default.p }, tipo))));
+        react_1.default.createElement("strong", null,
+            react_1.default.createElement("p", { className: Cards_module_css_1.default.p }, isExTutor ? "Tutor: ".concat(ano) : tipo))));
 }
 exports.default = CardDescription;
