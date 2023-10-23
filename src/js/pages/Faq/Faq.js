@@ -17,4 +17,3 @@ function Faq() {
             react_1.default.createElement(useFetchFAQ_1.default, { render: RenderFaq_1.renderFaq }))));
 }
 exports.default = Faq;
-;

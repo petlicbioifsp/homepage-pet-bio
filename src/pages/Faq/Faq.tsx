@@ -1,13 +1,11 @@
-import './Faq.css';
-import React from 'react';
-import FetchFaq from '../../hooks/fetch/useFetchFAQ';
-import Header from '../../components/ui/Header/header';
-import { renderFaq } from './Subcomponents/RenderFaq';
-import MenuNavegacao from '../../components/menus/MenuNavegacao/menuNavegacao';
+import "./Faq.css";
+import React from "react";
+import FetchFaq from "../../hooks/fetch/useFetchFAQ";
+import Header from "../../components/ui/Header/header";
+import { renderFaq } from "./Subcomponents/RenderFaq";
+import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 
-
-
-export default function Faq(): JSX.Element{
+export default function Faq(): JSX.Element {
   return (
     <div>
       <MenuNavegacao />
@@ -18,5 +16,4 @@ export default function Faq(): JSX.Element{
       </section>
     </div>
   );
-};
-
+}
