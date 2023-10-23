@@ -9,10 +9,10 @@ var fa_1 = require("react-icons/fa");
 var Cards_module_css_1 = __importDefault(require("../Cards/Cards.module.css"));
 var Link_1 = __importDefault(require("../../../../components/interactive/Link/Link"));
 function CardImage(_a) {
-    var customClass = _a.customClass, srcFoto = _a.srcFoto, altFoto = _a.altFoto, github = _a.github, linkedin = _a.linkedin;
+    var customClass = _a.customClass, foto = _a.foto, altFoto = _a.altFoto, github = _a.github, linkedin = _a.linkedin;
     var _b = (0, useBlur_1.default)(), blurred = _b.blurred, handleMouseEnter = _b.handleMouseEnter, handleMouseLeave = _b.handleMouseLeave;
     return (react_1.default.createElement("div", { className: Cards_module_css_1.default[customClass], onMouseEnter: handleMouseEnter, onMouseLeave: handleMouseLeave },
-        react_1.default.createElement("img", { style: blurred, className: Cards_module_css_1.default.img, src: srcFoto, alt: altFoto }),
+        react_1.default.createElement("img", { style: blurred, className: Cards_module_css_1.default.img, src: foto, alt: altFoto }),
         react_1.default.createElement("div", { className: Cards_module_css_1.default.iconWrapper },
             github && (react_1.default.createElement(Link_1.default, { href: github, target: "_blank", rel: "noopener noreferrer" },
                 react_1.default.createElement("span", { className: Cards_module_css_1.default.githubIcon },

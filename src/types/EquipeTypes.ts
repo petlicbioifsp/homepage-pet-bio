@@ -2,7 +2,7 @@ export interface ICard {
     id?:string
     customClass:string,
     nome:string, 
-    srcFoto:string,
+    foto:string,
     tipo:string, 
     github?:string, 
     linkedin:string, 

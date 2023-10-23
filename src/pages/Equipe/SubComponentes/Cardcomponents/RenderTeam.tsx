@@ -10,7 +10,7 @@ export const renderMembers = (arrMembers:ICard[], customClassCard:string, custom
     <div className={styles[customClassCard]}>
 
     <Card customClass={customCardSize} key={arrMember.id} nome={arrMember.nome} 
-    srcFoto={arrMember.srcFoto} tipo={arrMember.tipo} ano={arrMember.ano} 
+    foto={arrMember.foto} tipo={arrMember.tipo} ano={arrMember.ano} 
     github={arrMember.github} linkedin={arrMember.linkedin}
     />
 

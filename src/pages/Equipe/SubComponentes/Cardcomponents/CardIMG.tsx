@@ -9,12 +9,12 @@ interface ICardImgProps extends ICard {
   altFoto: string;
 }
 
-export default function CardImage({ customClass, srcFoto, altFoto, github, linkedin }: ICardImgProps) {
+export default function CardImage({ customClass, foto, altFoto, github, linkedin }: ICardImgProps) {
   const { blurred, handleMouseEnter, handleMouseLeave } = useBlur();
 
   return (
     <div className={styles[customClass!]} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <img style={blurred} className={styles.img} src={srcFoto} alt={altFoto} />
+      <img style={blurred} className={styles.img} src={foto} alt={altFoto} />
 
       <div className={styles.iconWrapper}>
         {github && (
