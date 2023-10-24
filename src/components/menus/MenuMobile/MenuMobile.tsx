@@ -8,7 +8,7 @@ interface MenuMobileDropdownProps {
   items: IMenuItem[];
 }
 
-export default function MenuMobileDropdown({ items }: MenuMobileDropdownProps): JSX.Element {
+export default function MenuMobileDropdown({ items }: MenuMobileDropdownProps) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const menuClasses = `menu-mobile ${isDropdownOpen ? "active" : ""}`;
 

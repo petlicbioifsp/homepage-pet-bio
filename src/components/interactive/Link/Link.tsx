@@ -11,7 +11,7 @@ interface ILinkProps {
   children: ReactNode;
 }
 
-export default function FooterLink({ href, title, rel, target, className, children }: ILinkProps) :JSX.Element {
+export default function FooterLink({ href, title, rel, target, className, children }: ILinkProps) {
   return (
     <a href={href} title={title} rel={rel} target={target} className={`${styles[className||""]}`}>
       {children}

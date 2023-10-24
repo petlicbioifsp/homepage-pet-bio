@@ -5,6 +5,6 @@ type HeaderProps = {
   texto: string;
 };
 
-export default function Header({ texto }: HeaderProps): JSX.Element{
+export default function Header({ texto }: HeaderProps){
   return <h1 className={styles.titulo}>{texto}</h1>;
 }

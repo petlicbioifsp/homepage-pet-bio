@@ -6,7 +6,7 @@ import LogoIFSP from "../../logos/LogoIFSP/LogoIFSP";
 import MenuMobileDropdown from "../MenuMobile/MenuMobile";
 import useIsMobile from "../../../hooks/window/useIsMobile";
 
-export default function MenuNavegacao():JSX.Element {
+export default function MenuNavegacao(){
   const isMobile = useIsMobile();
 
   const items: IMenuItem[] = [

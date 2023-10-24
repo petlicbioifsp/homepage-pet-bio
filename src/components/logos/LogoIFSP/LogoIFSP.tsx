@@ -3,7 +3,7 @@ import styles from "./LogoIFSP.module.css";
 import IFSPLogo from "../../../resources/logos/LogoIfsp.png";
 import Link from "../../interactive/Link/Link";
 
-export default function LogoIFSP():JSX.Element {
+export default function LogoIFSP(){
   const IFSP_SCL_URL = "https://scl.ifsp.edu.br";
   return (
     <Link href={IFSP_SCL_URL} rel="noreferrer" target="_blank">

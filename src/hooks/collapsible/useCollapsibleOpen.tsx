@@ -4,7 +4,7 @@ import { MdKeyboardArrowUp } from "react-icons/md";
 import { ICollapsibleProps } from "../../types/CollapsibleTypes";
 import styles from "../../components/interactive/Arrow/Arrow.module.css";
 
-export default function CollapsibleOpen({ text, page }: ICollapsibleProps):JSX.Element {
+export default function CollapsibleOpen({ text, page }: ICollapsibleProps){
   const isFaqPage = page === "FAQ";
 
   return (

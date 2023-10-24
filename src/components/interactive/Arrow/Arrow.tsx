@@ -5,7 +5,7 @@ interface ArrowShapeProps {
   ArrowShapeClass: string;
 }
 
-const ArrowShape = ({ ArrowShapeClass }: ArrowShapeProps): JSX.Element => {
+const ArrowShape = ({ ArrowShapeClass }: ArrowShapeProps) => {
   return <span className={styles[ArrowShapeClass]} />;
 };
 
