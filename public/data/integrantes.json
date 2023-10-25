@@ -396,7 +396,8 @@
   "exTutores": [
     {
       "id": "0001",
-      "nomeTutor": "João Luiz Franco",
+      "tipo": "exTutor",
+      "nome": "João Luiz Franco",
       "foto": "./images/fotos_tutores/Joao.jpg",
       "linkedin": "https://www.linkedin.com",
       "ano": "2010-2022"
