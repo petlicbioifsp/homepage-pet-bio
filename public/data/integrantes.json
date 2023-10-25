@@ -21,7 +21,7 @@
 
     {
       "id": "4",
-      "nome": "Bianca C. Antonietti",
+      "nome": "Bianca Antonietti",
       "foto": "./images/fotos_alunos/bianca.jpeg",
       "tipo": "Bolsista",
       "ano": "2022",
@@ -30,7 +30,7 @@
     },
     {
       "id": "5",
-      "nome": "Gabriel Z. Manhani",
+      "nome": "Gabriel Manhani",
       "foto": "./images/fotos_alunos/gabriel.jpeg",
       "tipo": "Bolsista",
       "ano": "2023",
@@ -39,7 +39,7 @@
     },
     {
       "id": "6",
-      "nome": "Luiz A. Chiquetano",
+      "nome": "Luiz Chiquetano",
       "foto": "./images/fotos_alunos/luizChiquetano.jpeg",
       "tipo": "Bolsista",
       "ano": "2023",
@@ -49,7 +49,7 @@
 
     {
       "id": "8",
-      "nome": "Bárbara B. Gasques",
+      "nome": "Bárbara Gasques",
       "foto": "./images/fotos_alunos/barbara.jpeg",
       "tipo": "Bolsista",
       "ano": "2023",
@@ -58,7 +58,7 @@
     },
     {
       "id": "9",
-      "nome": "Vitor A. Bonelli",
+      "nome": "Vitor Bonelli",
       "foto": "./images/fotos_alunos/vitor.png",
       "tipo": "Bolsista",
       "ano": "2021",
@@ -67,7 +67,7 @@
     },
     {
       "id": "10",
-      "nome": "Fábio S. I. Anno",
+      "nome": "Fábio Anno",
       "foto": "./images/fotos_alunos/fabio.jpeg",
       "tipo": "Bolsista",
       "ano": "2022",
@@ -76,7 +76,7 @@
     },
     {
       "id": "11",
-      "nome": "Saulo F. S. Mania",
+      "nome": "Saulo Mania",
       "foto": "./images/fotos_alunos/saulo.jpeg",
       "tipo": "Bolsista",
       "ano": "2023",
@@ -85,7 +85,7 @@
     }
     ,{
       "id": "12",
-      "nome": "Ana Lívia H. da Motta",
+      "nome": "Ana da Motta",
       "foto":"./images/fotos_alunos/ana.jpeg"
       ,"ano":"2023",
       "tipo":"Bolsista",
@@ -94,7 +94,7 @@
     },
     {
       "id":"13",
-      "nome": "Eduardo D. Derisso",
+      "nome": "Eduardo Derisso",
       "foto":"./images/fotos_alunos/dudu.jpeg",
       "ano": "2023",
       "tipo":"Bolsista",
@@ -112,7 +112,7 @@
     },
     {
       "id":"15",
-      "nome":"Lucas Silva de Almeida",
+      "nome":"Lucas Almeida",
       "foto":"./images/fotos_alunos/Lucas_Almeida.jpg",
       "ano": "2023",
       "tipo":"Bolsista",
@@ -132,7 +132,7 @@
     },
     {
       "id":"2",
-      "nome": "Amadeu  Andrade ",
+      "nome": "Amadeu Andrade ",
       "foto":"./images/fotos_alunos/AmadeuJunior.jpeg",
       "tipo": "bolsista",
       "anos" :"2019-2023",
@@ -174,7 +174,7 @@
     },
     {
       "id":"7",
-      "nome": "Maria Eduarda Santos",
+      "nome": "Maria Santos",
       "foto":"./images/fotos_alunos/Maria Eduarda.jpg",
       "github": "https://github.com/",
       "linkedin": "https://www.linkedin.com"
@@ -188,14 +188,14 @@
     },
     {
     "id":"9",
-    "nome": "Pedro  Piassi",
+    "nome": "Pedro Piassi",
     "foto":"./images/fotos_alunos/Pedro.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com"
   },
   {
     "id":"10",
-    "nome": "Suzy  Trindade",
+    "nome": "Suzy Trindade",
     "foto":"./images/fotos_alunos/Suzy.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com"
@@ -216,7 +216,7 @@
   },
   {
     "id":"13",
-    "nome": "Felipe  Durval",
+    "nome": "Felipe Durval",
     "foto":"./images/fotos_alunos/Felipe.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com/in/felipe-do-prado-313114191"
@@ -230,7 +230,7 @@
   },
   {
     "id":"15",
-    "nome": "Pedro A. de A. Caballero",
+    "nome": "Pedro Caballero",
     "foto":"./images/fotos_alunos/PedroCaballero.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com/in/peco-caballero/"
@@ -244,56 +244,56 @@
   },
   {
     "id":"17",
-    "nome": "Daniel F. A. de Oliveira",
+    "nome": "Daniel de Oliveira",
     "foto":"./images/fotos_alunos/Daniel.jpg",
     "github": "https://github.com/",
     "linkedin": "https://br.linkedin.com/in/daniel-fernandes-albano-de-oliveira-59552898"
   },
   {
     "id":"18",
-    "nome": "Yuri O. S. dos Santos",
+    "nome": "Yuri dos Santos",
     "foto":"./images/fotos_alunos/Yuri.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com/in/yurioliveirasantos/"
   },
   {
     "id":"19",
-    "nome": "Camila G. do Couto",
+    "nome": "Camila do Couto",
     "foto":"./images/fotos_alunos/Camila.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com/in/camila-couto-a004a5b3/"
   },
   {
     "id":"20",
-    "nome": "Lucas Henrique Broggio",
+    "nome": "Lucas Broggio",
     "foto":"./images/fotos_alunos/LucasHenrique.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com/in/lucas-henrique-broggio-054a07294/"
   },
   {
     "id":"21",
-    "nome": "Luis Nunes Martins",
+    "nome": "Luis Martins",
     "foto":"./images/fotos_alunos/LuisNunes.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com/in/luis-nunes-martins-39aabb103"
   },
   {
     "id":"22",
-    "nome": "Marciel Henrique Draghetta",
+    "nome": "Marciel Draghetta",
     "foto":"./images/fotos_alunos/Marciel.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com/in/marciel-draghetta-ab3544a3/"
   },
   {
     "id":"23",
-    "nome": "Vinicius Luiz da Silva",
+    "nome": "Vinicius da Silva",
     "foto":"./images/fotos_alunos/Vinicius.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com/in/viniciuslsilva"
   },
   {
     "id":"24",
-    "nome": "Andrew H. Oliveira",
+    "nome": "Andrew Oliveira",
     "foto":"./images/fotos_alunos/Andrew.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com/in/andrewholiveira/"
@@ -370,7 +370,7 @@
   },
   {
     "id":"35",
-    "nome": "João Paulo Pereira",
+    "nome": "João Pereira",
     "foto":"./images/fotos_alunos/João Paulo Pereira.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com/in/odiasjoao/"
@@ -398,7 +398,7 @@
   },
   {
     "id":"39",
-    "nome": "Luis Henrique Vieira",
+    "nome": "Luis Vieira",
     "foto":"./images/fotos_alunos/Luis Henrique Vieira.jpg",
     "github": "https://github.com/",
     "linkedin": "https://www.linkedin.com/in/luishenriquevieirabarbosa/"
@@ -445,7 +445,7 @@
   ],
   "exTutores": [
     {
-      "nomeTutor": "João Luiz Franco",
+      "nomeTutor": "João Franco",
       "foto": "./images/fotos_tutores/Joao.jpg",
       "ano": "2010-2022"
     }
