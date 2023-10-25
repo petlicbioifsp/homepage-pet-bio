@@ -3,7 +3,7 @@
       {
         "id": "1",
         "tipo": "ensino",
-        "link": "https://github.com/pet-ads",
+        "link": "https://github.com/pet-ads/personalidades-computacao",
         "titulo": "Personalidades da Computação",
         "status": "Em andamento",
         "descricao": "Projeto de ensino que visa realizar um levantamento sobre os pioneiros da Ciência da Computação  e suas principais contribuições.",
@@ -43,7 +43,7 @@
       {
         "id": "5",
         "tipo": "extensão",
-        "link": "https://github.com/pet-ads",
+        "link": "https://wecomp.vercel.app",
         "titulo": "Organização da Semana da Computação - Wecomp",
         "status": "Em andamento",
         "descricao": "Organização e realização da Wecomp, a Semana de Computação do IFSP São Carlos.",
