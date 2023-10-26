@@ -210,7 +210,7 @@
     },
     {
       "id": "015",
-      "nome": "Pedro A. de A. Caballero",
+      "nome": "Pedro Caballero",
       "foto": "./images/fotos_alunos/PedroCaballero.jpg",
       "linkedin": "https://www.linkedin.com/in/peco-caballero/"
     },
@@ -240,19 +240,19 @@
     },
     {
       "id": "020",
-      "nome": "Lucas Henrique Broggio",
+      "nome": "Lucas Broggio",
       "foto": "./images/fotos_alunos/LucasHenrique.jpg",
       "linkedin": "https://www.linkedin.com/in/lucas-henrique-broggio-054a07294/"
     },
     {
       "id": "021",
-      "nome": "Luis Nunes Martins",
+      "nome": "Luis  Martins",
       "foto": "./images/fotos_alunos/LuisNunes.jpg",
       "linkedin": "https://www.linkedin.com/in/luis-nunes-martins-39aabb103"
     },
     {
       "id": "022",
-      "nome": "Marciel Henrique Draghetta",
+      "nome": "Marciel Draghetta",
       "foto": "./images/fotos_alunos/Marciel.jpg",
       "linkedin": "https://www.linkedin.com/in/marciel-draghetta-ab3544a3/"
     },
@@ -264,7 +264,7 @@
     },
     {
       "id": "024",
-      "nome": "Andrew H. Oliveira",
+      "nome": "Andrew Oliveira",
       "foto": "./images/fotos_alunos/Andrew.jpg",
       "linkedin": "https://www.linkedin.com/in/andrewholiveira/"
     },
@@ -354,7 +354,7 @@
     },
     {
       "id": "039",
-      "nome": "Luis Henrique Vieira",
+      "nome": "Luis Vieira",
       "foto": "./images/fotos_alunos/Luis Henrique Vieira.jpg",
       "linkedin": "https://www.linkedin.com/in/luishenriquevieirabarbosa/"
     },
