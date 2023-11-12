@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillCaretDown } from "react-icons/ai";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { ICollapsibleProps } from "../../types/CollapsibleTypes";
-import styles from "../../components/interactive/Arrow/Arrow.module.css";
+import styles from "../../components/Arrow/Arrow.module.css";
 
 export default function CollapsibleTrigger({ text, page }: ICollapsibleProps) {
   const isFaqPage = page === "FAQ";

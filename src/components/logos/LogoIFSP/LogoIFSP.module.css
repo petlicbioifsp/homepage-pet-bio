@@ -1,6 +1,7 @@
 .IFSPLogo {
   left: 2%;
   width: 180px;
+  height: auto;
   cursor: pointer;
   position: relative;
 }

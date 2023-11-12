@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { noBlurStyle, withBlurStyle } from "../../pages/Equipe/constants/EquipeConst";
+import { noBlurStyle, withBlurStyle } from "../../app/Equipe/constants/EquipeConst";
 
 export default function useBlur() {
   const [blurred, setBlur] = useState(noBlurStyle);

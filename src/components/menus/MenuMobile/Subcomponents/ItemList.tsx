@@ -1,6 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { IMenuItem } from "../../../../types/MenuTypes";
+import Link from "next/link";
 
 export default function ItemList({ items, onClick }: { items: IMenuItem[]; onClick: () => void }) {
     return (
@@ -8,9 +8,9 @@ export default function ItemList({ items, onClick }: { items: IMenuItem[]; onCli
         <ul>
           {items.map(({ path, label }) => (
             <li key={path}>
-              <NavLink to={path} className="dropdown-link" onClick={onClick}>
+              <Link href={path} className="dropdown-link" onClick={onClick}>
                 {label}
-              </NavLink>
+              </Link>
             </li>
           ))}
         </ul>

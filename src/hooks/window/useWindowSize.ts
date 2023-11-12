@@ -5,7 +5,7 @@ interface WindowSize {
 }
 
 function useWindowSize(): WindowSize {
-  const [size, setSize] = useState<WindowSize>({width: window.innerWidth});
+  const [size, setSize] = useState<WindowSize>({width:0});
 
   const handleResize = () => {
     setSize({

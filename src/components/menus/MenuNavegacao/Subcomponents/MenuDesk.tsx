@@ -1,19 +1,18 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import { IMenuItem } from '../../../../types/MenuTypes';
+import Link from "next/link";
+import "../menuNavegacao.css";
+import { IMenuItem } from "@/types/MenuTypes";
 
 export default function MenuDesk({ items }: { items: IMenuItem[] }) {
   return (
     <ul className="menu-navegacao">
       {items.map(({ path, label }) => (
         <li key={path}>
-          <NavLink to={path} className="menu-navegacao--link">
+          <Link href={path} className="menu-navegacao--link">
             {label}
-          </NavLink>
+          </Link>
         </li>
       ))}
     </ul>
   );
 }
-
-
