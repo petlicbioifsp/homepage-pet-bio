@@ -1,5 +1,5 @@
 {
-  "name": "curso-next",
+  "name": "next-migrate",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "framer-motion": "^10.16.4",
-    "next": "14.0.0",
+    "next": "14.0.2",
     "react": "^18",
     "react-collapsible": "^2.10.0",
     "react-dom": "^18",
@@ -21,7 +21,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.0.0",
+    "eslint-config-next": "14.0.2",
     "typescript": "^5"
   }
 }
