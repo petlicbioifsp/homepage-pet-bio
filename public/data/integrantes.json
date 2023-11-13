@@ -19,7 +19,7 @@
       "linkedin": "https://www.linkedin.com/in/otávio-pereira-lopes-603432218/"
     },
     {
-      "id": "4",
+      "id": "3",
       "nome": "Bianca C. Antonietti",
       "foto": "./images/fotos_alunos/bianca.jpeg",
       "tipo": "Bolsista",
@@ -28,7 +28,7 @@
       "linkedin": "https://www.linkedin.com/in/bianca-carvalio-antonietti-72381025a/"
     },
     {
-      "id": "5",
+      "id": "4",
       "nome": "Gabriel Z. Manhani",
       "foto": "./images/fotos_alunos/gabriel.jpeg",
       "tipo": "Bolsista",
@@ -37,7 +37,7 @@
       "linkedin": "https://www.linkedin.com/in/gabriel-zanotim-manhani/"
     },
     {
-      "id": "6",
+      "id": "5",
       "nome": "Luiz A. Chiquetano",
       "foto": "./images/fotos_alunos/luizChiquetano.jpeg",
       "tipo": "Bolsista",
@@ -46,7 +46,7 @@
       "linkedin": "https://www.linkedin.com/in/luiz-chiquetano/"
     },
     {
-      "id": "8",
+      "id": "6",
       "nome": "Bárbara B. Gasques",
       "foto": "./images/fotos_alunos/barbara.jpeg",
       "tipo": "Bolsista",
@@ -55,7 +55,7 @@
       "linkedin": "https://www.linkedin.com/in/b%C3%A1rbara-branco-gasques-70710320a/"
     },
     {
-      "id": "9",
+      "id": "7",
       "nome": "Vitor A. Bonelli",
       "foto": "./images/fotos_alunos/vitor.png",
       "tipo": "Bolsista",
@@ -64,7 +64,7 @@
       "linkedin": "https://www.linkedin.com/in/vitor-bonelli-580b63243/"
     },
     {
-      "id": "10",
+      "id": "8",
       "nome": "Fábio S. I. Anno",
       "foto": "./images/fotos_alunos/fabio.jpeg",
       "tipo": "Bolsista",
@@ -73,7 +73,7 @@
       "linkedin": "https://www.linkedin.com/in/seyijifabio/"
     },
     {
-      "id": "11",
+      "id": "9",
       "nome": "Saulo F. S. Mania",
       "foto": "./images/fotos_alunos/saulo.jpeg",
       "tipo": "Bolsista",
@@ -82,7 +82,7 @@
       "linkedin": "https://www.linkedin.com/in/saulo-fernando-soares-mania-6ba606279/"
     },
     {
-      "id": "12",
+      "id": "10",
       "nome": "Ana Lívia H. da Motta",
       "foto": "./images/fotos_alunos/ana.jpeg",
       "ano": "2023",
@@ -91,7 +91,7 @@
       "linkedin": "https://www.linkedin.com/in/ana-l%C3%ADvia-motta-75b529278/"
     },
     {
-      "id": "13",
+      "id": "11",
       "nome": "Eduardo D. Derisso",
       "foto": "./images/fotos_alunos/dudu.jpeg",
       "ano": "2023",
@@ -100,7 +100,7 @@
       "linkedin": "https://www.linkedin.com/in/eduardo-duarte-derisso-858546205/"
     },
     {
-      "id": "14",
+      "id": "12",
       "nome": "Gabriel Gatti",
       "foto": "./images/fotos_alunos/gatti.jpeg",
       "ano": "2023",
@@ -109,7 +109,7 @@
       "linkedin": "..."
     },
     {
-      "id": "15",
+      "id": "13",
       "nome": "Lucas S. de Almeida",
       "foto": "./images/fotos_alunos/Lucas_Almeida.jpg",
       "ano": "2023",

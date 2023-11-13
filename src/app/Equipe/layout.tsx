@@ -5,8 +5,8 @@ import '../globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Home',
-  description: 'Página inicial do site do pet/ads @IFSP São Carlos',
+  title: 'Equipe',
+  description: 'Página de apresentação do time pet/ads @IFSP São Carlos',
 }
 
 export default function HomePageLayout({

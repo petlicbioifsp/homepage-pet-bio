@@ -39,7 +39,11 @@ body {
     text-align: left;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
+    .faq--corpo{
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
     .Collapsible__trigger {
         margin: 0px 60px;
     }

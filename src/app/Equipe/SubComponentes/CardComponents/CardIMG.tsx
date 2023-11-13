@@ -4,6 +4,7 @@ import { ICard } from "../../../../types/EquipeTypes";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import styles from "../Cards/Cards.module.css";
 import Link from "../../../../components/Link/Link";
+import Image from "next/image";
 
 interface ICardImgProps extends ICard {
   altFoto: string;
@@ -14,7 +15,7 @@ export default function CardImage({ customClass, foto, altFoto, github, linkedin
 
   return (
     <div className={styles[customClass!]} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <img style={blurred} className={styles.img} src={foto} alt={altFoto} />
+      <img className={styles.img} src={foto} alt={altFoto} />
 
       <div className={styles.iconWrapper}>
         {github && (

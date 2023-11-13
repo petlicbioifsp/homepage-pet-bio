@@ -46,6 +46,9 @@
 
 
 @media (max-width: 1200px) {
+  .equipe--corpo{
+    margin-top: 10%;
+  }
 
   .equipe--tutores>.card,
   .equipe--alunos>.card,

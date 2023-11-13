@@ -14,7 +14,10 @@
     justify-content: center;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
+    .menu-projetos--corpo{
+        margin-top: 10%;
+    }
     .menu-projetos {
         align-items: stretch;
     }

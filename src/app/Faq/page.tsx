@@ -9,13 +9,15 @@ import Footer from "@/components/ui/Footer/footer";
 
 export default function Faq() {
   return (
-    <div>
+    <>
+    <div className="faq--corpo">
       <MenuNavegacao />
       <Header texto="Perguntas Frequentes" />
       <section className="faq--caixa__perguntas">
         <FetchFaq render={renderFaq} />
       </section>
+     </div>
       <Footer />
-    </div>
+    </>
   );
 }
