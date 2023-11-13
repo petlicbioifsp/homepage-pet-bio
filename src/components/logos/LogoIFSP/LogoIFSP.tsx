@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./LogoIFSP.module.css";
 import IFSPLogo from "../../../resources/logos/LogoIfsp.png";
 import Link from "../../Link/Link";
-import Image from 'next/image'; // Importe a tag Image
+import Image from 'next/image'; 
 
 export default function LogoIFSP() {
   const IFSP_SCL_URL = "https://scl.ifsp.edu.br";
