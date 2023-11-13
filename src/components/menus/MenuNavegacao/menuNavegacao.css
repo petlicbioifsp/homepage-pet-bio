@@ -29,12 +29,13 @@
     text-decoration: none;
 
 }
-.menu-navegacao--link:hover{
+
+.menu-navegacao--link:hover {
     color: var(--cor-azul__claro);
 }
 
 .ativo .menu-navegacao--link {
-    font-size: 18px;
+    font-size: 20px;
     color: var(--cor-azul__claro);
     font-weight: bold;
 }
