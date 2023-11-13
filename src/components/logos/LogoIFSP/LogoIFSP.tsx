@@ -11,6 +11,7 @@ export default function LogoIFSP() {
       <Image
         className={styles.IFSPLogo}
         src={IFSPLogo}
+        priority
         alt="Identidade visual IFSP/SCL"
       />
     </Link>
