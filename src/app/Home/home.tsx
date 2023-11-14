@@ -1,5 +1,5 @@
 "use client";
-import "./home.css";
+import styles from "./home.module.css";
 import React from "react";
 import { AboutPET, Purpose } from "./TextConstants/Text";
 import Button from "./SubComponentes/Home_button/Button";
@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="home">
+      <div className={styles.home}>
         <MenuNavegacao />
 
         <HeaderConteiner />
@@ -40,7 +40,7 @@ export default function Home() {
           containerClass={"scroll-arrow"}
           arrowClass={"home-arrow"}
         />
-        <div className="scrolltoView" id="section1" ref={sectionRefAbout}>
+        <div className={styles.scrolltoView} id="section1" ref={sectionRefAbout}>
           <Reveal>
             <Information title="Sobre o PET" content={isMobile ? AboutPET.mobile : AboutPET.desktop} />
             <Button value="Processo Seletivo" to="/processoSeletivo" />
@@ -54,7 +54,7 @@ export default function Home() {
           arrowClass={"home-arrow"}
         />
 
-        <div className="scrolltoView" id="section2" ref={sectionRefPurpose}>
+        <div className={styles.scrolltoView} id="section2" ref={sectionRefPurpose}>
           <Reveal>
             <Information title="Propósito" content={isMobile ? Purpose.mobile : Purpose.desktop} />
             <Button value="Conheça os Projetos" to="/projetos" />
