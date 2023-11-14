@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import "./menuNavegacao.css";
+import styles from "./menuNavegacao.module.css";
 import MenuDesk from "./Subcomponents/MenuDesk";
 import { IMenuItem } from "../../../types/MenuTypes";
 import LogoIFSP from "../../../components/logos/LogoIFSP/LogoIFSP";
@@ -19,7 +19,7 @@ export default function MenuNavegacao() {
   ];
 
   return (
-    <div className="menu">
+    <div className={styles.menu} >
       <LogoIFSP />
       {!isMobile ? <MenuDesk items={items}/>:<MenuMobileDropdown items={items} />}
     </div>
