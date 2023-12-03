@@ -177,22 +177,15 @@
       "linkedin": "https://www.linkedin.com"
     },
     {
-      "id": "8",
-      "nome": "Nathan da Silva",
-      "foto": "./images/fotos_alunos/Nathan.jpg",
-      "github": "https://github.com/",
-      "linkedin": "https://www.linkedin.com"
-    },
-    {
       "id": "9",
-      "nome": "Pedro  Piassi",
+      "nome": "Pedro Piassi",
       "foto": "./images/fotos_alunos/Pedro.jpg",
       "github": "https://github.com/",
       "linkedin": "https://www.linkedin.com"
     },
     {
       "id": "10",
-      "nome": "Suzy  Trindade",
+      "nome": "Suzy Trindade",
       "foto": "./images/fotos_alunos/Suzy.jpg",
       "github": "https://github.com/",
       "linkedin": "https://www.linkedin.com"
@@ -227,7 +220,7 @@
     },
     {
       "id": "15",
-      "nome": "Pedro A. de A. Caballero",
+      "nome": "Pedro Caballero",
       "foto": "./images/fotos_alunos/PedroCaballero.jpg",
       "github": "https://github.com/",
       "linkedin": "https://www.linkedin.com/in/peco-caballero/"
@@ -241,21 +234,21 @@
     },
     {
       "id": "17",
-      "nome": "Daniel F. A. de Oliveira",
+      "nome": "Daniel de Oliveira",
       "foto": "./images/fotos_alunos/Daniel.jpg",
       "github": "https://github.com/",
       "linkedin": "https://br.linkedin.com/in/daniel-fernandes-albano-de-oliveira-59552898"
     },
     {
       "id": "18",
-      "nome": "Yuri O. S. dos Santos",
+      "nome": "Yuri dos Santos",
       "foto": "./images/fotos_alunos/Yuri.jpg",
       "github": "https://github.com/",
       "linkedin": "https://www.linkedin.com/in/yurioliveirasantos/"
     },
     {
       "id": "19",
-      "nome": "Camila G. do Couto",
+      "nome": "Camila do Couto",
       "foto": "./images/fotos_alunos/Camila.jpg",
       "github": "https://github.com/",
       "linkedin": "https://www.linkedin.com/in/camila-couto-a004a5b3/"
@@ -290,7 +283,7 @@
     },
     {
       "id": "24",
-      "nome": "Andrew H. Oliveira",
+      "nome": "Andrew Oliveira",
       "foto": "./images/fotos_alunos/Andrew.jpg",
       "github": "https://github.com/",
       "linkedin": "https://www.linkedin.com/in/andrewholiveira/"
@@ -367,7 +360,7 @@
     },
     {
       "id": "35",
-      "nome": "João Paulo Pereira",
+      "nome": "João Pereira",
       "foto": "./images/fotos_alunos/João Paulo Pereira.jpg",
       "github": "https://github.com/",
       "linkedin": "https://www.linkedin.com/in/odiasjoao/"
@@ -440,7 +433,7 @@
   ],
   "exTutores": [
     {
-      "nomeTutor": "João Luiz Franco",
+      "nomeTutor": "João Franco",
       "foto": "./images/fotos_tutores/Joao.jpg",
       "ano": "2010-2022"
     }

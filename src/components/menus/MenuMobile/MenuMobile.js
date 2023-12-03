@@ -29,17 +29,18 @@ const MenuMobileDropdown = ({ items }) => {
           <div className="list">
             <ul>
               {items.map((item) => (
-                <li key={item.path}>
-                  <NavLink
-                    exact
-                    to={item.path}
-                    className="dropdown-link"
-                    activeClassName="active"
-                    onClick={toggleDropdown}
-                  >
-                    {item.label}
-                  </NavLink>
-                </li>
+                 <NavLink
+                 exact
+                 to={item.path}
+                 className="dropdown-link"
+                 activeClassName="active"
+                 onClick={toggleDropdown}
+               >
+                  <li key={item.path}>
+                  
+                      {item.label}
+                  </li>
+                </NavLink>
               ))}
             </ul>
           </div>
