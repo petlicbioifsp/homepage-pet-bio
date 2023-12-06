@@ -1,75 +1,74 @@
 {
-    "projetos": [
-      {
-        "id": "1",
-        "tipo": "ensino",
-        "link": "https://github.com/pet-ads/personalidades-computacao",
-        "titulo": "Personalidades da Computação",
-        "status": "Em andamento",
-        "descricao": "Projeto de ensino que visa realizar um levantamento sobre os pioneiros da Ciência da Computação  e suas principais contribuições.",
-        "expandido": "O curso de ADS possui sólida base teórica e um forte enfoque prático. Entretanto, durante o curso, pouco é abordado sobre a história da Computação e os pioneiros que ajudaram a construir essa ciência. Este projeto de ensino tem por objetivo realizar uma pesquisa e sumarização dos pioneiros da Ciência da Computação e suas principais contribuições. Os resultados dessa pesquisa serão disseminados em duas etapas. Inicialmente, será realizada uma exposição durante a recepção dos ingressantes dos cursos de Computação do câmpus. Em um segundo momento, pretende-se realizar uma votação para dar nome aos laboratórios de informática do câmpus.",
-        "tecnologias": ""
-      },
-      {
-        "id": "2",
-        "tipo": "extensão-desenvolivmento",
-        "link": "https://github.com/pet-ads/homepage",
-        "titulo": "Página do grupo PET/ADS/SCL",
-        "status": "Em andamento",
-        "descricao": "Desenvolvimento da página PET/ADS do câmpus São Carlos, para divulgação de informações sobre o grupo.",
-        "expandido": "Tão importante quanto desenvolver atividades de ensino, pesquisa e extensão é disseminar os resultados de trabalhos do PET/ADS para a comunidade de Computação dentro e fora do câmpus. Por isso, foi desenvolvido um site em React para divulgar o grupo PET/ADS, seus membros e ex-membros e os projetos desenvolvidos ao longo dos anos.",
-        "tecnologias": "Tecnologias utilizadas: - Framework React"
-      },
-      {
-        "id": "3",
-        "tipo": "ensino",
-        "link": "https://github.com/pet-ads/leitura-compartilhada",
-        "titulo": "Projeto Leitura Compartilhada",
-        "status": "Contínuo",
-        "descricao": "Projeto de ensino que visa estimular a leitura de clássicos da Computação de uma maneira leve e integrada.",
-        "expandido": "A literatura em Ciência da Computação é vasta e de extrema qualidade, mas, atualmente, a grande maioria dos estudantes não possui o hábito de consumir conteúdo técnico a partir de livros. Para estimular o hábito, esse projeto de ensino visa realizar um rodízio de leitura no qual cada integrante do PET/ADS lê um capítulo e prepara um material no formato de slides. A cada encontro, os slides são compartilhados em apresentações junto aos demais membros. Ao final da leitura de cada livro, o material desenvolvido será disponibilizado de maneira livre para a comunidade de Computação dentro e fora do câmpus.",
-        "tecnologias": ""
-      },
-      {
-        "id": "4",
-        "tipo": "extensão-desenvolivmento",
-        "link":"https://github.com/pet-ads/apae",
-        "titulo": "Página do projeto de extensão com a APAE",
-        "status": "Em andamento",
-        "descricao": "Desenvolvimento da página para o projeto de extensão Inclusão Digital para Pessoas com Deficiência Intelectual, junto a APAE São Carlos. ",
-        "expandido": "O projeto Inclusão Digital para Pessoas com Deficiência Intelectual, coordenado pela profa. Célia Kawabata, tem como objetivo fazer a inclusão digital e social de pessoas com deficiência intelectual por meio de uma parceria com a APAE São Carlos. Para divulgar a iniciativa, da qual alunos do PET/ADS também fazem parte, foi desenvolvida uma página Web em React, que detalha as ações, bem como os professores, tutores e alunos envolvidos no projeto.",
-        "tecnologias": "Tecnologias utilizadas: - Framework React"
-      },
-      {
-        "id": "5",
-        "tipo": "extensão",
-        "link": "https://wecomp.vercel.app",
-        "titulo": "Organização da Semana da Computação - Wecomp",
-        "status": "Em andamento",
-        "descricao": "Organização e realização da Wecomp, a Semana de Computação do IFSP São Carlos.",
-        "expandido": "A Wecomp é a semana da computação do IFSP São Carlos, que neste ano realizará sua quarta edição. O objetivo do evento é proporcionar uma maior interação entre os estudantes, o mercado de tecnologia e a cidade de São Carlos. Ao longo de cinco dias de evento, serão realizados diversos minicursos, talks e processos seletivos, que visam  reduzir a distância entre a teoria e a prática, ensinar tecnologias novas e promover o ingresso dos participantes no mercado de trabalho.",
-        "tecnologias": ""
-      },
-      {
-        "id": "6",
-        "tipo": "extensão-desenvolivmento",
-        "link": "https://github.com/pet-ads/wecomp",
-        "titulo": "Página da Semana da Computação - Wecomp",
-        "status": "Em andamento",
-        "descricao": "Desenvolvimento da página para a semana da computação do IFSP São Carlos - Wecomp.",
-        "expandido": "A Wecomp é uma semana da computação que visa aproximar os alunos de Computação do câmpus das diversas empresas existentes na região. Para divulgar a semana, foi desenvolvida uma página em React contendo informações sobre datas, programação, local de realização e empresas parceiras. ",
-        "tecnologias": "Tecnologias utilizadas: - Framework React"
-      },
-      {
-        "id": "7",
-        "tipo": "extensão",
-        "link": "https://github.com/pet-ads/tutorial-ingressantes",
-        "titulo": "Projeto de Acolhimento de Ingressantes",
-        "status": "Contínuo",
-        "descricao": "Projeto de ensino para elaboração de tutorial de acolhimento dos ingressantes em cursos de Computação.",
-        "expandido": "Um dos objetivos do PET é contribuir com os demais alunos da Instituição, principalmente os ingressantes. Esse projeto de ensino visa acolher e orientar os novos alunos da Computação sobre como organizar a graduação utilizando a ferramenta Notion, além de dar uma introdução à construção de portfólio no GitHub e um currículo no LinkedIn.",
-        "tecnologias": ""
-      }
-
-    ]
-  }
+  "projetos": [
+    {
+      "id": "1",
+      "tipo": "ensino",
+      "link": "https://github.com/pet-ads/personalidades-computacao",
+      "titulo": "Personalidades da Computação",
+      "status": "Concluído",
+      "descricao": "Projeto de ensino que visa realizar um levantamento sobre os pioneiros da Ciência da Computação  e suas principais contribuições.",
+      "expandido": "O curso de ADS possui sólida base teórica e um forte enfoque prático. Entretanto, durante o curso, pouco é abordado sobre a história da Computação e os pioneiros que ajudaram a construir essa ciência. Este projeto de ensino tem por objetivo realizar uma pesquisa e sumarização dos pioneiros da Ciência da Computação e suas principais contribuições. Os resultados dessa pesquisa serão disseminados em duas etapas. Inicialmente, será realizada uma exposição durante a recepção dos ingressantes dos cursos de Computação do câmpus. Em um segundo momento, pretende-se realizar uma votação para dar nome aos laboratórios de informática do câmpus.",
+      "tecnologias": ""
+    },
+    {
+      "id": "2",
+      "tipo": "extensão-desenvolivmento",
+      "link": "https://github.com/pet-ads/homepage",
+      "titulo": "Página do grupo PET/ADS/SCL",
+      "status": "Concluído",
+      "descricao": "Desenvolvimento da página PET/ADS do câmpus São Carlos, para divulgação de informações sobre o grupo.",
+      "expandido": "Tão importante quanto desenvolver atividades de ensino, pesquisa e extensão é disseminar os resultados de trabalhos do PET/ADS para a comunidade de Computação dentro e fora do câmpus. Por isso, foi desenvolvido um site em React para divulgar o grupo PET/ADS, seus membros e ex-membros e os projetos desenvolvidos ao longo dos anos.",
+      "tecnologias": "Tecnologias utilizadas: - Framework React"
+    },
+    {
+      "id": "3",
+      "tipo": "ensino",
+      "link": "https://github.com/pet-ads/leitura-compartilhada",
+      "titulo": "Projeto Leitura Compartilhada",
+      "status": "Contínuo",
+      "descricao": "Projeto de ensino que visa estimular a leitura de clássicos da Computação de uma maneira leve e integrada.",
+      "expandido": "A literatura em Ciência da Computação é vasta e de extrema qualidade, mas, atualmente, a grande maioria dos estudantes não possui o hábito de consumir conteúdo técnico a partir de livros. Para estimular o hábito, esse projeto de ensino visa realizar um rodízio de leitura no qual cada integrante do PET/ADS lê um capítulo e prepara um material no formato de slides. A cada encontro, os slides são compartilhados em apresentações junto aos demais membros. Ao final da leitura de cada livro, o material desenvolvido será disponibilizado de maneira livre para a comunidade de Computação dentro e fora do câmpus.",
+      "tecnologias": ""
+    },
+    {
+      "id": "4",
+      "tipo": "extensão-desenvolivmento",
+      "link": "https://github.com/pet-ads/apae",
+      "titulo": "Página do projeto de extensão com a APAE",
+      "status": "Concluído",
+      "descricao": "Desenvolvimento da página para o projeto de extensão Inclusão Digital para Pessoas com Deficiência Intelectual, junto a APAE São Carlos. ",
+      "expandido": "O projeto Inclusão Digital para Pessoas com Deficiência Intelectual, coordenado pela profa. Célia Kawabata, tem como objetivo fazer a inclusão digital e social de pessoas com deficiência intelectual por meio de uma parceria com a APAE São Carlos. Para divulgar a iniciativa, da qual alunos do PET/ADS também fazem parte, foi desenvolvida uma página Web em React, que detalha as ações, bem como os professores, tutores e alunos envolvidos no projeto.",
+      "tecnologias": "Tecnologias utilizadas: - Framework React"
+    },
+    {
+      "id": "5",
+      "tipo": "extensão",
+      "link": "https://wecomp.vercel.app",
+      "titulo": "Organização da Semana da Computação - Wecomp",
+      "status": "Em andamento",
+      "descricao": "Organização e realização da Wecomp, a Semana de Computação do IFSP São Carlos.",
+      "expandido": "A Wecomp é a semana da computação do IFSP São Carlos, que neste ano realizará sua quarta edição. O objetivo do evento é proporcionar uma maior interação entre os estudantes, o mercado de tecnologia e a cidade de São Carlos. Ao longo de cinco dias de evento, serão realizados diversos minicursos, talks e processos seletivos, que visam  reduzir a distância entre a teoria e a prática, ensinar tecnologias novas e promover o ingresso dos participantes no mercado de trabalho.",
+      "tecnologias": ""
+    },
+    {
+      "id": "6",
+      "tipo": "extensão-desenvolivmento",
+      "link": "https://github.com/pet-ads/wecomp",
+      "titulo": "Página da Semana da Computação - Wecomp",
+      "status": "Em andamento",
+      "descricao": "Desenvolvimento da página para a semana da computação do IFSP São Carlos - Wecomp.",
+      "expandido": "A Wecomp é uma semana da computação que visa aproximar os alunos de Computação do câmpus das diversas empresas existentes na região. Para divulgar a semana, foi desenvolvida uma página em React contendo informações sobre datas, programação, local de realização e empresas parceiras. ",
+      "tecnologias": "Tecnologias utilizadas: - Framework React"
+    },
+    {
+      "id": "7",
+      "tipo": "extensão",
+      "link": "https://github.com/pet-ads/tutorial-ingressantes",
+      "titulo": "Projeto de Acolhimento de Ingressantes",
+      "status": "Contínuo",
+      "descricao": "Projeto de ensino para elaboração de tutorial de acolhimento dos ingressantes em cursos de Computação.",
+      "expandido": "Um dos objetivos do PET é contribuir com os demais alunos da Instituição, principalmente os ingressantes. Esse projeto de ensino visa acolher e orientar os novos alunos da Computação sobre como organizar a graduação utilizando a ferramenta Notion, além de dar uma introdução à construção de portfólio no GitHub e um currículo no LinkedIn.",
+      "tecnologias": ""
+    }
+  ]
+}
