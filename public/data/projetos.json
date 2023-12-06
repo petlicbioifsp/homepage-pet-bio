@@ -1,7 +1,7 @@
 {
   "projetos": [
     {
-      "id": "3",
+      "id": "1",
       "tipo": "ensino",
       "link": "https://github.com/pet-ads/leitura-compartilhada",
       "titulo": "Projeto Leitura Compartilhada",
@@ -11,7 +11,7 @@
       "tecnologias": ""
     },
     {
-      "id": "5",
+      "id": "2",
       "tipo": "extensão",
       "link": "https://wecomp.vercel.app",
       "titulo": "Organização da Semana da Computação - Wecomp",
@@ -21,7 +21,7 @@
       "tecnologias": ""
     },
     {
-      "id": "6",
+      "id": "3",
       "tipo": "extensão-desenvolivmento",
       "link": "https://github.com/pet-ads/wecomp",
       "titulo": "Página da Semana da Computação - Wecomp",
@@ -31,7 +31,7 @@
       "tecnologias": "Tecnologias utilizadas: - Framework React"
     },
     {
-      "id": "7",
+      "id": "4",
       "tipo": "extensão",
       "link": "https://github.com/pet-ads/tutorial-ingressantes",
       "titulo": "Projeto de Acolhimento de Ingressantes",
@@ -41,7 +41,7 @@
       "tecnologias": ""
     },
     {
-      "id": "1",
+      "id": "5",
       "tipo": "ensino",
       "link": "https://github.com/pet-ads/personalidades-computacao",
       "titulo": "Personalidades da Computação",
@@ -51,7 +51,7 @@
       "tecnologias": ""
     },
     {
-      "id": "2",
+      "id": "6",
       "tipo": "extensão-desenvolivmento",
       "link": "https://github.com/pet-ads/homepage",
       "titulo": "Página do grupo PET/ADS/SCL",
@@ -61,7 +61,7 @@
       "tecnologias": "Tecnologias utilizadas: - Framework React"
     },
     {
-      "id": "4",
+      "id": "7",
       "tipo": "extensão-desenvolivmento",
       "link": "https://github.com/pet-ads/apae",
       "titulo": "Página do projeto de extensão com a APAE",
