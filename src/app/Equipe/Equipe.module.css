@@ -1,0 +1,71 @@
+.equipe--corpo {
+  margin: auto;
+  display: flex;
+  max-width: 1920px;
+  flex-direction: column;
+  background-color: var(--cor-background);
+
+}
+
+.equipe--titulo {
+  margin: 0;
+  font-size: 32px;
+  text-align: center;
+  color: var(--cor-azul__claro);
+}
+
+.equipe--tutor,
+.equipe--alunos {
+  gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.EquipeCollapsible {
+  margin: 0px;
+  padding: 15px;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--cor-azul__claro);
+
+
+}
+
+.equipe--tutores>.card,
+.equipe--alunos>.card,
+.equipe--tutores>.cardExMembro,
+.equipe--alunos>.cardExMembro {
+  flex-basis: calc(100% / 6 - 10px);
+
+  max-width: calc(100% / 6 - 10px);
+
+}
+
+
+@media (max-width: 1200px) {
+  .equipe--corpo{
+    margin-top: 10%;
+  }
+
+  .equipe--tutores>.card,
+  .equipe--alunos>.card,
+  .equipe--tutores>.cardExMembro,
+  .equipe--alunos>.cardExMembro {
+    flex-basis: calc(100% / 3 - 10px);
+    max-width: calc(100% / 3 - 10px);
+  }
+}
+
+@media (max-width: 768px) {
+
+  .equipe--tutores>.card,
+  .equipe--alunos>.card,
+  .equipe--tutores>.cardExMembro,
+  .equipe--alunos>.cardExMembro {
+    flex-basis: calc(100% / 2 - 10px);
+    max-width: calc(100% / 2 - 10px);
+  }
+}
