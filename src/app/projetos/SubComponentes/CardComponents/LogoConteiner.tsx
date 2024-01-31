@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { MdExtension, MdOutlineComputer } from "react-icons/md";
-import { FaGraduationCap, FaSearch, FaGithub } from "react-icons/fa";
+import { FaGraduationCap, FaSearch, FaArchive } from "react-icons/fa";
 import { ILogoConteinerProps} from "../../../../types/ProjectTypes";
 
 export default function LogoConteiner({tipo, link, logoConteinerClass, iconClass}:ILogoConteinerProps ){
@@ -13,7 +13,7 @@ export default function LogoConteiner({tipo, link, logoConteinerClass, iconClass
         {tipo === "extensão-desenvolivmento" && <MdOutlineComputer className="logo-projeto" />}
 
         <motion.a rel="noopener noreferrer" target="_blank" href={link}>
-          <FaGithub className= {iconClass} />
+          {link != "" && <FaArchive className= {iconClass} />}
         </motion.a>
         </motion.div>
     )
