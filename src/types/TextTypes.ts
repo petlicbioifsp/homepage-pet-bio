@@ -12,7 +12,8 @@ export interface IRequisitosProps{
   title:string, 
   introducao:string, 
   item_1:string, 
-  item_2:string
+  item_2:string,
+  item_3:string
 }
 
 export interface IInformationProps{

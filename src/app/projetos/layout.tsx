@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Projetos',
-  description: 'Página de perguntas do site do pet/ads @IFSP São Carlos',
+  description: 'Página de perguntas do site do pet/licbio @IFSP São Paulo',
 }
 
 export default function HomePageLayout({

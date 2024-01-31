@@ -18,7 +18,7 @@ export default function Footer(){
 
       <pre className={styles.footer_content}>
         Desenvolvido com ♥ por{" "}
-        <Link className="link" href="/" title="Página inicial">
+        <Link className="link" href="http://petads.paginas.scl.ifsp.edu.br/" title="Página inicial">
           PET/ADS
         </Link>{" "}
         @{" "}

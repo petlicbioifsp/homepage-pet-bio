@@ -4,7 +4,7 @@ import styles from "./HeaderConteiner.module.css";
 
 export default function HeaderConteiner() {
   const content = "Programa de Educação Tutorial";
-  const title = "Bem-vindo à página do PET/ADS @ IFSP";
+  const title = "Bem-vindo à página do PET/LICBIO @ IFSP";
 
   return (
     <div className={styles.headerConteiner}>

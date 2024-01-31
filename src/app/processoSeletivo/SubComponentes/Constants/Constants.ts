@@ -1,24 +1,25 @@
-export const processoSeletivoContent = `Todos os estudantes regularmente matriculados no curso de Tecnologia em Análise e 
-Desenvolvimento de Sistemas do  IFSP Câmpus São Carlos podem participar dos processos seletivos do PET/ADS. O grupo 
+export const processoSeletivoContent = `Todos os estudantes regularmente matriculados no curso de Licenciatura em
+Ciências Biológicas do IFSP campus São Paulo podem participar dos processos seletivos do PET/LICBIO. O grupo 
 é composto por até doze bolsistas e até seis voluntários. Os processos seletivos são regidos por editais publicados 
 periodicamente.`;
 
 export const requisitosContent = {
   introducao: "Para se inscrever no processo seletivo, o candidato deverá:",
-  item_1: "Estar regularmente matriculado no curso de Análise e Desenvolvimento de Sistemas.",
-  item_2: "Possuir disponibilidade para se dedicar 20 horas semanais ao PET/ADS.",
+  item_1: "Estar regularmente matriculado no curso de Licenciatura em Ciências Biológicas.",
+  item_2: "Possuir disponibilidade para se dedicar 20 horas semanais ao PET/LICBIO.",
+  item_3: "Apresentar média geral (IRA) igual ou superior a 6,0."
 };
 
 export const inscricoesContent = {
-  introducao: "As inscrições devem ser realizadas pelo e-mail.",
+  introducao: "As inscrições devem ser realizadas pelo e-mail:",
   prazo: "Prazo de inscrição:",
-  data: "23 de março de 2023",
-  email: "pet.ads.scl@ifsp.edu.br",
+  data: "31 de outubro de 2023.",
+  email: "carolinemagalhaes@ifsp.edu.br",
   estado: "(encerrado)",
   detalhes:
     " Detalhes sobre documentos necessários, critérios, cronograma e outras informações devem ser verificadas no edital:",
 };
 
-export const drive = "https://drive.google.com/file/d/1mRjpnZ5xrETw9uUEJDPvhFZNyDVl8Gv3/view";
+export const drive = "https://spo.ifsp.edu.br/images/phocadownload/EDITAIS/2023/IFSP/Edital_553_2023_-_pet_licbio/documento_20.pdf";
 
-export const sendMail = "mailto:pet.ads.scl@ifsp.edu.br?subject=Processo seletivo PET/ADS";
+export const sendMail = "mailto:carolinemagalhaes@ifsp.edu.br?subject= Processo seletivo PET/LICBIO";

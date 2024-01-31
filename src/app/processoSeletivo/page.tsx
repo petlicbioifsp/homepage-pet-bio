@@ -21,6 +21,7 @@ export default function ProcessoSeletivo() {
             introducao={requisitosContent.introducao}
             item_1={requisitosContent.item_1}
             item_2={requisitosContent.item_2}
+            item_3={requisitosContent.item_3}
           />
 
           <Inscricoes

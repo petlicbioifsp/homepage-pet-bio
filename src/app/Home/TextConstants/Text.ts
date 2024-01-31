@@ -11,7 +11,7 @@ export const AboutPET:IConstText = {
     graduação, a formação acadêmica do aluno, a interdisciplinaridade, e o planejamento e 
     execução de atividades acadêmicas diversificadas em grupos de tutoria. De 2006 a 2012  
     ocorreu uma grande expansão dos grupos PET no país. Atualmente, existem 842 grupos distribuídos 
-    em 121 Instituições de Ensino Superior.'`,
+    em 121 Instituições de Ensino Superior.`,
     
     mobile :   `O Programa de Educação Tutorial (PET) é um programa do governo federal
     brasileiro de estímulo a atividades de pesquisa, ensino e extensão em nível de
@@ -23,20 +23,20 @@ export const AboutPET:IConstText = {
 }
 
 export const Purpose:IConstText = {
-    desktop : `O grupo PET do curso de Análise e Desenvolvimento de Sistemas do IFSP São Carlos (PET/ADS/SCL) 
-    foi criado em 2010. Desde sua criação, o PET/ADS/SCL já desenvolveu diversas atividades voltadas 
+    desktop : `O grupo PET do curso de Licenciatura de Ciências Biológicas do IFSP de São Paulo (PET/LICBIO/SPO) 
+    foi criado em 2010. Desde sua criação, o PET/LICBIO/SPO já desenvolveu diversas atividades voltadas 
     ao ensino, à pesquisa e à extensão. O grupo é formado por um docente tutor, até doze bolsistas e até seis 
     voluntários. Cada estudante do PET possui uma dedicação semanal de 20h e atua simultaneamente em diferentes
-    atividades, que vão desde o estudo de técnicas de Computação, linguagens e frameworks, até o desenvolvimento
-    de sistemas e a organização de eventos acadêmicos. Os estudantes também se envolvem em projetos de extensão e
-    de pesquisa tanto locais quanto em parceria com outras instituições de ensino. Entre 2010 e 2022, o PET/ADS/SCL
-    teve como tutor o prof. João Luiz Franco. Atualmente, o grupo é coordenado pelo prof. Lucas Oliveira.`,
+    atividades, que vão desde produções de materiais didáticos de biologia para deficientes visuais, até o desenvolvimento
+    de cursos e a organização de eventos acadêmicos. Os estudantes também se envolvem em projetos de extensão e
+    de pesquisa tanto locais quanto em parceria com outras instituições de ensino. Desde 2010, o PET/LICBIO/SPO
+    teve como tutor a docente Martha Cristina Motta Godinho Netto`,
     
     
-    mobile:  `O grupo PET do curso de ADS do IFSP São Carlos (PET/ADS/SCL) foi criado em 2010. O grupo é formado por um docente
+    mobile:  `O grupo PET do curso LICBIO do IFSP São Paulo (PET/LICBIO/SPO) foi criado em 2010. O grupo é formado por um docente
     tutor, até doze bolsistas e até seis voluntários. Cada estudante do PET possui uma dedicação semanal de 20h e atua
-    simultaneamente em diferentes atividades, que vão desde o estudo de técnicas de Computação, linguagens e frameworks,
-    até o desenvolvimento de sistemas e a organização de eventos acadêmicos. Os estudantes também se envolvem em
+    simultaneamente em diferentes atividades, produções de materiais didáticos para deficientes visuais, até o desenvolvimento
+    de cursos e a organização de eventos acadêmicos. Os estudantes também se envolvem em
     projetos de extensão e de pesquisa tanto locais quanto em parceria com outras instituições de ensino. Atualmente,
-    o grupo é coordenado pelo prof. Lucas Oliveira`
+    o grupo é coordenado pela docente Martha Cristina Motta Godinho Netto`
 }

@@ -2,73 +2,97 @@
   "projetos": [
     {
       "id": "1",
-      "tipo": "ensino",
-      "link": "https://github.com/pet-ads/leitura-compartilhada",
-      "titulo": "Projeto Leitura Compartilhada",
+      "tipo": "extensão",
+      "link": "",
+      "titulo": "Produção de materiais didáticos de biologia para deficientes visuais",
       "status": "Contínuo",
-      "descricao": "Projeto de ensino que visa estimular a leitura de clássicos da Computação de uma maneira leve e integrada.",
-      "expandido": "A literatura em Ciência da Computação é vasta e de extrema qualidade, mas, atualmente, a grande maioria dos estudantes não possui o hábito de consumir conteúdo técnico a partir de livros. Para estimular o hábito, esse projeto de ensino visa realizar um rodízio de leitura no qual cada integrante do PET/ADS lê um capítulo e prepara um material no formato de slides. A cada encontro, os slides são compartilhados em apresentações junto aos demais membros. Ao final da leitura de cada livro, o material desenvolvido será disponibilizado de maneira livre para a comunidade de Computação dentro e fora do câmpus.",
-      "tecnologias": ""
+      "descricao": "Desenvolvimento de materiais didáticos para estudantes cegos ou de baixa visão.",
+      "expandido": "Em parceria com a Escola Estadual Ináh de Mello, localizada em Santo André - SP, o grupo PET atua desenvolvendo materiais didáticos para estudantes cegos ou de baixa visão. Atividade iniciada em 2019, após reflexões geradas durante a SEBIO 2018, que teve a participação de docentes da instituição em uma mesa-redonda muito interessante."
     },
     {
       "id": "2",
-      "tipo": "extensão",
-      "link": "https://wecomp.vercel.app",
-      "titulo": "Organização da Semana da Computação - Wecomp",
-      "status": "Em andamento",
-      "descricao": "Organização e realização da Wecomp, a Semana de Computação do IFSP São Carlos.",
-      "expandido": "A Wecomp é a semana da computação do IFSP São Carlos, que neste ano realizará sua quarta edição. O objetivo do evento é proporcionar uma maior interação entre os estudantes, o mercado de tecnologia e a cidade de São Carlos. Ao longo de cinco dias de evento, serão realizados diversos minicursos, talks e processos seletivos, que visam  reduzir a distância entre a teoria e a prática, ensinar tecnologias novas e promover o ingresso dos participantes no mercado de trabalho.",
-      "tecnologias": ""
+      "tipo": "ensino",
+      "link": "",
+      "titulo": "Curso de Fundamentos de Evolução",
+      "status": "Concluído",
+      "descricao": "Curso de Fundamentos de Evolução, direcionado aos novos alunos da Licenciatura em Ciências Biológicas.",
+      "expandido": "A Evolução é um dos assuntos mais complexos e importantes dentro da Biologia, para atenuar uma carência do ensino médio, idealizou-se o curso Fundamentos de Evolução, o público-alvo desse projeto são os novos alunos de Licenciatura em Ciências Biológicas."
     },
+
     {
       "id": "3",
-      "tipo": "extensão-desenvolivmento",
-      "link": "https://github.com/pet-ads/wecomp",
-      "titulo": "Página da Semana da Computação - Wecomp",
-      "status": "Em andamento",
-      "descricao": "Desenvolvimento da página para a semana da computação do IFSP São Carlos - Wecomp.",
-      "expandido": "A Wecomp é uma semana da computação que visa aproximar os alunos de Computação do câmpus das diversas empresas existentes na região. Para divulgar a semana, foi desenvolvida uma página em React contendo informações sobre datas, programação, local de realização e empresas parceiras. ",
-      "tecnologias": "Tecnologias utilizadas: - Framework React"
+      "tipo": "pesquisa",
+      "link": "",
+      "titulo": "Iniciação à Pesquisa Científica ou Educacional",
+      "status": "Concluído",
+      "descricao": "Auxílio a discentes do curso na escolha de temas para pesquisa e planejamento inicial de suas propostas. ",
+      "expandido": "Esse auxílio poderá ocorrer diretamente, promovendo o desenvolvimento da pesquisa, ou indiretamente, encaminhando os alunos à grupos de pesquisa nas áreas escolhidas. Os próprios petianos serão estimulados a escolher seus temas de TCC e iniciar suas atividades sob orientação do tutor."
     },
+    
     {
       "id": "4",
-      "tipo": "extensão",
-      "link": "https://github.com/pet-ads/tutorial-ingressantes",
-      "titulo": "Projeto de Acolhimento de Ingressantes",
-      "status": "Contínuo",
-      "descricao": "Projeto de ensino para elaboração de tutorial de acolhimento dos ingressantes em cursos de Computação.",
-      "expandido": "Um dos objetivos do PET é contribuir com os demais alunos da Instituição, principalmente os ingressantes. Esse projeto de ensino visa acolher e orientar os novos alunos da Computação sobre como organizar a graduação utilizando a ferramenta Notion, além de dar uma introdução à construção de portfólio no GitHub e um currículo no LinkedIn.",
-      "tecnologias": ""
+      "tipo": "ensino",
+      "link": "",
+      "titulo": "Oferta de minicursos e complementação acadêmica",
+      "status": "Concluído",
+      "descricao": "Oferecimento de plantões de estudo, minicursos e atividades de apoio para promover a permanência e êxito no curso.",
+      "expandido": "É essencial considerar as dificuldades acadêmicas dos alunos para promover a permanência e êxito no curso. Portanto, são oferecidos plantões de estudo, minicursos e atividades de apoio para promover a permanência e êxito no curso."
     },
     {
       "id": "5",
-      "tipo": "ensino",
-      "link": "https://github.com/pet-ads/personalidades-computacao",
-      "titulo": "Personalidades da Computação",
-      "status": "Concluído",
-      "descricao": "Projeto de ensino que visa realizar um levantamento sobre os pioneiros da Ciência da Computação  e suas principais contribuições.",
-      "expandido": "O curso de ADS possui sólida base teórica e um forte enfoque prático. Entretanto, durante o curso, pouco é abordado sobre a história da Computação e os pioneiros que ajudaram a construir essa ciência. Este projeto de ensino tem por objetivo realizar uma pesquisa e sumarização dos pioneiros da Ciência da Computação e suas principais contribuições. Os resultados dessa pesquisa serão disseminados em duas etapas. Inicialmente, será realizada uma exposição durante a recepção dos ingressantes dos cursos de Computação do câmpus. Em um segundo momento, pretende-se realizar uma votação para dar nome aos laboratórios de informática do câmpus.",
-      "tecnologias": ""
+      "tipo": "extensão",
+      "link": "https://discord.gg/WRAVXKAtXT",
+      "titulo": "PET sci-games",
+      "status": "Contínuo",
+      "descricao": "Esse projeto visa a socialização entre os alunos e o uso de video-games para fins didáditos.",
+      "expandido": "Em parceria com o PET-SRT da Química, o projeto busca promover a socialização entre alunos, explorando o uso de videogames com temáticas científicas para fins educativos."
     },
     {
       "id": "6",
-      "tipo": "extensão-desenvolivmento",
-      "link": "https://github.com/pet-ads/homepage",
-      "titulo": "Página do grupo PET/ADS/SCL",
+      "tipo": "ensino",
+      "link": "https://www.youtube.com/watch?v=l-35m4HdHxQ",
+      "titulo": "Darwin Day",
       "status": "Concluído",
-      "descricao": "Desenvolvimento da página PET/ADS do câmpus São Carlos, para divulgação de informações sobre o grupo.",
-      "expandido": "Tão importante quanto desenvolver atividades de ensino, pesquisa e extensão é disseminar os resultados de trabalhos do PET/ADS para a comunidade de Computação dentro e fora do câmpus. Por isso, foi desenvolvido um site em React para divulgar o grupo PET/ADS, seus membros e ex-membros e os projetos desenvolvidos ao longo dos anos.",
-      "tecnologias": "Tecnologias utilizadas: - Framework React"
+      "descricao": "O intuito do Darwin Day é destacar as contribuições de Darwin à ciência e promover a ciência em geral.",
+      "expandido": "O Darwin Day tem como objetivo destacar as contribuições de Charles Darwin à ciência e promover a ciência de maneira geral. Este evento é celebrado globalmente e não poderia deixar de ser comemorado no IFSP."
     },
     {
       "id": "7",
-      "tipo": "extensão-desenvolivmento",
-      "link": "https://github.com/pet-ads/apae",
-      "titulo": "Página do projeto de extensão com a APAE",
+      "tipo": "extensão",
+      "link": "https://sebioifsp.wixsite.com/sebio2020",
+      "titulo": "Organização da Semana da BIO - SEBIO",
       "status": "Concluído",
-      "descricao": "Desenvolvimento da página para o projeto de extensão Inclusão Digital para Pessoas com Deficiência Intelectual, junto a APAE São Carlos. ",
-      "expandido": "O projeto Inclusão Digital para Pessoas com Deficiência Intelectual, coordenado pela profa. Célia Kawabata, tem como objetivo fazer a inclusão digital e social de pessoas com deficiência intelectual por meio de uma parceria com a APAE São Carlos. Para divulgar a iniciativa, da qual alunos do PET/ADS também fazem parte, foi desenvolvida uma página Web em React, que detalha as ações, bem como os professores, tutores e alunos envolvidos no projeto.",
-      "tecnologias": "Tecnologias utilizadas: - Framework React"
+      "descricao": "Organização para a semana da Bio do IFSP São Paulo - SEBIO.",
+      "expandido": "Os alunos petianos participaram do planejamento, organização e realização da SEBIO bem como oferecimentos de minicursos, como o curso de Anatomia Animal. A atividade pressupõe a participação de outros discentes do curso com a coordenação do tutor."
+    },
+    {
+      "id": "8",
+      "tipo": "extensão",
+      "link": "Apoio à palestras e atividades de divulgação científica",
+      "titulo": "Iniciação à Pesquisa Científica ou Educacional",
+      "status": "Concluído",
+      "descricao": "Auxílio a discentes do curso na escolha de temas para pesquisa e planejamento inicial de suas propostas. ",
+      "expandido": "Esse auxílio poderá ocorrer diretamente, promovendo o desenvolvimento da pesquisa, ou indiretamente, encaminhando os alunos à grupos de pesquisa nas áreas escolhidas. Os próprios petianos serão estimulados a escolher seus temas de TCC e iniciar suas atividades sob orientação do tutor."
+    },
+
+    {
+      "id": "9",
+      "tipo": "extensão",
+      "link": "",
+      "titulo": "BioClube",
+      "status": "Concluído",
+      "descricao": "O BioClube trata-se de um espaço voltado aos alunos do ensino médio para o desenvolvimento de atividades.",
+      "expandido": "BioClube promeve atividades investigativas relacionadas ou não às aulas regulares do ensino médio do para alunos do ensino médio do IFSP e para alunos do ensino fundamental e médio de outras instituições de ensino em momentos de visitação agendada. Atividade iniciada em 2019."
+    },
+
+    {
+      "id": "10",
+      "tipo": "extensão",
+      "link": "",
+      "titulo": "Apoio às atividades da Coordenação do Curso e projetos de ensino",
+      "status": "Concluído",
+      "descricao": "Participação no auxílio de atividades da coordenação.",
+      "expandido": "A coordenação do curso de Licenciatura em Ciências Biológicas apresenta várias atribuições relativas à vida acadêmica dos discentes. Entretanto, a participação dos próprios discentes petianos no auxílio dessas atividades é uma estratégia  que visa promover a ampliação do sentimento de pertencimento dos alunos junto ao curso e a instituição."
     }
   ]
 }

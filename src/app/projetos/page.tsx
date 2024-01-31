@@ -16,7 +16,7 @@ export default function Projetos() {
     <>
       <MenuNavegacao />
       <div className="menu-projetos--corpo">
-        <Header texto={isMobile ? "Projetos do PET/ADS" : "Projetos Desenvolvidos pelo PET/ADS"} />
+        <Header texto={isMobile ? "Projetos do PET/LICBIO" : "Projetos Desenvolvidos pelo PET/LICBIO"} />
         <section className="menu-projetos">
           <FetchProj render={(arrProjetos: IProject[]) => renderProjetos(arrProjetos)} />
         </section>
