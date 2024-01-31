@@ -5,14 +5,14 @@ import Link from "../../Link/Link";
 import Image from 'next/image'; 
 
 export default function LogoIFSP() {
-  const IFSP_SCL_URL = "https://scl.ifsp.edu.br";
+  const IFSP_SPO_URL = "https://spo.ifsp.edu.br/";
   return (
-    <Link href={IFSP_SCL_URL} rel="noreferrer" target="_blank">
+    <Link href={IFSP_SPO_URL} rel="noreferrer" target="_blank">
       <Image
         className={styles.IFSPLogo}
         src={IFSPLogo}
         priority
-        alt="Identidade visual IFSP/SCL"
+        alt="Identidade visual IFSP/SPO"
       />
     </Link>
   );
