@@ -39,12 +39,12 @@ export default function Equipe() {
               trigger={<CollapsibleTrigger text="Ex-Integrantes" page="Equipe" />}
               triggerWhenOpen={<CollapsibleOpen text="Ex-Integrantes" page="Equipe" />}
             >
-              <MemberSection
+              {/* <MemberSection
                 data={exTutores}
                 customStyles="equipe--tutor"
                 cardStyles="cardExMembro"
                 imageContainerStyles="ExImgContainter"
-              />
+              /> */}
 
               <MemberSection
                 data={exAlunos}
