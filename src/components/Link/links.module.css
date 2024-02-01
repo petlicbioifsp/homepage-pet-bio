@@ -1,7 +1,7 @@
 .gitIcon{
     font-size: 30px;
     filter: saturate(0%);
-    color:var(--cor-azul__claro);
+    color:var(--cor-verde__claro);
     
 }
 .gitIcon:hover{
@@ -29,7 +29,7 @@
 
 .link:hover{
     filter:saturate(100%);
-    color: var(--cor-azul__claro);
+    color: var(--cor-verde__claro);
 }
 .link::selection{
   color: white;

@@ -4,8 +4,8 @@
   display: block;
   animation: bounce 1s infinite;
   transition: border-color 0.3s, transform 0.3s;
-  border-right: 4px solid var(--cor-azul__claro);
-  border-bottom: 4px solid var(--cor-azul__claro);
+  border-right: 4px solid var(--cor-verde__claro);
+  border-bottom: 4px solid var(--cor-verde__claro);
 }
 
 .scroll-arrow:hover .arrow {

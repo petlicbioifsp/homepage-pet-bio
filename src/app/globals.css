@@ -1,9 +1,9 @@
 :root {
   --cor-texto: #BDDFC8;
   --cor-background: #113226;
-  --cor-azul__claro: #38A67E;
-  --cor-azul__medio: #256B51;
-  --cor-detalhes-azul: #4EDFAA;
+  --cor-verde__claro: #38A67E;
+  --cor-verde__medio: #256B51;
+  --cor-detalhes-verde: #4EDFAA;
   --cor-texto__claro: #D0DFCF;
 }
 
@@ -17,7 +17,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: var(--cor-azul__claro);
+  background-color: var(--cor-verde__claro);
   border-radius: 20px;
   border: 3px solid var(--cor-background);
 }

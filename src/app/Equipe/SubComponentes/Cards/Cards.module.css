@@ -87,14 +87,14 @@
 .linkedinIcon {
   border-radius: 50%;
   padding: 10px;
-  color: var(--cor-azul__claro);
+  color: var(--cor-verde__claro);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
 .githubIcon:hover,
 .linkedinIcon:hover {
-  color: var(--cor-detalhes-azul);
+  color: var(--cor-detalhes-verde);
 }
 
 .iconsContainer {
@@ -108,7 +108,7 @@
 .p {
   font-size: 16px;
   margin: 5px;
-  color: var(--cor-detalhes-azul);
+  color: var(--cor-detalhes-verde);
   text-align: center;
 }
 

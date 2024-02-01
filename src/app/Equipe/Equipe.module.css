@@ -11,7 +11,7 @@
   margin: 0;
   font-size: 32px;
   text-align: center;
-  color: var(--cor-azul__claro);
+  color: var(--cor-verde__claro);
 }
 
 .equipe--tutor,
@@ -29,7 +29,7 @@
   font-size: 32px;
   text-align: center;
   font-weight: bold;
-  color: var(--cor-azul__claro);
+  color: var(--cor-verde__claro);
 
 
 }

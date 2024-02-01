@@ -25,17 +25,17 @@
 }
 
 .menu-navegacao--link {
-    color: var(--cor-detalhes-azul);
+    color: var(--cor-detalhes-verde);
     text-decoration: none;
 
 }
 
 .menu-navegacao--link:hover {
-    color: var(--cor-azul__claro);
+    color: var(--cor-verde__claro);
 }
 
 .ativo .menu-navegacao--link {
     font-size: 20px;
-    color: var(--cor-azul__claro);
+    color: var(--cor-verde__claro);
     font-weight: bold;
 }

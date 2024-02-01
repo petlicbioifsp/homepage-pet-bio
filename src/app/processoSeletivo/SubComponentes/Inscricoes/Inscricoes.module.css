@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color: var(--cor-detalhes-azul);
+    color: var(--cor-detalhes-verde);
 }
 
 .titulo {
@@ -26,7 +26,7 @@
     display: flex;
     margin-top: 50px;
     border-radius: 7px;
-    border: 2px solid var(--cor-detalhes-azul);
+    border: 2px solid var(--cor-detalhes-verde);
 }
 .btnDownload  {
     width: 35px;
@@ -43,11 +43,11 @@
 
 .email {
     text-decoration: none;
-    color: var(--cor-detalhes-azul);
+    color: var(--cor-detalhes-verde);
 }
 
 .email--link:hover {
-    color: var(--cor-azul__claro);
+    color: var(--cor-verde__claro);
 }
 
 

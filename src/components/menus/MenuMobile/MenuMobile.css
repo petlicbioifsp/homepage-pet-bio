@@ -45,7 +45,7 @@
   top: 28px;
   left: -120px;
   width: 200px;
-  background-color: var(--cor-azul__medio);
+  background-color: var(--cor-verde__medio);
   border-radius: 4px;
   box-shadow: -10px 10px 9px rgba(0, 0, 0, 0.2);
   opacity: 0;
@@ -87,6 +87,6 @@
   cursor: pointer;
 }
  a.dropdown-link{
-  color: var(--cor-detalhes-azul);
+  color: var(--cor-detalhes-verde);
   text-decoration: none;
  }
