@@ -1,0 +1,37 @@
+.gitIcon{
+    font-size: 30px;
+    filter: saturate(0%);
+    color:var(--cor-verde__claro);
+    
+}
+.gitIcon:hover{
+    cursor:pointer;    
+    filter:saturate(100%);
+    animation: jump 0.75s;
+}
+
+@keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px); 
+    }
+    100% {
+      transform: translateY(0); 
+    }
+  }
+
+  .link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.link:hover{
+    filter:saturate(100%);
+    color: var(--cor-verde__claro);
+}
+.link::selection{
+  color: white;
+  background-color: blue;
+}

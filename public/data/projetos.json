@@ -1,0 +1,98 @@
+{
+  "projetos": [
+    {
+      "id": "1",
+      "tipo": "extensão",
+      "link": "",
+      "titulo": "Produção de materiais didáticos de biologia para deficientes visuais",
+      "status": "Contínuo",
+      "descricao": "Desenvolvimento de materiais didáticos para estudantes cegos ou de baixa visão.",
+      "expandido": "Em parceria com a Escola Estadual Ináh de Mello, localizada em Santo André - SP, o grupo PET atua desenvolvendo materiais didáticos para estudantes cegos ou de baixa visão. Atividade iniciada em 2019, após reflexões geradas durante a SEBIO 2018, que teve a participação de docentes da instituição em uma mesa-redonda muito interessante."
+    },
+    {
+      "id": "2",
+      "tipo": "ensino",
+      "link": "",
+      "titulo": "Curso de Fundamentos de Evolução",
+      "status": "Concluído",
+      "descricao": "Curso de Fundamentos de Evolução, direcionado aos novos alunos da Licenciatura em Ciências Biológicas.",
+      "expandido": "A Evolução é um dos assuntos mais complexos e importantes dentro da Biologia, para atenuar uma carência do ensino médio, idealizou-se o curso Fundamentos de Evolução, o público-alvo desse projeto são os novos alunos de Licenciatura em Ciências Biológicas."
+    },
+
+    {
+      "id": "3",
+      "tipo": "pesquisa",
+      "link": "",
+      "titulo": "Iniciação à Pesquisa Científica ou Educacional",
+      "status": "Concluído",
+      "descricao": "Auxílio a discentes do curso na escolha de temas para pesquisa e planejamento inicial de suas propostas. ",
+      "expandido": "Esse auxílio poderá ocorrer diretamente, promovendo o desenvolvimento da pesquisa, ou indiretamente, encaminhando os alunos à grupos de pesquisa nas áreas escolhidas. Os próprios petianos serão estimulados a escolher seus temas de TCC e iniciar suas atividades sob orientação do tutor."
+    },
+    
+    {
+      "id": "4",
+      "tipo": "ensino",
+      "link": "",
+      "titulo": "Oferta de minicursos e complementação acadêmica",
+      "status": "Concluído",
+      "descricao": "Oferecimento de plantões de estudo, minicursos e atividades de apoio para promover a permanência e êxito no curso.",
+      "expandido": "É essencial considerar as dificuldades acadêmicas dos alunos para promover a permanência e êxito no curso. Portanto, são oferecidos plantões de estudo, minicursos e atividades de apoio para promover a permanência e êxito no curso."
+    },
+    {
+      "id": "5",
+      "tipo": "extensão",
+      "link": "https://discord.gg/WRAVXKAtXT",
+      "titulo": "PET sci-games",
+      "status": "Contínuo",
+      "descricao": "Esse projeto visa a socialização entre os alunos e o uso de video-games para fins didáditos.",
+      "expandido": "Em parceria com o PET-SRT da Química, o projeto busca promover a socialização entre alunos, explorando o uso de videogames com temáticas científicas para fins educativos."
+    },
+    {
+      "id": "6",
+      "tipo": "ensino",
+      "link": "https://www.youtube.com/watch?v=l-35m4HdHxQ",
+      "titulo": "Darwin Day",
+      "status": "Concluído",
+      "descricao": "O intuito do Darwin Day é destacar as contribuições de Darwin à ciência e promover a ciência em geral.",
+      "expandido": "O Darwin Day tem como objetivo destacar as contribuições de Charles Darwin à ciência e promover a ciência de maneira geral. Este evento é celebrado globalmente e não poderia deixar de ser comemorado no IFSP."
+    },
+    {
+      "id": "7",
+      "tipo": "extensão",
+      "link": "https://sebioifsp.wixsite.com/sebio2020",
+      "titulo": "Organização da Semana da BIO - SEBIO",
+      "status": "Concluído",
+      "descricao": "Organização para a semana da Bio do IFSP São Paulo - SEBIO.",
+      "expandido": "Os alunos petianos participaram do planejamento, organização e realização da SEBIO bem como oferecimentos de minicursos, como o curso de Anatomia Animal. A atividade pressupõe a participação de outros discentes do curso com a coordenação do tutor."
+    },
+    {
+      "id": "8",
+      "tipo": "extensão",
+      "link": "Apoio à palestras e atividades de divulgação científica",
+      "titulo": "Iniciação à Pesquisa Científica ou Educacional",
+      "status": "Concluído",
+      "descricao": "Auxílio a discentes do curso na escolha de temas para pesquisa e planejamento inicial de suas propostas. ",
+      "expandido": "Esse auxílio poderá ocorrer diretamente, promovendo o desenvolvimento da pesquisa, ou indiretamente, encaminhando os alunos à grupos de pesquisa nas áreas escolhidas. Os próprios petianos serão estimulados a escolher seus temas de TCC e iniciar suas atividades sob orientação do tutor."
+    },
+
+    {
+      "id": "9",
+      "tipo": "extensão",
+      "link": "",
+      "titulo": "BioClube",
+      "status": "Concluído",
+      "descricao": "O BioClube trata-se de um espaço voltado aos alunos do ensino médio para o desenvolvimento de atividades.",
+      "expandido": "BioClube promeve atividades investigativas relacionadas ou não às aulas regulares do ensino médio do para alunos do ensino médio do IFSP e para alunos do ensino fundamental e médio de outras instituições de ensino em momentos de visitação agendada. Atividade iniciada em 2019."
+    },
+
+    {
+      "id": "10",
+      "tipo": "extensão",
+      "link": "",
+      "titulo": "Apoio às atividades da Coordenação do Curso e projetos de ensino",
+      "status": "Concluído",
+      "descricao": "Participação no auxílio de atividades da coordenação.",
+      "expandido": "A coordenação do curso de Licenciatura em Ciências Biológicas apresenta várias atribuições relativas à vida acadêmica dos discentes. Entretanto, a participação dos próprios discentes petianos no auxílio dessas atividades é uma estratégia  que visa promover a ampliação do sentimento de pertencimento dos alunos junto ao curso e a instituição."
+    }
+  ]
+}

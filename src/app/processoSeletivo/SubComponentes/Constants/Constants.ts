@@ -1,0 +1,25 @@
+export const processoSeletivoContent = `Todos os estudantes regularmente matriculados no curso de Licenciatura em
+Ciências Biológicas do IFSP campus São Paulo podem participar dos processos seletivos do PET/LICBIO. O grupo 
+é composto por até doze bolsistas e até seis voluntários. Os processos seletivos são regidos por editais publicados 
+periodicamente.`;
+
+export const requisitosContent = {
+  introducao: "Para se inscrever no processo seletivo, o candidato deverá:",
+  item_1: "Estar regularmente matriculado no curso de Licenciatura em Ciências Biológicas.",
+  item_2: "Possuir disponibilidade para se dedicar 20 horas semanais ao PET/LICBIO.",
+  item_3: "Apresentar média geral (IRA) igual ou superior a 6,0."
+};
+
+export const inscricoesContent = {
+  introducao: "As inscrições devem ser realizadas pelo e-mail:",
+  prazo: "Prazo de inscrição:",
+  data: "31 de outubro de 2023.",
+  email: "carolinemagalhaes@ifsp.edu.br",
+  estado: "(encerrado)",
+  detalhes:
+    " Detalhes sobre documentos necessários, critérios, cronograma e outras informações devem ser verificadas no edital:",
+};
+
+export const drive = "https://spo.ifsp.edu.br/images/phocadownload/EDITAIS/2023/IFSP/Edital_553_2023_-_pet_licbio/documento_20.pdf";
+
+export const sendMail = "mailto:carolinemagalhaes@ifsp.edu.br?subject= Processo seletivo PET/LICBIO";
