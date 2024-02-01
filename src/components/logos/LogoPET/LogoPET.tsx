@@ -7,7 +7,7 @@ export default function LogoPET() {
     <img
       className={styles.PETLogo}
       src={Logo.src}
-      alt="Identidade Visual PET/ADS"
+      alt="Identidade Visual PET/LICBIO"
     />
   );
 }
