@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Processo Seletivo',
-  description: 'Página de processo seletivo do site do pet/ads @IFSP São Carlos',
+  description: 'Página de processo seletivo do site do pet/licbio @IFSP São Carlos',
 }
 
 export default function ProcessoSeletivoPageLayout({
