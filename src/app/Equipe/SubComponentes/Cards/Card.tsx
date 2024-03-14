@@ -5,7 +5,7 @@ import CardDescription from '../CardComponents/CardDescription';
 
 
 
-export default function Card({ customClass, nome, foto, tipo, github, linkedin, ano }: ICard) {
+export default function Card({ customClass, nome, foto, tipo, github, lattes, ano }: ICard) {
   const altFoto = `Foto de ${nome}, integrante do PET LICBIO do IFSP Sao Paulo`;  
   return (
     <>
@@ -14,7 +14,7 @@ export default function Card({ customClass, nome, foto, tipo, github, linkedin, 
         foto={foto}
         altFoto={altFoto}
         github={github}
-        linkedin={linkedin} nome={''} tipo={''} ano={''}      />
+        lattes={lattes} nome={''} tipo={''} ano={''}      />
       <CardDescription nome={nome} tipo={tipo} ano = {ano} />
     </>
   );

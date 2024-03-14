@@ -5,7 +5,7 @@ export interface ICard {
     foto:string,
     tipo?:string, 
     github?:string, 
-    linkedin:string, 
+    lattes:string, 
     ano?:string 
 }
 

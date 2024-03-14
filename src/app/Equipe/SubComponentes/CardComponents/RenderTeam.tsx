@@ -14,7 +14,7 @@ export const renderMembers = (arrMembers: ICard[], customClassCard: string, cust
         tipo={arrMember.tipo} 
         ano={arrMember.ano} 
         github={arrMember.github} 
-        linkedin={arrMember.linkedin}
+        lattes={arrMember.lattes}
       />
     </div>
   );

@@ -1,7 +1,8 @@
 import React from "react";
 import useBlur from "../../../../hooks/style/useBlur";
 import { ICard } from "../../../../types/EquipeTypes";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub} from "react-icons/fa";
+import { FaSheetPlastic } from "react-icons/fa6";
 import styles from "../Cards/Cards.module.css";
 import Link from "../../../../components/Link/Link";
 import Image from "next/image";
@@ -10,7 +11,7 @@ interface ICardImgProps extends ICard {
   altFoto: string;
 }
 
-export default function CardImage({ customClass, foto, altFoto, github, linkedin }: ICardImgProps) {
+export default function CardImage({ customClass, foto, altFoto, github, lattes }: ICardImgProps) {
   const { blurred, handleMouseEnter, handleMouseLeave } = useBlur();
 
   return (
@@ -26,9 +27,9 @@ export default function CardImage({ customClass, foto, altFoto, github, linkedin
           </Link>
         )}
 
-        <Link href={linkedin} target="_blank" rel="noopener noreferrer">
-          <span className={styles.linkedinIcon}>
-            <FaLinkedin />
+        <Link href={lattes} target="_blank" rel="noopener noreferrer">
+          <span className={styles.lattesIcon}>
+          <FaSheetPlastic />
           </span>
         </Link>
       </div>

@@ -84,7 +84,7 @@
 }
 
 .githubIcon,
-.linkedinIcon {
+.lattesIcon {
   border-radius: 50%;
   padding: 10px;
   color: var(--cor-verde__claro);
@@ -93,7 +93,7 @@
 }
 
 .githubIcon:hover,
-.linkedinIcon:hover {
+.lattesIcon:hover {
   color: var(--cor-detalhes-verde);
 }
 
