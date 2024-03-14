@@ -2,7 +2,7 @@
   "aluno": [
     {
       "id": "1",
-      "nome": "Marcus Vinicius Selarin de Almeida",
+      "nome": "Marcus Vinicius S. de Almeida",
       "foto": "./images/fotos_alunos/marcusSelarin.jpg",
       "tipo": "Bolsista",
       "ano": "2021",
@@ -11,7 +11,7 @@
 
     {
       "id": "2",
-      "nome": "Giovanna Kato da Cunha",
+      "nome": "Giovanna K. da Cunha",
       "foto": "./images/fotos_alunos/giovannaKato.jpg",
       "tipo": "Bolsista",
       "ano": "2021",
@@ -20,7 +20,7 @@
 
     {
       "id": "3",
-      "nome": "Francile Cristina de Oliveira Barros",
+      "nome": "Francile Cristina de O. Barros",
       "foto": "./images/fotos_alunos/francileCristina.jpg",
       "tipo": "Bolsista",
       "ano": "2022",
@@ -30,7 +30,7 @@
    
     {
       "id": "4",
-      "nome": "Fhellipe Nobre de Oliveira",
+      "nome": "Fhellipe N. de Oliveira",
       "foto": "./images/fotos_alunos/fhellipeNobre.jpg",
       "tipo": "Bolsista",
       "ano": "2022",
@@ -38,7 +38,7 @@
     },
     {
       "id": "5",
-      "nome": "Vitória da Silva Rocha",
+      "nome": "Vitória da S. Rocha",
       "foto": "./images/fotos_alunos/vitoriaSilvaRocha.jpg",
       "ano": "2022",
       "tipo": "Bolsista",
@@ -46,7 +46,7 @@
     },
     {
       "id": "6",
-      "nome": "Letícia Muniz da Silva",
+      "nome": "Letícia M. da Silva",
       "foto": "./images/fotos_alunos/leticiaMuniz.jpg",
       "tipo": "Bolsista",
       "ano": "2022",
@@ -54,7 +54,7 @@
     },
     {
       "id": "7",
-      "nome": "Julia Garcia Conrado",
+      "nome": "Julia G. Conrado",
       "foto": "./images/fotos_alunos/juliaConrado.png",
       "tipo": "Bolsista",
       "ano": "2023",
@@ -62,7 +62,7 @@
     },
     {
       "id": "8",
-      "nome": "Carolina de Almeida Felipe",
+      "nome": "Carolina de A. Felipe",
       "foto": "./images/fotos_alunos/carolinadeAlmeida.jpg",
       "tipo": "Bolsista",
       "ano": "2023",
@@ -70,7 +70,7 @@
     },
     {
       "id": "9",
-      "nome": "Izabella Rodrigues dos Santos",
+      "nome": "Izabella R. dos Santos",
       "foto": "./images/fotos_alunos/izabellaRodrigues.jpg",
       "tipo": "Bolsista",
       "ano": "2023",
@@ -78,7 +78,7 @@
     },
     {
       "id": "10",
-      "nome": "Julia Lopes Barboza",
+      "nome": "Julia L. Barboza",
       "foto": "./images/fotos_alunos/juliaLopesBarboza.jpg",
       "tipo": "Bolsista",
       "ano": "2023",
@@ -94,7 +94,7 @@
     },
     {
       "id": "12",
-      "nome": "Bárbara Domingues Russo",
+      "nome": "Bárbara D. Russo",
       "foto": "./images/fotos_alunos/barbaraRusso.jpg",
       "ano": "2023",
       "tipo": "Bolsista",
@@ -102,7 +102,7 @@
     },
     {
       "id": "13",
-      "nome": "Arthur Silva Paduim",
+      "nome": "Arthur S. Paduim",
       "foto": "./images/fotos_alunos/arthurPaduim.jpg",
       "ano": "2023",
       "tipo": "Voluntário",
@@ -110,7 +110,7 @@
     },
     {
       "id": "14",
-      "nome": "Vitória Eggon da Silva",
+      "nome": "Vitória E. da Silva",
       "foto": "./images/fotos_alunos/vitoriaSilvaRocha.jpg",
       "ano": "2023",
       "tipo": "Voluntário",
@@ -118,7 +118,7 @@
     },
     {
       "id": "15",
-      "nome": "Danilo Nascimento Bitencourt",
+      "nome": "Danilo N. Bitencourt",
       "foto": "./images/fotos_alunos/daniloBitencourt.jpg",
       "ano": "2022",
       "tipo": "Voluntário",
@@ -126,7 +126,7 @@
     },
     {
       "id": "16",
-      "nome": "Ana Caroline Atanabe Manoel",
+      "nome": "Ana Caroline A. Manoel",
       "foto": "./images/fotos_alunos/anaAtanabe.png",
       "ano": "2023",
       "tipo": "Voluntário",
@@ -134,7 +134,7 @@
     },
     {
       "id": "17",
-      "nome": "Kaique Alcântara da Silva",
+      "nome": "Kaique A. da Silva",
       "foto": "./images/fotos_alunos/kaiqueAlcantara.jpg",
       "ano": "2023",
       "tipo": "Voluntário",
