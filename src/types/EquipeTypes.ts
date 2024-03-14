@@ -3,10 +3,10 @@ export interface ICard {
     customClass:string,
     nome:string, 
     foto:string,
-    tipo:string, 
+    tipo?:string, 
     github?:string, 
     linkedin:string, 
-    ano:string 
+    ano?:string 
 }
 
 export interface ICardDescriptionProps{
