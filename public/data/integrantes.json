@@ -6,7 +6,7 @@
       "foto": "./images/fotos_alunos/marcusSelarin.jpg",
       "tipo": "Bolsista",
       "ano": "2021",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "http://lattes.cnpq.br/8791284348841650"
     },
 
     {
@@ -15,7 +15,7 @@
       "foto": "./images/fotos_alunos/giovannaKato.jpg",
       "tipo": "Bolsista",
       "ano": "2021",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "http://lattes.cnpq.br/8733169286025293"
     },
 
     {
@@ -24,7 +24,7 @@
       "foto": "./images/fotos_alunos/francileCristina.jpg",
       "tipo": "Bolsista",
       "ano": "2022",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "http://lattes.cnpq.br/2796514986683835"
     },
 
    
@@ -34,7 +34,7 @@
       "foto": "./images/fotos_alunos/fhellipeNobre.jpg",
       "tipo": "Bolsista",
       "ano": "2022",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "http://lattes.cnpq.br/5411871643200105"
     },
     {
       "id": "5",
@@ -42,7 +42,7 @@
       "foto": "./images/fotos_alunos/vitoriaSilvaRocha.jpg",
       "ano": "2022",
       "tipo": "Bolsista",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "http://lattes.cnpq.br/4443137460783910"
     },
     {
       "id": "6",
@@ -50,7 +50,7 @@
       "foto": "./images/fotos_alunos/leticiaMuniz.jpg",
       "tipo": "Bolsista",
       "ano": "2022",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "http://lattes.cnpq.br/4371573910491723"
     },
     {
       "id": "7",
@@ -58,7 +58,7 @@
       "foto": "./images/fotos_alunos/juliaConrado.png",
       "tipo": "Bolsista",
       "ano": "2023",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "http://lattes.cnpq.br/0147766116121656"
     },
     {
       "id": "8",
@@ -66,7 +66,7 @@
       "foto": "./images/fotos_alunos/carolinadeAlmeida.jpg",
       "tipo": "Bolsista",
       "ano": "2023",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "http://lattes.cnpq.br/8718340285925512"
     },
     {
       "id": "9",
@@ -74,7 +74,7 @@
       "foto": "./images/fotos_alunos/izabellaRodrigues.jpg",
       "tipo": "Bolsista",
       "ano": "2023",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "https://lattes.cnpq.br/8621814581501862"
     },
     {
       "id": "10",
@@ -82,7 +82,7 @@
       "foto": "./images/fotos_alunos/juliaLopesBarboza.jpg",
       "tipo": "Bolsista",
       "ano": "2023",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "https://lattes.cnpq.br/0025034335494103"
     },
     {
       "id": "11",
@@ -90,7 +90,7 @@
       "foto": "./images/fotos_alunos/julianaBrand.png",
       "ano": "2023",
       "tipo": "Bolsista",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "https://lattes.cnpq.br/6870087680472122"
     },
     {
       "id": "12",
@@ -106,15 +106,15 @@
       "foto": "./images/fotos_alunos/arthurPaduim.jpg",
       "ano": "2023",
       "tipo": "Voluntário",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "https://lattes.cnpq.br/3741553239015112"
     },
     {
       "id": "14",
       "nome": "Vitória E. da Silva",
-      "foto": "./images/fotos_alunos/vitoriaSilvaRocha.jpg",
+      "foto": "./images/fotos_alunos/vitoriaEggon.jpg",
       "ano": "2023",
       "tipo": "Voluntário",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "http://lattes.cnpq.br/9712878788141786"
     },
     {
       "id": "15",
@@ -122,7 +122,7 @@
       "foto": "./images/fotos_alunos/daniloBitencourt.jpg",
       "ano": "2022",
       "tipo": "Voluntário",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "http://lattes.cnpq.br/4236629759013737"
     },
     {
       "id": "16",
@@ -130,7 +130,7 @@
       "foto": "./images/fotos_alunos/anaAtanabe.png",
       "ano": "2023",
       "tipo": "Voluntário",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "http://lattes.cnpq.br/0320030256590711"
     },
     {
       "id": "17",
@@ -138,7 +138,7 @@
       "foto": "./images/fotos_alunos/kaiqueAlcantara.jpg",
       "ano": "2023",
       "tipo": "Voluntário",
-      "lattes": "https://lattes.cnpq.br"
+      "lattes": "http://lattes.cnpq.br/7863690234572291"
     }
   ],
 
