@@ -7,7 +7,29 @@
       "titulo": "SEBIO - Semana da Biologia",
       "status": "Contínuo",
       "descricao": "Realização de evento acadêmico e científico gratuito no IFSP com duração de uma semana, voltado para amantes de Biologia.",
-      "expandido": "A atividade consiste em um evento anual no IFSP, de caráter acadêmico e científico, oferecido de forma gratuita. Destinado a todos os entusiastas da Biologia, visa promover a participação e troca de experiências, destacando-se como um espaço inclusivo para a comunidade interessada na área."
+      "expandido": "A atividade consiste em um evento anual no IFSP, de caráter acadêmico e científico, oferecido de forma gratuita. Destinado a todos os entusiastas da Biologia, visa promover a participação e troca de experiências, destacando-se como um espaço inclusivo para a comunidade interessada na área.",
+      "images":[
+        {
+          "url": "./images/fotos_projetos/SEBIO/SEBIO-1.jpg",
+          "descricao":"foto SEBIO"
+        },
+        {
+          "url": "./images/fotos_projetos/SEBIO/SEBIO-2.jpg",
+          "descricao":"foto SEBIO"
+        },
+        {
+          "url": "./images/fotos_projetos/SEBIO/SEBIO-3.jpg",
+          "descricao":"foto SEBIO"
+        },
+        {
+          "url": "./images/fotos_projetos/SEBIO/SEBIO-4.jpg",
+          "descricao":"foto SEBIO"
+        },
+        {
+          "url": "./images/fotos_projetos/SEBIO/SEBIO-5.jpg",
+          "descricao":"foto SEBIO"
+        }
+      ]
     },
 
     {

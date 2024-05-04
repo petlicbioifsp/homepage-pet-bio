@@ -6,7 +6,13 @@ export interface IProject {
   expandido:string, 
   link:string, 
   status:string, 
-  tecnologias:string
+  tecnologias:string,
+  images?: ImageProject[]
+}
+
+export interface ImageProject{
+  url:string,
+  descricao:string
 }
 
 export interface ICLoedContentProps{
@@ -19,6 +25,7 @@ export interface IOpennedContentProps{
   titulo:string, 
   expandido:string, 
   tecnologias: string, 
+  images?: ImageProject[]
 
 }
 
