@@ -7,10 +7,10 @@ export interface IProject {
   link:string, 
   status:string, 
   tecnologias:string,
-  images?: ImageProject[]
+  images?: IImageProject[]
 }
 
-export interface ImageProject{
+export interface IImageProject{
   url:string,
   descricao:string
 }
@@ -25,7 +25,7 @@ export interface IOpennedContentProps{
   titulo:string, 
   expandido:string, 
   tecnologias: string, 
-  images?: ImageProject[]
+  images?: IImageProject[]
 
 }
 
