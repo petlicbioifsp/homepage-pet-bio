@@ -10,22 +10,27 @@
       "expandido": "A atividade consiste em um evento anual no IFSP, de caráter acadêmico e científico, oferecido de forma gratuita. Destinado a todos os entusiastas da Biologia, visa promover a participação e troca de experiências, destacando-se como um espaço inclusivo para a comunidade interessada na área.",
       "images":[
         {
+          "id": "1",
           "url": "./images/fotos_projetos/SEBIO/SEBIO-1.jpg",
           "descricao":"foto SEBIO"
         },
         {
+          "id": "2",
           "url": "./images/fotos_projetos/SEBIO/SEBIO-2.jpg",
           "descricao":"foto SEBIO"
         },
         {
+          "id": "3",
           "url": "./images/fotos_projetos/SEBIO/SEBIO-3.jpg",
           "descricao":"foto SEBIO"
         },
         {
+          "id": "4",
           "url": "./images/fotos_projetos/SEBIO/SEBIO-4.jpg",
           "descricao":"foto SEBIO"
         },
         {
+          "id": "5",
           "url": "./images/fotos_projetos/SEBIO/SEBIO-5.jpg",
           "descricao":"foto SEBIO"
         }
@@ -39,7 +44,8 @@
       "titulo": "BioClube",
       "status": "Contínuo",
       "descricao": "Realização de atividades e/ou projetos sobre temas de ciências e biologia e suas áreas correlatas procurando integrar outras áreas de conhecimento.",
-      "expandido": "Abrange a execução de projetos e atividades em ciências e biologia, integrando diversas áreas. Inclui pesquisa e desenvolvimento, destacando-se na criação de materiais didáticos, jogos, paródias, videoaulas, simulações de experiências, atividades experimentais, oficinas, peças de teatro e portfólios."
+      "expandido": "Abrange a execução de projetos e atividades em ciências e biologia, integrando diversas áreas. Inclui pesquisa e desenvolvimento, destacando-se na criação de materiais didáticos, jogos, paródias, videoaulas, simulações de experiências, atividades experimentais, oficinas, peças de teatro e portfólios.",
+      "images":[]
     },
 
     {
@@ -49,7 +55,8 @@
       "titulo": "PETeventos",
       "status": "Contínuo",
       "descricao": "Promoção de palestras e eventos científico-educacionais.",
-      "expandido": "O PETeventos estimula a formação acadêmico-científica no IFSP/Câmpus São Paulo. A atividade envolve a organização de palestras e eventos científico-educacionais, fomentando discussões sobre temas relevantes para a formação docente. Busca ampliar os espaços de divulgação acadêmica no câmpus e apoiar a organização de eventos acadêmico-científicos e do calendário afirmativo. "
+      "expandido": "O PETeventos estimula a formação acadêmico-científica no IFSP/Câmpus São Paulo. A atividade envolve a organização de palestras e eventos científico-educacionais, fomentando discussões sobre temas relevantes para a formação docente. Busca ampliar os espaços de divulgação acadêmica no câmpus e apoiar a organização de eventos acadêmico-científicos e do calendário afirmativo. ",
+      "images":[]
     },
 
     {
@@ -59,7 +66,8 @@
       "titulo": "BioMonitoria",
       "status": "Contínuo",
       "descricao": "Oferta de apoio acadêmico aos alunos da graduação por meio da parceria entre docentes e discentes petianos para viabilizar a ampliação da permanência e do êxito no curso.",
-      "expandido": "A atividade visa enfrentar desafios acadêmicos, oferecendo apoio estratégico para a progressão dos alunos no curso. É desenvolvida em parceria entre docentes e estudantes petianos,e abrange atividades de revisão, fixação e reforço, além de proporcionar atendimentos para esclarecimento de dúvidas. Busca melhorar o rendimento acadêmico, ampliar espaços colaborativos e fortalecer a identidade profissional dos envolvidos."
+      "expandido": "A atividade visa enfrentar desafios acadêmicos, oferecendo apoio estratégico para a progressão dos alunos no curso. É desenvolvida em parceria entre docentes e estudantes petianos,e abrange atividades de revisão, fixação e reforço, além de proporcionar atendimentos para esclarecimento de dúvidas. Busca melhorar o rendimento acadêmico, ampliar espaços colaborativos e fortalecer a identidade profissional dos envolvidos.",
+      "images":[]
     },
 
     {
@@ -69,7 +77,8 @@
       "titulo": "HELPet",
       "status": "Contínuo",
       "descricao": "Programa de apoio colaborativo dos petianos na coordenação do curso, fortalecendo comunicação e integração entre os alunos e a instituição.",
-      "expandido": "Colaboração dos petianos na coordenação do curso de Ciências Biológicas com o objetivo de promover pertencimento e interlocução, os petianos auxiliam na execução de atividades, no planejamento de ações para superar obstáculos acadêmicos, e na construção de uma postura participativa e colaborativa."
+      "expandido": "Colaboração dos petianos na coordenação do curso de Ciências Biológicas com o objetivo de promover pertencimento e interlocução, os petianos auxiliam na execução de atividades, no planejamento de ações para superar obstáculos acadêmicos, e na construção de uma postura participativa e colaborativa.",
+      "images":[]
     },
 
     {
@@ -79,7 +88,8 @@
       "titulo": "BioExt - Atividades Extensionistas",
       "status": "Contínuo",
       "descricao": "Promoção de cursos, programas e oficinas para capacitação de alunos do curso de Licenciatura em Ciências Biológicas.",
-      "expandido": "Programa de ampliação e formação teórico-prática de licenciandos em Ciências Biológicas, capacitando-os para intervenções variadas e inovadoras. Por meio de cursos e oficinas, o projeto busca desenvolver competências diversas de alunos de dentro e fora do curso, incitando o pensamento científico, crítico e criativo, e capacitando os licenciandos para propor soluções coletivas para desafios emergentes na comunidade escolar."      
+      "expandido": "Programa de ampliação e formação teórico-prática de licenciandos em Ciências Biológicas, capacitando-os para intervenções variadas e inovadoras. Por meio de cursos e oficinas, o projeto busca desenvolver competências diversas de alunos de dentro e fora do curso, incitando o pensamento científico, crítico e criativo, e capacitando os licenciandos para propor soluções coletivas para desafios emergentes na comunidade escolar.",
+      "images":[]   
     },
 
     {
@@ -89,7 +99,8 @@
       "titulo": "DIVULGAPET",
       "status": "Contínuo",
       "descricao": "Programa de divulgação e comunicação entre os pares e a comunidade externa por meio das tecnologias digitais, centrado nas redes sociais e no site do grupo PET/LICBIO.",
-      "expandido": "O DivulgaPET mantém os canais digitais do PET/LICBIO atualizados, promovendo comunicação eficaz. Os alunos petianos desenvolvem habilidades digitais e colaboram com o grupo PET ADS São Carlos, visando estimular a criatividade na comunicação e fortalecer a interação com a comunidade."      
+      "expandido": "O DivulgaPET mantém os canais digitais do PET/LICBIO atualizados, promovendo comunicação eficaz. Os alunos petianos desenvolvem habilidades digitais e colaboram com o grupo PET ADS São Carlos, visando estimular a criatividade na comunicação e fortalecer a interação com a comunidade.",
+      "images":[]      
     }
   ]
 }

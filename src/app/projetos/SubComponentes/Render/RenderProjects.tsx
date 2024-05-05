@@ -12,7 +12,7 @@ export const renderProjetos = (arrProjetos: IProject[]): JSX.Element[] => {
       link={projeto.link}
       descricao={projeto.descricao}
       expandido={projeto.expandido}
-      tecnologias={projeto.tecnologias}
+      images={projeto.images}
     />
   ));
 };

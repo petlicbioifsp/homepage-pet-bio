@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 export interface IProject {
   id?:string,
   titulo:string, 
@@ -6,13 +7,17 @@ export interface IProject {
   expandido:string, 
   link:string, 
   status:string, 
-  tecnologias:string,
-  images?: IImageProject[]
+  images: IImageProject[]
 }
 
 export interface IImageProject{
+  id:string,
   url:string,
   descricao:string
+}
+
+export interface CarouselProps {
+  images: IImageProject[];
 }
 
 export interface ICLoedContentProps{
@@ -24,8 +29,8 @@ export interface IOpennedContentProps{
   status:string,
   titulo:string, 
   expandido:string, 
-  tecnologias: string, 
-  images?: IImageProject[]
+  images: IImageProject[]
+  children?: ReactNode;
 
 }
 

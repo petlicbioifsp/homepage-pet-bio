@@ -5,9 +5,10 @@ import ClosedCard from "../CardComponents/ClosedCard";
 import OpennedCard from "../CardComponents/OpennedCard";
 import { IProject } from "../../../../types/ProjectTypes";
 
-export default function CardProjeto({ titulo, tipo, descricao, expandido, link, status, tecnologias }: IProject) {  
+
+export default function CardProjeto({ titulo, tipo, descricao, expandido, link, status, images }: IProject) {  
   const [isOpen, setIsOpen] = useState(false);
-  const toggleIsOpen = () => { setIsOpen(!isOpen)};
+  const toggleIsOpen = () =>  setIsOpen(!isOpen);
   return (
     <>
       {!isOpen ? (
@@ -24,8 +25,8 @@ export default function CardProjeto({ titulo, tipo, descricao, expandido, link, 
               titulo={titulo}
               status={status}
               expandido={expandido}
-              tecnologias={tecnologias}
               toggleIsOpen={toggleIsOpen}
+              images={images}
             />
           </motion.div>
         </>

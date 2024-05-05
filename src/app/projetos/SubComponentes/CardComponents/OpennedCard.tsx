@@ -7,12 +7,12 @@ import { IOpennedCardProps} from "../../../../types/ProjectTypes";
 
 
 
-export default function OpennedCard({toggleIsOpen,tipo,status,link,titulo,expandido,tecnologias}: IOpennedCardProps) {
+export default function OpennedCard({toggleIsOpen,tipo,status,link,titulo,expandido, images}: IOpennedCardProps) {
   return (
     <>
       <LogoConteiner tipo={tipo} link={link} logoConteinerClass="logoConteinerClosed" iconClass="icon-aberto" />
       <AiFillCloseCircle className="closeButton" onClick={toggleIsOpen} />
-      <OpennedContent titulo={titulo} status={status} expandido={expandido} tecnologias={tecnologias} />
+      <OpennedContent titulo={titulo} status={status} expandido={expandido} images={images}/>
     </>
   );
 }
