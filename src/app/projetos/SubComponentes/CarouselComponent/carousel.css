@@ -1,0 +1,32 @@
+.container-carousel{
+    width:100%;
+    max-width: 350px;
+    max-height: 200px;
+    margin: 0 auto;
+
+}
+.carousel-item{
+    width: 100%;
+}
+.carousel-item img {
+    object-fit: cover; 
+    width: 100%; 
+    height: 100%; 
+  }
+.swiper-button-next:after, .swiper-button-prev:after {
+    color:  var(--cor-detalhes-verde);
+}
+:root {
+    --swiper-pagination-color: var( --cor-verde__medio);
+    --swiper-pagination-bullet-inactive-color: var(--cor-detalhes-verde);
+    --swiper-pagination-bullet-inactive-opacity: 0.5;
+}
+
+@media (max-width: 800px) {
+    .container-carousel {
+        max-width: 200px;
+    }
+    :root {
+        --swiper-navigation-size: 20px; 
+      }
+}
