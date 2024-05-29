@@ -7,7 +7,7 @@
 }
 
 .aberto {
-  top: 30%;
+  top: 20%;
   z-index: 2;
   width: auto;
   left: 300px;
@@ -15,6 +15,7 @@
   padding: 20px;
   padding-bottom: 80px;
   position: fixed;
+  box-sizing: border-box;
 }
 
 .fechado:hover {
@@ -166,19 +167,19 @@
   }
 
   .aberto {
-    top: 15%;
+    top: 10%;
     left: 10%;
     right: 10%;
     z-index: 2;
     width: auto;
-    height: auto;
+    height: 90vh;
     padding: 20px;
     padding-top: 40px;
     position: fixed;
   }
 
   .scrowSpace {
-    height: 60%;
+    height: 80%;
     width: 100%;
     overflow: hidden;
     overflow-y: scroll;
