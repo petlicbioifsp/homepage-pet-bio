@@ -8,7 +8,7 @@
 }
 
 .texto {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5em;
     text-align: justify;  
     color: var(--cor-texto__claro);
@@ -34,4 +34,26 @@
     }
 }
     
+@media screen and (max-width:490px){
+    .texto{
+        font-size: 110%;
+        width: fit-content;
+    }
+}
 
+@media screen and (max-width:391px ){
+    .texto{
+        font-size: 95%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .texto {
+        font-size: 90%;
+    }
+}
+@media screen and (max-width:298px){
+    .texto{
+        font-size: 85%;
+    }
+}
