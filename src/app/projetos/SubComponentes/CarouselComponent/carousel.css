@@ -30,3 +30,17 @@
         --swiper-navigation-size: 20px; 
       }
 }
+
+@media (max-width: 375px) {
+    :root {
+        --swiper-pagination-bottom: 7vw; /* Define um valor padrão, pode ser ajustado conforme necessário */
+        --swiper-pagination-top: auto;
+      }
+      
+      .swiper-pagination-fraction, 
+      .swiper-pagination-custom, 
+      .swiper-horizontal > .swiper-pagination-bullets, 
+      .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: var(--swiper-pagination-bottom);
+      }
+}
