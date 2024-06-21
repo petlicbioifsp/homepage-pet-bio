@@ -203,7 +203,8 @@
 
   .aberto {
     width: auto;
-    height: 80vh;
+    height: 110vw;
+    overflow: hidden;
   }
   .fechado {
     height: auto;
