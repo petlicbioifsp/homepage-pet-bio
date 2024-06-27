@@ -3,6 +3,7 @@
     max-width: 350px;
     max-height: 200px;
     margin: 0 auto;
+    position: relative;
 
 }
 .carousel-item{
@@ -22,13 +23,16 @@
     --swiper-pagination-bullet-inactive-opacity: 0.5;
 }
 
+
+
+
 @media (max-width: 850px) {
     .container-carousel {
         max-width: 200px;
     }
     :root {
         --swiper-navigation-size: 20px; 
-        --swiper-pagination-bottom: 3vw; /* Define um valor padrão, pode ser ajustado conforme necessário */
+        --swiper-pagination-bottom: 3vw;
         --swiper-pagination-top: auto;
     }
       
@@ -43,7 +47,25 @@
 @media (max-width: 450px) {
     :root {
         --swiper-navigation-size: 20px; 
-        --swiper-pagination-bottom: 7vw; /* Define um valor padrão, pode ser ajustado conforme necessário */
+        --swiper-pagination-bottom: 7vw; 
         --swiper-pagination-top: auto;
     }
 }
+
+@media (max-width: 1300px) {
+    :root {
+        --swiper-navigation-size: 20px; 
+        --swiper-pagination-bottom: 3vw; 
+        --swiper-pagination-top: auto;
+    }
+}
+
+
+@media (max-width: 2560px) {
+    :root {
+        --swiper-navigation-size: 20px; 
+        --swiper-pagination-bottom: 2vw; 
+        --swiper-pagination-top: auto;
+    }
+}
+

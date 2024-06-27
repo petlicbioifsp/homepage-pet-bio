@@ -4,6 +4,8 @@
   flex-direction: column;
   align-items: flex-start;
   background-color: var(--cor-verde__medio);
+  overflow: hidden; 
+
 }
 
 .aberto {
@@ -138,6 +140,23 @@
   100% {
     transform: translateY(0); 
   }
+}
+
+@media(max-width: 2900px){
+ 
+  
+}
+
+@media(max-width: 2190px){
+  .card {
+    height: auto;
+  }
+  .aberto{
+    height: 50vh;
+    top: 20%;
+
+  }
+  
 }
 
 @media (max-width: 1370px){
