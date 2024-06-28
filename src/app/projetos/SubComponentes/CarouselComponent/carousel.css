@@ -52,7 +52,7 @@
 @media (max-width: 450px) {
     :root {
         --swiper-navigation-size: 20px; 
-        --swiper-pagination-bottom: vw; 
+        --swiper-pagination-bottom: 2vw; 
         --swiper-pagination-top: auto;
     }
 }
@@ -71,7 +71,7 @@
 @media (max-width: 2560px) {
     :root {
         --swiper-navigation-size: 20px; 
-        --swiper-pagination-bottom: 3vh; 
+        --swiper-pagination-bottom: 4vh; 
         --swiper-pagination-top: auto;
         --swiper-pagination-bullet-size: 6px; 
 

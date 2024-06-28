@@ -143,9 +143,15 @@
   }
 }
 
-@media(max-width: 2700px){
+@media(max-width: 2750px){
+  .card{
+    height: auto;
+  }
   .aberto{
     height: auto;
+    top: 20%;
+    left: 30%;
+    right: 30%;
   }
 }
 
@@ -167,9 +173,9 @@
     height: auto;
   }
   .aberto{
-    top: 13%;
-    left: 20%;
-    right: 20%;
+    top: 20%;
+    left: 25%;
+    right: 25%;
     height: auto;
   }
   .card--texto__expandido{
@@ -179,8 +185,11 @@
 }
 
 @media (max-width: 1024px) and (max-height: 600px) {
+  .card {
+    height: auto;
+  }
   .aberto {
-      top: 13%;
+      top: 16%;
       left: 20%;
       right: 20%;
       bottom: 5%;
@@ -197,7 +206,7 @@
   }
 
   .aberto {
-    top: 10%;
+    top: 25%;
     left: 20%;
     right: 20%;
     z-index: 2;
@@ -231,6 +240,7 @@
   }
 
   .aberto {
+    top: 13%;
     width: auto;
     height: auto;
     overflow: hidden;
