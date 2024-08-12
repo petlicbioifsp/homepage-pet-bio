@@ -1,0 +1,112 @@
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--cor-background);
+    box-sizing: border-box;
+  }
+  
+  .card-not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: var(--cor-background-2);
+    padding: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 60%;
+    max-width: 600px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .leaf-not-found {
+    position: absolute;
+    width: 10rem; 
+    z-index: 2;
+  }
+  
+  .top-left {
+    top: -3rem;
+    left: -4rem;
+    transform: rotate(250deg);
+  }
+  
+  .bottom-right {
+    bottom: -3rem;
+    right: -4rem;
+    transform: rotate(-115deg);
+  }
+  
+  
+  .img-not-found {
+    width: 15rem;
+    z-index: 1;
+  }
+  
+  .error-found {
+    font-size: 10vw;
+    color: var(--cor-verde__claro);
+    margin: 0;
+    margin-bottom: 10%;
+  }
+  
+  .text-not-found {
+    color: var(--cor-verde__claro);
+    font-size: 4vw;
+    margin: 20px 0;
+  }
+  
+  .return-home {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor-background-2);
+    background-color: var(--cor-verde__claro);
+    border: 2px solid var(--cor-verde__claro);
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+    font-size: 3.5vw;
+    margin-top: 10%;
+  }
+  
+  .return-home:hover,
+  .return-home:focus {
+    color: var(--cor-background-2);
+    background-color: var(--cor-verde__medio);
+    border-color: var(--cor-verde__medio);
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .card-not-found {
+      margin-top: 10vh;
+      width: 40%;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .card-not-found{
+      width: 80%;
+    }
+  
+    .error-found {
+      font-size: 5rem;
+    }
+  
+    .text-not-found {
+      font-size: 1.25rem;
+    }
+  
+    .return-home {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (min-width: 320px) {
+    .img-not-found {
+      width: 10rem;
+    }
+  }

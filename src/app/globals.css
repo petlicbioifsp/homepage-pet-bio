@@ -5,6 +5,7 @@
   --cor-verde__medio: #256B51;
   --cor-detalhes-verde: #4EDFAA;
   --cor-texto__claro: #D0DFCF;
+  --cor-background-2: #ffffff;
 }
 
 body::-webkit-scrollbar {
@@ -37,9 +38,10 @@ p::selection,
 li::selection,
 a::selection,
 pre::selection,
-span::selection {
-  color: white;
-  background-color: blue;
+span::selection ,
+img::selection {
+  color: var(--cor-background-2);
+  background-color: var(--cor-verde__claro);
 }
 
 body {
