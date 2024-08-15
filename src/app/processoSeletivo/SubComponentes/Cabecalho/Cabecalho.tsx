@@ -1,14 +1,15 @@
-import React from 'react';
-import styles from './Cabecalho.module.css';
-import Header from '../../../../components/ui/Header/header';
-import { IInformationProps} from '../../../../types/TextTypes';
+"use client";
+import React from "react";
+import styles from "./Cabecalho.module.css";
+import Header from "../../../../components/ui/Header/header";
+import useFetchProcessos from "@/hooks/fetch/useFetchProcessos";
 
-export default  function Cabecalho({ title, content }: IInformationProps) {
+export default function Cabecalho() {
+  const { informacoes } = useFetchProcessos();
   return (
     <div className={styles.cabecalho}>
-      <Header texto={title} />
-      <p className={styles.texto}>{content}</p>
+      <Header texto="Processo Seletivo" />
+      <p className={styles.texto}>{informacoes?.content}</p>
     </div>
   );
 }
-
