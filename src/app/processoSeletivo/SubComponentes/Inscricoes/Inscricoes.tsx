@@ -10,7 +10,7 @@ export default function Inscricoes() {
 
   return (
     <div className={styles.Inscricao}>
-      <h2 className={styles.titulo}>{inscricao?.title}</h2>
+      <h2 className={styles.titulo}>Inscrições</h2>
       <p className={styles.texto}>
         {inscricao?.introducao}{" "}
         <a
