@@ -7,8 +7,8 @@
 
 ### 2. Criar uma Nova Branch
 
-- No repositório bifurcado, crie uma nova branch para realizar as modificações. Clique no menu suspenso de branches no canto superior esquerdo e selecione "Create new branch".
-  Nomeie a branch de acordo com as alterações que serão feitas, como update-json-values.
+- No repositório bifurcado, recomenda-se criar uma nova branch para realizar as modificações ao invés de fazê-las na branch principal, evitando assim que o código funcional seja perdido, dessa forma têm-se um "backup" do mesmo, para que caso a alteração não seja bem sucedida, se possa voltar à branch que estava funcional. Clique no menu suspenso de branches no canto superior esquerdo e selecione "Create new branch".
+  Nomeie a branch de acordo com as alterações que serão feitas, como por exemplo: update-json-values.
 
 ### 3. Editar os Arquivos JSON
 
