@@ -45,7 +45,7 @@ Este arquivo contém todos os dados dos projetos do Programa de Educação Tutor
 * **status** : Etapa atual do projeto, como "Em andamento", "Não iniciado", "Concluído" ou "Contínuo". Tipo texto, utilizando aspas duplas.
 * **descricao** : Breve descrição do projeto. Tipo texto, utilizando aspas duplas.
 * **expandido** : Descrição detalhada do projeto. Tipo texto, utilizando aspas duplas.
-* **images** : Conjunto de dados que armazena as imagens do projeto. Os arquivos de imagem devem ser adicionados na pasta [images/fotos_projetos/SEBIO](https://github.com/pet-ads/homepage-pet-bio/tree/main/public/images/fotos_projetos/SEBIO). Para padronização, os nomes dos arquivos devem seguir a estrutura: `'SEBIO-'<valor numérico>.JPG`. Este campo é um vetor de objetos, representado por colchetes `[ ]`, que contêm objetos delimitados por chaves `{ }`. Se não houver fotos disponíveis, adicione um vetor vazio `[]`.
+* **images** : Conjunto de dados que armazena as imagens do projeto. Os arquivos de imagem devem ser adicionados na pasta [images/fotos_projetos/SEBIO](https://github.com/pet-ads/homepage-pet-bio/tree/main/public/images/fotos_projetos). Para padronização, os nomes dos arquivos devem seguir a estrutura: `'SEBIO-'<valor numérico>.JPG`. Este campo é um vetor de objetos, representado por colchetes `[ ]`, que contêm objetos delimitados por chaves `{ }`. Se não houver fotos disponíveis, adicione um vetor vazio `[]`.
   * **id** : Identificador único da imagem. Tipo texto, utilizando aspas duplas.
   * **url** : Caminho para a imagem do projeto. Tipo texto, utilizando aspas duplas.
   * **descricao** : Descrição da imagem. Tipo texto, utilizando aspas duplas.
