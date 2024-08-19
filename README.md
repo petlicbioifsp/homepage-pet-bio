@@ -48,6 +48,7 @@ Este arquivo contém todos os dados dos projetos do Programa de Educação Tutor
 * **images** : Conjunto de dados que armazena as imagens do projeto. Os arquivos de imagem devem ser adicionados na pasta [images/fotos_projetos](https://github.com/pet-ads/homepage-pet-bio/tree/main/public/images/fotos_projetos). Para padronização, as fotos devem ser agrupadas por projetos. Este campo é um vetor de objetos, representado por colchetes `[ ]`, que contêm objetos delimitados por chaves `{ }`. Se não houver fotos disponíveis, adicione um vetor vazio `[]`.
   * **id** : Identificador único da imagem. Tipo texto, utilizando aspas duplas.
   * **url** : Caminho para a imagem do projeto. Tipo texto, utilizando aspas duplas.
+ 
     ps: Importante atentar ao formato da imagem(png, jpeg, jpg...)
   * **descricao** : Descrição da imagem. Tipo texto, utilizando aspas duplas.
 
