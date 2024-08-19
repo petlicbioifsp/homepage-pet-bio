@@ -3,15 +3,13 @@ import { IProject } from "./ProjectTypes";
 import { ICard, IEquipeData } from "./EquipeTypes";
 
 export interface IFetchProjects {
-    render: (data: IProject[]) => React.ReactNode;
-  }
-
-
+  render: (data: IProject[]) => React.ReactNode;
+}
 
 export interface IFetchEquipeProps {
-    render: (data: IEquipeData) => React.ReactNode;
+  render: (data: IEquipeData) => React.ReactNode;
 }
 
 export interface IFetchFaq {
-    render: (faqs:IFaq[]) =>React.ReactNode
-  }
+  render: (faqs: IFaq[]) => React.ReactNode;
+}

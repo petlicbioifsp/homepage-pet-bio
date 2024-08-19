@@ -4,7 +4,7 @@ import React from "react";
 import FetchFaq from "../../hooks/fetch/useFetchFAQ";
 import Header from "../../components/ui/Header/header";
 import { renderFaq } from "./Subcomponents/RenderFaq";
-import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao"; // Make sure this import is correct.
+import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 import Footer from "@/components/ui/Footer/footer";
 
 export default function Faq() {
