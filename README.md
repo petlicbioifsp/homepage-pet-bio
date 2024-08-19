@@ -9,11 +9,17 @@
 
 - No repositório bifurcado, recomenda-se criar uma nova branch para realizar as modificações ao invés de fazê-las na branch principal(main), evitando assim que o código funcional seja perdido, dessa forma têm-se um "backup" do mesmo, para que caso a alteração não seja bem sucedida, se possa voltar à branch que estava funcional(main). Para criar uma nova branch, siga os seguintes passos:
 
-#### 2.1 Clique na aba Branches/1 Branch no canto superior esquerdo
+#### 2.1 Clique na aba Branches/1 Branch no canto superior esquerdo.
 
-#### 2.2 Clique em new Branch e Dê o nome que sua branch irá receber e clique em create new branch. Não são necessárias preocupações com as demais opções do menu de criação de branches para a manutenção básica do site, basta dar o nome e clickar em create new branch
+#### 2.2 Clique em new Branch e Dê o nome que sua branch irá receber e clique em create new branch. Não são necessárias preocupações com as demais opções do menu de criação de branches para a manutenção básica do site, basta dar o nome e clickar em create new branch.
 
   Dica: Nomeie a branch de acordo com as alterações que serão feitas, como por exemplo: update-json-values ou active-select-process.
+
+#### 2.3 Após criar a nova branch, clique no menu code.
+
+#### 2.4 Ao abrir a aba code novamente, no canto superios esquerdo, ao lado de Branches, provavelmente haverá um botão escrito Main, isso significa, que o repositório ainda está sendo modificado na branch Main, o que como dito anteriormente, não é o ideal. Para alterar para a branch criada, clique nesse menu e após aberta a lista de branches, clique no nome da branch que você criou.
+
+#### 2.5 Feitos todos esses passos, agora você está na branch que será usada para fazer as modificações no site.
 
 ### 3. Editar os Arquivos JSON
 
