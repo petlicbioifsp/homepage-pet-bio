@@ -144,20 +144,20 @@ Depois:
 
 Para adicionar a pasta ao repositório, siga os seguintes passos:
 
-#### Crie a pasta do projeto
+#### 1. Crie a pasta do projeto
 ex: crie uma pasta chamada BioKids para as fotos do projeto BioKids
 
-#### Adicione as fotos à essa pasta
+#### 2. Adicione as fotos à essa pasta
 
-#### abra [images/fotos_projetos](https://github.com/pet-ads/homepage-pet-bio/tree/main/public/images/fotos_projetos)
+#### 3. abra [images/fotos_projetos](https://github.com/pet-ads/homepage-pet-bio/tree/main/public/images/fotos_projetos)
 
-#### Após aberto abra o explorador de arquivos do seu computador e localize a pasta criada
+#### 4. Após aberto abra o explorador de arquivos do seu computador e localize a pasta criada
 
-#### arraste a pasta do projeto para dentro da página
+#### 5. arraste a pasta do projeto para dentro da página
 
-#### Espere os arquivos serem carregados e clique em commit changes
+#### 6. Espere os arquivos serem carregados e clique em commit changes
 
-#### Agora a pasta com os arquivos já pode ser referenciada no JSON assim como as fotos dentro dela
+#### 7. Agora a pasta com os arquivos já pode ser referenciada no JSON assim como as fotos dentro dela
 
 #### [Integrantes.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/integrantes.json)
 
