@@ -32,7 +32,7 @@
 
 Para adicionar um novo item, insira um novo objeto no vetor(lista de jsons) dentro do arquivo JSON. O vetor é caracterizado por colchetes `[ ]` e pode armazenar vários objetos em seu interior, enquanto o objeto é caracterizado por chaves `{ }`. Cada atributo dentro do objeto é definido com o nome entre aspas duplas, seguido de dois pontos e o valor correspondente. Se o valor for um texto, ele deve estar envolto em aspas duplas. Para valores decimais, não é necessário o uso de aspas. Para finalizar, o item deve terminar com uma vírgula, caso haja um novo atributo ou objeto para adicionar abaixo.
 
-#### [Projetos.JS](https://github.com/pet-ads/homepage-pet-bio/blob/main/public/data/projetos.json)
+#### [Projetos.json](https://github.com/pet-ads/homepage-pet-bio/blob/main/public/data/projetos.json)
 
 Este arquivo contém todos os dados dos projetos do Programa de Educação Tutorial de Biologia do IFSP São Paulo.
 
