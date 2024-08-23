@@ -62,6 +62,19 @@
   background-color: rgba(17, 50, 38, 0.915);
 }
 
+.suport_background {
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(17, 50, 38, 0.915);
+}
+
 .card_background:hover {
   cursor: pointer;
 }

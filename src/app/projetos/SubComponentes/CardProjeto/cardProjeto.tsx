@@ -17,19 +17,20 @@ export default function CardProjeto({ titulo, tipo, descricao, expandido, link, 
         </motion.div>
       ) : (
         <>
-          <div className="card_background" onClick={toggleIsOpen}>
-            <motion.div className={isOpen ? "card aberto" : "card fechado"}>
-              <OpennedCard
-                tipo={tipo}
-                link={link}
-                titulo={titulo}
-                status={status}
-                expandido={expandido}
-                toggleIsOpen={toggleIsOpen}
-                images={images}
-              />
-            </motion.div>
-          </div>
+          <div className="card_background" onClick={toggleIsOpen}></div>
+            <div className="support-background">
+              <motion.div className={isOpen ? "card aberto" : "card fechado"}>
+                <OpennedCard
+                  tipo={tipo}
+                  link={link}
+                  titulo={titulo}
+                  status={status}
+                  expandido={expandido}
+                  toggleIsOpen={toggleIsOpen}
+                  images={images}
+                />
+              </motion.div>
+            </div>
         </>
       )}
     </>
