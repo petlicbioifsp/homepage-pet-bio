@@ -205,7 +205,7 @@
     height: auto;
   }
   .aberto{
-    top: 20%;
+    top: 25vh;
     left: 25%;
     right: 25%;
     height: auto;
@@ -216,12 +216,27 @@
 
 }
 
+@media (max-width: 1614px) and (max-height: 600px) {
+  .card {
+    height: auto;
+  }
+  .aberto {
+      top: 18vh;
+      left: 20%;
+      right: 20%;
+      bottom: 5%;
+      height: auto;
+      max-height: 370px;
+      overflow-y: auto; 
+  }
+}
+
 @media (max-width: 1024px) and (max-height: 600px) {
   .card {
     height: auto;
   }
   .aberto {
-      top: 16%;
+      top: 18vh;
       left: 20%;
       right: 20%;
       bottom: 5%;
