@@ -42,6 +42,9 @@
   bottom: 0%;
   z-index: 1;
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(17, 50, 38, 0.915);
 }
 
@@ -240,9 +243,9 @@
   }
 
   .aberto {
-    top: 13%;
+    top: auto;
     width: auto;
-    height: auto;
+    height: 60vh;
     overflow: hidden;
     padding: 5vw;
   }
