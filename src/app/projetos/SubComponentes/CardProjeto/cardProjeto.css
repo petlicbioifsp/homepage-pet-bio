@@ -11,6 +11,7 @@
   top: 20%;
   z-index: 2;
   width: auto;
+  max-height: 370px;
   left: 300px;
   overflow: auto;
   right: 300px;
@@ -18,7 +19,20 @@
   padding-bottom: 80px;
   position: fixed;
   box-sizing: border-box;
+}
 
+.aberto::-webkit-scrollbar {
+  width: 12px;
+}
+
+.aberto::-webkit-scrollbar-track {
+  background: var(--cor-background);
+}
+
+.aberto::-webkit-scrollbar-thumb {
+  background-color: var(--cor-verde__claro);
+  border-radius: 20px;
+  border: 3px solid var(--cor-background);
 }
 
 .fechado:hover {
@@ -162,8 +176,10 @@
   .card {
     height: auto;
   }
+
   .aberto{
     height: auto;
+    max-height: 375px;
     top: 20%;
     left: 30%;
     right: 30%;
@@ -197,6 +213,7 @@
       right: 20%;
       bottom: 5%;
       height: auto;
+      max-height: 370px;
       overflow-y: auto; 
   }
 }
