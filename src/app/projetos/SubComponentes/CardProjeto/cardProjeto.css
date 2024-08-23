@@ -5,7 +5,6 @@
   align-items: flex-start;
   background-color: var(--cor-verde__medio);
   overflow: hidden; 
-
 }
 
 .aberto {
@@ -13,6 +12,7 @@
   z-index: 2;
   width: auto;
   left: 300px;
+  overflow: auto;
   right: 300px;
   padding: 20px;
   padding-bottom: 80px;
@@ -221,13 +221,6 @@
     position: fixed;
   }
 
-  .scrowSpace {
-    height: 80%;
-    width: 100%;
-    overflow: hidden;
-    overflow-y: scroll;
-  }
-
   .card--texto__expandido{
     height: auto;
     line-height: 118%;
@@ -239,15 +232,10 @@
     min-height: auto;
   }
 
-  .scrowSpace {
-    height: 50%;
-  }
-
   .aberto {
     top: auto;
     width: auto;
     height: 60vh;
-    overflow: hidden;
     padding: 5vw;
   }
   .fechado {
@@ -268,7 +256,6 @@
   .aberto {
     width: auto;
     height: 70%;
-    overflow: hidden;
     padding: 5vw;
   }
   .fechado {
