@@ -209,12 +209,13 @@
   }
 
   .aberto {
-    top: 25%;
+    top: auto;
     left: 20%;
     right: 20%;
     z-index: 2;
     width: auto;
-    height: auto;
+    height: 75vh;
+    max-height: 575px;
     padding: 20px;
     padding-top: 40px;
     position: fixed;
