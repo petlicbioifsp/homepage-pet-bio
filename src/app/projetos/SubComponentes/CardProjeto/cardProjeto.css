@@ -239,7 +239,7 @@
   }
 
   .aberto {
-    top: auto;
+    top: 21vh;
     left: 20%;
     right: 20%;
     z-index: 2;
@@ -263,7 +263,7 @@
   }
 
   .aberto {
-    top: auto;
+    top: 21vh;
     width: auto;
     height: 60vh;
     padding: 5vw;
