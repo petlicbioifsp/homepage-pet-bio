@@ -1012,6 +1012,14 @@ Depois:
 - Selecione a branch com as mudanças (por exemplo, `update-json-values`) e clique em **"Create pull request"**.
 - Adicione uma descrição e clique em **"Create pull request"** novamente para finalizar.
 
+#### 6.1 Caso não funcione o create new pull request
+ps: Isso provavelmente ocorrerá se você for o dono do repositório bifurcado
+
+- Ainda na aba pull requests vá para "compare & pull request"
+- insira a mensagem do pull request de acordo com o que foi feito na alteração
+- clique em create pull request
+- desça a aba até achar "Merge pull" request e clique nele
+
 ### 7. Revisar e Mergear o Pull Request
 
 - A equipe responsável pelo repositório original pode revisar o pull request e, se aprovado, mesclar as alterações na branch principal do repositório original.
