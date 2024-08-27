@@ -4,9 +4,13 @@
     },
     "requisitosContent": {
         "introducao": "Para se inscrever no processo seletivo, o candidato deverá:",
-        "item_1": "Estar regularmente matriculado no curso de Licenciatura em Ciências Biológicas.",
-        "item_2": "Possuir disponibilidade para se dedicar 20 horas semanais ao PET/LICBIO.",
-        "item_3": "Apresentar média geral (IRA) igual ou superior a 6,0."
+        "requirements": [ 
+            { "text": "Estar regularmente matriculado no curso de Licenciatura em Ciências Biológicas." },
+
+            { "text": "Possuir disponibilidade para se dedicar 20 horas semanais ao PET/LICBIO." },
+            
+            { "text": "Apresentar média geral (IRA) igual ou superior a 6,0." }
+        ]
     },
     "inscricoesContent": {
         "introducao": "As inscrições devem ser realizadas pelo e-mail:",
