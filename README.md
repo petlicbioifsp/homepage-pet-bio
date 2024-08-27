@@ -146,7 +146,7 @@ Depois:
 
 Para adicionar a pasta ao repositório, siga os seguintes passos:
 
-#### 1. Crie a pasta do projeto
+#### 1. Crie a pasta do projeto em seu computador
 ex: crie uma pasta chamada BioKids para as fotos do projeto BioKids
 
 #### 2. Adicione as fotos à essa pasta
