@@ -1002,27 +1002,25 @@ Depois:
 
 - Após fazer as modificações (adicionar, alterar ou excluir um elemento no arquivo JSON), vá até a seção chamada "**Commit changes**".
 - Adicione uma mensagem descritiva para o commit, como **"Atualiza valores das chaves no arquivo JSON"**. Os projetos seguem a notação de Conventional Commits, que de modo simples segue a estrutura: `<tipo>(escopo): <descrição>. Exemplo: feat: Atualização de dados dos ex-alunos. `
-- Selecione a nova branch (por exemplo, `update-json-values`) como destino do commit.
 - Clique no botão "**Commit changes**" para salvar as alterações.
 
 ### 6. Criar um Pull Request
 
 - Depois de confirmar as alterações, deve-se criar um pull request para solicitar que as mudanças sejam integradas ao repositório original.
 - Navegue até a página de Pull Requests do repositório bifurcado e clique no botão **"New pull request"**.
-- Selecione a branch com as mudanças (por exemplo, `update-json-values`) e clique em **"Create pull request"**.
+- selecione o "base repository" como o nome repositório bifurcado.
+- Selecione a "base" como Main
+- Selecione a "compare" como a branch criada para fazer as mudanças
 - Adicione uma descrição e clique em **"Create pull request"** novamente para finalizar.
-
-#### 6.1 Caso não funcione o create new pull request
-ps: Isso provavelmente ocorrerá se você for o dono do repositório bifurcado
-
-- Ainda na aba pull requests vá para "compare & pull request"
-- insira a mensagem do pull request de acordo com o que foi feito na alteração
-- clique em create pull request
-- desça a aba até achar "Merge pull" request e clique nele
 
 ### 7. Revisar e Mergear o Pull Request
 
-- A equipe responsável pelo repositório original pode revisar o pull request e, se aprovado, mesclar as alterações na branch principal do repositório original.
+A equipe responsável pelo repositório original pode revisar o pull request e, se aprovado, mesclar as alterações na branch principal do repositório original. para fazer isso:
+
+- Vá até pull requests
+- Clique no nome do pull request
+- desça até "merge pull request" e clique nele
+- Confirm Merge
 
 # Como rodar o projeto
 
