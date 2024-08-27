@@ -3,7 +3,7 @@
 ### 1. Criando uma bifurcação (Fork) do repositório para alterações locais
 
 - Dentro da plataforma Github, navegue até o repositório original(supondo que você esteja lendo o readme neste momento, clique em code) e clique no botão **"Fork"** no canto superior direito para criar uma cópia do repositório na sua própria conta do GitHub.
-- Adicione um nome para o repositório bifurcado e confirme clicando no botão **"Create Fork"**
+- Adicione um nome para o seu fork(sua cópia do site na qual serão feitas todas as alterações) e confirme clicando no botão **"Create Fork"**
 
 ### 2. Criar uma Nova Branch
 
