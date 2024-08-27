@@ -23,7 +23,7 @@
 
 ### 3. Editar os Arquivos JSON
 
-- No repositório bifurcado, navegue até a pasta [public/data](https://github.com/pet-ads/homepage-pet-bio/tree/main/public/data) e localize os arquivos JSON (com extensão ".json") que precisam ser alterados.
+- No repositório bifurcado, navegue até a pasta [public/data] e localize os arquivos JSON (com extensão ".json") que precisam ser alterados.
   Clique no ícone de lápis ("Edit") ao lado do arquivo JSON que deseja modificar.
 
 ### 4. Fazendo Modificações
@@ -32,7 +32,7 @@
 
 Para adicionar um novo item, insira um novo objeto(item) no vetor(lista de jsons) dentro do arquivo JSON. O vetor é caracterizado por colchetes `[ ]` e pode armazenar vários objetos em seu interior, enquanto o objeto(item) é caracterizado por chaves `{ }`. Cada atributo dentro do objeto é definido com o nome entre aspas duplas, seguido de dois pontos e o valor correspondente. Se o valor for um texto, ele deve estar envolto em aspas duplas. Para valores decimais, não é necessário o uso de aspas. Para finalizar, o item deve terminar com uma vírgula, caso haja um novo atributo ou objeto para adicionar abaixo.
 
-#### [Projetos.json](https://github.com/pet-ads/homepage-pet-bio/blob/main/public/data/projetos.json)
+#### [Projetos.json]
 
 Este arquivo contém todos os dados dos projetos do Programa de Educação Tutorial de Biologia do IFSP São Paulo.
 
@@ -45,7 +45,7 @@ Este arquivo contém todos os dados dos projetos do Programa de Educação Tutor
 * **status** : Etapa atual do projeto, como "Em andamento", "Não iniciado", "Concluído" ou "Contínuo". Tipo texto, utilizando aspas duplas.
 * **descricao** : Breve descrição do projeto. Tipo texto, utilizando aspas duplas.
 * **expandido** : Descrição detalhada do projeto. Tipo texto, utilizando aspas duplas.
-* **images** : Conjunto de dados que armazena as imagens do projeto. Os arquivos de imagem devem ser adicionados na pasta [images/fotos_projetos](https://github.com/pet-ads/homepage-pet-bio/tree/main/public/images/fotos_projetos). Para padronização, as fotos devem ser agrupadas por projetos. O campo de fotos é uma lista(vetor) de itens(objetos), representado por colchetes `[ ]`, que contêm itens(objetos) delimitados por chaves `{ }`. Se não houver fotos disponíveis, adicione uma lista(vetor) vazia `[]`.
+* **images** : Conjunto de dados que armazena as imagens do projeto. Os arquivos de imagem devem ser adicionados na pasta [public/images/fotos_projetos]. Para padronização, as fotos devem ser agrupadas por projetos. O campo de fotos é uma lista(vetor) de itens(objetos), representado por colchetes `[ ]`, que contêm itens(objetos) delimitados por chaves `{ }`. Se não houver fotos disponíveis, adicione uma lista(vetor) vazia `[]`.
   * **id** : Identificador único da imagem. Tipo texto, utilizando aspas duplas.
   * **url** : Caminho para a imagem do projeto. Tipo texto, utilizando aspas duplas.
  
@@ -151,7 +151,7 @@ ex: crie uma pasta chamada BioKids para as fotos do projeto BioKids
 
 #### 2. Adicione as fotos à essa pasta
 
-#### 3. abra [images/fotos_projetos](https://github.com/pet-ads/homepage-pet-bio/tree/main/public/images/fotos_projetos)
+#### 3. abra [public/images/fotos_projetos]
 
 #### 4. Após aberto abra o explorador de arquivos do seu computador e localize a pasta criada
 
@@ -172,8 +172,8 @@ Arquivo que contém todos os dados dos alunos e tutores que participam ou partic
 * **tipo** : Representa se o aluno(a) é "Bolsista" ou "Voluntário(a)". Tipo texto, utilizando aspas duplas.
 * **foto** : Caminho do arquivo onde está a foto do aluno. As fotos de todos os alunos (participantes e ex-participantes do PET Química) estão localizadas dentro da pasta  **public/images/fotos_alunos** . O caminho do arquivo deve estar envolto em aspas duplas e conter a extensão da imagem. Para fins de padronização, utilize o formato ".jpeg" ou ".jpg".
 * **ano** : Ano de entrada, do tipo inteiro, ou seja, não recebe aspas duplas pois se trata de um valor numérico.
-* **github** : Link/URL da plataforma GitHub do integrante. Caso o usuário não possua, cole a URL "[https://github.com](https://github.com)". Tipo texto, utilizando aspas duplas.
-* **linkedin** : Link/URL da plataforma LinkedIn do integrante. Caso o usuário não possua, cole a URL "[https://www.linkedin.com](https://www.linkedin.com)". Tipo texto, utilizando aspas duplas.
+* **github** : Link/URL da plataforma GitHub do integrante. Caso o usuário não possua, cole a URL "[https://github.com]". Tipo texto, utilizando aspas duplas.
+* **linkedin** : Link/URL da plataforma LinkedIn do integrante. Caso o usuário não possua, cole a URL "[https://www.linkedin.com]". Tipo texto, utilizando aspas duplas.
 
 Antes:
 
@@ -225,7 +225,7 @@ Depois:
 * **id** : Identificador único. Tipo texto, utilizando aspas duplas.
 * **nome** : Nome do aluno(a). Tipo texto, utilizando aspas duplas.
 * **foto** : Caminho do arquivo onde está a foto do aluno. As fotos de todos os alunos (participantes e ex-participantes do PET Biologia) estão localizadas dentro da pasta  **public/images/fotos_alunos** . O caminho do arquivo deve estar envolto em aspas duplas e conter a extensão da imagem. Para fins de padronização, utilize o formato ".jpeg" ou ".jpg".
-* **linkedin** : Link/URL da plataforma LinkedIn do(a) integrante. Caso o usuário não possua, cole a URL "[https://www.linkedin.com](https://www.linkedin.com)". Tipo texto, utilizando aspas duplas.
+* **linkedin** : Link/URL da plataforma LinkedIn do(a) integrante. Caso o usuário não possua, cole a URL "[https://www.linkedin.com]". Tipo texto, utilizando aspas duplas.
 
   Antes:
 
@@ -366,7 +366,7 @@ Depois:
 }
 ```
 
-#### [FAQ.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/faq.json)
+#### [FAQ.JSON]
 
 Arquivo que contém todos os dados das perguntas frequentes da página web PET-BIO.
 
@@ -413,7 +413,7 @@ Depois:
 
 Para alterar dados em um arquivo JSON, encontre o objeto no vetor que deseja modificar e ajuste os valores dos atributos conforme necessário. Certifique-se de manter a estrutura JSON correta, incluindo aspas duplas para valores de texto e sem aspas para valores decimais e sempre separando novas chaves/valor por vírgulas.
 
-#### [Home.JSON](https://github.com/pet-ads/homepage-pet-bio/blob/main/public/data/home.json)
+#### [Home.JSON]
 
 Os atributos no arquivo Home.json são fixos na página inicial e consistem no texto de apresentação e no propósito da página. Portanto, não é permitido adicionar ou excluir atributos, apenas modificar o conteúdo existente. O arquivo contém dois objetos principais: AboutPET e Purpose, que possuem as chaves desktop e mobile. O valor dessas chaves armazenam o texto que será exibido em diferentes tamanhos de tela, seja em um computador padrão ou em um dispositivo móvel. Ao Alterar o texto, é importante manter uma quantidade semelhante de caracteres à versão anterior à fim de preservar o layout e a organização da página.
 
@@ -450,7 +450,7 @@ Depois:
 }
 ```
 
-#### [Projetos.JSON](https://github.com/pet-ads/homepage-pet-bio/blob/main/public/data/projetos.json)
+#### [Projetos.JSON]
 
 Antes:
 
@@ -490,7 +490,7 @@ Depois:
 }
 ```
 
-#### [Integrantes.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/integrantes.json)
+#### [Integrantes.JSON]
 
 ##### Conjunto de dados em "**aluno**":
 
@@ -635,7 +635,7 @@ Depois:
 }
 ```
 
-#### [Processos.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/processos.json)
+#### [Processos.JSON]
 
 Assim como na alteração do arquivo Home.json, o conteúdo dentro de Processos.json não deve ter objetos adicionados ou removidos, apenas os valores das chaves existentes devem ser modificados. O arquivo contém três objetos principais: cabecalho, requisitos, e inscricao, que armazenam os textos exibidos em cada seção da tela de "Processo Seletivo".
 
@@ -700,7 +700,7 @@ Depois:
 }
 ```
 
-#### [FAQ.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/faq.json)
+#### [FAQ.JSON]
 
 Antes:
 
@@ -734,7 +734,7 @@ Depois:
 
 Para excluir um item de um arquivo JSON, localize o objeto específico que deseja remover dentro do vetor e apague-o, juntamente com a vírgula que o separa de outros itens, se aplicável. Mantenha a estrutura JSON correta para evitar erros.
 
-#### [Projetos.JS](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/projetos.json)
+#### [Projetos.JS]
 
 Antes:
 
@@ -784,7 +784,7 @@ Depois:
 }
 ```
 
-#### [Integrantes.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/integrantes.json)
+#### [Integrantes.JSON]
 
 ##### Atributos do objeto "Aluno":
 
@@ -962,7 +962,7 @@ Depois:
 }
 ```
 
-#### [FAQ.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/faq.json)
+#### [FAQ.JSON]
 
 Antes:
 
