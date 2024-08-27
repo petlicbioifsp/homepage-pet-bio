@@ -13,8 +13,7 @@ export default function Requisitos() {
       <h2 className={styles.titulo_secundario}>Requisitos</h2>
       <p className={styles.texto}>{requisitos?.introducao}</p>
       <ul>
-        { requisitos && requisitos?.requirements.length > 0 ? requisitos.requirements.map( (item: {text: string}, index: number) => <li key={index} className={styles.texto}>{item.text}</li> ) : (<p>Não há requisitos</p>)
-        }
+        { requisitos && requisitos?.requirements.length > 0 ? requisitos.requirements.map( (item: {text: string}, index: number) => <li key={index} className={styles.texto}>{item.text}</li> ) : (<p>Não há requisitos</p>) }
       </ul>
     </div>
   );
