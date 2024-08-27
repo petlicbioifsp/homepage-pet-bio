@@ -1001,7 +1001,7 @@ Depois:
 ### 5. Commit das Alterações
 
 - Após fazer as modificações (adicionar, alterar ou excluir um elemento no arquivo JSON), vá até a seção chamada "**Commit changes**".
-- Adicione uma mensagem descritiva para o commit, como **"Atualiza valores das chaves no arquivo JSON"**. Os projetos seguem a notação de Conventional Commits, que de modo simples segue a estrutura: `<tipo>(escopo): <descrição>. Exemplo: chore: Atualização de dados dos ex-alunos. `
+- Adicione uma mensagem descritiva para o commit, como **"Atualiza valores das chaves no arquivo JSON"**. Os projetos seguem a notação de Conventional Commits, que de modo simples segue a estrutura: `<tipo>(escopo): <descrição>. Exemplo: feat: Atualização de dados dos ex-alunos. `
 - Selecione a nova branch (por exemplo, `update-json-values`) como destino do commit.
 - Clique no botão "**Commit changes**" para salvar as alterações.
 
