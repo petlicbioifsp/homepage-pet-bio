@@ -161,7 +161,7 @@ ex: crie uma pasta chamada BioKids para as fotos do projeto BioKids
 
 #### 7. Agora a pasta com os arquivos já pode ser referenciada no JSON assim como as fotos dentro dela
 
-#### [Integrantes.JSON](https://github.com/pet-ads/homepage-pet-qui/blob/main/public/data/integrantes.json)
+#### [Integrantes.JSON]
 
 Arquivo que contém todos os dados dos alunos e tutores que participam ou participaram do Programa de Educação Tutorial de Biologia do IFSP São Paulo.
 
