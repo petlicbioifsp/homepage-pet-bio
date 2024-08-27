@@ -9,7 +9,7 @@
 
 - No repositório bifurcado(Repositório que foi dado o "fork", isto é, o conjunto de arquivos que você fez uma cópia e estará trabalhando para manter o site), recomenda-se criar uma nova branch para realizar as modificações ao invés de fazê-las na branch principal(main), evitando assim que o código funcional seja perdido, dessa forma têm-se um "backup" do mesmo, para que caso a alteração não seja bem sucedida, se possa voltar à branch que estava funcional(main). Para criar uma nova branch, siga os seguintes passos:
 
-#### 2.1 Clique na aba Branches/1 Branch/Main no canto superior esquerdo.
+#### 2.1 Clique na aba Branches/1 Branch no canto superior esquerdo.
 
 #### 2.2 Clique em new Branch e Dê o nome que sua branch irá receber e clique em create new branch. Não são necessárias preocupações com as demais opções do menu de criação de branches para a manutenção básica do site, basta dar o nome e clickar em create new branch.
 
