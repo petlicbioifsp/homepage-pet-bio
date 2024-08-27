@@ -639,6 +639,8 @@ Depois:
 
 Assim como na alteração do arquivo Home.json, o conteúdo dentro de Processos.json não deve ter objetos adicionados ou removidos, apenas os valores das chaves existentes devem ser modificados. O arquivo contém três objetos principais: cabecalho, requisitos, e inscricao, que armazenam os textos exibidos em cada seção da tela de "Processo Seletivo".
 
+#### ps: é importante que o campo "estado" seja "(encerrado)", "(ativo)" ou "(inscrições abertas)" para que a fonte seja exibida com a cor respectiva(vermelho em caso de encerrado, ou verde em caso de ativo), no entanto, caso seja inserido um outro valor, a fonte será impressa na tela em cor padrão(branco). 
+
 Antes:
 
 ```json
