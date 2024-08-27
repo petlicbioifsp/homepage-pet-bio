@@ -43,6 +43,11 @@
     text-decoration: line-through;
 }
 
+.ativo {
+    text-decoration: none;
+    color: var(--cor-detalhes-verde);
+}
+
 .email {
     text-decoration: none;
     color: var(--cor-detalhes-verde);

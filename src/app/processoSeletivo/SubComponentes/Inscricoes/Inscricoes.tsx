@@ -8,6 +8,14 @@ import useFetchProcessos from "@/hooks/fetch/useFetchProcessos";
 export default function Inscricoes() {
   const { inscricao } = useFetchProcessos();
 
+  let stateClass;
+
+  if (inscricao?.estado == '(encerrado)') stateClass = styles.encerrado;
+
+  else if (inscricao?.estado == '(ativo)' || inscricao?.estado == '(inscrições abertas)' ) stateClass = styles.ativo;
+
+  else stateClass = '';
+
   return (
     <div className={styles.Inscricao}>
       <h2 className={styles.titulo}>Inscrições</h2>
@@ -23,7 +31,7 @@ export default function Inscricoes() {
       </p>
       <p className={styles.texto}>
         {inscricao?.prazo}{" "}
-        <span className={styles.encerrado}>{inscricao?.data}</span>{" "}
+        <span className={stateClass}>{inscricao?.data}</span>{" "}
         {inscricao?.estado}.
       </p>
       <p className={styles.texto}>{inscricao?.detalhes}</p>
