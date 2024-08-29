@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./LogoPET.module.css";
-import Logo from "../../../resources/logos/LogoPET.png";
+import Logo from "../../../resources/logos/logoPet.png";
 
 export default function LogoPET() {
   return (
