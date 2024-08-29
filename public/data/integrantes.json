@@ -113,7 +113,7 @@
       "nome": "Vitória E. da Silva",
       "foto": "./images/fotos_alunos/vitoriaEggon.jpg",
       "ano": "2023",
-      "tipo": "Voluntário",
+      "tipo": "Bolsista",
       "lattes": "http://lattes.cnpq.br/9712878788141786"
     },
     {
@@ -137,7 +137,7 @@
       "nome": "Kaique A. da Silva",
       "foto": "./images/fotos_alunos/kaiqueAlcantara.jpg",
       "ano": "2023",
-      "tipo": "Voluntário",
+      "tipo": "Bolsista",
       "lattes": "http://lattes.cnpq.br/7863690234572291"
     }
   ],
@@ -378,7 +378,7 @@
     {
       "id": "001",
       "nome": "Caroline Arantes Magalhães",
-      "tipo": "Tutor",
+      "tipo": "Tutora",
       "foto": "./images/fotos_tutores/carolineMagalhaesTutora.jpg",
       "ano": "",
       "lattes": "https://lattes.cnpq.br"
@@ -388,7 +388,7 @@
     {
       "id": "001",
       "nome": "Martha C. M. G. Netto",
-      "tipo": "Tutor",
+      "tipo": "Tutora",
       "foto": "./images/fotos_tutores/marthaNettoTutora.png",
       "ano": "2013",
       "lattes": "https://lattes.cnpq.br"
