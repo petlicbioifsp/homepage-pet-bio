@@ -2,14 +2,6 @@
   "aluno": [   
     {
       "id": "1",
-      "nome": "Arthur S. Paduim",
-      "foto": "./images/fotos_alunos/arthurPaduim.jpg",
-      "ano": "2023",
-      "tipo": "Bolsista",
-      "lattes": "https://lattes.cnpq.br/3741553239015112"
-    },
-    {
-      "id": "2",
       "nome": "Bárbara D. Russo",
       "foto": "./images/fotos_alunos/barbaraRusso.jpg",
       "ano": "2023",
@@ -17,12 +9,20 @@
       "lattes": "https://lattes.cnpq.br"
     },
     {
-      "id": "3",
+      "id": "2",
       "nome": "Carolina de A. Felipe",
       "foto": "./images/fotos_alunos/carolinadeAlmeida.jpg",
       "tipo": "Bolsista",
       "ano": "2023",
       "lattes": "http://lattes.cnpq.br/8718340285925512"
+    },
+    {
+      "id": "3",
+      "nome": "Flávia R. M. da Silva",
+      "foto": "./images/fotos_alunos/flaviaMendes.jpg",
+      "tipo": "Bolsista",
+      "ano": "2024",
+      "lattes": ""
     },
     {
       "id": "4",
@@ -66,14 +66,30 @@
     },
     {
       "id": "9",
+      "nome": "Stella Rúbia V. de Oliveira",
+      "foto": "./images/fotos_alunos/stellaRubia.jpg",
+      "ano": "2023",
+      "tipo": "Bolsista",
+      "lattes": ""
+    },
+    {
+      "id": "10",
       "nome": "Vitória E. da Silva",
       "foto": "./images/fotos_alunos/vitoriaEggon.jpg",
-      "ano": "2023",
+      "ano": "2024",
       "tipo": "Bolsista",
       "lattes": "http://lattes.cnpq.br/9712878788141786"
     },
     {
-      "id": "10",
+      "id": "11",
+      "nome": "Vitória de O. Souza",
+      "foto": "./images/fotos_alunos/vitoriaOliveira.jpg",
+      "ano": "2024",
+      "tipo": "Bolsista",
+      "lattes": "http://lattes.cnpq.br/5375413385108975"
+    },
+    {
+      "id": "12",
       "nome": "Ana Caroline A. Manoel",
       "foto": "./images/fotos_alunos/anaAtanabe.png",
       "ano": "2023",
@@ -81,12 +97,28 @@
       "lattes": "http://lattes.cnpq.br/0320030256590711"
     },
     {
-      "id": "11",
+      "id": "13",
+      "nome": "Arthur S. Paduim",
+      "foto": "./images/fotos_alunos/arthurPaduim.jpg",
+      "ano": "2023",
+      "tipo": "Voluntário",
+      "lattes": "https://lattes.cnpq.br/3741553239015112"
+    },
+    {
+      "id": "14",
       "nome": "Danilo N. Bitencourt",
       "foto": "./images/fotos_alunos/daniloBitencourt.jpg",
       "ano": "2022",
       "tipo": "Voluntário",
       "lattes": "http://lattes.cnpq.br/4236629759013737"
+    },
+     {
+      "id": "15",
+      "nome": "Maria Ligia C. O. Sanches",
+      "foto": "./images/fotos_alunos/mariaLigia.jpg",
+      "ano": "2024",
+      "tipo": "Voluntária",
+      "lattes": ""
     }
   ],
 
