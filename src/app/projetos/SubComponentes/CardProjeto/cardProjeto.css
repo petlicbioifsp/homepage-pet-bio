@@ -15,8 +15,9 @@
   left: 300px;
   overflow: auto;
   right: 300px;
-  padding: 20px;
-  padding-bottom: 80px;
+  /* padding: 20px;
+  padding-bottom: 80px; */
+  padding: 6rem 2rem;
   position: fixed;
   box-sizing: border-box;
 }
@@ -130,7 +131,8 @@
     width: 30px;
     height: 30px;
     right: 8px;
-    top: 8px
+    top: 8px;
+    z-index: 10;
 }
 .closeButton:hover{ 
   cursor: pointer;
@@ -146,10 +148,10 @@
 }
 
 .card--texto__expandido {
-  text-align: start;
+  text-align: justify;
   line-height: 150%;
   padding-right: 1rem;
-  color : var(--cor-texto__claro)
+  color : var(--cor-texto__claro);
 }
 
 .card--texto__envolvidos {
@@ -288,11 +290,8 @@
     left: 20%;
     right: 20%;
     z-index: 2;
-    width: auto;
     height: 75vh;
-    max-height: 575px;
-    padding: 20px;
-    padding-top: 40px;
+    padding: 6rem 2rem;
     position: fixed;
   }
 
@@ -302,45 +301,54 @@
   }
 }
 
-@media (max-width: 450px) {
-  .card {
-    min-height: auto;
+
+@media (max-width: 768px){
+  .fechado {
+    height: auto;
+    width: 80vh;
   }
 
   .aberto {
-    top: 21vh;
-    width: auto;
-    height: 60vh;
-    padding: 5vw;
+    z-index: 2;
+    width: 100vw;
+    min-height: 100vh;
+    top:  0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 6rem 2rem;
+    position: fixed;
+    padding-top: 35vh;
   }
-  .fechado {
+
+
+
+
+  .card--texto__expandido{
     height: auto;
-    width: auto;
+    line-height: 118%;
   }
 }
 
-@media (max-width: 376px) {
-  .card {
-    min-height: auto;
-  }
+@media (max-width: 375px) {
 
-  .scrowSpace {
-    height: 40%;
-  }
-
-  .aberto {
-    width: auto;
-    height: 70%;
-    padding: 5vw;
-  }
-  .fechado {
-    height: auto;
-    width: auto;
-  }
   .card--texto__expandido{
     height: auto;
     line-height: 110%;
     font-size: 15px;
-  } 
+  }
+  .card-titulo{
+    font-size: 0.9rem;
+  }
 }
 
+@media (max-width: 345px) {
+  .card--texto__expandido{
+    height: auto;
+    line-height: 110%;
+    font-size: 13px;
+  }
+  .card-titulo{
+    font-size: 0.8rem;
+  }
+}
