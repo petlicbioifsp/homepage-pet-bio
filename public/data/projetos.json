@@ -67,7 +67,38 @@
       "status": "Contínuo",
       "descricao": "Oferta de apoio acadêmico aos alunos da graduação por meio da parceria entre docentes e discentes petianos para viabilizar a ampliação da permanência e do êxito no curso.",
       "expandido": "A atividade visa enfrentar desafios acadêmicos, oferecendo apoio estratégico para a progressão dos alunos no curso. É desenvolvida em parceria entre docentes e estudantes petianos,e abrange atividades de revisão, fixação e reforço, além de proporcionar atendimentos para esclarecimento de dúvidas. Busca melhorar o rendimento acadêmico, ampliar espaços colaborativos e fortalecer a identidade profissional dos envolvidos.",
-      "images":[]
+      "images": [
+        {
+          "id": "1",
+          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-1.JPG",
+          "descricao":"foto de exemplos de monitorias"
+        },
+        {
+          "id": "2",
+          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-2.JPG",
+          "descricao":"foto de exemplos de monitoriasO"
+        },
+        {
+          "id": "3",
+          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-3.JPG",
+          "descricao":"foto de exemplos de monitorias"
+        },
+        {
+          "id": "4",
+          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-4.PNG",
+          "descricao":"foto de exemplos de monitorias"
+        },
+        {
+          "id": "5",
+          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-5.PNG",
+          "descricao":"foto de exemplos de monitorias"
+        },
+        {
+          "id": "5",
+          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-6.PNG",
+          "descricao":"foto de exemplos de monitorias"
+        },
+      ]
     },
 
     {
