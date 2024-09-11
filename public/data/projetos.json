@@ -70,12 +70,12 @@
       "images": [
         {
           "id": "1",
-          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-1.JPG",
+          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-1.jpg",
           "descricao":"foto de exemplos de monitorias"
         },
         {
           "id": "2",
-          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-2.JPG",
+          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-2.jpg",
           "descricao":"foto de exemplos de monitoriasO"
         },
         {
@@ -85,17 +85,17 @@
         },
         {
           "id": "4",
-          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-4.PNG",
+          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-4.png",
           "descricao":"foto de exemplos de monitorias"
         },
         {
           "id": "5",
-          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-5.PNG",
+          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-5.png",
           "descricao":"foto de exemplos de monitorias"
         },
         {
           "id": "5",
-          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-6.PNG",
+          "url": "/images/fotos_projetos/MONITORIAS/MONITORIA-6.png",
           "descricao":"foto de exemplos de monitorias"
         }
       ]
