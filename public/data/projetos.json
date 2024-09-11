@@ -120,7 +120,23 @@
       "status": "Contínuo",
       "descricao": "Promoção de cursos, programas e oficinas para capacitação de alunos do curso de Licenciatura em Ciências Biológicas.",
       "expandido": "Programa de ampliação e formação teórico-prática de licenciandos em Ciências Biológicas, capacitando-os para intervenções variadas e inovadoras. Por meio de cursos e oficinas, o projeto busca desenvolver competências diversas de alunos de dentro e fora do curso, incitando o pensamento científico, crítico e criativo, e capacitando os licenciandos para propor soluções coletivas para desafios emergentes na comunidade escolar.",
-      "images":[]   
+      "images":[
+         {
+          "id": "1",
+          "url": "/images/fotos_projetos/BIOEXT/BIOEXT-1.jpg",
+          "descricao":"foto de exemplos de atividade bioextensionistas"
+        },
+       {
+          "id": "2",
+          "url": "/images/fotos_projetos/BIOEXT/BIOEXT-2.jpg",
+          "descricao":"foto de exemplos de atividade bioextensionistas"
+        },
+        {
+          "id": "3",
+          "url": "/images/fotos_projetos/BIOEXT/BIOEXT-3.jpg",
+          "descricao":"foto de exemplos de atividade bioextensionistas"
+        }
+      ]   
     },
 
     {
