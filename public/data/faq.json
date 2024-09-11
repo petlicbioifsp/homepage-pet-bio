@@ -69,16 +69,6 @@
       "id": "14",
       "trigger": " Membros do PET podem ser desligados do programa?",
       "resposta": "Para se manter no PET o aluno deve participar de todas as atividades estabelecidas em conjunto com o tutor e comparecer às reuniões de acompanhamento. Caso o membro do PET não possua bom rendimento no programa ou no curso, pode perder o vínculo. Após o ingresso no PET, o membro não pode reprovar em mais de duas disciplinas no curso e deve ter frequência e bom rendimento acadêmico."
-    },
-    {
-      "id": "15",
-      "trigger": " reuniao do pet",
-      "resposta": "Para se manter no PET o aluno deve participar de todas as atividades estabelecidas em conjunto com o tutor e comparecer às reuniões de acompanhamento. Caso o membro do PET não possua bom rendimento no programa ou no curso, pode perder o vínculo. Após o ingresso no PET, o membro não pode reprovar em mais de duas disciplinas no curso e deve ter frequência e bom rendimento acadêmico."
-    },
-    {
-      "id": "16",
-      "trigger": " teste",
-      "resposta": "Para se manter no PET o aluno deve participar de todas as atividades estabelecidas em conjunto com o tutor e comparecer às reuniões de acompanhamento. Caso o membro do PET não possua bom rendimento no programa ou no curso, pode perder o vínculo. Após o ingresso no PET, o membro não pode reprovar em mais de duas disciplinas no curso e deve ter frequência e bom rendimento acadêmico."
     }
   ]
 }
