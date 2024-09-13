@@ -56,7 +56,28 @@
       "status": "Contínuo",
       "descricao": "Promoção de palestras e eventos científico-educacionais.",
       "expandido": "O PETeventos estimula a formação acadêmico-científica no IFSP/Câmpus São Paulo. A atividade envolve a organização de palestras e eventos científico-educacionais, fomentando discussões sobre temas relevantes para a formação docente. Busca ampliar os espaços de divulgação acadêmica no câmpus e apoiar a organização de eventos acadêmico-científicos e do calendário afirmativo. ",
-      "images":[]
+      "images":[
+         {
+          "id": "1",
+          "url": "/images/fotos_projetos/EVENTOS/EVENTOS-1.jpg",
+          "descricao":"eventos que o PET participou"
+        },
+        {
+          "id": "2",
+          "url": "/images/fotos_projetos/EVENTOS/EVENTOS-2.jpg",
+          "descricao":"eventos que o PET participou"
+        },
+        {
+          "id": "3",
+          "url": "/images/fotos_projetos/EVENTOS/EVENTOS-3.jpg",
+          "descricao":"eventos que o PET participou"
+        },
+        {
+          "id": "4",
+          "url": "/images/fotos_projetos/EVENTOS/EVENTOS-4.jpg",
+          "descricao":"eventos que o PET participou"
+        }
+      ]
     },
 
     {
