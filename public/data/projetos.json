@@ -163,7 +163,23 @@
       "status": "Contínuo",
       "descricao": "Programa de divulgação e comunicação entre os pares e a comunidade externa por meio das tecnologias digitais, centrado nas redes sociais e no site do grupo PET/LICBIO.",
       "expandido": "O DivulgaPET mantém os canais digitais do PET/LICBIO atualizados, promovendo comunicação eficaz. Os alunos petianos desenvolvem habilidades digitais e colaboram com o grupo PET ADS São Carlos, visando estimular a criatividade na comunicação e fortalecer a interação com a comunidade.",
-      "images":[]      
+      "images":[
+         {
+          "id": "1",
+          "url": "/images/fotos_projetos/DIVULGAPET/DIVULGA-1.jpg",
+          "descricao":"fotos do projeto divulga pet"
+        },
+        {
+          "id": "2",
+          "url": "/images/fotos_projetos/DIVULGAPET/DIVULGA-2.jpg",
+          "descricao":"fotos do projeto divulga pet"
+        },
+        {
+          "id": "3",
+          "url": "/images/fotos_projetos/DIVULGAPET/DIVULGA-3.jpg",
+          "descricao":"fotos do projeto divulga pet"
+        }
+      ]      
     }
   ]
 }
