@@ -1,0 +1,14 @@
+{
+    "plataformas": [
+        {
+            "id": "1",
+            "nome": "Instagram",
+            "url": "https://www.instagram.com/petbio_ifsp/"
+        },
+        {
+            "id": "2",
+            "nome": "Youtube",
+            "url": "https://www.youtube.com/@PETLICBIO" 
+        }
+    ]
+}
