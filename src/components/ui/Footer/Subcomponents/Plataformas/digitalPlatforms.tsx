@@ -15,10 +15,11 @@ export default function DigitalPlatforms() {
               <Link
                 className="link"
                 href={item.url}
-                children={item.nome}
                 rel="noreferrer"
                 target="_blank"
-              />
+              >
+                {item.nome}
+              </Link>
             </li>
           ))}
         </ul>
