@@ -8,14 +8,15 @@
 }
 
 .aberto {
-  top: 20%;
+  top: 20vh;
   z-index: 2;
   width: auto;
-  max-height: 370px;
+  max-height: 25rem;
+  height: auto;
   left: 300px;
   overflow: auto;
   right: 300px;
-  padding: 4rem 1rem;
+  padding: 1rem 1rem 0 1rem;
   position: fixed;
   box-sizing: border-box;
 }
@@ -155,31 +156,26 @@
 @media (max-width: 2750px) {
   .card { height: auto; }
   .aberto {
-    height: auto;
-    top: 30vh;
     left: 30%;
     right: 30%;
+    max-height: 65vh;
   }
 }
 
 @media (max-width: 2190px) {
   .card { height: auto; }
   .aberto {
-    height: auto;
-    max-height: 375px;
-    top: 30vh;
     left: 30%;
     right: 30%;
+    max-height: 70vh;
   }
 }
 
 @media (max-width: 1614px) {
   .card { height: auto; }
   .aberto {
-    top: 30vh;
     left: 25%;
     right: 25%;
-    height: auto;
   }
   .card--texto__expandido {
     line-height: 140%;
@@ -190,14 +186,9 @@
 }
 
 @media (max-width: 1024px) {
-  .card { height: auto; }
   .aberto {
-    top: 30vh;
     left: 20%;
     right: 20%;
-    bottom: 5%;
-    max-height: 370px;
-    overflow-y: auto; 
   }
   .card-titulo { font-size: 1.5rem; }
 }
@@ -213,11 +204,11 @@
   .aberto {
     width: 100vw;
     min-height: 100vh;
+    max-height: 100vh;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    padding: 2rem 1rem 6rem 1rem;
     position: fixed;
   }
   .card-titulo { font-size: 1.5rem; }
@@ -243,4 +234,22 @@
     line-height: 110%;
   }
   .card-titulo { font-size: 0.8rem; }
+}
+
+@media (max-height: 900px) {
+  .aberto {
+    max-height: 80vh;
+  }
+}
+
+@media (max-height: 760px) {
+  .aberto {
+    max-height: 85vh;
+  }
+}
+
+@media (max-height: 710px) {
+  .aberto {
+    max-height: 95vh;
+  }
 }
