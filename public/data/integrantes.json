@@ -1,103 +1,24 @@
 {
   "aluno": [   
+
     {
       "id": "1",
-      "nome": "Bárbara D. Russo",
-      "foto": "./images/fotos_alunos/barbaraRusso.jpg",
-      "ano": "2023",
-      "tipo": "Bolsista",
-      "lattes": "https://lattes.cnpq.br"
+      "nome": "Alice Baldim Tristão",
+      "foto": "./images/fotos_alunos/AliceBaldim.jpg",
+      "ano": "2025",
+      "tipo": "Voluntária",
+      "lattes": ""
     },
     {
       "id": "2",
-      "nome": "Carolina de A. Felipe",
-      "foto": "./images/fotos_alunos/carolinadeAlmeida.jpg",
+      "nome": "Ariadne do Nascimento",
+      "foto": "./images/fotos_alunos/AriadneNascimento.jpg",
+      "ano": "2025",
       "tipo": "Bolsista",
-      "ano": "2023",
-      "lattes": "http://lattes.cnpq.br/8718340285925512"
+      "lattes": ""
     },
     {
       "id": "3",
-      "nome": "Flávia R. M. da Silva",
-      "foto": "./images/fotos_alunos/flaviaMendes.jpg",
-      "tipo": "Bolsista",
-      "ano": "2024",
-      "lattes": ""
-    },
-    {
-      "id": "4",
-      "nome": "Izabella R. dos Santos",
-      "foto": "./images/fotos_alunos/izabellaRodrigues.jpg",
-      "tipo": "Bolsista",
-      "ano": "2023",
-      "lattes": "https://lattes.cnpq.br/8621814581501862"
-    },
-    {
-      "id": "5",
-      "nome": "Julia L. Barboza",
-      "foto": "./images/fotos_alunos/juliaLopesBarboza.jpg",
-      "tipo": "Bolsista",
-      "ano": "2023",
-      "lattes": "https://lattes.cnpq.br/0025034335494103"
-    },
-    {
-      "id": "6",
-      "nome": "Juliana Brand",
-      "foto": "./images/fotos_alunos/julianaBrand.png",
-      "ano": "2023",
-      "tipo": "Bolsista",
-      "lattes": "https://lattes.cnpq.br/6870087680472122"
-    },
-    {
-      "id": "7",
-      "nome": "Letícia M. da Silva",
-      "foto": "./images/fotos_alunos/leticiaMuniz.jpg",
-      "tipo": "Bolsista",
-      "ano": "2022",
-      "lattes": "http://lattes.cnpq.br/4371573910491723"
-    },
-    {
-      "id": "8",
-      "nome": "Kaique A. da Silva",
-      "foto": "./images/fotos_alunos/kaiqueAlcantara.jpg",
-      "ano": "2023",
-      "tipo": "Bolsista",
-      "lattes": "http://lattes.cnpq.br/7863690234572291"
-    },
-    {
-      "id": "9",
-      "nome": "Stella Rúbia V. de Oliveira",
-      "foto": "./images/fotos_alunos/stellaRubia.jpg",
-      "ano": "2023",
-      "tipo": "Bolsista",
-      "lattes": ""
-    },
-    {
-      "id": "10",
-      "nome": "Vitória E. da Silva",
-      "foto": "./images/fotos_alunos/vitoriaEggon.jpg",
-      "ano": "2024",
-      "tipo": "Bolsista",
-      "lattes": "http://lattes.cnpq.br/9712878788141786"
-    },
-    {
-      "id": "11",
-      "nome": "Vitória de O. Souza",
-      "foto": "./images/fotos_alunos/vitoriaOliveira.jpg",
-      "ano": "2024",
-      "tipo": "Bolsista",
-      "lattes": "http://lattes.cnpq.br/5375413385108975"
-    },
-    {
-      "id": "12",
-      "nome": "Ana Caroline A. Manoel",
-      "foto": "./images/fotos_alunos/anaAtanabe.png",
-      "ano": "2023",
-      "tipo": "Voluntária",
-      "lattes": "http://lattes.cnpq.br/0320030256590711"
-    },
-    {
-      "id": "13",
       "nome": "Arthur S. Paduim",
       "foto": "./images/fotos_alunos/arthurPaduim.jpg",
       "ano": "2023",
@@ -105,168 +26,241 @@
       "lattes": "https://lattes.cnpq.br/3741553239015112"
     },
     {
-      "id": "14",
-      "nome": "Danilo N. Bitencourt",
-      "foto": "./images/fotos_alunos/daniloBitencourt.jpg",
-      "ano": "2022",
-      "tipo": "Voluntário",
-      "lattes": "http://lattes.cnpq.br/4236629759013737"
+      "id": "4",
+      "nome": "Carolina Teixeira",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "lattes": ""
     },
-     {
-      "id": "15",
+    {
+      "id": "5",
+      "nome": "Erick Wakinaguni",
+      "foto": "./images/fotos_alunos/ErickWakinaguni.jpg",
+      "ano": "2025",
+      "tipo": "Voluntário",
+      "lattes": ""
+    },
+    {
+      "id": "6",
+      "nome": "Flávia R. M. da Silva",
+      "foto": "./images/fotos_alunos/flaviaMendes.jpg",
+      "tipo": "Bolsista",
+      "ano": "2024",
+      "lattes": ""
+    },
+    {
+      "id": "7",
+      "nome": "Izabella R. dos Santos",
+      "foto": "./images/fotos_alunos/izabellaRodrigues.jpg",
+      "tipo": "Bolsista",
+      "ano": "2023",
+      "lattes": "https://lattes.cnpq.br/8621814581501862"
+    },
+    {
+      "id": "8",
+      "nome": "Jhennyfer D. D. de Souza",
+      "foto": "./images/fotos_alunos/JhennyferDespesi.jpg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "lattes": ""
+    },
+    {
+      "id": "9",
+      "nome": "Julia L. Barboza",
+      "foto": "./images/fotos_alunos/juliaLopesBarboza.jpg",
+      "tipo": "Voluntária",
+      "ano": "2023",
+      "lattes": "https://lattes.cnpq.br/0025034335494103"
+    },
+    {
+      "id": "10",
+      "nome": "Kaique A. da Silva",
+      "foto": "./images/fotos_alunos/kaiqueAlcantara.jpg",
+      "ano": "2023",
+      "tipo": "Bolsista",
+      "lattes": "http://lattes.cnpq.br/7863690234572291"
+    },
+    {
+      "id": "11",
+      "nome": "Letícia M. da Silva",
+      "foto": "./images/fotos_alunos/leticiaMuniz.jpg",
+      "tipo": "Bolsista",
+      "ano": "2022",
+      "lattes": "http://lattes.cnpq.br/4371573910491723"
+    },
+    {
+      "id": "12",
       "nome": "Maria Ligia C. O. Sanches",
       "foto": "./images/fotos_alunos/mariaLigia.jpg",
       "ano": "2024",
-      "tipo": "Voluntária",
+      "tipo": "Bolsista",
       "lattes": ""
     },
-     {
-      "id": "16",
-      "nome": "NOME EXEMPLO",
-      "foto": "./images/fotos_alunos/mariaLigia.jpg",
+    {
+      "id": "13",
+      "nome": "Stella Rúbia V. de Oliveira",
+      "foto": "./images/fotos_alunos/stellaRubia.jpg",
+      "ano": "2023",
+      "tipo": "Bolsista",
+      "lattes": ""
+    },
+    {
+      "id": "14",
+      "nome": "Vitória de O. Souza",
+      "foto": "./images/fotos_alunos/vitoriaOliveira.jpg",
       "ano": "2024",
-      "tipo": "Voluntária",
+      "tipo": "Bolsista",
+      "lattes": "http://lattes.cnpq.br/5375413385108975"
+    },
+    {
+      "id": "15",
+      "nome": "Walacy D. dos Santos Miguel",
+      "foto": "./images/fotos_alunos/WalacyDouglas.jpg",
+      "ano": "2025",
+      "tipo": "Voluntário",
       "lattes": ""
     }
+
   ],
 
   "exAlunos": [
   
-    {
-      "id": "01",
-      "nome": "Ana Paula de Moura",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "02",
-      "nome": "Bárbara Pimenta",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "03",
-      "nome": "Daniely Mattos",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "04",
-      "nome": "Leonardo P. S. Pena",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "05",
-      "nome": "Vitória Layza O. Mota",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "06",
-      "nome": "Vivian M. Borges",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "07",
-      "nome": "Matheus B. Vieira",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "08",
-      "nome": "Gabriella M. E. R. da Silva",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "09",
-      "nome": "Vitória R. C. da Silva",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "010",
-      "nome": "Luana O. Santiago",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "011",
-      "nome": "Igor F. Torrente",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "012",
-      "nome": "Jéssica Petruquia",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "013",
-      "nome": "Larissa P. da Silva",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "014",
-      "nome": "Patricya Xavier",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "015",
+     {
+      "id": "001",
       "nome": "Ana Carolina S. Santos",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
     {
-      "id": "016",
+      "id": "002",
+      "nome": "Ana Caroline A. Manoel",
+      "foto": "./images/fotos_alunos/anaAtanabe.png",
+      "lattes": "http://lattes.cnpq.br/0320030256590711"
+    },
+    {
+      "id": "003",
+      "nome": "Ana Paula de Moura",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "004",
       "nome": "Arnaldo F. S. Aivy",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
     {
-      "id": "017",
-      "nome": "Bruna S. Serafim",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "018",
+      "id": "005",
       "nome": "Bruna S. Breternitz",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
     {
-      "id": "019",
+      "id": "006",
+      "nome": "Bruna S. Serafim",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "007",
+      "nome": "Bárbara D. Russo",
+      "foto": "./images/fotos_alunos/barbaraRusso.jpg",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "008",
+      "nome": "Bárbara Pimenta",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "009",
       "nome": "Carla C. Ferreira",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
     {
-      "id": "020",
+      "id": "010",
+      "nome": "Carolina de A. Felipe",
+      "foto": "./images/fotos_alunos/carolinadeAlmeida.jpg",
+      "lattes": "http://lattes.cnpq.br/8718340285925512"
+    },
+    {
+      "id": "011",
+      "nome": "Daniely Mattos",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "012",
+      "nome": "Danilo N. Bitencourt",
+      "foto": "./images/fotos_alunos/daniloBitencourt.jpg",
+      "lattes": "http://lattes.cnpq.br/4236629759013737"
+    },
+    {
+      "id": "013",
       "nome": "Edgard P. Neves",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
     {
-      "id": "021",
+      "id": "014",
       "nome": "Elayne B. Jardim",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
     {
-      "id": "022",
+      "id": "015",
       "nome": "Elone E. A. Batista",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
     {
-      "id": "023",
+      "id": "016",
+      "nome": "Escarlet F. de Souza",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "017",
+      "nome": "Estefanie L. N. Castro",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "018",
       "nome": "Fernanda C. Gomes",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "019",
+      "nome": "Fhellipe N. de Oliveira",
+      "foto": "./images/fotos_alunos/fhellipeNobre.jpg",
+      "lattes": "http://lattes.cnpq.br/5411871643200105"
+    },
+    {
+      "id": "020",
+      "nome": "Francile Cristina de O. Barros",
+      "foto": "./images/fotos_alunos/francileCristina.jpg",
+      "lattes": "http://lattes.cnpq.br/2796514986683835"
+    },
+    {
+      "id": "021",
+      "nome": "Gabriella M. E. R. da Silva",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "022",
+      "nome": "Giovanna K. da Cunha",
+      "foto": "./images/fotos_alunos/giovannaKato.jpg",
+      "lattes": "http://lattes.cnpq.br/8733169286025293"
+    },
+    {
+      "id": "023",
+      "nome": "Igor F. Torrente",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
@@ -284,119 +278,155 @@
     },
     {
       "id": "026",
+      "nome": "Julia G. Conrado",
+      "foto": "./images/fotos_alunos/juliaConrado.png",
+      "lattes": "http://lattes.cnpq.br/0147766116121656"
+    },
+    {
+      "id": "027",
+      "nome": "Juliana Brand",
+      "foto": "./images/fotos_alunos/julianaBrand.png",
+      "lattes": "https://lattes.cnpq.br/6870087680472122"
+    },
+    {
+      "id": "028",
       "nome": "Juliana D. G. Soares",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
     {
-      "id": "027",
+      "id": "029",
       "nome": "Juliana S. Queiroz",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
     {
-      "id": "028",
-      "nome": "Karina S. D. de Paula",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "029",
-      "nome": "Kevin A. Maier",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
       "id": "030",
-      "nome": "Mayara R. C. Martines",
+      "nome": "Jéssica Petruquia",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
     {
       "id": "031",
-      "nome": "Pamela S. de Almeida",
+      "nome": "Karina S. D. de Paula",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://br.lattes.com"
+      "lattes": "https://lattes.cnpq.br"
     },
     {
       "id": "032",
-      "nome": "Raquel L. Nunes",
+      "nome": "Kevin A. Maier",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
     {
       "id": "033",
-      "nome": "Rita N. Imai",
+      "nome": "Larissa P. da Silva",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
     {
       "id": "034",
-      "nome": "Escarlet F. de Souza",
+      "nome": "Leonardo P. S. Pena",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
     {
       "id": "035",
-      "nome": "Estefanie L. N. Castro",
+      "nome": "Luana O. Santiago",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "lattes": "https://lattes.cnpq.br"
     },
     {
       "id": "036",
-      "nome": "Tais O. Seraphim",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "037",
-      "nome": "Tais P. S. Lima",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "038",
-      "nome": "William K. M. Vieira",
-      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
-      "lattes": "https://lattes.cnpq.br"
-    },
-    {
-      "id": "039",
       "nome": "Marcus Vinicius S. de Almeida",
       "foto": "./images/fotos_alunos/marcusSelarin.jpg",
       "lattes": "http://lattes.cnpq.br/8791284348841650"
     },
     {
+      "id": "037",
+      "nome": "Matheus B. Vieira",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "038",
+      "nome": "Mayara R. C. Martines",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "039",
+      "nome": "Pamela S. de Almeida",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://br.lattes.com"
+    },
+    {
       "id": "040",
-      "nome": "Giovanna K. da Cunha",
-      "foto": "./images/fotos_alunos/giovannaKato.jpg",
-      "lattes": "http://lattes.cnpq.br/8733169286025293"
+      "nome": "Patricya Xavier",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
     },
-     {
+    {
       "id": "041",
-      "nome": "Francile Cristina de O. Barros",
-      "foto": "./images/fotos_alunos/francileCristina.jpg",
-      "lattes": "http://lattes.cnpq.br/2796514986683835"
+      "nome": "Raquel L. Nunes",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
     },
-     {
+    {
       "id": "042",
-      "nome": "Fhellipe N. de Oliveira",
-      "foto": "./images/fotos_alunos/fhellipeNobre.jpg",
-      "lattes": "http://lattes.cnpq.br/5411871643200105"
+      "nome": "Rita N. Imai",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
     },
-     {
+    {
       "id": "043",
+      "nome": "Tais O. Seraphim",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "044",
+      "nome": "Tais P. S. Lima",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "045",
+      "nome": "Vitória E. da Silva",
+      "foto": "./images/fotos_alunos/vitoriaEggon.jpg",
+      "lattes": "http://lattes.cnpq.br/9712878788141786"
+    },
+    {
+      "id": "046",
+      "nome": "Vitória Layza O. Mota",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "047",
+      "nome": "Vitória R. C. da Silva",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "048",
       "nome": "Vitória da S. Rocha",
       "foto": "./images/fotos_alunos/vitoriaRocha.jpg",
       "lattes": "http://lattes.cnpq.br/4443137460783910"
     },
     {
-      "id": "044",
-      "nome": "Julia G. Conrado",
-      "foto": "./images/fotos_alunos/juliaConrado.png",
-      "lattes": "http://lattes.cnpq.br/0147766116121656"
+      "id": "049",
+      "nome": "Vivian M. Borges",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
+    },
+    {
+      "id": "050",
+      "nome": "William K. M. Vieira",
+      "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
+      "lattes": "https://lattes.cnpq.br"
     }
-    ],
+  ],
 
   "tutores": [
     {
