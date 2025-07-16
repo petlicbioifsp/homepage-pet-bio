@@ -4,7 +4,7 @@
     {
       "id": "1",
       "nome": "Alice Baldim Tristão",
-      "foto": "./images/fotos_alunos/AliceBaldim.jpg",
+      "foto": "./images/fotos_alunos/AliceBaldim.jpeg",
       "ano": "2025",
       "tipo": "Voluntária",
       "lattes": ""
@@ -12,7 +12,7 @@
     {
       "id": "2",
       "nome": "Ariadne do Nascimento",
-      "foto": "./images/fotos_alunos/AriadneNascimento.jpg",
+      "foto": "./images/fotos_alunos/AriadneNascimento.jpeg",
       "ano": "2025",
       "tipo": "Bolsista",
       "lattes": ""
@@ -36,7 +36,7 @@
     {
       "id": "5",
       "nome": "Erick Wakinaguni",
-      "foto": "./images/fotos_alunos/ErickWakinaguni.jpg",
+      "foto": "./images/fotos_alunos/ErickWakinaguni.jpeg",
       "ano": "2025",
       "tipo": "Voluntário",
       "lattes": ""
@@ -60,7 +60,7 @@
     {
       "id": "8",
       "nome": "Jhennyfer D. D. de Souza",
-      "foto": "./images/fotos_alunos/JhennyferDespesi.jpg",
+      "foto": "./images/fotos_alunos/JhennyferDespesi.jpeg",
       "ano": "2025",
       "tipo": "Bolsista",
       "lattes": ""
