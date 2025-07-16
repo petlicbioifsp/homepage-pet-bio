@@ -1,16 +1,8 @@
 {
   "aluno": [   
-
+    
     {
       "id": "1",
-      "nome": "Alice Baldim Tristão",
-      "foto": "./images/fotos_alunos/AliceBaldim.jpeg",
-      "ano": "2025",
-      "tipo": "Voluntária",
-      "lattes": ""
-    },
-    {
-      "id": "2",
       "nome": "Ariadne do Nascimento",
       "foto": "./images/fotos_alunos/AriadneNascimento.jpeg",
       "ano": "2025",
@@ -18,31 +10,16 @@
       "lattes": ""
     },
     {
-      "id": "3",
-      "nome": "Arthur S. Paduim",
-      "foto": "./images/fotos_alunos/arthurPaduim.jpg",
-      "ano": "2023",
-      "tipo": "Voluntário",
-      "lattes": "https://lattes.cnpq.br/3741553239015112"
-    },
-    {
-      "id": "4",
+      "id": "2",
       "nome": "Carolina Teixeira",
       "foto": "./images/fotos_alunos/pessoa_sem_foto.png",
       "ano": "2025",
       "tipo": "Bolsista",
       "lattes": ""
     },
+   
     {
-      "id": "5",
-      "nome": "Erick Wakinaguni",
-      "foto": "./images/fotos_alunos/ErickWakinaguni.jpeg",
-      "ano": "2025",
-      "tipo": "Voluntário",
-      "lattes": ""
-    },
-    {
-      "id": "6",
+      "id": "3",
       "nome": "Flávia R. M. da Silva",
       "foto": "./images/fotos_alunos/flaviaMendes.jpg",
       "tipo": "Bolsista",
@@ -50,7 +27,7 @@
       "lattes": ""
     },
     {
-      "id": "7",
+      "id": "4",
       "nome": "Izabella R. dos Santos",
       "foto": "./images/fotos_alunos/izabellaRodrigues.jpg",
       "tipo": "Bolsista",
@@ -58,23 +35,16 @@
       "lattes": "https://lattes.cnpq.br/8621814581501862"
     },
     {
-      "id": "8",
+      "id": "5",
       "nome": "Jhennyfer D. D. de Souza",
       "foto": "./images/fotos_alunos/JhennyferDespesi.jpeg",
       "ano": "2025",
       "tipo": "Bolsista",
       "lattes": ""
     },
+   
     {
-      "id": "9",
-      "nome": "Julia L. Barboza",
-      "foto": "./images/fotos_alunos/juliaLopesBarboza.jpg",
-      "tipo": "Voluntária",
-      "ano": "2023",
-      "lattes": "https://lattes.cnpq.br/0025034335494103"
-    },
-    {
-      "id": "10",
+      "id": "6",
       "nome": "Kaique A. da Silva",
       "foto": "./images/fotos_alunos/kaiqueAlcantara.jpg",
       "ano": "2023",
@@ -82,7 +52,7 @@
       "lattes": "http://lattes.cnpq.br/7863690234572291"
     },
     {
-      "id": "11",
+      "id": "7",
       "nome": "Letícia M. da Silva",
       "foto": "./images/fotos_alunos/leticiaMuniz.jpg",
       "tipo": "Bolsista",
@@ -90,7 +60,7 @@
       "lattes": "http://lattes.cnpq.br/4371573910491723"
     },
     {
-      "id": "12",
+      "id": "8",
       "nome": "Maria Ligia C. O. Sanches",
       "foto": "./images/fotos_alunos/mariaLigia.jpg",
       "ano": "2024",
@@ -98,7 +68,7 @@
       "lattes": ""
     },
     {
-      "id": "13",
+      "id": "9",
       "nome": "Stella Rúbia V. de Oliveira",
       "foto": "./images/fotos_alunos/stellaRubia.jpg",
       "ano": "2023",
@@ -106,12 +76,44 @@
       "lattes": ""
     },
     {
-      "id": "14",
+      "id": "10",
       "nome": "Vitória de O. Souza",
       "foto": "./images/fotos_alunos/vitoriaOliveira.jpg",
       "ano": "2024",
       "tipo": "Bolsista",
       "lattes": "http://lattes.cnpq.br/5375413385108975"
+    },
+     {
+      "id": "11",
+      "nome": "Alice Baldim Tristão",
+      "foto": "./images/fotos_alunos/AliceBaldim.jpeg",
+      "ano": "2025",
+      "tipo": "Voluntária",
+      "lattes": ""
+    },
+     {
+      "id": "12",
+      "nome": "Arthur S. Paduim",
+      "foto": "./images/fotos_alunos/arthurPaduim.jpg",
+      "ano": "2023",
+      "tipo": "Voluntário",
+      "lattes": "https://lattes.cnpq.br/3741553239015112"
+    },
+     {
+      "id": "13",
+      "nome": "Erick Wakinaguni",
+      "foto": "./images/fotos_alunos/ErickWakinaguni.jpeg",
+      "ano": "2025",
+      "tipo": "Voluntário",
+      "lattes": ""
+    },
+    {
+      "id": "14",
+      "nome": "Julia L. Barboza",
+      "foto": "./images/fotos_alunos/juliaLopesBarboza.jpg",
+      "tipo": "Voluntária",
+      "ano": "2023",
+      "lattes": "https://lattes.cnpq.br/0025034335494103"
     },
     {
       "id": "15",
