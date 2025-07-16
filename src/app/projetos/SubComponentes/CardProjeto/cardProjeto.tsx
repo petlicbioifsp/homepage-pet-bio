@@ -1,6 +1,6 @@
 import "./cardProjeto.css";
 import { motion } from "framer-motion";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ClosedCard from "../CardComponents/ClosedCard";
 import OpennedCard from "../CardComponents/OpennedCard";
 import { IProject } from "../../../../types/ProjectTypes";
@@ -9,6 +9,16 @@ import { IProject } from "../../../../types/ProjectTypes";
 export default function CardProjeto({ titulo, tipo, descricao, expandido, link, status, images }: IProject) {  
   const [isOpen, setIsOpen] = useState(false);
   const toggleIsOpen = () =>  setIsOpen(!isOpen);
+
+  useEffect(() => {
+    isOpen
+      ? document.body.classList.add("no-scroll")
+      : document.body.classList.remove("no-scroll");
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [isOpen]);
+
   return (
     <>
       {!isOpen ? (
