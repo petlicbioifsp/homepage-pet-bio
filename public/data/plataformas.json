@@ -1,19 +1,23 @@
 {
-    "plataformas": [
-        {
-            "id": "1",
-            "nome": "Instagram",
-            "url": "https://www.instagram.com/petbio_ifsp/"
-        },
-        {
-            "id": "2",
-            "nome": "Youtube",
-            "url": "https://www.youtube.com/@PETLICBIO" 
-        },
-        {
-            "id": "3",
-            "nome": "Site PET anterior",
-            "url": "https://petlicbiospo.wixsite.com/petbio" 
-        }
-    ]
+  "plataformas": [
+    {
+      "id": "1",
+      "nome": "Instagram",
+      "url": "https://www.instagram.com/petbio_ifsp/",
+      "icone": "https://link-para-o-icone-do-instagram.com/icone.png"
+    },
+    {
+      "id": "2",
+      "nome": "Youtube",
+      "url": "https://www.youtube.com/@PETLICBIO",
+      "icone": "https://link-para-o-icone-do-youtube.com/icone.png"
+    },
+    {
+      "id": "3",
+      "nome": "Site PET anterior",
+      "url": "https://petlicbiospo.wixsite.com/petbio",
+      "icone": "https://link-para-o-icone-do-site.com/icone.png"
+    }
+  ]
 }
+
