@@ -9,6 +9,11 @@
             "id": "2",
             "nome": "Youtube",
             "url": "https://www.youtube.com/@PETLICBIO" 
+        },
+        {
+            "id": "3",
+            "nome": "Site PET anterior",
+            "url": "https://petlicbiospo.wixsite.com/petbio" 
         }
     ]
 }
