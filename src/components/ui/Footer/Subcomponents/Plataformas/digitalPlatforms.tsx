@@ -8,11 +8,18 @@ import styles from "./digitalPlataforms.module.css";
 import { FaInstagram, FaYoutube, FaGlobe } from "react-icons/fa";
 
 // cria um "mapa" de strings -> componente
-const icons = {
-  FaInstagram: FaInstagram,
-  FaYoutube: FaYoutube,
-  FaGlobe: FaGlobe,
-};
+const icons: Record<string, React.ComponentType<{ className?: string }>> = {
+  FaInstagram,
+  FaYoutube,
+  FaGlobe, // para o "Site PET anterior"
+  };
+
+interface Plataforma {
+  id: string;
+  nome: string;
+  url: string;
+  icon: string; // novo campo que você vai colocar no JSON
+}
 
 export default function DigitalPlatforms() {
   return useFetchPlataformas({
@@ -20,21 +27,21 @@ export default function DigitalPlatforms() {
       <div className={styles.platforms_content}>
         <h3 className={styles.text_section}>Plataformas</h3>
         <ul className={styles.list_platforms}>
-          {plataformas.map((item) => {
-            const Icon = icons[item.icon]; // pega o ícone correto
-            return (
-              <li className={styles.link} key={item.id}>
-                <Link
-                  className="link"
-                  href={item.url}
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  {Icon && <Icon className={styles.icon} />} {item.nome}
-                </Link>
-              </li>
-            );
-          })}
+          {plataformas.map((item: Plataforma) => {
+              const Icon = icons[item.icon]; // pega o ícone certo
+              return (
+                <li className={styles.link} key={item.id}>
+                  <Link
+                    className="link"
+                    href={item.url}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    {Icon && <Icon className={styles.icon} />} {item.nome}
+                  </Link>
+                </li>
+              );
+            })}
         </ul>
       </div>
     ),
