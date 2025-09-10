@@ -4,16 +4,19 @@
       "id": "1",
       "nome": "Instagram",
       "url": "https://www.instagram.com/petbio_ifsp/",
+      "icon": "FaInstagram"
     },
     {
       "id": "2",
       "nome": "Youtube",
       "url": "https://www.youtube.com/@PETLICBIO",
+      "icon": "FaYoutube"
     },
     {
       "id": "3",
       "nome": "Site PET anterior",
       "url": "https://petlicbiospo.wixsite.com/petbio",
+      "icon": "FaGlobe"
     }
   ]
 }
